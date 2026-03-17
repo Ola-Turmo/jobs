@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metode og kilder</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f7f3eb;
+      color: #162126;
+      font-family: Aptos, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+      line-height: 1.75;
+    }
+    h1, h2 {
+      font-family: "Iowan Old Style", "Palatino Linotype", serif;
+      letter-spacing: -0.03em;
+    }
+    h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); margin-bottom: 8px; }
+    h2 { margin-top: 34px; font-size: 1.7rem; }
+    .lead { color: #5b6a6b; max-width: 65ch; }
+    .card {
+      background: rgba(255,255,255,0.7);
+      border: 1px solid rgba(22, 33, 38, 0.12);
+      border-radius: 20px;
+      padding: 18px 20px;
+      margin-top: 18px;
+    }
+    ul { padding-left: 20px; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="index.html">Tilbake til forsiden</a>
+    <h1>Metode og kilder</h1>
+    <p class="lead">
+      Denne prototypen bygger på offisielle data fra SSB og klassifikasjoner fra SSB Klass.
+      Målet er å gi en lett, utforskbar oversikt over det norske arbeidsmarkedet uten å framstille
+      dette som en sanntids jobbportal.
+    </p>
+
+    <div class="card">
+      <strong>Kjerneprinsipp</strong>
+      <p>
+        SSB er hovedkilden i denne versjonen. Når det ikke finnes en direkte tabell på samme
+        detaljeringsnivå, bruker vi en tydelig avledet indikator i stedet for å skjule usikkerheten.
+      </p>
+    </div>
+
+    <h2>Kildetabeller</h2>
+    <ul>
+      <li><strong>11658</strong>: sysselsatte og månedslønn etter yrke</li>
+      <li><strong>12849</strong>: sysselsatte etter utdanningsnivå og yrke</li>
+      <li><strong>09789</strong>: sysselsatte etter næring og yrke</li>
+      <li><strong>14306</strong>: ledige stillinger etter fylke og næring</li>
+      <li><strong>Klass 7</strong>: STYRK-klassifikasjon</li>
+    </ul>
+
+    <h2>Slik leser du visualiseringen</h2>
+    <ul>
+      <li>Arealet i treemapet viser hvor mange som jobber i yrket.</li>
+      <li>Månedslønn viser nasjonal median månedslønn for yrket.</li>
+      <li>Lang høyere utdanning viser andelen med lang høyere utdanning.</li>
+      <li>Endring viser prosentvis endring i sysselsetting siden 2019.</li>
+      <li>Ledighetskontekst er en avledet indikator basert på næringsmiks og ledige stillinger per næring.</li>
+    </ul>
+
+    <h2>Viktige forbehold</h2>
+    <ul>
+      <li>Ledighetskontekst er ikke det samme som et direkte yrkesspesifikt ledighetstall.</li>
+      <li>Visualiseringen er en utforsker av offisielle data, ikke en sanntids jobbportal.</li>
+      <li>Når SSB ikke publiserer et mål på samme detaljeringsnivå som de andre lagene, bruker vi den tydeligste offisielle tilnærmingen vi har.</li>
+    </ul>
+
+    <h2>Repo-historikk</h2>
+    <p>
+      Prosjektet er en norsk videreutvikling av <a href="https://github.com/karpathy/jobs">karpathy/jobs</a>.
+      Det opprinnelige repoet visualiserte amerikanske BLS-data. Denne versjonen beholder den lette,
+      statiske arkitekturen, men bruker en Norge-først-pipeline med SSB-data.
+    </p>
+  </main>
+</body>
+</html>

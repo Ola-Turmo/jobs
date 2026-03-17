@@ -1,7 +1,7 @@
 [project]
 name = "jobs"
 version = "0.1.0"
-description = "Add your description here"
+description = "Norwegian labour-market explorer built from SSB Statbank and Klass"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

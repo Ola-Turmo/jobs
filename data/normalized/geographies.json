@@ -1,0 +1,2998 @@
+{
+  "country": {
+    "geo_id": "NO",
+    "type": "country",
+    "code": "NO",
+    "name_nb": "Norge",
+    "display_name_nb": "Norge",
+    "parent_code": null
+  },
+  "counties": [
+    {
+      "geo_id": "03",
+      "type": "county",
+      "code": "03",
+      "name_nb": "Oslo - Oslove",
+      "display_name_nb": "Oslo",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "11",
+      "type": "county",
+      "code": "11",
+      "name_nb": "Rogaland",
+      "display_name_nb": "Rogaland",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "15",
+      "type": "county",
+      "code": "15",
+      "name_nb": "Møre og Romsdal",
+      "display_name_nb": "Møre og Romsdal",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "18",
+      "type": "county",
+      "code": "18",
+      "name_nb": "Nordland - Nordlánnda",
+      "display_name_nb": "Nordland",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "31",
+      "type": "county",
+      "code": "31",
+      "name_nb": "Østfold",
+      "display_name_nb": "Østfold",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "32",
+      "type": "county",
+      "code": "32",
+      "name_nb": "Akershus",
+      "display_name_nb": "Akershus",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "33",
+      "type": "county",
+      "code": "33",
+      "name_nb": "Buskerud",
+      "display_name_nb": "Buskerud",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "34",
+      "type": "county",
+      "code": "34",
+      "name_nb": "Innlandet",
+      "display_name_nb": "Innlandet",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "39",
+      "type": "county",
+      "code": "39",
+      "name_nb": "Vestfold",
+      "display_name_nb": "Vestfold",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "40",
+      "type": "county",
+      "code": "40",
+      "name_nb": "Telemark",
+      "display_name_nb": "Telemark",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "42",
+      "type": "county",
+      "code": "42",
+      "name_nb": "Agder",
+      "display_name_nb": "Agder",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "46",
+      "type": "county",
+      "code": "46",
+      "name_nb": "Vestland",
+      "display_name_nb": "Vestland",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "50",
+      "type": "county",
+      "code": "50",
+      "name_nb": "Trøndelag - Trööndelage",
+      "display_name_nb": "Trøndelag",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "55",
+      "type": "county",
+      "code": "55",
+      "name_nb": "Troms - Romsa - Tromssa",
+      "display_name_nb": "Troms",
+      "parent_code": "NO"
+    },
+    {
+      "geo_id": "56",
+      "type": "county",
+      "code": "56",
+      "name_nb": "Finnmark - Finnmárku - Finmarkku",
+      "display_name_nb": "Finnmark",
+      "parent_code": "NO"
+    }
+  ],
+  "municipalities": [
+    {
+      "geo_id": "0301",
+      "type": "municipality",
+      "code": "0301",
+      "name_nb": "Oslo - Oslove",
+      "display_name_nb": "Oslo",
+      "parent_code": "03"
+    },
+    {
+      "geo_id": "1101",
+      "type": "municipality",
+      "code": "1101",
+      "name_nb": "Eigersund",
+      "display_name_nb": "Eigersund",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1103",
+      "type": "municipality",
+      "code": "1103",
+      "name_nb": "Stavanger",
+      "display_name_nb": "Stavanger",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1106",
+      "type": "municipality",
+      "code": "1106",
+      "name_nb": "Haugesund",
+      "display_name_nb": "Haugesund",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1108",
+      "type": "municipality",
+      "code": "1108",
+      "name_nb": "Sandnes",
+      "display_name_nb": "Sandnes",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1111",
+      "type": "municipality",
+      "code": "1111",
+      "name_nb": "Sokndal",
+      "display_name_nb": "Sokndal",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1112",
+      "type": "municipality",
+      "code": "1112",
+      "name_nb": "Lund",
+      "display_name_nb": "Lund",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1114",
+      "type": "municipality",
+      "code": "1114",
+      "name_nb": "Bjerkreim",
+      "display_name_nb": "Bjerkreim",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1119",
+      "type": "municipality",
+      "code": "1119",
+      "name_nb": "Hå",
+      "display_name_nb": "Hå",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1120",
+      "type": "municipality",
+      "code": "1120",
+      "name_nb": "Klepp",
+      "display_name_nb": "Klepp",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1121",
+      "type": "municipality",
+      "code": "1121",
+      "name_nb": "Time",
+      "display_name_nb": "Time",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1122",
+      "type": "municipality",
+      "code": "1122",
+      "name_nb": "Gjesdal",
+      "display_name_nb": "Gjesdal",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1124",
+      "type": "municipality",
+      "code": "1124",
+      "name_nb": "Sola",
+      "display_name_nb": "Sola",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1127",
+      "type": "municipality",
+      "code": "1127",
+      "name_nb": "Randaberg",
+      "display_name_nb": "Randaberg",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1130",
+      "type": "municipality",
+      "code": "1130",
+      "name_nb": "Strand",
+      "display_name_nb": "Strand",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1133",
+      "type": "municipality",
+      "code": "1133",
+      "name_nb": "Hjelmeland",
+      "display_name_nb": "Hjelmeland",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1134",
+      "type": "municipality",
+      "code": "1134",
+      "name_nb": "Suldal",
+      "display_name_nb": "Suldal",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1135",
+      "type": "municipality",
+      "code": "1135",
+      "name_nb": "Sauda",
+      "display_name_nb": "Sauda",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1144",
+      "type": "municipality",
+      "code": "1144",
+      "name_nb": "Kvitsøy",
+      "display_name_nb": "Kvitsøy",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1145",
+      "type": "municipality",
+      "code": "1145",
+      "name_nb": "Bokn",
+      "display_name_nb": "Bokn",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1146",
+      "type": "municipality",
+      "code": "1146",
+      "name_nb": "Tysvær",
+      "display_name_nb": "Tysvær",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1149",
+      "type": "municipality",
+      "code": "1149",
+      "name_nb": "Karmøy",
+      "display_name_nb": "Karmøy",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1151",
+      "type": "municipality",
+      "code": "1151",
+      "name_nb": "Utsira",
+      "display_name_nb": "Utsira",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1160",
+      "type": "municipality",
+      "code": "1160",
+      "name_nb": "Vindafjord",
+      "display_name_nb": "Vindafjord",
+      "parent_code": "11"
+    },
+    {
+      "geo_id": "1505",
+      "type": "municipality",
+      "code": "1505",
+      "name_nb": "Kristiansund",
+      "display_name_nb": "Kristiansund",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1506",
+      "type": "municipality",
+      "code": "1506",
+      "name_nb": "Molde",
+      "display_name_nb": "Molde",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1508",
+      "type": "municipality",
+      "code": "1508",
+      "name_nb": "Ålesund",
+      "display_name_nb": "Ålesund",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1511",
+      "type": "municipality",
+      "code": "1511",
+      "name_nb": "Vanylven",
+      "display_name_nb": "Vanylven",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1514",
+      "type": "municipality",
+      "code": "1514",
+      "name_nb": "Sande",
+      "display_name_nb": "Sande",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1515",
+      "type": "municipality",
+      "code": "1515",
+      "name_nb": "Herøy (Møre og Romsdal)",
+      "display_name_nb": "Herøy (Møre og Romsdal)",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1516",
+      "type": "municipality",
+      "code": "1516",
+      "name_nb": "Ulstein",
+      "display_name_nb": "Ulstein",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1517",
+      "type": "municipality",
+      "code": "1517",
+      "name_nb": "Hareid",
+      "display_name_nb": "Hareid",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1520",
+      "type": "municipality",
+      "code": "1520",
+      "name_nb": "Ørsta",
+      "display_name_nb": "Ørsta",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1525",
+      "type": "municipality",
+      "code": "1525",
+      "name_nb": "Stranda",
+      "display_name_nb": "Stranda",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1528",
+      "type": "municipality",
+      "code": "1528",
+      "name_nb": "Sykkylven",
+      "display_name_nb": "Sykkylven",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1531",
+      "type": "municipality",
+      "code": "1531",
+      "name_nb": "Sula",
+      "display_name_nb": "Sula",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1532",
+      "type": "municipality",
+      "code": "1532",
+      "name_nb": "Giske",
+      "display_name_nb": "Giske",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1535",
+      "type": "municipality",
+      "code": "1535",
+      "name_nb": "Vestnes",
+      "display_name_nb": "Vestnes",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1539",
+      "type": "municipality",
+      "code": "1539",
+      "name_nb": "Rauma",
+      "display_name_nb": "Rauma",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1547",
+      "type": "municipality",
+      "code": "1547",
+      "name_nb": "Aukra",
+      "display_name_nb": "Aukra",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1554",
+      "type": "municipality",
+      "code": "1554",
+      "name_nb": "Averøy",
+      "display_name_nb": "Averøy",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1557",
+      "type": "municipality",
+      "code": "1557",
+      "name_nb": "Gjemnes",
+      "display_name_nb": "Gjemnes",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1560",
+      "type": "municipality",
+      "code": "1560",
+      "name_nb": "Tingvoll",
+      "display_name_nb": "Tingvoll",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1563",
+      "type": "municipality",
+      "code": "1563",
+      "name_nb": "Sunndal",
+      "display_name_nb": "Sunndal",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1566",
+      "type": "municipality",
+      "code": "1566",
+      "name_nb": "Surnadal",
+      "display_name_nb": "Surnadal",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1573",
+      "type": "municipality",
+      "code": "1573",
+      "name_nb": "Smøla",
+      "display_name_nb": "Smøla",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1576",
+      "type": "municipality",
+      "code": "1576",
+      "name_nb": "Aure",
+      "display_name_nb": "Aure",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1577",
+      "type": "municipality",
+      "code": "1577",
+      "name_nb": "Volda",
+      "display_name_nb": "Volda",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1578",
+      "type": "municipality",
+      "code": "1578",
+      "name_nb": "Fjord",
+      "display_name_nb": "Fjord",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1579",
+      "type": "municipality",
+      "code": "1579",
+      "name_nb": "Hustadvika",
+      "display_name_nb": "Hustadvika",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1580",
+      "type": "municipality",
+      "code": "1580",
+      "name_nb": "Haram",
+      "display_name_nb": "Haram",
+      "parent_code": "15"
+    },
+    {
+      "geo_id": "1804",
+      "type": "municipality",
+      "code": "1804",
+      "name_nb": "Bodø",
+      "display_name_nb": "Bodø",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1806",
+      "type": "municipality",
+      "code": "1806",
+      "name_nb": "Narvik",
+      "display_name_nb": "Narvik",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1811",
+      "type": "municipality",
+      "code": "1811",
+      "name_nb": "Bindal",
+      "display_name_nb": "Bindal",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1812",
+      "type": "municipality",
+      "code": "1812",
+      "name_nb": "Sømna",
+      "display_name_nb": "Sømna",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1813",
+      "type": "municipality",
+      "code": "1813",
+      "name_nb": "Brønnøy",
+      "display_name_nb": "Brønnøy",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1815",
+      "type": "municipality",
+      "code": "1815",
+      "name_nb": "Vega",
+      "display_name_nb": "Vega",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1816",
+      "type": "municipality",
+      "code": "1816",
+      "name_nb": "Vevelstad",
+      "display_name_nb": "Vevelstad",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1818",
+      "type": "municipality",
+      "code": "1818",
+      "name_nb": "Herøy (Nordland)",
+      "display_name_nb": "Herøy (Nordland)",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1820",
+      "type": "municipality",
+      "code": "1820",
+      "name_nb": "Alstahaug",
+      "display_name_nb": "Alstahaug",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1822",
+      "type": "municipality",
+      "code": "1822",
+      "name_nb": "Leirfjord",
+      "display_name_nb": "Leirfjord",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1824",
+      "type": "municipality",
+      "code": "1824",
+      "name_nb": "Vefsn",
+      "display_name_nb": "Vefsn",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1825",
+      "type": "municipality",
+      "code": "1825",
+      "name_nb": "Grane",
+      "display_name_nb": "Grane",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1826",
+      "type": "municipality",
+      "code": "1826",
+      "name_nb": "Aarborte - Hattfjelldal",
+      "display_name_nb": "Aarborte",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1827",
+      "type": "municipality",
+      "code": "1827",
+      "name_nb": "Dønna",
+      "display_name_nb": "Dønna",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1828",
+      "type": "municipality",
+      "code": "1828",
+      "name_nb": "Nesna",
+      "display_name_nb": "Nesna",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1832",
+      "type": "municipality",
+      "code": "1832",
+      "name_nb": "Hemnes",
+      "display_name_nb": "Hemnes",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1833",
+      "type": "municipality",
+      "code": "1833",
+      "name_nb": "Rana - Raane",
+      "display_name_nb": "Rana",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1834",
+      "type": "municipality",
+      "code": "1834",
+      "name_nb": "Lurøy",
+      "display_name_nb": "Lurøy",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1835",
+      "type": "municipality",
+      "code": "1835",
+      "name_nb": "Træna",
+      "display_name_nb": "Træna",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1836",
+      "type": "municipality",
+      "code": "1836",
+      "name_nb": "Rødøy",
+      "display_name_nb": "Rødøy",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1837",
+      "type": "municipality",
+      "code": "1837",
+      "name_nb": "Meløy",
+      "display_name_nb": "Meløy",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1838",
+      "type": "municipality",
+      "code": "1838",
+      "name_nb": "Gildeskål",
+      "display_name_nb": "Gildeskål",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1839",
+      "type": "municipality",
+      "code": "1839",
+      "name_nb": "Beiarn",
+      "display_name_nb": "Beiarn",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1840",
+      "type": "municipality",
+      "code": "1840",
+      "name_nb": "Saltdal",
+      "display_name_nb": "Saltdal",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1841",
+      "type": "municipality",
+      "code": "1841",
+      "name_nb": "Fauske - Fuossko",
+      "display_name_nb": "Fauske",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1845",
+      "type": "municipality",
+      "code": "1845",
+      "name_nb": "Sørfold - Fuolldá",
+      "display_name_nb": "Sørfold",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1848",
+      "type": "municipality",
+      "code": "1848",
+      "name_nb": "Steigen",
+      "display_name_nb": "Steigen",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1851",
+      "type": "municipality",
+      "code": "1851",
+      "name_nb": "Lødingen",
+      "display_name_nb": "Lødingen",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1853",
+      "type": "municipality",
+      "code": "1853",
+      "name_nb": "Evenes - Evenášši",
+      "display_name_nb": "Evenes",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1856",
+      "type": "municipality",
+      "code": "1856",
+      "name_nb": "Røst",
+      "display_name_nb": "Røst",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1857",
+      "type": "municipality",
+      "code": "1857",
+      "name_nb": "Værøy",
+      "display_name_nb": "Værøy",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1859",
+      "type": "municipality",
+      "code": "1859",
+      "name_nb": "Flakstad",
+      "display_name_nb": "Flakstad",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1860",
+      "type": "municipality",
+      "code": "1860",
+      "name_nb": "Vestvågøy",
+      "display_name_nb": "Vestvågøy",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1865",
+      "type": "municipality",
+      "code": "1865",
+      "name_nb": "Vågan",
+      "display_name_nb": "Vågan",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1866",
+      "type": "municipality",
+      "code": "1866",
+      "name_nb": "Hadsel",
+      "display_name_nb": "Hadsel",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1867",
+      "type": "municipality",
+      "code": "1867",
+      "name_nb": "Bø",
+      "display_name_nb": "Bø",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1868",
+      "type": "municipality",
+      "code": "1868",
+      "name_nb": "Øksnes",
+      "display_name_nb": "Øksnes",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1870",
+      "type": "municipality",
+      "code": "1870",
+      "name_nb": "Sortland - Suortá",
+      "display_name_nb": "Sortland",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1871",
+      "type": "municipality",
+      "code": "1871",
+      "name_nb": "Andøy",
+      "display_name_nb": "Andøy",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1874",
+      "type": "municipality",
+      "code": "1874",
+      "name_nb": "Moskenes",
+      "display_name_nb": "Moskenes",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "1875",
+      "type": "municipality",
+      "code": "1875",
+      "name_nb": "Hábmer - Hamarøy",
+      "display_name_nb": "Hábmer",
+      "parent_code": "18"
+    },
+    {
+      "geo_id": "3101",
+      "type": "municipality",
+      "code": "3101",
+      "name_nb": "Halden",
+      "display_name_nb": "Halden",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3103",
+      "type": "municipality",
+      "code": "3103",
+      "name_nb": "Moss",
+      "display_name_nb": "Moss",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3105",
+      "type": "municipality",
+      "code": "3105",
+      "name_nb": "Sarpsborg",
+      "display_name_nb": "Sarpsborg",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3107",
+      "type": "municipality",
+      "code": "3107",
+      "name_nb": "Fredrikstad",
+      "display_name_nb": "Fredrikstad",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3110",
+      "type": "municipality",
+      "code": "3110",
+      "name_nb": "Hvaler",
+      "display_name_nb": "Hvaler",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3112",
+      "type": "municipality",
+      "code": "3112",
+      "name_nb": "Råde",
+      "display_name_nb": "Råde",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3114",
+      "type": "municipality",
+      "code": "3114",
+      "name_nb": "Våler (Østfold)",
+      "display_name_nb": "Våler (Østfold)",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3116",
+      "type": "municipality",
+      "code": "3116",
+      "name_nb": "Skiptvet",
+      "display_name_nb": "Skiptvet",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3118",
+      "type": "municipality",
+      "code": "3118",
+      "name_nb": "Indre Østfold",
+      "display_name_nb": "Indre Østfold",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3120",
+      "type": "municipality",
+      "code": "3120",
+      "name_nb": "Rakkestad",
+      "display_name_nb": "Rakkestad",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3122",
+      "type": "municipality",
+      "code": "3122",
+      "name_nb": "Marker",
+      "display_name_nb": "Marker",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3124",
+      "type": "municipality",
+      "code": "3124",
+      "name_nb": "Aremark",
+      "display_name_nb": "Aremark",
+      "parent_code": "31"
+    },
+    {
+      "geo_id": "3201",
+      "type": "municipality",
+      "code": "3201",
+      "name_nb": "Bærum",
+      "display_name_nb": "Bærum",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3203",
+      "type": "municipality",
+      "code": "3203",
+      "name_nb": "Asker",
+      "display_name_nb": "Asker",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3205",
+      "type": "municipality",
+      "code": "3205",
+      "name_nb": "Lillestrøm",
+      "display_name_nb": "Lillestrøm",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3207",
+      "type": "municipality",
+      "code": "3207",
+      "name_nb": "Nordre Follo",
+      "display_name_nb": "Nordre Follo",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3209",
+      "type": "municipality",
+      "code": "3209",
+      "name_nb": "Ullensaker",
+      "display_name_nb": "Ullensaker",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3212",
+      "type": "municipality",
+      "code": "3212",
+      "name_nb": "Nesodden",
+      "display_name_nb": "Nesodden",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3214",
+      "type": "municipality",
+      "code": "3214",
+      "name_nb": "Frogn",
+      "display_name_nb": "Frogn",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3216",
+      "type": "municipality",
+      "code": "3216",
+      "name_nb": "Vestby",
+      "display_name_nb": "Vestby",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3218",
+      "type": "municipality",
+      "code": "3218",
+      "name_nb": "Ås",
+      "display_name_nb": "Ås",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3220",
+      "type": "municipality",
+      "code": "3220",
+      "name_nb": "Enebakk",
+      "display_name_nb": "Enebakk",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3222",
+      "type": "municipality",
+      "code": "3222",
+      "name_nb": "Lørenskog",
+      "display_name_nb": "Lørenskog",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3224",
+      "type": "municipality",
+      "code": "3224",
+      "name_nb": "Rælingen",
+      "display_name_nb": "Rælingen",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3226",
+      "type": "municipality",
+      "code": "3226",
+      "name_nb": "Aurskog-Høland",
+      "display_name_nb": "Aurskog-Høland",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3228",
+      "type": "municipality",
+      "code": "3228",
+      "name_nb": "Nes",
+      "display_name_nb": "Nes",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3230",
+      "type": "municipality",
+      "code": "3230",
+      "name_nb": "Gjerdrum",
+      "display_name_nb": "Gjerdrum",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3232",
+      "type": "municipality",
+      "code": "3232",
+      "name_nb": "Nittedal",
+      "display_name_nb": "Nittedal",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3234",
+      "type": "municipality",
+      "code": "3234",
+      "name_nb": "Lunner",
+      "display_name_nb": "Lunner",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3236",
+      "type": "municipality",
+      "code": "3236",
+      "name_nb": "Jevnaker",
+      "display_name_nb": "Jevnaker",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3238",
+      "type": "municipality",
+      "code": "3238",
+      "name_nb": "Nannestad",
+      "display_name_nb": "Nannestad",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3240",
+      "type": "municipality",
+      "code": "3240",
+      "name_nb": "Eidsvoll",
+      "display_name_nb": "Eidsvoll",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3242",
+      "type": "municipality",
+      "code": "3242",
+      "name_nb": "Hurdal",
+      "display_name_nb": "Hurdal",
+      "parent_code": "32"
+    },
+    {
+      "geo_id": "3301",
+      "type": "municipality",
+      "code": "3301",
+      "name_nb": "Drammen",
+      "display_name_nb": "Drammen",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3303",
+      "type": "municipality",
+      "code": "3303",
+      "name_nb": "Kongsberg",
+      "display_name_nb": "Kongsberg",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3305",
+      "type": "municipality",
+      "code": "3305",
+      "name_nb": "Ringerike",
+      "display_name_nb": "Ringerike",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3310",
+      "type": "municipality",
+      "code": "3310",
+      "name_nb": "Hole",
+      "display_name_nb": "Hole",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3312",
+      "type": "municipality",
+      "code": "3312",
+      "name_nb": "Lier",
+      "display_name_nb": "Lier",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3314",
+      "type": "municipality",
+      "code": "3314",
+      "name_nb": "Øvre Eiker",
+      "display_name_nb": "Øvre Eiker",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3316",
+      "type": "municipality",
+      "code": "3316",
+      "name_nb": "Modum",
+      "display_name_nb": "Modum",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3318",
+      "type": "municipality",
+      "code": "3318",
+      "name_nb": "Krødsherad",
+      "display_name_nb": "Krødsherad",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3320",
+      "type": "municipality",
+      "code": "3320",
+      "name_nb": "Flå",
+      "display_name_nb": "Flå",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3322",
+      "type": "municipality",
+      "code": "3322",
+      "name_nb": "Nesbyen",
+      "display_name_nb": "Nesbyen",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3324",
+      "type": "municipality",
+      "code": "3324",
+      "name_nb": "Gol",
+      "display_name_nb": "Gol",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3326",
+      "type": "municipality",
+      "code": "3326",
+      "name_nb": "Hemsedal",
+      "display_name_nb": "Hemsedal",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3328",
+      "type": "municipality",
+      "code": "3328",
+      "name_nb": "Ål",
+      "display_name_nb": "Ål",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3330",
+      "type": "municipality",
+      "code": "3330",
+      "name_nb": "Hol",
+      "display_name_nb": "Hol",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3332",
+      "type": "municipality",
+      "code": "3332",
+      "name_nb": "Sigdal",
+      "display_name_nb": "Sigdal",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3334",
+      "type": "municipality",
+      "code": "3334",
+      "name_nb": "Flesberg",
+      "display_name_nb": "Flesberg",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3336",
+      "type": "municipality",
+      "code": "3336",
+      "name_nb": "Rollag",
+      "display_name_nb": "Rollag",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3338",
+      "type": "municipality",
+      "code": "3338",
+      "name_nb": "Nore og Uvdal",
+      "display_name_nb": "Nore og Uvdal",
+      "parent_code": "33"
+    },
+    {
+      "geo_id": "3401",
+      "type": "municipality",
+      "code": "3401",
+      "name_nb": "Kongsvinger",
+      "display_name_nb": "Kongsvinger",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3403",
+      "type": "municipality",
+      "code": "3403",
+      "name_nb": "Hamar",
+      "display_name_nb": "Hamar",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3405",
+      "type": "municipality",
+      "code": "3405",
+      "name_nb": "Lillehammer",
+      "display_name_nb": "Lillehammer",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3407",
+      "type": "municipality",
+      "code": "3407",
+      "name_nb": "Gjøvik",
+      "display_name_nb": "Gjøvik",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3411",
+      "type": "municipality",
+      "code": "3411",
+      "name_nb": "Ringsaker",
+      "display_name_nb": "Ringsaker",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3412",
+      "type": "municipality",
+      "code": "3412",
+      "name_nb": "Løten",
+      "display_name_nb": "Løten",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3413",
+      "type": "municipality",
+      "code": "3413",
+      "name_nb": "Stange",
+      "display_name_nb": "Stange",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3414",
+      "type": "municipality",
+      "code": "3414",
+      "name_nb": "Nord-Odal",
+      "display_name_nb": "Nord-Odal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3415",
+      "type": "municipality",
+      "code": "3415",
+      "name_nb": "Sør-Odal",
+      "display_name_nb": "Sør-Odal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3416",
+      "type": "municipality",
+      "code": "3416",
+      "name_nb": "Eidskog",
+      "display_name_nb": "Eidskog",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3417",
+      "type": "municipality",
+      "code": "3417",
+      "name_nb": "Grue",
+      "display_name_nb": "Grue",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3418",
+      "type": "municipality",
+      "code": "3418",
+      "name_nb": "Åsnes",
+      "display_name_nb": "Åsnes",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3419",
+      "type": "municipality",
+      "code": "3419",
+      "name_nb": "Våler (Innlandet)",
+      "display_name_nb": "Våler (Innlandet)",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3420",
+      "type": "municipality",
+      "code": "3420",
+      "name_nb": "Elverum",
+      "display_name_nb": "Elverum",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3421",
+      "type": "municipality",
+      "code": "3421",
+      "name_nb": "Trysil",
+      "display_name_nb": "Trysil",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3422",
+      "type": "municipality",
+      "code": "3422",
+      "name_nb": "Åmot",
+      "display_name_nb": "Åmot",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3423",
+      "type": "municipality",
+      "code": "3423",
+      "name_nb": "Stor-Elvdal",
+      "display_name_nb": "Stor-Elvdal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3424",
+      "type": "municipality",
+      "code": "3424",
+      "name_nb": "Rendalen",
+      "display_name_nb": "Rendalen",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3425",
+      "type": "municipality",
+      "code": "3425",
+      "name_nb": "Engerdal",
+      "display_name_nb": "Engerdal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3426",
+      "type": "municipality",
+      "code": "3426",
+      "name_nb": "Tolga",
+      "display_name_nb": "Tolga",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3427",
+      "type": "municipality",
+      "code": "3427",
+      "name_nb": "Tynset",
+      "display_name_nb": "Tynset",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3428",
+      "type": "municipality",
+      "code": "3428",
+      "name_nb": "Alvdal",
+      "display_name_nb": "Alvdal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3429",
+      "type": "municipality",
+      "code": "3429",
+      "name_nb": "Folldal",
+      "display_name_nb": "Folldal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3430",
+      "type": "municipality",
+      "code": "3430",
+      "name_nb": "Os",
+      "display_name_nb": "Os",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3431",
+      "type": "municipality",
+      "code": "3431",
+      "name_nb": "Dovre",
+      "display_name_nb": "Dovre",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3432",
+      "type": "municipality",
+      "code": "3432",
+      "name_nb": "Lesja",
+      "display_name_nb": "Lesja",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3433",
+      "type": "municipality",
+      "code": "3433",
+      "name_nb": "Skjåk",
+      "display_name_nb": "Skjåk",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3434",
+      "type": "municipality",
+      "code": "3434",
+      "name_nb": "Lom",
+      "display_name_nb": "Lom",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3435",
+      "type": "municipality",
+      "code": "3435",
+      "name_nb": "Vågå",
+      "display_name_nb": "Vågå",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3436",
+      "type": "municipality",
+      "code": "3436",
+      "name_nb": "Nord-Fron",
+      "display_name_nb": "Nord-Fron",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3437",
+      "type": "municipality",
+      "code": "3437",
+      "name_nb": "Sel",
+      "display_name_nb": "Sel",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3438",
+      "type": "municipality",
+      "code": "3438",
+      "name_nb": "Sør-Fron",
+      "display_name_nb": "Sør-Fron",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3439",
+      "type": "municipality",
+      "code": "3439",
+      "name_nb": "Ringebu",
+      "display_name_nb": "Ringebu",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3440",
+      "type": "municipality",
+      "code": "3440",
+      "name_nb": "Øyer",
+      "display_name_nb": "Øyer",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3441",
+      "type": "municipality",
+      "code": "3441",
+      "name_nb": "Gausdal",
+      "display_name_nb": "Gausdal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3442",
+      "type": "municipality",
+      "code": "3442",
+      "name_nb": "Østre Toten",
+      "display_name_nb": "Østre Toten",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3443",
+      "type": "municipality",
+      "code": "3443",
+      "name_nb": "Vestre Toten",
+      "display_name_nb": "Vestre Toten",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3446",
+      "type": "municipality",
+      "code": "3446",
+      "name_nb": "Gran",
+      "display_name_nb": "Gran",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3447",
+      "type": "municipality",
+      "code": "3447",
+      "name_nb": "Søndre Land",
+      "display_name_nb": "Søndre Land",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3448",
+      "type": "municipality",
+      "code": "3448",
+      "name_nb": "Nordre Land",
+      "display_name_nb": "Nordre Land",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3449",
+      "type": "municipality",
+      "code": "3449",
+      "name_nb": "Sør-Aurdal",
+      "display_name_nb": "Sør-Aurdal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3450",
+      "type": "municipality",
+      "code": "3450",
+      "name_nb": "Etnedal",
+      "display_name_nb": "Etnedal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3451",
+      "type": "municipality",
+      "code": "3451",
+      "name_nb": "Nord-Aurdal",
+      "display_name_nb": "Nord-Aurdal",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3452",
+      "type": "municipality",
+      "code": "3452",
+      "name_nb": "Vestre Slidre",
+      "display_name_nb": "Vestre Slidre",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3453",
+      "type": "municipality",
+      "code": "3453",
+      "name_nb": "Øystre Slidre",
+      "display_name_nb": "Øystre Slidre",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3454",
+      "type": "municipality",
+      "code": "3454",
+      "name_nb": "Vang",
+      "display_name_nb": "Vang",
+      "parent_code": "34"
+    },
+    {
+      "geo_id": "3901",
+      "type": "municipality",
+      "code": "3901",
+      "name_nb": "Horten",
+      "display_name_nb": "Horten",
+      "parent_code": "39"
+    },
+    {
+      "geo_id": "3903",
+      "type": "municipality",
+      "code": "3903",
+      "name_nb": "Holmestrand",
+      "display_name_nb": "Holmestrand",
+      "parent_code": "39"
+    },
+    {
+      "geo_id": "3905",
+      "type": "municipality",
+      "code": "3905",
+      "name_nb": "Tønsberg",
+      "display_name_nb": "Tønsberg",
+      "parent_code": "39"
+    },
+    {
+      "geo_id": "3907",
+      "type": "municipality",
+      "code": "3907",
+      "name_nb": "Sandefjord",
+      "display_name_nb": "Sandefjord",
+      "parent_code": "39"
+    },
+    {
+      "geo_id": "3909",
+      "type": "municipality",
+      "code": "3909",
+      "name_nb": "Larvik",
+      "display_name_nb": "Larvik",
+      "parent_code": "39"
+    },
+    {
+      "geo_id": "3911",
+      "type": "municipality",
+      "code": "3911",
+      "name_nb": "Færder",
+      "display_name_nb": "Færder",
+      "parent_code": "39"
+    },
+    {
+      "geo_id": "4001",
+      "type": "municipality",
+      "code": "4001",
+      "name_nb": "Porsgrunn",
+      "display_name_nb": "Porsgrunn",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4003",
+      "type": "municipality",
+      "code": "4003",
+      "name_nb": "Skien",
+      "display_name_nb": "Skien",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4005",
+      "type": "municipality",
+      "code": "4005",
+      "name_nb": "Notodden",
+      "display_name_nb": "Notodden",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4010",
+      "type": "municipality",
+      "code": "4010",
+      "name_nb": "Siljan",
+      "display_name_nb": "Siljan",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4012",
+      "type": "municipality",
+      "code": "4012",
+      "name_nb": "Bamble",
+      "display_name_nb": "Bamble",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4014",
+      "type": "municipality",
+      "code": "4014",
+      "name_nb": "Kragerø",
+      "display_name_nb": "Kragerø",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4016",
+      "type": "municipality",
+      "code": "4016",
+      "name_nb": "Drangedal",
+      "display_name_nb": "Drangedal",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4018",
+      "type": "municipality",
+      "code": "4018",
+      "name_nb": "Nome",
+      "display_name_nb": "Nome",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4020",
+      "type": "municipality",
+      "code": "4020",
+      "name_nb": "Midt-Telemark",
+      "display_name_nb": "Midt-Telemark",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4022",
+      "type": "municipality",
+      "code": "4022",
+      "name_nb": "Seljord",
+      "display_name_nb": "Seljord",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4024",
+      "type": "municipality",
+      "code": "4024",
+      "name_nb": "Hjartdal",
+      "display_name_nb": "Hjartdal",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4026",
+      "type": "municipality",
+      "code": "4026",
+      "name_nb": "Tinn",
+      "display_name_nb": "Tinn",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4028",
+      "type": "municipality",
+      "code": "4028",
+      "name_nb": "Kviteseid",
+      "display_name_nb": "Kviteseid",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4030",
+      "type": "municipality",
+      "code": "4030",
+      "name_nb": "Nissedal",
+      "display_name_nb": "Nissedal",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4032",
+      "type": "municipality",
+      "code": "4032",
+      "name_nb": "Fyresdal",
+      "display_name_nb": "Fyresdal",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4034",
+      "type": "municipality",
+      "code": "4034",
+      "name_nb": "Tokke",
+      "display_name_nb": "Tokke",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4036",
+      "type": "municipality",
+      "code": "4036",
+      "name_nb": "Vinje",
+      "display_name_nb": "Vinje",
+      "parent_code": "40"
+    },
+    {
+      "geo_id": "4201",
+      "type": "municipality",
+      "code": "4201",
+      "name_nb": "Risør",
+      "display_name_nb": "Risør",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4202",
+      "type": "municipality",
+      "code": "4202",
+      "name_nb": "Grimstad",
+      "display_name_nb": "Grimstad",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4203",
+      "type": "municipality",
+      "code": "4203",
+      "name_nb": "Arendal",
+      "display_name_nb": "Arendal",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4204",
+      "type": "municipality",
+      "code": "4204",
+      "name_nb": "Kristiansand",
+      "display_name_nb": "Kristiansand",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4205",
+      "type": "municipality",
+      "code": "4205",
+      "name_nb": "Lindesnes",
+      "display_name_nb": "Lindesnes",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4206",
+      "type": "municipality",
+      "code": "4206",
+      "name_nb": "Farsund",
+      "display_name_nb": "Farsund",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4207",
+      "type": "municipality",
+      "code": "4207",
+      "name_nb": "Flekkefjord",
+      "display_name_nb": "Flekkefjord",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4211",
+      "type": "municipality",
+      "code": "4211",
+      "name_nb": "Gjerstad",
+      "display_name_nb": "Gjerstad",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4212",
+      "type": "municipality",
+      "code": "4212",
+      "name_nb": "Vegårshei",
+      "display_name_nb": "Vegårshei",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4213",
+      "type": "municipality",
+      "code": "4213",
+      "name_nb": "Tvedestrand",
+      "display_name_nb": "Tvedestrand",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4214",
+      "type": "municipality",
+      "code": "4214",
+      "name_nb": "Froland",
+      "display_name_nb": "Froland",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4215",
+      "type": "municipality",
+      "code": "4215",
+      "name_nb": "Lillesand",
+      "display_name_nb": "Lillesand",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4216",
+      "type": "municipality",
+      "code": "4216",
+      "name_nb": "Birkenes",
+      "display_name_nb": "Birkenes",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4217",
+      "type": "municipality",
+      "code": "4217",
+      "name_nb": "Åmli",
+      "display_name_nb": "Åmli",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4218",
+      "type": "municipality",
+      "code": "4218",
+      "name_nb": "Iveland",
+      "display_name_nb": "Iveland",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4219",
+      "type": "municipality",
+      "code": "4219",
+      "name_nb": "Evje og Hornnes",
+      "display_name_nb": "Evje og Hornnes",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4220",
+      "type": "municipality",
+      "code": "4220",
+      "name_nb": "Bygland",
+      "display_name_nb": "Bygland",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4221",
+      "type": "municipality",
+      "code": "4221",
+      "name_nb": "Valle",
+      "display_name_nb": "Valle",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4222",
+      "type": "municipality",
+      "code": "4222",
+      "name_nb": "Bykle",
+      "display_name_nb": "Bykle",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4223",
+      "type": "municipality",
+      "code": "4223",
+      "name_nb": "Vennesla",
+      "display_name_nb": "Vennesla",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4224",
+      "type": "municipality",
+      "code": "4224",
+      "name_nb": "Åseral",
+      "display_name_nb": "Åseral",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4225",
+      "type": "municipality",
+      "code": "4225",
+      "name_nb": "Lyngdal",
+      "display_name_nb": "Lyngdal",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4226",
+      "type": "municipality",
+      "code": "4226",
+      "name_nb": "Hægebostad",
+      "display_name_nb": "Hægebostad",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4227",
+      "type": "municipality",
+      "code": "4227",
+      "name_nb": "Kvinesdal",
+      "display_name_nb": "Kvinesdal",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4228",
+      "type": "municipality",
+      "code": "4228",
+      "name_nb": "Sirdal",
+      "display_name_nb": "Sirdal",
+      "parent_code": "42"
+    },
+    {
+      "geo_id": "4601",
+      "type": "municipality",
+      "code": "4601",
+      "name_nb": "Bergen",
+      "display_name_nb": "Bergen",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4602",
+      "type": "municipality",
+      "code": "4602",
+      "name_nb": "Kinn",
+      "display_name_nb": "Kinn",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4611",
+      "type": "municipality",
+      "code": "4611",
+      "name_nb": "Etne",
+      "display_name_nb": "Etne",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4612",
+      "type": "municipality",
+      "code": "4612",
+      "name_nb": "Sveio",
+      "display_name_nb": "Sveio",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4613",
+      "type": "municipality",
+      "code": "4613",
+      "name_nb": "Bømlo",
+      "display_name_nb": "Bømlo",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4614",
+      "type": "municipality",
+      "code": "4614",
+      "name_nb": "Stord",
+      "display_name_nb": "Stord",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4615",
+      "type": "municipality",
+      "code": "4615",
+      "name_nb": "Fitjar",
+      "display_name_nb": "Fitjar",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4616",
+      "type": "municipality",
+      "code": "4616",
+      "name_nb": "Tysnes",
+      "display_name_nb": "Tysnes",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4617",
+      "type": "municipality",
+      "code": "4617",
+      "name_nb": "Kvinnherad",
+      "display_name_nb": "Kvinnherad",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4618",
+      "type": "municipality",
+      "code": "4618",
+      "name_nb": "Ullensvang",
+      "display_name_nb": "Ullensvang",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4619",
+      "type": "municipality",
+      "code": "4619",
+      "name_nb": "Eidfjord",
+      "display_name_nb": "Eidfjord",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4620",
+      "type": "municipality",
+      "code": "4620",
+      "name_nb": "Ulvik",
+      "display_name_nb": "Ulvik",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4621",
+      "type": "municipality",
+      "code": "4621",
+      "name_nb": "Voss",
+      "display_name_nb": "Voss",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4622",
+      "type": "municipality",
+      "code": "4622",
+      "name_nb": "Kvam",
+      "display_name_nb": "Kvam",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4623",
+      "type": "municipality",
+      "code": "4623",
+      "name_nb": "Samnanger",
+      "display_name_nb": "Samnanger",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4624",
+      "type": "municipality",
+      "code": "4624",
+      "name_nb": "Bjørnafjorden",
+      "display_name_nb": "Bjørnafjorden",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4625",
+      "type": "municipality",
+      "code": "4625",
+      "name_nb": "Austevoll",
+      "display_name_nb": "Austevoll",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4626",
+      "type": "municipality",
+      "code": "4626",
+      "name_nb": "Øygarden",
+      "display_name_nb": "Øygarden",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4627",
+      "type": "municipality",
+      "code": "4627",
+      "name_nb": "Askøy",
+      "display_name_nb": "Askøy",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4628",
+      "type": "municipality",
+      "code": "4628",
+      "name_nb": "Vaksdal",
+      "display_name_nb": "Vaksdal",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4629",
+      "type": "municipality",
+      "code": "4629",
+      "name_nb": "Modalen",
+      "display_name_nb": "Modalen",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4630",
+      "type": "municipality",
+      "code": "4630",
+      "name_nb": "Osterøy",
+      "display_name_nb": "Osterøy",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4631",
+      "type": "municipality",
+      "code": "4631",
+      "name_nb": "Alver",
+      "display_name_nb": "Alver",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4632",
+      "type": "municipality",
+      "code": "4632",
+      "name_nb": "Austrheim",
+      "display_name_nb": "Austrheim",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4633",
+      "type": "municipality",
+      "code": "4633",
+      "name_nb": "Fedje",
+      "display_name_nb": "Fedje",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4634",
+      "type": "municipality",
+      "code": "4634",
+      "name_nb": "Masfjorden",
+      "display_name_nb": "Masfjorden",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4635",
+      "type": "municipality",
+      "code": "4635",
+      "name_nb": "Gulen",
+      "display_name_nb": "Gulen",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4636",
+      "type": "municipality",
+      "code": "4636",
+      "name_nb": "Solund",
+      "display_name_nb": "Solund",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4637",
+      "type": "municipality",
+      "code": "4637",
+      "name_nb": "Hyllestad",
+      "display_name_nb": "Hyllestad",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4638",
+      "type": "municipality",
+      "code": "4638",
+      "name_nb": "Høyanger",
+      "display_name_nb": "Høyanger",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4639",
+      "type": "municipality",
+      "code": "4639",
+      "name_nb": "Vik",
+      "display_name_nb": "Vik",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4640",
+      "type": "municipality",
+      "code": "4640",
+      "name_nb": "Sogndal",
+      "display_name_nb": "Sogndal",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4641",
+      "type": "municipality",
+      "code": "4641",
+      "name_nb": "Aurland",
+      "display_name_nb": "Aurland",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4642",
+      "type": "municipality",
+      "code": "4642",
+      "name_nb": "Lærdal",
+      "display_name_nb": "Lærdal",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4643",
+      "type": "municipality",
+      "code": "4643",
+      "name_nb": "Årdal",
+      "display_name_nb": "Årdal",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4644",
+      "type": "municipality",
+      "code": "4644",
+      "name_nb": "Luster",
+      "display_name_nb": "Luster",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4645",
+      "type": "municipality",
+      "code": "4645",
+      "name_nb": "Askvoll",
+      "display_name_nb": "Askvoll",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4646",
+      "type": "municipality",
+      "code": "4646",
+      "name_nb": "Fjaler",
+      "display_name_nb": "Fjaler",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4647",
+      "type": "municipality",
+      "code": "4647",
+      "name_nb": "Sunnfjord",
+      "display_name_nb": "Sunnfjord",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4648",
+      "type": "municipality",
+      "code": "4648",
+      "name_nb": "Bremanger",
+      "display_name_nb": "Bremanger",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4649",
+      "type": "municipality",
+      "code": "4649",
+      "name_nb": "Stad",
+      "display_name_nb": "Stad",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4650",
+      "type": "municipality",
+      "code": "4650",
+      "name_nb": "Gloppen",
+      "display_name_nb": "Gloppen",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "4651",
+      "type": "municipality",
+      "code": "4651",
+      "name_nb": "Stryn",
+      "display_name_nb": "Stryn",
+      "parent_code": "46"
+    },
+    {
+      "geo_id": "5001",
+      "type": "municipality",
+      "code": "5001",
+      "name_nb": "Trondheim - Tråante",
+      "display_name_nb": "Trondheim",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5006",
+      "type": "municipality",
+      "code": "5006",
+      "name_nb": "Steinkjer - Stïentje",
+      "display_name_nb": "Steinkjer",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5007",
+      "type": "municipality",
+      "code": "5007",
+      "name_nb": "Namsos - Nåavmesjenjaelmie",
+      "display_name_nb": "Namsos",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5014",
+      "type": "municipality",
+      "code": "5014",
+      "name_nb": "Frøya",
+      "display_name_nb": "Frøya",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5020",
+      "type": "municipality",
+      "code": "5020",
+      "name_nb": "Osen",
+      "display_name_nb": "Osen",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5021",
+      "type": "municipality",
+      "code": "5021",
+      "name_nb": "Oppdal",
+      "display_name_nb": "Oppdal",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5022",
+      "type": "municipality",
+      "code": "5022",
+      "name_nb": "Rennebu",
+      "display_name_nb": "Rennebu",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5025",
+      "type": "municipality",
+      "code": "5025",
+      "name_nb": "Røros - Rosse",
+      "display_name_nb": "Røros",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5026",
+      "type": "municipality",
+      "code": "5026",
+      "name_nb": "Holtålen",
+      "display_name_nb": "Holtålen",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5027",
+      "type": "municipality",
+      "code": "5027",
+      "name_nb": "Midtre Gauldal",
+      "display_name_nb": "Midtre Gauldal",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5028",
+      "type": "municipality",
+      "code": "5028",
+      "name_nb": "Melhus",
+      "display_name_nb": "Melhus",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5029",
+      "type": "municipality",
+      "code": "5029",
+      "name_nb": "Skaun",
+      "display_name_nb": "Skaun",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5031",
+      "type": "municipality",
+      "code": "5031",
+      "name_nb": "Malvik",
+      "display_name_nb": "Malvik",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5032",
+      "type": "municipality",
+      "code": "5032",
+      "name_nb": "Selbu",
+      "display_name_nb": "Selbu",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5033",
+      "type": "municipality",
+      "code": "5033",
+      "name_nb": "Tydal",
+      "display_name_nb": "Tydal",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5034",
+      "type": "municipality",
+      "code": "5034",
+      "name_nb": "Meråker",
+      "display_name_nb": "Meråker",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5035",
+      "type": "municipality",
+      "code": "5035",
+      "name_nb": "Stjørdal",
+      "display_name_nb": "Stjørdal",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5036",
+      "type": "municipality",
+      "code": "5036",
+      "name_nb": "Frosta",
+      "display_name_nb": "Frosta",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5037",
+      "type": "municipality",
+      "code": "5037",
+      "name_nb": "Levanger - Levangke",
+      "display_name_nb": "Levanger",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5038",
+      "type": "municipality",
+      "code": "5038",
+      "name_nb": "Verdal",
+      "display_name_nb": "Verdal",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5041",
+      "type": "municipality",
+      "code": "5041",
+      "name_nb": "Snåase - Snåsa",
+      "display_name_nb": "Snåase",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5042",
+      "type": "municipality",
+      "code": "5042",
+      "name_nb": "Lierne",
+      "display_name_nb": "Lierne",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5043",
+      "type": "municipality",
+      "code": "5043",
+      "name_nb": "Raarvihke - Røyrvik",
+      "display_name_nb": "Raarvihke",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5044",
+      "type": "municipality",
+      "code": "5044",
+      "name_nb": "Namsskogan",
+      "display_name_nb": "Namsskogan",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5045",
+      "type": "municipality",
+      "code": "5045",
+      "name_nb": "Grong",
+      "display_name_nb": "Grong",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5046",
+      "type": "municipality",
+      "code": "5046",
+      "name_nb": "Høylandet",
+      "display_name_nb": "Høylandet",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5047",
+      "type": "municipality",
+      "code": "5047",
+      "name_nb": "Overhalla",
+      "display_name_nb": "Overhalla",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5049",
+      "type": "municipality",
+      "code": "5049",
+      "name_nb": "Flatanger",
+      "display_name_nb": "Flatanger",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5052",
+      "type": "municipality",
+      "code": "5052",
+      "name_nb": "Leka",
+      "display_name_nb": "Leka",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5053",
+      "type": "municipality",
+      "code": "5053",
+      "name_nb": "Inderøy",
+      "display_name_nb": "Inderøy",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5054",
+      "type": "municipality",
+      "code": "5054",
+      "name_nb": "Indre Fosen",
+      "display_name_nb": "Indre Fosen",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5055",
+      "type": "municipality",
+      "code": "5055",
+      "name_nb": "Heim",
+      "display_name_nb": "Heim",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5056",
+      "type": "municipality",
+      "code": "5056",
+      "name_nb": "Hitra",
+      "display_name_nb": "Hitra",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5057",
+      "type": "municipality",
+      "code": "5057",
+      "name_nb": "Ørland",
+      "display_name_nb": "Ørland",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5058",
+      "type": "municipality",
+      "code": "5058",
+      "name_nb": "Åfjord",
+      "display_name_nb": "Åfjord",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5059",
+      "type": "municipality",
+      "code": "5059",
+      "name_nb": "Orkland",
+      "display_name_nb": "Orkland",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5060",
+      "type": "municipality",
+      "code": "5060",
+      "name_nb": "Nærøysund",
+      "display_name_nb": "Nærøysund",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5061",
+      "type": "municipality",
+      "code": "5061",
+      "name_nb": "Rindal",
+      "display_name_nb": "Rindal",
+      "parent_code": "50"
+    },
+    {
+      "geo_id": "5501",
+      "type": "municipality",
+      "code": "5501",
+      "name_nb": "Tromsø",
+      "display_name_nb": "Tromsø",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5503",
+      "type": "municipality",
+      "code": "5503",
+      "name_nb": "Harstad - Hárstták",
+      "display_name_nb": "Harstad",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5510",
+      "type": "municipality",
+      "code": "5510",
+      "name_nb": "Kvæfjord",
+      "display_name_nb": "Kvæfjord",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5512",
+      "type": "municipality",
+      "code": "5512",
+      "name_nb": "Dielddanuorri - Tjeldsund",
+      "display_name_nb": "Dielddanuorri",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5514",
+      "type": "municipality",
+      "code": "5514",
+      "name_nb": "Ibestad",
+      "display_name_nb": "Ibestad",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5516",
+      "type": "municipality",
+      "code": "5516",
+      "name_nb": "Gratangen - Rivtták",
+      "display_name_nb": "Gratangen",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5518",
+      "type": "municipality",
+      "code": "5518",
+      "name_nb": "Loabák - Lavangen",
+      "display_name_nb": "Loabák",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5520",
+      "type": "municipality",
+      "code": "5520",
+      "name_nb": "Bardu",
+      "display_name_nb": "Bardu",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5522",
+      "type": "municipality",
+      "code": "5522",
+      "name_nb": "Salangen",
+      "display_name_nb": "Salangen",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5524",
+      "type": "municipality",
+      "code": "5524",
+      "name_nb": "Målselv",
+      "display_name_nb": "Målselv",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5526",
+      "type": "municipality",
+      "code": "5526",
+      "name_nb": "Sørreisa",
+      "display_name_nb": "Sørreisa",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5528",
+      "type": "municipality",
+      "code": "5528",
+      "name_nb": "Dyrøy",
+      "display_name_nb": "Dyrøy",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5530",
+      "type": "municipality",
+      "code": "5530",
+      "name_nb": "Senja",
+      "display_name_nb": "Senja",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5532",
+      "type": "municipality",
+      "code": "5532",
+      "name_nb": "Balsfjord",
+      "display_name_nb": "Balsfjord",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5534",
+      "type": "municipality",
+      "code": "5534",
+      "name_nb": "Karlsøy",
+      "display_name_nb": "Karlsøy",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5536",
+      "type": "municipality",
+      "code": "5536",
+      "name_nb": "Lyngen - Ivgu - Yykeä",
+      "display_name_nb": "Lyngen",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5538",
+      "type": "municipality",
+      "code": "5538",
+      "name_nb": "Storfjord - Omasvuotna - Omasvuono",
+      "display_name_nb": "Storfjord",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5540",
+      "type": "municipality",
+      "code": "5540",
+      "name_nb": "Gáivuotna - Kåfjord - Kaivuono",
+      "display_name_nb": "Gáivuotna",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5542",
+      "type": "municipality",
+      "code": "5542",
+      "name_nb": "Skjervøy",
+      "display_name_nb": "Skjervøy",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5544",
+      "type": "municipality",
+      "code": "5544",
+      "name_nb": "Nordreisa - Ráisa - Raisi",
+      "display_name_nb": "Nordreisa",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5546",
+      "type": "municipality",
+      "code": "5546",
+      "name_nb": "Kvænangen",
+      "display_name_nb": "Kvænangen",
+      "parent_code": "55"
+    },
+    {
+      "geo_id": "5601",
+      "type": "municipality",
+      "code": "5601",
+      "name_nb": "Alta",
+      "display_name_nb": "Alta",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5603",
+      "type": "municipality",
+      "code": "5603",
+      "name_nb": "Hammerfest - Hámmerfeasta",
+      "display_name_nb": "Hammerfest",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5605",
+      "type": "municipality",
+      "code": "5605",
+      "name_nb": "Sør-Varanger",
+      "display_name_nb": "Sør-Varanger",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5607",
+      "type": "municipality",
+      "code": "5607",
+      "name_nb": "Vadsø",
+      "display_name_nb": "Vadsø",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5610",
+      "type": "municipality",
+      "code": "5610",
+      "name_nb": "Kárášjohka - Karasjok",
+      "display_name_nb": "Kárášjohka",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5612",
+      "type": "municipality",
+      "code": "5612",
+      "name_nb": "Guovdageaidnu - Kautokeino",
+      "display_name_nb": "Guovdageaidnu",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5614",
+      "type": "municipality",
+      "code": "5614",
+      "name_nb": "Loppa",
+      "display_name_nb": "Loppa",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5616",
+      "type": "municipality",
+      "code": "5616",
+      "name_nb": "Hasvik",
+      "display_name_nb": "Hasvik",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5618",
+      "type": "municipality",
+      "code": "5618",
+      "name_nb": "Måsøy",
+      "display_name_nb": "Måsøy",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5620",
+      "type": "municipality",
+      "code": "5620",
+      "name_nb": "Nordkapp",
+      "display_name_nb": "Nordkapp",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5622",
+      "type": "municipality",
+      "code": "5622",
+      "name_nb": "Porsanger - Porsángu - Porsanki",
+      "display_name_nb": "Porsanger",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5624",
+      "type": "municipality",
+      "code": "5624",
+      "name_nb": "Lebesby",
+      "display_name_nb": "Lebesby",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5626",
+      "type": "municipality",
+      "code": "5626",
+      "name_nb": "Gamvik",
+      "display_name_nb": "Gamvik",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5628",
+      "type": "municipality",
+      "code": "5628",
+      "name_nb": "Deatnu - Tana",
+      "display_name_nb": "Deatnu",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5630",
+      "type": "municipality",
+      "code": "5630",
+      "name_nb": "Berlevåg",
+      "display_name_nb": "Berlevåg",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5632",
+      "type": "municipality",
+      "code": "5632",
+      "name_nb": "Båtsfjord",
+      "display_name_nb": "Båtsfjord",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5634",
+      "type": "municipality",
+      "code": "5634",
+      "name_nb": "Vardø",
+      "display_name_nb": "Vardø",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "5636",
+      "type": "municipality",
+      "code": "5636",
+      "name_nb": "Unjárga - Nesseby",
+      "display_name_nb": "Unjárga",
+      "parent_code": "56"
+    },
+    {
+      "geo_id": "9999",
+      "type": "municipality",
+      "code": "9999",
+      "name_nb": "Uoppgitt",
+      "display_name_nb": "Uoppgitt",
+      "parent_code": "99"
+    }
+  ]
+}

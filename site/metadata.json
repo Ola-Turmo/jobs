@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-03-17T08:43:40Z",
+  "source_periods": {
+    "employment_period": "2025K4",
+    "employment_year": 2025,
+    "earnings_year": 2025,
+    "education_year": 2024,
+    "industry_mix_year": 2025,
+    "vacancy_period": "2025K4",
+    "ai_adoption_year": 2025,
+    "employment_change_baseline_year": 2019
+  },
+  "notes": [
+    "Vacancy context is a derived indicator built from official SSB vacancy-by-industry data and official occupation-by-industry employment mix.",
+    "This build uses detailed 4-digit occupations nationally so the treemap behaves more like the original jobs visualizer.",
+    "Education profile is inherited from the nearest SSB occupation-parent level with official education data.",
+    "The AI impact section is a Norwegian proxy inspired by Anthropic's labor market impacts work: theoretical exposure is heuristic at occupation level, while observed use is proxied from SSB's enterprise AI-by-industry survey."
+  ],
+  "sources": [
+    {
+      "table_id": "11658",
+      "label": "Antall jobber og median månedslønn etter yrke"
+    },
+    {
+      "table_id": "12849",
+      "label": "Sysselsatte etter utdanningsnivå og yrke"
+    },
+    {
+      "table_id": "09789",
+      "label": "Sysselsatte etter næring og yrke"
+    },
+    {
+      "table_id": "14306",
+      "label": "Ledige stillinger etter fylke og næring"
+    },
+    {
+      "table_id": "13265",
+      "label": "Bruk av kunstig intelligens-teknologi etter næring"
+    }
+  ],
+  "defaults": {
+    "area_metric": "employment",
+    "color_metric": "monthly_earnings"
+  }
+}

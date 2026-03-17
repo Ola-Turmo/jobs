@@ -1,0 +1,444 @@
+{
+  "fetched_at": "2026-03-17T06:49:53Z",
+  "classification_id": 104,
+  "language": "nb",
+  "snapshot_date": "2026-03-17",
+  "metadata": {
+    "name": "Standard for fylkesinndeling",
+    "id": 104,
+    "classificationType": "Klassifikasjon",
+    "lastModified": "2026-03-13T10:31:52.000+0000",
+    "description": "Fylkene er regionale administrative enheter både for statlig og fylkeskommunal virksomhet og en viktig enhet i SSBs statistikkpublisering. De tilsvarer NUTS 3 i Eurostats statistiske inndeling.",
+    "primaryLanguage": "nb",
+    "copyrighted": false,
+    "includeShortName": false,
+    "includeNotes": true,
+    "contactPerson": {
+      "name": "Moe, Dana",
+      "email": "Dana.Moe@ssb.no",
+      "phone": "99852342"
+    },
+    "owningSection": "320 - Seksjon for befolkningsstatistikk",
+    "statisticalUnits": [
+      "Region"
+    ],
+    "versions": [
+      {
+        "name": "Fylkesinndeling 1972",
+        "id": 401,
+        "validFrom": "1972-01-01",
+        "validTo": "2003-01-01",
+        "lastModified": "2023-04-03T12:36:08.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/401"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 2018",
+        "id": 916,
+        "validFrom": "2018-01-01",
+        "validTo": "2020-01-01",
+        "lastModified": "2023-04-04T06:52:17.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/916"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 2020",
+        "id": 1158,
+        "validFrom": "2020-01-01",
+        "validTo": "2022-01-01",
+        "lastModified": "2024-01-15T14:45:17.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/1158"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 1867",
+        "id": 1176,
+        "validFrom": "1867-01-01",
+        "validTo": "1919-01-01",
+        "lastModified": "2025-01-02T13:19:55.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/1176"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 1842",
+        "id": 1177,
+        "validFrom": "1842-01-01",
+        "validTo": "1867-01-01",
+        "lastModified": "2023-04-03T12:00:30.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/1177"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 2024",
+        "id": 1709,
+        "validFrom": "2024-01-01",
+        "validTo": "2026-01-01",
+        "lastModified": "2025-12-18T12:52:11.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/1709"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 1919",
+        "id": 2102,
+        "validFrom": "1919-01-01",
+        "validTo": "1936-01-01",
+        "lastModified": "2023-04-03T12:07:51.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/2102"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 1936",
+        "id": 2105,
+        "validFrom": "1936-01-01",
+        "validTo": "1972-01-01",
+        "lastModified": "2023-04-03T12:09:22.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/2105"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 2003",
+        "id": 2106,
+        "validFrom": "2003-01-01",
+        "validTo": "2007-01-01",
+        "lastModified": "2023-04-04T13:10:45.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/2106"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 2007",
+        "id": 2107,
+        "validFrom": "2007-01-01",
+        "validTo": "2018-01-01",
+        "lastModified": "2023-04-03T12:56:16.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/2107"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 2022",
+        "id": 2108,
+        "validFrom": "2022-01-01",
+        "validTo": "2024-01-01",
+        "lastModified": "2023-04-04T07:03:18.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/2108"
+          }
+        }
+      },
+      {
+        "name": "Fylkesinndeling 2026",
+        "id": 3315,
+        "validFrom": "2026-01-01",
+        "lastModified": "2025-12-22T08:25:23.000+0000",
+        "published": [
+          "nb",
+          "nn",
+          "en"
+        ],
+        "_links": {
+          "self": {
+            "href": "https://data.ssb.no/api/klass/v1/versions/3315"
+          }
+        }
+      }
+    ],
+    "_links": {
+      "self": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104"
+      },
+      "codes": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104/codes{?from=<yyyy-MM-dd>,to=<yyyy-MM-dd>,csvSeparator,level,selectCodes,presentationNamePattern}",
+        "templated": true
+      },
+      "codesAt": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104/codesAt{?date=<yyyy-MM-dd>,csvSeparator,level,selectCodes,presentationNamePattern}",
+        "templated": true
+      },
+      "variant": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104/variant{?variantName,from=<yyyy-MM-dd>,to=<yyyy-MM-dd>,csvSeparator,level,selectCodes,presentationNamePattern}",
+        "templated": true
+      },
+      "variantAt": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104/variantAt{?variantName,date=<yyyy-MM-dd>,csvSeparator,level,selectCodes,presentationNamePattern}",
+        "templated": true
+      },
+      "corresponds": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104/corresponds{?targetClassificationId,from=<yyyy-MM-dd>,to=<yyyy-MM-dd>,csvSeparator}",
+        "templated": true
+      },
+      "correspondsAt": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104/correspondsAt{?targetClassificationId,date=<yyyy-MM-dd>,csvSeparator}",
+        "templated": true
+      },
+      "changes": {
+        "href": "https://data.ssb.no/api/klass/v1/classifications/104/changes{?from=<yyyy-MM-dd>,to=<yyyy-MM-dd>,csvSeparator}",
+        "templated": true
+      }
+    }
+  },
+  "codes": {
+    "codes": [
+      {
+        "code": "03",
+        "parentCode": null,
+        "level": "1",
+        "name": "Oslo - Oslove",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "11",
+        "parentCode": null,
+        "level": "1",
+        "name": "Rogaland",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "15",
+        "parentCode": null,
+        "level": "1",
+        "name": "Møre og Romsdal",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "18",
+        "parentCode": null,
+        "level": "1",
+        "name": "Nordland - Nordlánnda",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": "Stortingets vedtak fra 27. april 2021 innfører tospråklig navn på Nordland fylke, norsk og lulesamisk. Endringen trer i kraft straks. "
+      },
+      {
+        "code": "31",
+        "parentCode": null,
+        "level": "1",
+        "name": "Østfold",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "32",
+        "parentCode": null,
+        "level": "1",
+        "name": "Akershus",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "33",
+        "parentCode": null,
+        "level": "1",
+        "name": "Buskerud",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "34",
+        "parentCode": null,
+        "level": "1",
+        "name": "Innlandet",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "39",
+        "parentCode": null,
+        "level": "1",
+        "name": "Vestfold",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "40",
+        "parentCode": null,
+        "level": "1",
+        "name": "Telemark",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "42",
+        "parentCode": null,
+        "level": "1",
+        "name": "Agder",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "46",
+        "parentCode": null,
+        "level": "1",
+        "name": "Vestland",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "50",
+        "parentCode": null,
+        "level": "1",
+        "name": "Trøndelag - Trööndelage",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "55",
+        "parentCode": null,
+        "level": "1",
+        "name": "Troms - Romsa - Tromssa",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "56",
+        "parentCode": null,
+        "level": "1",
+        "name": "Finnmark - Finnmárku - Finmarkku",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      },
+      {
+        "code": "99",
+        "parentCode": null,
+        "level": "1",
+        "name": "Uoppgitt",
+        "shortName": "",
+        "presentationName": "",
+        "validFrom": null,
+        "validTo": null,
+        "notes": ""
+      }
+    ]
+  }
+}

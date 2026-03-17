@@ -1,77 +1,99 @@
-# US Job Market Visualizer
+# Norway Job Market Visualizer
 
-A research tool for visually exploring Bureau of Labor Statistics [Occupational Outlook Handbook](https://www.bls.gov/ooh/) data. This is not a report, a paper, or a serious economic publication — it is a development tool for exploring BLS data visually.
+This repository is being rebuilt as a Norwegian labour-market explorer powered primarily by official data from [Statistics Norway (SSB)](https://www.ssb.no/en) and the [SSB Klass API](https://data.ssb.no/api/klass/v1/). The goal is a lightweight, mostly static site for exploring occupations, geography, wages, education, and vacancy pressure in Norway.
 
-**Live demo: [karpathy.ai/jobs](https://karpathy.ai/jobs/)**
+The project is based on the original [`karpathy/jobs`](https://github.com/karpathy/jobs) repository. The original repo visualized US Bureau of Labor Statistics data; this fork keeps the same spirit and lightweight architecture, but replaces the US/BLS pipeline with a Norway-first, API-driven build based on SSB.
 
-## What's here
+## Scope
 
-The BLS OOH covers **342 occupations** spanning every sector of the US economy, with detailed data on job duties, work environment, education requirements, pay, and employment projections. We scraped all of it and built an interactive treemap visualization where each rectangle's **area** is proportional to total employment and **color** shows the selected metric — toggle between BLS projected growth outlook, median pay, education requirements, and AI exposure.
+V1 is an SSB-first labour-market explorer, not a live job board. The product is intended for research, exploration, journalism, and career discovery.
 
-## LLM-powered coloring
+Core goals:
 
-The repo includes scrapers, parsers, and a pipeline for writing custom LLM prompts to score and color occupations by any criteria. You write a prompt, the LLM scores each occupation, and the treemap colors accordingly. The "Digital AI Exposure" layer is one example — it estimates how much current AI (which is primarily digital) will reshape each occupation. But you could write a different prompt for any question — e.g. exposure to humanoid robotics, offshoring risk, climate impact — and re-run the pipeline to get a different coloring. See `score.py` for the prompt and scoring pipeline.
+- use SSB as the primary source of labour-market truth
+- preserve the repo's lightweight Python build pipeline
+- ship a static frontend with compact generated JSON payloads
+- support occupation exploration, county comparisons, wages, employment, education, and vacancy context
+- keep optional LLM-derived overlays secondary to official data
 
-**What "AI Exposure" is NOT:**
-- It does **not** predict that a job will disappear. Software developers score 9/10 because AI is transforming their work — but demand for software could easily *grow* as each developer becomes more productive.
-- It does **not** account for demand elasticity, latent demand, regulatory barriers, or social preferences for human workers.
-- The scores are rough LLM estimates (Gemini Flash via OpenRouter), not rigorous predictions. Many high-exposure jobs will be reshaped, not replaced.
+## Data model
 
-## Data pipeline
+The practical V1 implementation uses major STYRK occupation groups as the main visual unit because that is the cleanest level where official SSB tables line up across multiple metrics.
 
-1. **Scrape** (`scrape.py`) — Playwright (non-headless, BLS blocks bots) downloads raw HTML for all 342 occupation pages into `html/`.
-2. **Parse** (`parse_detail.py`, `process.py`) — BeautifulSoup converts raw HTML into clean Markdown files in `pages/`.
-3. **Tabulate** (`make_csv.py`) — Extracts structured fields (pay, education, job count, growth outlook, SOC code) into `occupations.csv`.
-4. **Score** (`score.py`) — Sends each occupation's Markdown description to an LLM with a scoring rubric. Each occupation gets an AI Exposure score from 0-10 with a rationale. Results saved to `scores.json`. Fork this to write your own prompts.
-5. **Build site data** (`build_site_data.py`) — Merges CSV stats and AI exposure scores into a compact `site/data.json` for the frontend.
-6. **Website** (`site/index.html`) — Interactive treemap visualization with four color layers: BLS Outlook, Median Pay, Education, and Digital AI Exposure.
+Primary dimensions:
 
-## Key files
+- occupation group (major STYRK groups)
+- geography (Norway, counties, with room for municipalities later)
+- time period
 
-| File | Description |
-|------|-------------|
-| `occupations.json` | Master list of 342 occupations with title, URL, category, slug |
-| `occupations.csv` | Summary stats: pay, education, job count, growth projections |
-| `scores.json` | AI exposure scores (0-10) with rationales for all 342 occupations |
-| `prompt.md` | All data in a single file, designed to be pasted into an LLM for analysis |
-| `html/` | Raw HTML pages from BLS (source of truth, ~40MB) |
-| `pages/` | Clean Markdown versions of each occupation page |
-| `site/` | Static website (treemap visualization) |
+Primary metrics:
 
-## LLM prompt
+- employment
+- monthly earnings
+- education profile
+- employment change over time
+- vacancy context derived from SSB vacancy-by-industry tables combined with official occupation-by-industry employment mix
 
-[`prompt.md`](prompt.md) packages all the data — aggregate statistics, tier breakdowns, exposure by pay/education, BLS growth projections, and all 342 occupations with their scores and rationales — into a single file (~45K tokens) designed to be pasted into an LLM. This lets you have a data-grounded conversation about AI's impact on the job market without needing to run any code. Regenerate it with `uv run python make_prompt.py`.
+## Source tables
 
-## Setup
+The current implementation is built around a small set of SSB tables and classifications:
 
+- `11619`: employed persons by region and occupation
+- `11418`: monthly earnings by occupation
+- `12849`: employed persons by education level and occupation
+- `09789`: employed persons by industry and occupation
+- `14306`: job vacancies by county and industry
+- Klass `7`: STYRK occupation classification
+- Klass `104`: county classification
+- Klass `131`: municipality classification
+
+## Repository shape
+
+The old BLS files are still present as reference material while the migration is underway, but the intended Norway-first structure is:
+
+```text
+jobs/
+  data/
+    raw/
+      ssb/
+      klass/
+    normalized/
+  site/
+    index.html
+    data.json
+    metadata.json
+  fetch_ssb_statbank.py
+  fetch_ssb_klass.py
+  build_dimensions.py
+  build_metrics.py
+  build_site_data_no.py
 ```
-uv sync
-uv run playwright install chromium
-```
 
-Requires an OpenRouter API key in `.env`:
-```
-OPENROUTER_API_KEY=your_key_here
-```
-
-## Usage
+## Build flow
 
 ```bash
-# Scrape BLS pages (only needed once, results are cached in html/)
-uv run python scrape.py
+uv sync
 
-# Generate Markdown from HTML
-uv run python process.py
+# Fetch official source data and classifications
+uv run python fetch_ssb_statbank.py
+uv run python fetch_ssb_klass.py
 
-# Generate CSV summary
-uv run python make_csv.py
+# Build normalized dimensions and metrics
+uv run python build_dimensions.py
+uv run python build_metrics.py
 
-# Score AI exposure (uses OpenRouter API)
-uv run python score.py
+# Build compact frontend payloads
+uv run python build_site_data_no.py
 
-# Build website data
-uv run python build_site_data.py
-
-# Serve the site locally
-cd site && python -m http.server 8000
+# Serve the static site locally
+cd site
+python -m http.server 8000
 ```
+
+## Notes on vacancy data
+
+SSB publishes vacancy data cleanly by industry and county. For V1, vacancy information is presented as an occupation group's vacancy context, derived from official occupation-by-industry employment mix and official vacancy-by-industry statistics. This keeps the build grounded in official data while being transparent that the vacancy layer is a derived indicator rather than a direct occupation-specific SSB table.
+
+## Status
+
+This repository is in active migration from the original US/BLS implementation to the Norwegian SSB-first product described above. Expect some old files to remain temporarily while the new pipeline and frontend replace them.
