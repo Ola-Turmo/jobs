@@ -131,7 +131,7 @@
           "name": "Finnes det fortsatt amerikanske tall i KI-grafen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nei, ikke som rå prosenttall. Grafen er inspirert av Anthropic sin metode og struktur, men tallene i denne versjonen er norske proxier og tydelig merket som det."
+            "text": "Ja, i den nederste KI-grafen brukes en tydelig merket kalibrering mot Anthropic sin opprinnelige figur for å få samme kategori-profil. Norske etiketter, sysselsettingstall og yrkeseksempler er fortsatt hentet fra dette norske datasettet."
           }
         }
       ]
@@ -150,14 +150,14 @@ html {
   --bg: #0a0a0f;
   --bg2: #12121a;
   --fg: #e0e0e8;
-  --fg2: #888894;
+  --fg2: #a7a7b6;
 }
 
 body {
   background: var(--bg);
   color: var(--fg);
   font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  line-height: 1.55;
+  line-height: 1.6;
   overflow-x: clip;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -187,42 +187,41 @@ body {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
-  gap: 56px;
+  display: flex;
   align-items: center;
+  justify-content: center;
   min-height: calc(100dvh - 28px);
   margin-bottom: 56px;
+  padding-inline: 20px;
 }
 
 .hero-copy {
-  min-height: 0;
+  display: none;
 }
 
 .hero-media {
   position: relative;
-  min-height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   min-width: 0;
+  width: 100%;
 }
 
 .hero-video-shell {
   position: relative;
-  width: min(100%, 436px);
-  min-height: 252px;
-  margin-top: -14px;
-  border-radius: 22px;
+  width: min(100%, 370px);
+  aspect-ratio: 9 / 16;
+  border-radius: 28px;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,0.08);
   background:
-    radial-gradient(circle at 20% 20%, rgba(255,140,105,0.22), transparent 30%),
-    radial-gradient(circle at 82% 18%, rgba(61, 148, 61, 0.18), transparent 28%),
-    linear-gradient(135deg, #15151d 0%, #0f1016 44%, #0b0b10 100%);
+    radial-gradient(circle at 18% 16%, rgba(255,140,105,0.18), transparent 32%),
+    radial-gradient(circle at 80% 12%, rgba(122,162,255,0.12), transparent 28%),
+    linear-gradient(160deg, #13151d 0%, #0f1118 44%, #0b0b10 100%);
   box-shadow:
     inset 0 1px 0 rgba(255,255,255,0.06),
-    0 24px 60px rgba(0,0,0,0.32);
+    0 30px 80px rgba(0,0,0,0.34);
 }
 
 .hero-video-shell::before {
@@ -238,6 +237,16 @@ body {
   z-index: 1;
 }
 
+.hero-poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
 .hero-video {
   position: absolute;
   inset: 0;
@@ -245,16 +254,21 @@ body {
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 0.45s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.45s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   transform: scale(1.015);
+  z-index: 2;
 }
 
 .hero-video-shell.is-ready .hero-video {
-  opacity: 0.94;
+  opacity: 0.96;
 }
 
 .hero-video-shell.is-playing .hero-video {
   transform: scale(1);
+}
+
+.hero-video-shell.is-ended .hero-video {
+  opacity: 0.96;
 }
 
 .intro-head {
@@ -294,14 +308,14 @@ body {
 .intro-links a:hover { text-decoration: underline; }
 
 .intro p {
-  max-width: 72ch;
-  font-size: 16px;
-  line-height: 1.8;
-  color: var(--fg2);
-  margin-bottom: 14px;
+  max-width: 68ch;
+  font-size: 17px;
+  line-height: 1.86;
+  color: rgba(224,224,232,0.8);
+  margin-bottom: 16px;
 }
 
-.intro a { color: var(--fg2); }
+.intro a { color: rgba(224,224,232,0.9); }
 .intro strong, .intro b { color: var(--fg); font-weight: 600; }
 
 .intro details {
@@ -350,7 +364,7 @@ body {
 .drawer-panel li {
   font-size: 14px;
   line-height: 1.74;
-  color: var(--fg2);
+  color: rgba(224,224,232,0.78);
 }
 
 .drawer-panel p + p,
@@ -384,9 +398,10 @@ body {
 .stats-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 28px;
+  gap: 24px 34px;
   align-items: flex-start;
-  margin-bottom: 12px;
+  padding-top: 8px;
+  margin-bottom: 20px;
   min-width: 0;
 }
 
@@ -398,66 +413,79 @@ body {
 }
 
 .stat-section h3 {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: var(--fg2);
 }
 
 .stat-big {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1;
   overflow-wrap: anywhere;
 }
 
 .stat-label {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--fg2);
 }
 
 .tier-bar { display: flex; flex-direction: column; gap: 3px; }
-.tier-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.tier-row { display: flex; align-items: center; gap: 8px; font-size: 13px; }
 .tier-color { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
 .tier-name { flex: 1; color: var(--fg2); white-space: nowrap; }
 .tier-jobs { text-align: right; white-space: nowrap; }
-.tier-pct { text-align: right; width: 30px; color: var(--fg2); font-size: 11px; }
+.tier-pct { text-align: right; width: 34px; color: var(--fg2); font-size: 12px; }
 
 .histogram { display: flex; align-items: flex-end; gap: 2px; height: 54px; }
 .histogram .bar { flex: 1; border-radius: 1px 1px 0 0; min-height: 1px; }
-.hist-labels { display: flex; justify-content: space-between; font-size: 10px; color: var(--fg2); margin-top: 2px; }
+.hist-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--fg2); margin-top: 3px; }
 
 .hbar-chart { display: flex; flex-direction: column; gap: 3px; }
-.hbar-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
-.hbar-label { width: 96px; flex-shrink: 0; color: var(--fg2); font-size: 11px; text-align: right; }
+.hbar-row { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.hbar-label { width: 104px; flex-shrink: 0; color: var(--fg2); font-size: 12px; text-align: right; }
 .hbar-track { flex: 1; height: 12px; background: rgba(255,255,255,0.04); border-radius: 2px; overflow: hidden; min-width: 36px; }
 .hbar-fill { height: 100%; border-radius: 2px; }
-.hbar-val { width: 58px; flex-shrink: 0; font-size: 11px; color: var(--fg); text-align: right; }
+.hbar-val { width: 62px; flex-shrink: 0; font-size: 12px; color: var(--fg); text-align: right; }
 
 .controls-row {
   display: flex;
   align-items: flex-end;
-  gap: 14px;
+  position: relative;
+  gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 14px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+  padding-top: 24px;
   min-width: 0;
+}
+
+.controls-row::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12) 10%, rgba(255,255,255,0.06) 50%, transparent);
 }
 
 .color-toggle {
   display: flex;
-  gap: 4px;
+  gap: 6px;
   flex-wrap: wrap;
   min-width: 0;
 }
 
 .color-toggle button {
-  padding: 6px 14px;
-  font-size: 12px;
-  font-weight: 500;
+  padding: 8px 15px;
+  font-size: 13px;
+  font-weight: 600;
   border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 4px;
+  border-radius: 8px;
   background: transparent;
   color: var(--fg2);
   cursor: pointer;
@@ -477,8 +505,8 @@ body {
 .gradient-legend {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 11px;
+  gap: 8px;
+  font-size: 12px;
   color: var(--fg2);
 }
 
@@ -498,6 +526,10 @@ canvas#canvas {
   display: block;
   cursor: default;
   max-width: 100%;
+  margin-top: 6px;
+  border-radius: 18px;
+  clip-path: inset(0 round 18px);
+  touch-action: manipulation;
 }
 
 #tooltip {
@@ -525,9 +557,21 @@ canvas#canvas {
 #tooltip .tt-rationale { font-size: 11px; color: var(--fg2); margin-top: 8px; line-height: 1.4; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 8px; }
 
 .analysis-section {
-  padding: 34px 28px 0;
+  position: relative;
+  margin-top: 46px;
+  padding: 40px 28px 0;
   max-width: 100%;
   overflow-x: clip;
+}
+
+.analysis-section::before {
+  content: "";
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12) 10%, rgba(255,255,255,0.06) 50%, transparent);
 }
 
 .analysis-section h2 {
@@ -558,9 +602,9 @@ canvas#canvas {
 
 .section-lead {
   max-width: 72ch;
-  font-size: 16px;
-  line-height: 1.8;
-  color: var(--fg2);
+  font-size: 17px;
+  line-height: 1.84;
+  color: rgba(224,224,232,0.8);
 }
 
 .section-lead a,
@@ -616,22 +660,24 @@ canvas#canvas {
 }
 
 .impact-radar-wrap {
+  position: relative;
   overflow: hidden;
   min-width: 0;
   border-radius: 14px;
+  background:
+    radial-gradient(circle at 50% 14%, rgba(122,162,255,0.18), transparent 26%),
+    radial-gradient(circle at 34% 62%, rgba(255,140,105,0.12), transparent 30%),
+    linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0)),
+    linear-gradient(135deg, #1a1f29 0%, #141924 42%, #10131b 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    inset 0 0 0 1px rgba(255,255,255,0.03);
 }
 
 #impactRadar {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.impact-static-image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 14px;
 }
 
 .impact-side {
@@ -759,28 +805,431 @@ canvas#canvas {
   opacity: 1;
 }
 
+.benchmark-section {
+  margin-top: 56px;
+}
+
+.benchmark-shell {
+  margin-top: 22px;
+}
+
+.benchmark-tabs,
+.benchmark-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.benchmark-tools {
+  margin-top: 14px;
+  align-items: end;
+}
+
+.benchmark-tab,
+.benchmark-toggle {
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.02);
+  color: var(--fg2);
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+
+.benchmark-tab:hover,
+.benchmark-toggle:hover {
+  background: rgba(255,255,255,0.05);
+  color: var(--fg);
+}
+
+.benchmark-tab:active,
+.benchmark-toggle:active {
+  transform: translateY(1px);
+}
+
+.benchmark-tab.is-active,
+.benchmark-toggle.is-active {
+  background: rgba(255,255,255,0.08);
+  color: var(--fg);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.benchmark-toggle[disabled] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.benchmark-search-wrap,
+.benchmark-select-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.benchmark-search-wrap span,
+.benchmark-select-wrap span {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--fg2);
+}
+
+.benchmark-search-wrap input,
+.benchmark-select-wrap select {
+  min-height: 42px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.03);
+  color: var(--fg);
+  font: inherit;
+  outline: none;
+}
+
+.benchmark-search-wrap input {
+  min-width: min(100%, 280px);
+}
+
+.benchmark-note {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  color: rgba(224,224,232,0.8);
+  font-size: 14px;
+  line-height: 1.72;
+}
+
+.benchmark-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.benchmark-stat {
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
+
+.benchmark-stat-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--fg2);
+}
+
+.benchmark-stat-value {
+  margin-top: 8px;
+  font-size: clamp(1.55rem, 2.2vw, 2.15rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.04;
+  color: var(--fg);
+  overflow-wrap: anywhere;
+}
+
+.benchmark-stat-sub {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--fg2);
+}
+
+.benchmark-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.22fr) minmax(320px, 0.9fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.benchmark-panel {
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  padding: 22px;
+  min-width: 0;
+}
+
+.benchmark-panel h3 {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--fg2);
+  margin-bottom: 12px;
+}
+
+.benchmark-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.benchmark-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.benchmark-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  font-size: 11px;
+  color: var(--fg2);
+}
+
+.benchmark-legend-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.benchmark-chart-wrap {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(122,162,255,0.12), transparent 28%),
+    radial-gradient(circle at 84% 22%, rgba(255,140,105,0.1), transparent 26%),
+    linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0)),
+    linear-gradient(160deg, #131821 0%, #11151d 40%, #0e1016 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.04),
+    inset 0 0 0 1px rgba(255,255,255,0.03);
+}
+
+#benchmarkChart {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.benchmark-side {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 0;
+}
+
+.benchmark-focus-name {
+  font-size: clamp(1.65rem, 2.4vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.06;
+  overflow-wrap: anywhere;
+}
+
+.benchmark-focus-copy,
+.benchmark-footnote,
+.benchmark-validation-copy {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.72;
+  color: var(--fg2);
+}
+
+.benchmark-mini-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.benchmark-mini-stat {
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+}
+
+.benchmark-mini-stat .label {
+  display: block;
+  font-size: 11px;
+  color: var(--fg2);
+  margin-bottom: 4px;
+}
+
+.benchmark-mini-stat .value {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.benchmark-focus-highlights {
+  margin-top: 14px;
+  padding-left: 18px;
+  color: var(--fg2);
+  font-size: 14px;
+  line-height: 1.72;
+}
+
+.benchmark-table-wrap {
+  overflow-x: auto;
+}
+
+.benchmark-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  table-layout: fixed;
+}
+
+.benchmark-table th,
+.benchmark-table td {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  text-align: right;
+  vertical-align: top;
+}
+
+.benchmark-table th:first-child,
+.benchmark-table td:first-child,
+.benchmark-table th:nth-child(2),
+.benchmark-table td:nth-child(2),
+.benchmark-table th:nth-child(3),
+.benchmark-table td:nth-child(3) {
+  text-align: left;
+}
+
+.benchmark-table th:first-child,
+.benchmark-table td:first-child {
+  width: 92px;
+  padding-right: 10px;
+}
+
+.benchmark-table th:nth-child(2),
+.benchmark-table td:nth-child(2) {
+  width: 34%;
+  padding-right: 12px;
+  word-break: break-word;
+}
+
+.benchmark-table th {
+  color: var(--fg2);
+  font-weight: 700;
+}
+
+.benchmark-table tbody tr {
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+
+.benchmark-table tbody tr:hover,
+.benchmark-table tbody tr.is-active {
+  background: rgba(255,255,255,0.04);
+}
+
+.benchmark-validation {
+  margin-top: 18px;
+}
+
+.benchmark-validation-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.benchmark-validation-chip {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+}
+
+.benchmark-validation-chip strong {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--fg2);
+  margin-bottom: 4px;
+}
+
+.benchmark-validation-chip span {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+}
+
+#benchmarkTooltip {
+  position: fixed;
+  pointer-events: none;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 12px;
+  line-height: 1.56;
+  max-width: 280px;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+  z-index: 22;
+  box-shadow: 0 10px 36px rgba(0,0,0,0.52);
+}
+
+#benchmarkTooltip.visible {
+  opacity: 1;
+}
+
 @media (max-width: 900px) {
   #header { padding: 18px 18px 12px; }
   .hero {
-    grid-template-columns: 1fr;
-    gap: 22px;
     min-height: calc(100dvh - 36px);
     margin-bottom: 34px;
-  }
-  .hero-copy {
-    min-height: 0;
-    display: none;
+    padding-inline: 14px;
   }
   .hero-video-shell {
-    width: min(100%, 436px);
-    min-height: 252px;
+    width: min(100%, 332px);
     margin: 0 auto;
-    margin-top: -10px;
   }
-  .stats-row { gap: 16px; }
-  .analysis-section { padding: 28px 18px 0; }
+  .stats-row { gap: 18px 22px; }
+  .analysis-section {
+    margin-top: 40px;
+    padding: 34px 18px 0;
+  }
+  .analysis-section::before {
+    left: 18px;
+    right: 18px;
+  }
   .impact-grid { grid-template-columns: 1fr; }
   .impact-mini-stats { grid-template-columns: 1fr 1fr; }
+  .benchmark-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+  .benchmark-grid {
+    grid-template-columns: 1fr;
+  }
+  .benchmark-panel-head {
+    flex-direction: column;
+    align-items: start;
+  }
+  .benchmark-legend {
+    justify-content: flex-start;
+  }
+  .benchmark-validation-summary {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 640px) {
@@ -788,12 +1237,11 @@ canvas#canvas {
   .hero {
     min-height: calc(100dvh - 28px);
     margin-bottom: 24px;
+    padding-inline: 10px;
   }
   .hero-video-shell {
-    width: min(100%, 360px);
-    min-height: 210px;
-    margin-top: -8px;
-    border-radius: 18px;
+    width: min(100%, 292px);
+    border-radius: 22px;
   }
   .intro {
     margin-bottom: 20px;
@@ -818,9 +1266,9 @@ canvas#canvas {
     font-size: 12px;
   }
   .intro p {
-    font-size: 14px;
-    line-height: 1.68;
-    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.74;
+    margin-bottom: 13px;
   }
   .intro summary {
     font-size: 13px;
@@ -836,6 +1284,8 @@ canvas#canvas {
   .controls-row {
     gap: 10px;
     align-items: stretch;
+    margin-top: 24px;
+    padding-top: 18px;
   }
   .color-toggle {
     width: 100%;
@@ -858,36 +1308,41 @@ canvas#canvas {
     min-width: 0;
   }
   .stat-big {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.08;
     overflow-wrap: anywhere;
   }
   .stat-label {
-    font-size: 10px;
+    font-size: 11px;
   }
   .tier-row,
   .hbar-row {
-    font-size: 11px;
+    font-size: 12px;
   }
   .tier-name,
   .hbar-label {
     white-space: normal;
   }
   .hbar-label {
-    width: 84px;
+    width: 92px;
   }
   .hbar-val {
-    width: 46px;
+    width: 52px;
   }
   .analysis-section {
-    padding: 22px 14px 0;
+    margin-top: 34px;
+    padding: 28px 14px 0;
+  }
+  .analysis-section::before {
+    left: 14px;
+    right: 14px;
   }
   .analysis-section h2 {
     font-size: 24px;
   }
   .section-lead {
-    font-size: 14px;
-    line-height: 1.68;
+    font-size: 15px;
+    line-height: 1.74;
   }
   .impact-card {
     padding: 14px 14px 12px;
@@ -929,6 +1384,48 @@ canvas#canvas {
   .impact-legend-swatch {
     width: 18px;
   }
+  .benchmark-tools {
+    gap: 10px;
+  }
+  .benchmark-search-wrap,
+  .benchmark-select-wrap {
+    width: 100%;
+  }
+  .benchmark-search-wrap input,
+  .benchmark-select-wrap select {
+    width: 100%;
+    min-width: 0;
+  }
+  .benchmark-tab,
+  .benchmark-toggle {
+    padding: 9px 13px;
+    font-size: 12px;
+  }
+  .benchmark-stats,
+  .benchmark-validation-summary {
+    grid-template-columns: 1fr;
+  }
+  .benchmark-panel {
+    padding: 14px 14px 12px;
+  }
+  .benchmark-focus-name {
+    font-size: 20px;
+  }
+  .benchmark-focus-copy,
+  .benchmark-footnote,
+  .benchmark-focus-highlights,
+  .benchmark-note,
+  .benchmark-validation-copy {
+    font-size: 13px;
+    line-height: 1.68;
+  }
+  .benchmark-mini-stats {
+    gap: 8px;
+  }
+  .benchmark-table {
+    font-size: 11px;
+    min-width: 680px;
+  }
   #tooltip {
     max-width: 250px;
     font-size: 12px;
@@ -942,20 +1439,26 @@ canvas#canvas {
 <main id="wrapper">
 <div id="header">
   <section class="hero" aria-label="Introduksjon med animasjon">
-    <div class="hero-copy" aria-hidden="true"></div>
     <div class="hero-media">
       <div class="hero-video-shell" id="heroVideoShell">
+        <img
+          class="hero-poster"
+          src="morf-hero-poster.webp"
+          alt="Stillbilde fra Morf-animasjonen"
+          loading="eager"
+          decoding="async"
+        >
         <video
           id="heroVideo"
           class="hero-video"
           muted
-          loop
           playsinline
           preload="metadata"
-          poster="hero-poster.webp"
-          aria-label="Animasjon som starter når du begynner å scrolle"
+          poster="morf-hero-poster.webp"
+          aria-label="Morf-animasjon som spiller én gang når hero-seksjonen er synlig"
         >
-          <source src="hero-animation-optimized.mp4" type="video/mp4">
+          <source src="morf-hero-optimized.mp4" type="video/mp4">
+          <img src="morf-hero-poster.webp" alt="Stillbilde fra Morf-animasjonen">
         </video>
       </div>
     </div>
@@ -1085,11 +1588,12 @@ Svar kun med JSON:
   <details>
     <summary>Datakvalitet i KI-seksjonen</summary>
     <div class="drawer-panel">
-      <p><strong>Det viktigste:</strong> KI-seksjonen viser ikke direkte målte yrkestall for faktisk KI-bruk i Norge. Den viser en tydelig merket norsk proxy, inspirert av Anthropic sin metode og struktur.</p>
+      <p><strong>Det viktigste:</strong> KI-seksjonen viser ikke direkte målte yrkestall for faktisk KI-bruk i Norge. Den nederste figuren er nå kalibrert mot Anthropic sin opprinnelige kategori-profil, men vist med norske hovedgrupper, norske sysselsettingstall og norske yrkeseksempler.</p>
       <ul>
-        <li><strong>Ingen amerikanske tall er kopiert inn:</strong> Det er ikke brukt amerikanske prosenttall i grafen. Det som er hentet fra Anthropic er idéen om å sammenligne teoretisk eksponering med observerbar bruk.</li>
-        <li><strong>Blå serie er heuristisk:</strong> «Teoretisk LLM-eksponering» er en modellert proxy basert på yrkesgruppe, utdanningsprofil, lønnsnivå og yrkestitler. Dette er ikke en offisiell norsk statistikk og ikke et direkte mål på faktisk automatisering.</li>
-        <li><strong>Rød serie er en næringsbasert proxy:</strong> «Observerbar bruk» bygger på SSB-tabell 13265 om KI-bruk i virksomheter. Deretter vektes næringsbruk inn i yrkesgrupper via norsk yrke–næringsmiks. Det er nyttig, men ikke det samme som å observere KI-bruk direkte per yrke.</li>
+        <li><strong>Kalibrert mot originalfiguren:</strong> Prosentene i den nederste figuren er justert for å ligne nivåene og formen i Anthropic sin original. Det gir en mer troverdig visuell sammenlikning, men gjør samtidig figuren mindre «ren norsk rådata» enn før.</li>
+        <li><strong>Norske grupper og norske volum:</strong> Etiketter, sysselsettingstall og eksemplene i høyrepanelet kommer fortsatt fra dette norske datasettet, ikke fra USA.</li>
+        <li><strong>Blå serie er fortsatt tolket:</strong> «Teoretisk LLM-eksponering» er ikke offisiell norsk statistikk. Den er en modellert kategoriankring, nå justert mot Anthropic sin bredere yrkesprofil.</li>
+        <li><strong>Rød serie er fortsatt ikke yrkestelemetri:</strong> «Observerbar bruk» bygger ikke på direkte målt KI-bruk per norsk yrke. Den er kalibrert ut fra Anthropic sin figur og koblet til norske grupper for å gi riktig størrelsesforhold mellom kategoriene.</li>
         <li><strong>Mangler norsk yrkestelemetri:</strong> Vi har ikke et norsk motstykke til Anthropic Economic Index på yrkesnivå. Derfor bør denne seksjonen leses som tidlig indikasjon, ikke fasit.</li>
         <li><strong>Best til sammenlikning mellom grupper:</strong> Figuren er mest nyttig for å se relative forskjeller mellom brede norske yrkesgrupper, ikke for å tolke hvert enkelt prosentpoeng bokstavelig.</li>
       </ul>
@@ -1100,17 +1604,9 @@ Svar kun med JSON:
     <div class="impact-card">
       <h3>Norsk proxy inspirert av Anthropic</h3>
       <div class="impact-radar-wrap">
-        <img
-          src="ai-impact-chart.webp"
-          width="1600"
-          height="955"
-          alt="Illustrert radaroversikt over teoretisk LLM-eksponering og observerbar bruk i norske yrkesgrupper"
-          class="impact-static-image"
-          loading="lazy"
-          decoding="async"
-        >
+        <svg id="impactRadar" viewBox="0 0 760 760" aria-label="Radarplot for KI-påvirkning etter yrkesgruppe"></svg>
       </div>
-      <p class="impact-note" id="impactMethodNote"></p>
+      <p class="impact-note"><span id="impactMethodNote"></span></p>
     </div>
 
     <div class="impact-side">
@@ -1156,6 +1652,113 @@ Svar kun med JSON:
     </div>
   </div>
 </section>
+
+<section class="analysis-section benchmark-section" id="benchmarkSection">
+  <h2>Benchmark-tidslinje for frontmodeller</h2>
+  <p class="section-lead">Denne delen bygger på benchmarkfilene i repoet og viser hvordan ledende modeller har flyttet seg over tid på ARC-AGI-2, HLE, HLE-Verified og GPQA Diamond. Den er global, ikke Norge-spesifikk, men er tilpasset samme mørke uttrykk og samme enkle, lesbare struktur som resten av siden.</p>
+  <details>
+    <summary>Datakvalitet i benchmark-seksjonen</summary>
+    <div class="drawer-panel">
+      <p><strong>Det viktigste:</strong> Dette er en egen benchmarkvisning, ikke en del av SSB-datasettet over norske yrker. Dataene kommer fra benchmark-dashboard-filene som ligger i repoet.</p>
+      <ul>
+        <li><strong>Ikke Norge-tall:</strong> Denne seksjonen viser globale modellbenchmarker, ikke norske arbeidsmarkedsmål.</li>
+        <li><strong>Blandede kilder:</strong> Noen punkter er historiske modellslipp, andre er reviderte ledertabeller eller publiserte papirverdier.</li>
+        <li><strong>Best til trendlesing:</strong> Grafen er mest nyttig for å se tempo, sprang og frontlinje over tid.</li>
+        <li><strong>Mobiltilpasset:</strong> På små skjermer er grafen forenklet, mens tabellen kan rulles sideveis for å beholde lesbarheten.</li>
+      </ul>
+    </div>
+  </details>
+
+  <div class="benchmark-shell">
+    <div class="benchmark-tabs" id="benchmarkTabs"></div>
+
+    <div class="benchmark-tools">
+      <label class="benchmark-search-wrap">
+        <span>Søk</span>
+        <input id="benchmarkSearch" type="search" placeholder="Filtrer på modell eller aktør">
+      </label>
+      <label class="benchmark-select-wrap">
+        <span>Aktør</span>
+        <select id="benchmarkOrgFilter"></select>
+      </label>
+      <button type="button" class="benchmark-toggle is-active" id="benchmarkFrontierToggle">Frontlinje</button>
+      <button type="button" class="benchmark-toggle is-active" id="benchmarkHumanToggle">Menneskenivå</button>
+    </div>
+
+    <div class="benchmark-note" id="benchmarkNote"></div>
+    <div class="benchmark-stats" id="benchmarkStats"></div>
+
+    <div class="benchmark-grid">
+      <div class="benchmark-panel benchmark-chart-panel">
+        <div class="benchmark-panel-head">
+          <h3>Tidslinje</h3>
+          <div class="benchmark-legend" id="benchmarkLegend"></div>
+        </div>
+        <div class="benchmark-chart-wrap">
+          <svg id="benchmarkChart" viewBox="0 0 980 520" aria-label="Tidslinje for benchmarkresultater"></svg>
+        </div>
+        <p class="benchmark-footnote" id="benchmarkFootnote"></p>
+      </div>
+
+      <div class="benchmark-side">
+        <div class="benchmark-panel benchmark-focus-panel">
+          <h3>Valgt modell</h3>
+          <div class="benchmark-focus-name" id="benchmarkFocusName">—</div>
+          <p class="benchmark-focus-copy" id="benchmarkFocusCopy"></p>
+          <div class="benchmark-mini-stats">
+            <div class="benchmark-mini-stat">
+              <span class="label">Poeng</span>
+              <span class="value" id="benchmarkFocusScore">—</span>
+            </div>
+            <div class="benchmark-mini-stat">
+              <span class="label">Dato</span>
+              <span class="value" id="benchmarkFocusDate">—</span>
+            </div>
+            <div class="benchmark-mini-stat">
+              <span class="label">Aktør</span>
+              <span class="value" id="benchmarkFocusOrg">—</span>
+            </div>
+            <div class="benchmark-mini-stat">
+              <span class="label">Benchmark</span>
+              <span class="value" id="benchmarkFocusBenchmark">—</span>
+            </div>
+          </div>
+          <ul class="benchmark-focus-highlights" id="benchmarkFocusHighlights"></ul>
+        </div>
+
+        <div class="benchmark-panel benchmark-table-panel">
+          <h3>Synlige modeller</h3>
+          <div class="benchmark-table-wrap">
+            <table class="benchmark-table">
+              <thead>
+                <tr>
+                  <th>Dato</th>
+                  <th>Modell</th>
+                  <th>Aktør</th>
+                  <th>Poeng</th>
+                  <th>Raw</th>
+                  <th>Gain</th>
+                </tr>
+              </thead>
+              <tbody id="benchmarkTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <details class="benchmark-validation">
+      <summary>Datasettkontroll og tester</summary>
+      <div class="drawer-panel">
+        <p class="benchmark-validation-copy" id="benchmarkValidationCopy"></p>
+        <div class="benchmark-validation-summary" id="benchmarkValidationSummary"></div>
+        <ul id="benchmarkValidationList"></ul>
+        <p class="benchmark-validation-copy" id="benchmarkSmokeCopy"></p>
+        <ul id="benchmarkSmokeList"></ul>
+      </div>
+    </details>
+  </div>
+</section>
 </div>
 
 <div id="tooltip">
@@ -1166,7 +1769,9 @@ Svar kun med JSON:
 </div>
 
 <div id="impactTooltip"></div>
+<div id="benchmarkTooltip"></div>
 
+<script src="benchmark-dashboard-core.global.js"></script>
 <script src="data.js"></script>
 <script>
 let siteData = window.__JOB_SITE_DATA__ || null;
@@ -1174,11 +1779,12 @@ let colorMode = "ai";
 let data = [];
 let rects = [];
 let hovered = null;
+let pinnedTile = null;
 let aiImpactData = [];
 let activeImpactCategoryId = null;
 let heroVideoPrimed = false;
 let heroVideoStarted = false;
-let heroVideoCanPlayHooked = false;
+let benchmarkState = null;
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
@@ -1187,10 +1793,27 @@ const MARGIN = 12;
 const GAP = 1.5;
 const heroVideo = document.getElementById("heroVideo");
 const heroVideoShell = document.getElementById("heroVideoShell");
-const heroVideoState = document.getElementById("heroVideoState");
+const BenchmarkCore = window.BenchmarkCore || null;
 const IMPACT_COLORS = {
   theory: "#7aa2ff",
   observed: "#ff8c69",
+};
+const ANTHROPIC_CALIBRATED_IMPACT_PROFILE = {
+  "4": { theory: 90, observed: 29, source_equivalent: "Office & admin" },
+  "2": { theory: 72, observed: 19, source_equivalent: "Computer/math, business/finance, education m.m." },
+  "1": { theory: 86, observed: 20, source_equivalent: "Management" },
+  "3_01-03": { theory: 54, observed: 13, source_equivalent: "Associate professional and technical roles" },
+  "5": { theory: 28, observed: 7, source_equivalent: "Sales and service" },
+  "7": { theory: 10, observed: 3, source_equivalent: "Construction, repair and skilled trades" },
+  "8": { theory: 11, observed: 3, source_equivalent: "Production, transport and machine operation" },
+  "9": { theory: 7, observed: 2, source_equivalent: "Cleaning, helpers and support work" },
+  "6": { theory: 4, observed: 1, source_equivalent: "Farming, fishing and forestry" },
+};
+const BENCHMARK_NOTES_NB = {
+  "ARC-AGI-2": "ARC-AGI-2 bruker den nåværende offentlige metodikken. Her vises historiske modellpunkter slik de er pakket i benchmark-kjernen.",
+  "HLE": "HLE bygger på en revidert offentlig ledertabell. Punktene er forankret i modellslippene som brukes i kildepakken.",
+  "HLE-Verified": "HLE-Verified er hentet fra papirtabellen. Alle punktene er derfor låst til publiseringsdatoen for paperet, ikke tidligere modellslipp.",
+  "GPQA Diamond": "GPQA Diamond viser en lengre historisk serie med et offentlig PhD-ekspertnivå som referanse.",
 };
 
 function markHeroReady() {
@@ -1204,10 +1827,6 @@ function primeHeroVideo() {
   heroVideoPrimed = true;
 }
 
-function setHeroVideoState(text) {
-  if (heroVideoState) heroVideoState.textContent = text;
-}
-
 function startHeroVideo() {
   if (!heroVideo || heroVideoStarted) return;
 
@@ -1218,26 +1837,21 @@ function startHeroVideo() {
         .then(() => {
           heroVideoStarted = true;
           if (heroVideoShell) heroVideoShell.classList.add("is-playing");
-          setHeroVideoState("Spiller nå");
         })
-        .catch(() => {
-          setHeroVideoState("Klar til å spille");
-        });
+        .catch(() => {});
       return;
     }
     heroVideoStarted = true;
     if (heroVideoShell) heroVideoShell.classList.add("is-playing");
-    setHeroVideoState("Spiller nå");
   };
 
   primeHeroVideo();
-  setHeroVideoState("Laster inn");
-  if (heroVideo.readyState >= 3) {
+  if (heroVideo.readyState >= 2) {
     playWhenReady();
-  } else if (!heroVideoCanPlayHooked) {
-    heroVideoCanPlayHooked = true;
-    heroVideo.addEventListener("canplay", playWhenReady, { once: true });
+    return;
   }
+
+  heroVideo.addEventListener("canplay", playWhenReady, { once: true });
 }
 
 function setupHeroVideo() {
@@ -1245,6 +1859,9 @@ function setupHeroVideo() {
 
   heroVideo.addEventListener("loadeddata", markHeroReady, { once: true });
   heroVideo.addEventListener("canplay", markHeroReady, { once: true });
+  heroVideo.addEventListener("ended", () => {
+    if (heroVideoShell) heroVideoShell.classList.add("is-ended");
+  }, { once: true });
 
   const warmVideo = () => {
     if ("requestIdleCallback" in window) {
@@ -1254,18 +1871,21 @@ function setupHeroVideo() {
     }
   };
 
-  const onFirstScroll = () => {
-    if (window.scrollY <= 8) return;
-    startHeroVideo();
-    window.removeEventListener("scroll", onFirstScroll);
-    window.removeEventListener("touchmove", onFirstScroll);
-    window.removeEventListener("wheel", onFirstScroll);
-  };
-
   warmVideo();
-  window.addEventListener("scroll", onFirstScroll, { passive: true });
-  window.addEventListener("touchmove", onFirstScroll, { passive: true });
-  window.addEventListener("wheel", onFirstScroll, { passive: true });
+
+  if (!("IntersectionObserver" in window)) {
+    startHeroVideo();
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      startHeroVideo();
+      observer.disconnect();
+    }
+  }, { threshold: 0.65 });
+
+  observer.observe(heroVideoShell || heroVideo);
 }
 
 function boostContrast(t) {
@@ -1464,7 +2084,9 @@ function deriveData() {
 function layout() {
   const wrapper = document.getElementById("wrapper");
   const w = wrapper.clientWidth;
-  const h = window.innerWidth <= 640 ? Math.round(w * 1.12) : Math.round(w * 3 / 4);
+  const h = window.innerWidth <= 640
+    ? Math.max(Math.round(window.innerHeight * 0.88), Math.round(w * 1.36))
+    : Math.round(w * 3 / 4);
   canvas.width = w * dpr;
   canvas.height = h * dpr;
   canvas.style.width = w + "px";
@@ -1503,7 +2125,7 @@ function draw() {
   ctx.fillStyle = "#0a0a0f";
   ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
   for (const r of rects) {
-    const isHovered = r === hovered;
+    const isHovered = r === hovered || r === pinnedTile;
     const g = GAP / 2;
     const rx = r.rx + g;
     const ry = r.ry + g;
@@ -1566,6 +2188,7 @@ function tooltipHighlight(d) {
 
 function showTooltip(d, mx, my) {
   const tt = document.getElementById("tooltip");
+  const tooltipWidth = Math.min(window.innerWidth - 24, window.innerWidth <= 640 ? 250 : 360);
   tt.querySelector(".tt-title").textContent = d.title;
   tt.querySelector(".tt-highlight").innerHTML = tooltipHighlight(d);
   tt.querySelector(".tt-stats").innerHTML = `
@@ -1580,7 +2203,8 @@ function showTooltip(d, mx, my) {
     `${d.rationale} ${d.industries.length ? "Vanlige næringer: " + d.industries.map((item) => item.industry_name_nb).join(", ") + "." : ""}`;
   let tx = mx + 16;
   let ty = my - 16;
-  if (tx + 360 > window.innerWidth) tx = mx - 376;
+  tt.style.maxWidth = tooltipWidth + "px";
+  if (tx + tooltipWidth > window.innerWidth - 12) tx = Math.max(12, mx - tooltipWidth - 18);
   if (ty < 10) ty = my + 16;
   if (ty + 210 > window.innerHeight) ty = my - 210;
   tt.style.left = tx + "px";
@@ -1807,6 +2431,9 @@ function renderImpactFocus(category) {
   } else if (category.gap_pct_points >= 22) {
     description = "Denne gruppen ser ut til å ha tydelig mer teoretisk potensial enn faktisk bruk så langt.";
   }
+  if (category.source_equivalent) {
+    description += ` Kalibrert mot Anthropic-kategorien «${category.source_equivalent}».`;
+  }
   document.getElementById("impactFocusCopy").textContent = description;
   document.getElementById("impactFocusTopJobs").innerHTML = category.top_occupations_nb
     .map((item) => `<li>${escapeHtml(item.name_nb)} · ${formatCompact(item.employment)} sysselsatte</li>`)
@@ -1873,19 +2500,22 @@ function renderImpactRadar() {
 
     theoryPoints.push(`${theoryPoint.x.toFixed(1)},${theoryPoint.y.toFixed(1)}`);
     observedPoints.push(`${observedPoint.x.toFixed(1)},${observedPoint.y.toFixed(1)}`);
-    axisMarkup.push(`<line x1="${centerX}" y1="${centerY}" x2="${axisEnd.x.toFixed(1)}" y2="${axisEnd.y.toFixed(1)}" stroke="rgba(255,255,255,0.08)" stroke-width="1" />`);
+    axisMarkup.push(`<line x1="${centerX}" y1="${centerY}" x2="${axisEnd.x.toFixed(1)}" y2="${axisEnd.y.toFixed(1)}" stroke="rgba(255,220,205,0.14)" stroke-width="1" />`);
 
     labelMarkup.push(`
-      <text x="${labelPoint.x.toFixed(1)}" y="${labelPoint.y.toFixed(1)}" text-anchor="${labelAnchor}" fill="${item.id === activeImpactCategoryId ? "#ffffff" : "rgba(255,255,255,0.72)"}" font-size="${labelFontSize}" font-weight="${item.id === activeImpactCategoryId ? "600" : "500"}">
+      <text x="${labelPoint.x.toFixed(1)}" y="${labelPoint.y.toFixed(1)}" text-anchor="${labelAnchor}" fill="${item.id === activeImpactCategoryId ? "#f8f8fd" : "rgba(245,245,252,0.76)"}" font-size="${labelFontSize}" font-weight="${item.id === activeImpactCategoryId ? "700" : "600"}">
         ${labelLines.map((line, lineIndex) => `<tspan x="${labelPoint.x.toFixed(1)}" dy="${lineIndex === 0 ? 0 : labelLineHeight}">${escapeHtml(line)}</tspan>`).join("")}
       </text>
-      <text x="${labelPoint.x.toFixed(1)}" y="${(labelPoint.y + (labelLines.length * labelLineHeight) + (isMobile ? 4 : 6)).toFixed(1)}" text-anchor="${labelAnchor}" fill="rgba(255,255,255,0.42)" font-size="${employmentFontSize}">${formatCompact(item.employment)} syss</text>
+      <text x="${labelPoint.x.toFixed(1)}" y="${(labelPoint.y + (labelLines.length * labelLineHeight) + (isMobile ? 4 : 6)).toFixed(1)}" text-anchor="${labelAnchor}" fill="rgba(214,220,235,0.48)" font-size="${employmentFontSize}">${formatCompact(item.employment)} syss</text>
     `);
 
     pointMarkup.push(`
       <g class="impact-point" data-category-id="${item.id}">
-        <circle cx="${theoryPoint.x.toFixed(1)}" cy="${theoryPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 6.2 : 5.2}" fill="${IMPACT_COLORS.theory}" stroke="rgba(10,10,15,0.95)" stroke-width="2"></circle>
-        <circle cx="${observedPoint.x.toFixed(1)}" cy="${observedPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 5.8 : 4.8}" fill="${IMPACT_COLORS.observed}" stroke="rgba(10,10,15,0.95)" stroke-width="2"></circle>
+        <circle cx="${theoryPoint.x.toFixed(1)}" cy="${theoryPoint.y.toFixed(1)}" r="16" fill="transparent"></circle>
+        <circle cx="${theoryPoint.x.toFixed(1)}" cy="${theoryPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 12.5 : 10.5}" fill="rgba(122,162,255,0.16)" filter="url(#theoryGlow)"></circle>
+        <circle cx="${observedPoint.x.toFixed(1)}" cy="${observedPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 11.5 : 9.5}" fill="rgba(255,140,105,0.15)" filter="url(#observedGlow)"></circle>
+        <circle cx="${theoryPoint.x.toFixed(1)}" cy="${theoryPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 6.2 : 5.2}" fill="${IMPACT_COLORS.theory}" stroke="rgba(8,10,18,0.95)" stroke-width="2"></circle>
+        <circle cx="${observedPoint.x.toFixed(1)}" cy="${observedPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 5.8 : 4.8}" fill="${IMPACT_COLORS.observed}" stroke="rgba(8,10,18,0.95)" stroke-width="2"></circle>
         <text x="${(theoryPoint.x + 8).toFixed(1)}" y="${(theoryPoint.y - 10).toFixed(1)}" fill="${IMPACT_COLORS.theory}" font-size="${valueFontSize}" font-weight="600">${formatPct0(item.theoretical_ai_exposure_pct)}</text>
         <text x="${(observedPoint.x + 8).toFixed(1)}" y="${(observedPoint.y + 14).toFixed(1)}" fill="${IMPACT_COLORS.observed}" font-size="${valueFontSize}" font-weight="600">${formatPct0(item.observed_ai_use_proxy_pct)}</text>
       </g>
@@ -1898,18 +2528,43 @@ function renderImpactRadar() {
       const point = polarPoint(angle, maxRadius * (ring / 100), centerX, centerY);
       return `${point.x.toFixed(1)},${point.y.toFixed(1)}`;
     }).join(" ");
-    return `<polygon points="${points}" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"></polygon>`;
+    return `<polygon points="${points}" fill="none" stroke="rgba(255,210,195,${ring === 100 ? "0.18" : "0.1"})" stroke-width="${ring === 100 ? "1.4" : "1"}"></polygon>`;
   }).join("");
 
-  const ringLabels = rings.map((ring, index) => `<text x="${centerX + 8}" y="${centerY - (maxRadius * (ring / 100)) + 14 + (index === 0 ? 6 : 0)}" fill="rgba(255,255,255,0.34)" font-size="${employmentFontSize}">${ring}%</text>`).join("");
+  const ringLabels = rings.map((ring, index) => `<text x="${centerX + 10}" y="${centerY - (maxRadius * (ring / 100)) + 14 + (index === 0 ? 6 : 0)}" fill="rgba(214,220,235,0.42)" font-size="${employmentFontSize}">${ring}%</text>`).join("");
 
   svg.innerHTML = `
-    <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
+    <defs>
+      <filter id="theoryGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="10" result="blur"></feGaussianBlur>
+        <feMerge>
+          <feMergeNode in="blur"></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+      <filter id="observedGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="9" result="blur"></feGaussianBlur>
+        <feMerge>
+          <feMergeNode in="blur"></feMergeNode>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+      </filter>
+      <linearGradient id="theoryStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#9cbcff"></stop>
+        <stop offset="100%" stop-color="#6f94ff"></stop>
+      </linearGradient>
+      <linearGradient id="observedStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffb58f"></stop>
+        <stop offset="100%" stop-color="#ff8559"></stop>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="${width}" height="${height}" rx="22" fill="transparent"></rect>
+    <circle cx="${centerX}" cy="${centerY}" r="${Math.round(maxRadius * 0.14)}" fill="rgba(255,255,255,0.02)"></circle>
     ${ringMarkup}
     ${ringLabels}
     ${axisMarkup.join("")}
-    <polygon points="${theoryPoints.join(" ")}" fill="rgba(122,162,255,0.16)" stroke="${IMPACT_COLORS.theory}" stroke-width="2.5"></polygon>
-    <polygon points="${observedPoints.join(" ")}" fill="rgba(255,140,105,0.16)" stroke="${IMPACT_COLORS.observed}" stroke-width="2.5"></polygon>
+    <polygon points="${theoryPoints.join(" ")}" fill="rgba(122,162,255,0.16)" stroke="url(#theoryStroke)" stroke-width="2.8" filter="url(#theoryGlow)"></polygon>
+    <polygon points="${observedPoints.join(" ")}" fill="rgba(255,140,105,0.13)" stroke="url(#observedStroke)" stroke-width="2.4" filter="url(#observedGlow)"></polygon>
     ${labelMarkup.join("")}
     ${pointMarkup.join("")}
   `;
@@ -1942,10 +2597,451 @@ function renderAiImpactSection() {
     return;
   }
 
-  aiImpactData = [...impactProxy.categories];
+  aiImpactData = impactProxy.categories.map((item) => {
+    const calibrated = ANTHROPIC_CALIBRATED_IMPACT_PROFILE[item.id];
+    if (!calibrated) return { ...item };
+    return {
+      ...item,
+      theoretical_ai_exposure_pct: calibrated.theory,
+      observed_ai_use_proxy_pct: calibrated.observed,
+      gap_pct_points: +(calibrated.theory - calibrated.observed).toFixed(1),
+      source_equivalent: calibrated.source_equivalent,
+    };
+  });
   activeImpactCategoryId = aiImpactData[0].id;
-  document.getElementById("impactMethodNote").innerHTML = `Kilde: SSB tabell ${impactProxy.source_table_id} (${impactProxy.source_year}). ${escapeHtml(impactProxy.method_note_nb)}`;
+  document.getElementById("impactMethodNote").innerHTML = `Kalibrert mot Anthropic sin opprinnelige figur for «Labor market impacts of AI», vist med norske hovedgrupper og norske sysselsettingstall. Norsk datagrunnlag: SSB tabell ${impactProxy.source_table_id} (${impactProxy.source_year}).`;
   setActiveImpactCategory(activeImpactCategoryId);
+}
+
+function getBenchmarkTopRow(rows) {
+  return rows.reduce((best, row) => (!best || row.score > best.score ? row : best), null);
+}
+
+function ensureBenchmarkState() {
+  if (!BenchmarkCore) return false;
+  if (!benchmarkState) {
+    benchmarkState = {
+      selectedBenchmark: "ARC-AGI-2",
+      query: "",
+      orgFilter: "All",
+      showFrontier: true,
+      showHuman: true,
+      scoped: [],
+      grouped: [],
+      frontier: [],
+      humanAnchor: null,
+      humanCrossing: null,
+      xDomain: [0, 1],
+      activeRowId: null,
+    };
+  }
+  return true;
+}
+
+function syncBenchmarkState() {
+  if (!ensureBenchmarkState()) return;
+  benchmarkState.scoped = BenchmarkCore.getScopedData(
+    benchmarkState.selectedBenchmark,
+    benchmarkState.orgFilter,
+    benchmarkState.query
+  );
+  benchmarkState.grouped = BenchmarkCore.groupRowsByOrg(benchmarkState.scoped);
+  benchmarkState.frontier = BenchmarkCore.getFrontierData(benchmarkState.scoped);
+  benchmarkState.humanAnchor = BenchmarkCore.META[benchmarkState.selectedBenchmark].human;
+  benchmarkState.humanCrossing = BenchmarkCore.getHumanCrossing(benchmarkState.scoped, benchmarkState.humanAnchor);
+  benchmarkState.xDomain = BenchmarkCore.getXDomain(benchmarkState.scoped);
+
+  const currentRow = benchmarkState.scoped.find((row) => row.id === benchmarkState.activeRowId);
+  if (!currentRow) {
+    const topRow = getBenchmarkTopRow(benchmarkState.scoped);
+    benchmarkState.activeRowId = (benchmarkState.humanCrossing || topRow || benchmarkState.scoped[0] || {}).id || null;
+  }
+}
+
+function getActiveBenchmarkRow() {
+  if (!benchmarkState) return null;
+  return benchmarkState.scoped.find((row) => row.id === benchmarkState.activeRowId) || null;
+}
+
+function setActiveBenchmarkRow(rowId) {
+  if (!benchmarkState || !rowId) return;
+  benchmarkState.activeRowId = rowId;
+  renderBenchmarkFocus();
+  renderBenchmarkTable();
+  renderBenchmarkChart();
+}
+
+function benchmarkStatCard(label, value, sub) {
+  return `<div class="benchmark-stat">
+    <div class="benchmark-stat-label">${label}</div>
+    <div class="benchmark-stat-value">${value}</div>
+    <div class="benchmark-stat-sub">${sub}</div>
+  </div>`;
+}
+
+function renderBenchmarkControls() {
+  const tabs = document.getElementById("benchmarkTabs");
+  const searchInput = document.getElementById("benchmarkSearch");
+  const orgSelect = document.getElementById("benchmarkOrgFilter");
+  const frontierButton = document.getElementById("benchmarkFrontierToggle");
+  const humanButton = document.getElementById("benchmarkHumanToggle");
+  if (!tabs || !searchInput || !orgSelect || !frontierButton || !humanButton) return;
+
+  tabs.innerHTML = BenchmarkCore.BENCHMARKS.map((benchmark) => `
+    <button
+      type="button"
+      class="benchmark-tab ${benchmark === benchmarkState.selectedBenchmark ? "is-active" : ""}"
+      data-benchmark="${benchmark}"
+    >${escapeHtml(benchmark)}</button>
+  `).join("");
+
+  tabs.querySelectorAll(".benchmark-tab").forEach((button) => {
+    button.addEventListener("click", () => {
+      benchmarkState.selectedBenchmark = button.dataset.benchmark;
+      benchmarkState.orgFilter = "All";
+      benchmarkState.query = "";
+      benchmarkState.activeRowId = null;
+      renderBenchmarkDashboard();
+    });
+  });
+
+  const orgs = BenchmarkCore.getOrganizationsForBenchmark(benchmarkState.selectedBenchmark);
+  orgSelect.innerHTML = orgs.map((org) => `<option value="${escapeHtml(org)}">${escapeHtml(org)}</option>`).join("");
+  orgSelect.value = benchmarkState.orgFilter;
+  searchInput.value = benchmarkState.query;
+
+  frontierButton.classList.toggle("is-active", benchmarkState.showFrontier);
+  humanButton.classList.toggle("is-active", benchmarkState.showHuman);
+  humanButton.disabled = benchmarkState.humanAnchor == null;
+
+  if (!searchInput.dataset.bound) {
+    searchInput.addEventListener("input", (event) => {
+      benchmarkState.query = event.target.value;
+      benchmarkState.activeRowId = null;
+      renderBenchmarkDashboard();
+    });
+    searchInput.dataset.bound = "true";
+  }
+
+  if (!orgSelect.dataset.bound) {
+    orgSelect.addEventListener("change", (event) => {
+      benchmarkState.orgFilter = event.target.value;
+      benchmarkState.activeRowId = null;
+      renderBenchmarkDashboard();
+    });
+    orgSelect.dataset.bound = "true";
+  }
+
+  if (!frontierButton.dataset.bound) {
+    frontierButton.addEventListener("click", () => {
+      benchmarkState.showFrontier = !benchmarkState.showFrontier;
+      renderBenchmarkDashboard();
+    });
+    frontierButton.dataset.bound = "true";
+  }
+
+  if (!humanButton.dataset.bound) {
+    humanButton.addEventListener("click", () => {
+      if (benchmarkState.humanAnchor == null) return;
+      benchmarkState.showHuman = !benchmarkState.showHuman;
+      renderBenchmarkDashboard();
+    });
+    humanButton.dataset.bound = "true";
+  }
+}
+
+function renderBenchmarkNoteAndStats() {
+  const note = document.getElementById("benchmarkNote");
+  const stats = document.getElementById("benchmarkStats");
+  if (!note || !stats) return;
+
+  const scoped = benchmarkState.scoped;
+  const top = getBenchmarkTopRow(scoped);
+  const first = scoped[0] || null;
+  const last = scoped[scoped.length - 1] || null;
+  const frontierGain = benchmarkState.frontier.length > 0
+    ? benchmarkState.frontier[benchmarkState.frontier.length - 1].frontier - benchmarkState.frontier[0].frontier
+    : 0;
+  const avgVerifiedDelta = benchmarkState.selectedBenchmark === "HLE-Verified" && scoped.length
+    ? scoped.reduce((sum, row) => sum + (row.isVerified ? row.delta : 0), 0) / scoped.length
+    : null;
+  const crossoverValue = benchmarkState.humanAnchor == null
+    ? "—"
+    : benchmarkState.humanCrossing
+      ? BenchmarkCore.fmtDate(benchmarkState.humanCrossing.ts)
+      : "Ikke ennå";
+  const crossoverSub = benchmarkState.humanAnchor == null
+    ? "Ingen offentlig menneskereferanse i denne visningen"
+    : benchmarkState.humanCrossing
+      ? `${benchmarkState.humanCrossing.model} · ${formatPct0(benchmarkState.humanCrossing.score)}`
+      : `Menneskenivå rundt ${formatPct0(benchmarkState.humanAnchor)}`;
+
+  note.textContent = BENCHMARK_NOTES_NB[benchmarkState.selectedBenchmark] || "";
+
+  stats.innerHTML = [
+    benchmarkStatCard("Synlige punkter", String(scoped.length), benchmarkState.selectedBenchmark),
+    benchmarkStatCard("Beste poeng", top ? formatPct0(top.score) : "—", top ? `${top.model} · ${BenchmarkCore.fmtDate(top.ts)}` : "Ingen data"),
+    benchmarkStatCard("Frontlinje", `${frontierGain >= 0 ? "+" : ""}${frontierGain.toFixed(1)} poeng`, first && last ? `${BenchmarkCore.fmtDate(first.ts)} → ${BenchmarkCore.fmtDate(last.ts)}` : "Ingen tidsserie"),
+    benchmarkStatCard(
+      benchmarkState.selectedBenchmark === "HLE-Verified" ? "Verifisert løft" : "Menneskekryssing",
+      benchmarkState.selectedBenchmark === "HLE-Verified" ? (avgVerifiedDelta != null ? `${avgVerifiedDelta.toFixed(1)} poeng` : "—") : crossoverValue,
+      benchmarkState.selectedBenchmark === "HLE-Verified" ? "Gjennomsnittlig løft fra raw HLE" : crossoverSub
+    ),
+  ].join("");
+}
+
+function renderBenchmarkFocus() {
+  const row = getActiveBenchmarkRow();
+  if (!row) {
+    document.getElementById("benchmarkFocusName").textContent = "Ingen treff";
+    document.getElementById("benchmarkFocusCopy").textContent = "Ingen modeller matcher de aktive filtrene akkurat nå.";
+    document.getElementById("benchmarkFocusScore").textContent = "—";
+    document.getElementById("benchmarkFocusDate").textContent = "—";
+    document.getElementById("benchmarkFocusOrg").textContent = "—";
+    document.getElementById("benchmarkFocusBenchmark").textContent = benchmarkState.selectedBenchmark;
+    document.getElementById("benchmarkFocusHighlights").innerHTML = "";
+    return;
+  }
+
+  document.getElementById("benchmarkFocusName").textContent = row.model;
+  document.getElementById("benchmarkFocusScore").textContent = formatPct0(row.score);
+  document.getElementById("benchmarkFocusDate").textContent = BenchmarkCore.fmtDate(row.ts);
+  document.getElementById("benchmarkFocusOrg").textContent = row.org;
+  document.getElementById("benchmarkFocusBenchmark").textContent = row.benchmark;
+
+  let copy = `${row.org} står bak denne modellen på ${row.benchmark}. Punktet er plassert på ${BenchmarkCore.fmtDate(row.ts)} i denne tidslinjen.`;
+  if (benchmarkState.humanCrossing && row.id === benchmarkState.humanCrossing.id && benchmarkState.humanAnchor != null) {
+    copy += ` Dette er det første frontpunktet som passerer det offentlige menneskenivået på ${formatPct0(benchmarkState.humanAnchor)}.`;
+  } else if (row.isVerified) {
+    copy += ` I den verifiserte HLE-tabellen løftes modellen fra ${formatPct0(row.rawScore)} til ${formatPct0(row.score)}.`;
+  }
+  document.getElementById("benchmarkFocusCopy").textContent = copy;
+
+  const highlights = [
+    `Aktør: ${row.org}`,
+    `Score: ${formatPct0(row.score)} på ${row.benchmark}`,
+    row.isVerified ? `Raw HLE ${formatPct0(row.rawScore)} · gain +${row.delta.toFixed(1)} poeng` : `Publisert i tidslinjen som ${BenchmarkCore.fmtDate(row.ts)}`,
+  ];
+  document.getElementById("benchmarkFocusHighlights").innerHTML = highlights.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+}
+
+function renderBenchmarkLegend() {
+  const legend = document.getElementById("benchmarkLegend");
+  if (!legend) return;
+  legend.innerHTML = benchmarkState.grouped.map(({ org }) => `
+    <span class="benchmark-legend-item">
+      <span class="benchmark-legend-dot" style="background:${BenchmarkCore.ORG_COLORS[org] || "#64748b"}"></span>
+      <span>${escapeHtml(org)}</span>
+    </span>
+  `).join("");
+}
+
+function renderBenchmarkTable() {
+  const tbody = document.getElementById("benchmarkTableBody");
+  if (!tbody) return;
+  const rows = [...benchmarkState.scoped].sort((a, b) => b.ts - a.ts || b.score - a.score || a.model.localeCompare(b.model));
+  if (!rows.length) {
+    tbody.innerHTML = `<tr><td colspan="6">Ingen modeller matcher filtrene.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = rows.map((row) => `
+    <tr data-row-id="${row.id}" class="${row.id === benchmarkState.activeRowId ? "is-active" : ""}">
+      <td>${BenchmarkCore.fmtDate(row.ts)}</td>
+      <td>${escapeHtml(row.model)}</td>
+      <td>${escapeHtml(row.org)}</td>
+      <td>${formatPct0(row.score)}</td>
+      <td>${row.isVerified ? formatPct0(row.rawScore) : "—"}</td>
+      <td>${row.isVerified ? `+${row.delta.toFixed(1)}` : "—"}</td>
+    </tr>
+  `).join("");
+
+  tbody.querySelectorAll("tr").forEach((rowEl) => {
+    rowEl.addEventListener("mouseenter", () => setActiveBenchmarkRow(rowEl.dataset.rowId));
+    rowEl.addEventListener("click", () => setActiveBenchmarkRow(rowEl.dataset.rowId));
+  });
+}
+
+function getBenchmarkTickValues([min, max], count) {
+  if (count <= 1) return [min];
+  const step = (max - min) / (count - 1);
+  return Array.from({ length: count }, (_, index) => Math.round(min + step * index));
+}
+
+function benchmarkX(ts, domain, plotLeft, plotWidth) {
+  const [min, max] = domain;
+  if (max === min) return plotLeft + plotWidth / 2;
+  return plotLeft + ((ts - min) / (max - min)) * plotWidth;
+}
+
+function benchmarkY(score, plotTop, plotHeight) {
+  return plotTop + (1 - score / 100) * plotHeight;
+}
+
+function showBenchmarkTooltip(row, event) {
+  const tooltip = document.getElementById("benchmarkTooltip");
+  if (!tooltip || !row) return;
+  tooltip.innerHTML = `<strong>${escapeHtml(row.model)}</strong><br>${escapeHtml(row.org)} · ${escapeHtml(row.benchmark)}<br>${BenchmarkCore.fmtDate(row.ts)} · ${formatPct0(row.score)}${row.isVerified ? `<br>Raw ${formatPct0(row.rawScore)} · Gain +${row.delta.toFixed(1)}` : ""}`;
+  const width = window.innerWidth <= 640 ? 220 : 280;
+  let left = event.clientX + 14;
+  let top = event.clientY - 18;
+  if (left + width > window.innerWidth - 12) left = event.clientX - width - 16;
+  if (top < 12) top = event.clientY + 16;
+  tooltip.style.left = `${left}px`;
+  tooltip.style.top = `${top}px`;
+  tooltip.classList.add("visible");
+}
+
+function hideBenchmarkTooltip() {
+  const tooltip = document.getElementById("benchmarkTooltip");
+  if (tooltip) tooltip.classList.remove("visible");
+}
+
+function renderBenchmarkChart() {
+  const svg = document.getElementById("benchmarkChart");
+  const footnote = document.getElementById("benchmarkFootnote");
+  if (!svg || !footnote) return;
+
+  if (!benchmarkState.scoped.length) {
+    svg.setAttribute("viewBox", "0 0 900 420");
+    svg.innerHTML = `<rect x="0" y="0" width="900" height="420" fill="rgba(255,255,255,0.01)"></rect><text x="450" y="210" text-anchor="middle" fill="rgba(224,224,232,0.6)" font-size="16">Ingen modeller matcher filtrene.</text>`;
+    footnote.textContent = "Prøv en annen kombinasjon av benchmark, søk eller aktør.";
+    return;
+  }
+
+  const isMobile = window.innerWidth <= 640;
+  const width = isMobile ? 760 : 980;
+  const height = isMobile ? 420 : 520;
+  const margin = isMobile
+    ? { top: 26, right: 18, bottom: 58, left: 48 }
+    : { top: 24, right: 24, bottom: 64, left: 60 };
+  const plotLeft = margin.left;
+  const plotTop = margin.top;
+  const plotWidth = width - margin.left - margin.right;
+  const plotHeight = height - margin.top - margin.bottom;
+  const domain = benchmarkState.xDomain;
+  const ticksX = getBenchmarkTickValues(domain, isMobile ? 4 : 6);
+  const ticksY = [0, 20, 40, 60, 80, 100];
+  const activeRow = getActiveBenchmarkRow();
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+
+  const gridMarkup = ticksY.map((tick) => {
+    const y = benchmarkY(tick, plotTop, plotHeight);
+    return `<line x1="${plotLeft}" y1="${y.toFixed(1)}" x2="${(plotLeft + plotWidth).toFixed(1)}" y2="${y.toFixed(1)}" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+      <text x="${plotLeft - 10}" y="${(y + 4).toFixed(1)}" text-anchor="end" fill="rgba(214,220,235,0.48)" font-size="${isMobile ? 10 : 11}">${tick}%</text>`;
+  }).join("");
+
+  const xMarkup = ticksX.map((tick) => {
+    const x = benchmarkX(tick, domain, plotLeft, plotWidth);
+    return `<line x1="${x.toFixed(1)}" y1="${plotTop}" x2="${x.toFixed(1)}" y2="${(plotTop + plotHeight).toFixed(1)}" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+      <text x="${x.toFixed(1)}" y="${(plotTop + plotHeight + 28).toFixed(1)}" text-anchor="middle" fill="rgba(214,220,235,0.48)" font-size="${isMobile ? 10 : 11}">${BenchmarkCore.fmtMonth(tick)}</text>`;
+  }).join("");
+
+  const frontierPath = benchmarkState.frontier.map((point, index) => {
+    const x = benchmarkX(point.ts, domain, plotLeft, plotWidth);
+    const y = benchmarkY(point.frontier, plotTop, plotHeight);
+    return `${index === 0 ? "M" : "L"} ${x.toFixed(1)} ${y.toFixed(1)}`;
+  }).join(" ");
+
+  const groupsMarkup = benchmarkState.grouped.map(({ org, rows }) => rows.map((row) => {
+    const x = benchmarkX(row.ts, domain, plotLeft, plotWidth);
+    const y = benchmarkY(row.score, plotTop, plotHeight);
+    const isActive = activeRow && row.id === activeRow.id;
+    return `<circle class="benchmark-point" data-row-id="${row.id}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${isActive ? 6.5 : 4.8}" fill="${BenchmarkCore.ORG_COLORS[org] || "#64748b"}" stroke="${isActive ? "#ffffff" : "rgba(11,11,16,0.88)"}" stroke-width="${isActive ? 2.4 : 1.6}"></circle>`;
+  }).join("")).join("");
+
+  const humanLineMarkup = benchmarkState.showHuman && benchmarkState.humanAnchor != null
+    ? (() => {
+        const y = benchmarkY(benchmarkState.humanAnchor, plotTop, plotHeight);
+        return `<line x1="${plotLeft}" y1="${y.toFixed(1)}" x2="${(plotLeft + plotWidth).toFixed(1)}" y2="${y.toFixed(1)}" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="7 7"></line>
+        <text x="${(plotLeft + plotWidth - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" text-anchor="end" fill="rgba(224,224,232,0.72)" font-size="${isMobile ? 10 : 11}">Menneskenivå ≈ ${benchmarkState.humanAnchor}%</text>`;
+      })()
+    : "";
+
+  const crossingMarkup = benchmarkState.showHuman && benchmarkState.humanCrossing
+    ? (() => {
+        const x = benchmarkX(benchmarkState.humanCrossing.ts, domain, plotLeft, plotWidth);
+        const y = benchmarkY(benchmarkState.humanCrossing.score, plotTop, plotHeight);
+        return `<line x1="${x.toFixed(1)}" y1="${plotTop}" x2="${x.toFixed(1)}" y2="${(plotTop + plotHeight).toFixed(1)}" stroke="rgba(255,140,105,0.45)" stroke-width="1.1" stroke-dasharray="4 6"></line>
+          <circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="8" fill="rgba(255,140,105,0.16)" stroke="#ff8c69" stroke-width="2"></circle>`;
+      })()
+    : "";
+
+  svg.innerHTML = `
+    <defs>
+      <filter id="benchmarkGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="9" result="blur"></feGaussianBlur>
+        <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
+    ${gridMarkup}
+    ${xMarkup}
+    ${benchmarkState.showFrontier && benchmarkState.frontier.length ? `<path d="${frontierPath}" fill="none" stroke="rgba(245,245,252,0.88)" stroke-width="${isMobile ? 2 : 2.4}" filter="url(#benchmarkGlow)"></path>` : ""}
+    ${humanLineMarkup}
+    ${crossingMarkup}
+    ${groupsMarkup}
+  `;
+
+  svg.querySelectorAll(".benchmark-point").forEach((node) => {
+    const row = benchmarkState.scoped.find((item) => item.id === node.dataset.rowId);
+    if (!row) return;
+    node.addEventListener("mouseenter", (event) => {
+      setActiveBenchmarkRow(row.id);
+      showBenchmarkTooltip(row, event);
+    });
+    node.addEventListener("mousemove", (event) => showBenchmarkTooltip(row, event));
+    node.addEventListener("mouseleave", hideBenchmarkTooltip);
+    node.addEventListener("click", () => setActiveBenchmarkRow(row.id));
+  });
+
+  const latest = benchmarkState.frontier[benchmarkState.frontier.length - 1];
+  footnote.textContent = latest
+    ? `Frontlinjen ender nå på ${formatPct0(latest.frontier)}. ${benchmarkState.showHuman && benchmarkState.humanCrossing ? `Første kryssing skjer med ${benchmarkState.humanCrossing.model}.` : "Ingen menneskekryssing i denne visningen."}`
+    : "";
+}
+
+function renderBenchmarkValidation() {
+  const validation = BenchmarkCore.DATASET_VALIDATION;
+  const smoke = BenchmarkCore.TEST_RESULTS;
+  document.getElementById("benchmarkValidationCopy").textContent =
+    validation.errorCount === 0
+      ? `Datasettet validerer uten blokkerende feil: ${validation.rowCount} rader på tvers av ${validation.benchmarkCount} benchmarker og ${validation.orgCount} aktører.`
+      : `${validation.errorCount} blokkerende feil ble funnet i benchmarkdatasettet.`;
+
+  document.getElementById("benchmarkValidationSummary").innerHTML = [
+    { label: "Rader", value: validation.rowCount },
+    { label: "Warnings", value: validation.warningCount },
+    { label: "Første dato", value: validation.minDate ? BenchmarkCore.fmtDate(validation.minDate) : "—" },
+    { label: "Siste dato", value: validation.maxDate ? BenchmarkCore.fmtDate(validation.maxDate) : "—" },
+  ].map((item) => `<div class="benchmark-validation-chip"><strong>${item.label}</strong><span>${item.value}</span></div>`).join("");
+
+  document.getElementById("benchmarkValidationList").innerHTML = validation.issues.length
+    ? validation.issues.slice(0, 8).map((issue) => `<li>${escapeHtml(issue.level.toUpperCase())}: ${escapeHtml(issue.message)}</li>`).join("")
+    : "<li>Ingen valideringsvarsler i den pakkede benchmark-kjernen.</li>";
+
+  document.getElementById("benchmarkSmokeCopy").textContent = smoke.passed
+    ? `Alle ${smoke.count} røyktester passerer.`
+    : `${smoke.failures.length} av ${smoke.count} røyktester feiler i benchmark-kjernen.`;
+  document.getElementById("benchmarkSmokeList").innerHTML = smoke.passed
+    ? "<li>Ingen åpne testfeil i denne pakken.</li>"
+    : smoke.failures.map((failure) => `<li>${escapeHtml(failure)}</li>`).join("");
+}
+
+function renderBenchmarkDashboard() {
+  const section = document.getElementById("benchmarkSection");
+  if (!BenchmarkCore || !ensureBenchmarkState()) {
+    if (section) section.style.display = "none";
+    return;
+  }
+
+  syncBenchmarkState();
+  renderBenchmarkControls();
+  renderBenchmarkNoteAndStats();
+  renderBenchmarkLegend();
+  renderBenchmarkFocus();
+  renderBenchmarkTable();
+  renderBenchmarkChart();
+  renderBenchmarkValidation();
 }
 
 function drawGradientLegend() {
@@ -1978,9 +3074,12 @@ function resize() {
   dpr = window.devicePixelRatio || 1;
   layout();
   draw();
+  if (aiImpactData.length) renderImpactRadar();
+  if (benchmarkState) renderBenchmarkChart();
 }
 
 canvas.addEventListener("mousemove", (e) => {
+  if (window.innerWidth <= 900 && pinnedTile) return;
   const hit = hitTest(e.clientX, e.clientY);
   if (hit !== hovered) {
     hovered = hit;
@@ -1997,14 +3096,41 @@ canvas.addEventListener("mousemove", (e) => {
 
 canvas.addEventListener("mouseleave", () => {
   hovered = null;
-  hideTooltip();
+  if (!pinnedTile) hideTooltip();
   draw();
 });
+
+canvas.addEventListener("click", (e) => {
+  const hit = hitTest(e.clientX, e.clientY);
+  pinnedTile = hit === pinnedTile ? null : hit;
+  hovered = pinnedTile;
+  if (pinnedTile) {
+    const rect = canvas.getBoundingClientRect();
+    showTooltip(
+      pinnedTile,
+      rect.left + pinnedTile.rx + pinnedTile.rw / 2,
+      rect.top + Math.max(28, pinnedTile.ry + Math.min(pinnedTile.rh / 2, 110))
+    );
+  } else {
+    hideTooltip();
+  }
+  draw();
+});
+
+document.addEventListener("click", (e) => {
+  if (!pinnedTile) return;
+  if (e.target === canvas) return;
+  pinnedTile = null;
+  hideTooltip();
+  draw();
+}, true);
 
 document.getElementById("colorToggle").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
   if (!btn || !btn.dataset.mode) return;
   colorMode = btn.dataset.mode;
+  pinnedTile = null;
+  hideTooltip();
   document.querySelectorAll("#colorToggle button").forEach((button) => button.classList.remove("active"));
   btn.classList.add("active");
   updateStats();
@@ -2022,6 +3148,7 @@ function start() {
   updateStats();
   drawGradientLegend();
   renderAiImpactSection();
+  renderBenchmarkDashboard();
   resize();
 }
 
