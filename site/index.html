@@ -1040,7 +1040,7 @@ function colorForMode(mode, value, alpha) {
     return greenRedCSS(1 - Math.max(0, Math.min(1, value)), alpha);
   }
   if (mode === "ai") {
-    return greenRedCSS(1 - Math.max(0, Math.min(1, value / 100)), alpha);
+    return greenRedCSS(Math.max(0, Math.min(1, value / 100)), alpha);
   }
   return greenRedCSS(Math.max(0, Math.min(1, value / 6)), alpha);
 }
@@ -1688,7 +1688,7 @@ function drawGradientLegend() {
   const gctx = c.getContext("2d");
   for (let x = 0; x < 80; x++) {
     const t = x / 79;
-    gctx.fillStyle = colorMode === "vacancy" ? greenRedCSS(t, 1) : greenRedCSS(1 - t, 1);
+    gctx.fillStyle = (colorMode === "vacancy" || colorMode === "ai") ? greenRedCSS(t, 1) : greenRedCSS(1 - t, 1);
     gctx.fillRect(x, 0, 1, 8);
   }
   if (colorMode === "earnings") {
