@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning</title>
-<meta name="description" content="Utforsk det norske arbeidsmarkedet visuelt med SSB-data. Se sysselsetting, lønn, utdanning, endring over tid, ledighetskontekst og en norsk proxy for KI-påvirkning i yrker.">
+<meta name="description" content="Utforsk det norske arbeidsmarkedet visuelt med SSB-data. Se sysselsetting, lønn, utdanning, endring over tid, ledighetskontekst og et norsk anslag for KI-påvirkning i yrker.">
 <meta name="keywords" content="norsk arbeidsmarked, SSB, yrker, lønn, sysselsetting, utdanning, KI, AI, arbeidsmarked, treemap, jobber i Norge">
 <meta name="author" content="Ola Turmo">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -15,7 +15,7 @@
 <link rel="alternate" hreflang="nb-NO" href="https://master.norway-job-market-visualizer.pages.dev/">
 <meta property="og:site_name" content="Norsk arbeidsmarkedsoversikt">
 <meta property="og:title" content="Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning">
-<meta property="og:description" content="Et visuelt forskningsverktøy for norske yrker, bygget på SSB Statbank og SSB Klass. Se sysselsetting, lønn, utdanning, utvikling og en norsk KI-proxy.">
+<meta property="og:description" content="Et visuelt forskningsverktøy for norske yrker, bygget på SSB Statbank og SSB Klass. Se sysselsetting, lønn, utdanning, utvikling og et norsk anslag for KI-påvirkning.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nb_NO">
 <meta property="og:url" content="https://master.norway-job-market-visualizer.pages.dev/">
@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://master.norway-job-market-visualizer.pages.dev/">
 <meta name="twitter:title" content="Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning">
-<meta name="twitter:description" content="Utforsk norske yrker med SSB-data: sysselsetting, lønn, utdanning, endring og en norsk proxy for KI-påvirkning.">
+<meta name="twitter:description" content="Utforsk norske yrker med SSB-data: sysselsetting, lønn, utdanning, endring og et norsk anslag for KI-påvirkning.">
 <meta name="twitter:image" content="https://master.norway-job-market-visualizer.pages.dev/og-image.png">
 <meta name="twitter:image:alt" content="Norsk arbeidsmarkedsoversikt med treemap for yrker og KI-påvirkning">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -67,13 +67,13 @@
         "@type": "ImageObject",
         "url": "https://master.norway-job-market-visualizer.pages.dev/og-image.png"
       },
-      "description": "Utforsk norske yrker med SSB-data og en tydelig merket KI-proxy inspirert av Anthropic sin forskning om AI og arbeidsmarkedet."
+      "description": "Utforsk norske yrker med SSB-data og et tydelig merket anslag for KI-påvirkning, inspirert av Anthropic sin forskning om AI og arbeidsmarkedet."
     },
     {
       "@type": "Dataset",
       "@id": "https://master.norway-job-market-visualizer.pages.dev/#dataset",
       "name": "Norsk arbeidsmarkedsoversikt – datasett for yrker",
-      "description": "Kombinert datasett for norske yrker med sysselsetting, månedslønn, utdanning, endring over tid, ledighetskontekst og en norsk KI-proxy.",
+      "description": "Kombinert datasett for norske yrker med sysselsetting, månedslønn, utdanning, endring over tid, ledighetskontekst og et norsk anslag for KI-påvirkning.",
       "inLanguage": "nb-NO",
       "creator": {
         "@type": "Person",
@@ -123,7 +123,7 @@
           "name": "Er KI-seksjonen basert på direkte målt bruk per yrke i Norge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nei. KI-seksjonen viser en tydelig merket norsk proxy. Den kombinerer en teoretisk LLM-eksponeringsmodell med SSBs næringsvise statistikk om KI-bruk, men den måler ikke faktisk KI-bruk direkte per yrke."
+            "text": "Nei. KI-seksjonen viser et tydelig merket norsk anslag. Den kombinerer en teoretisk LLM-eksponeringsmodell med SSBs næringsvise statistikk om KI-bruk, men den måler ikke faktisk KI-bruk direkte per yrke."
           }
         },
         {
@@ -168,13 +168,13 @@ body {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 32px;
+  padding-top: 0;
   padding-bottom: 180px;
   overflow-x: clip;
 }
 
 #header {
-  padding: 20px 28px 16px;
+  padding: 0 28px 16px;
   flex-shrink: 0;
   max-width: 100%;
   overflow-x: clip;
@@ -188,9 +188,9 @@ body {
 
 .hero {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  min-height: calc(100dvh - 28px);
+  min-height: 100dvh;
   margin-bottom: 56px;
   padding-inline: 20px;
 }
@@ -202,7 +202,7 @@ body {
 .hero-media {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   min-width: 0;
   width: 100%;
@@ -1193,9 +1193,9 @@ canvas#canvas {
 }
 
 @media (max-width: 900px) {
-  #header { padding: 18px 18px 12px; }
+  #header { padding: 0 18px 12px; }
   .hero {
-    min-height: calc(100dvh - 36px);
+    min-height: 100dvh;
     margin-bottom: 34px;
     padding-inline: 14px;
   }
@@ -1233,9 +1233,9 @@ canvas#canvas {
 }
 
 @media (max-width: 640px) {
-  #header { padding: 16px 14px 10px; }
+  #header { padding: 0 14px 10px; }
   .hero {
-    min-height: calc(100dvh - 28px);
+    min-height: 100dvh;
     margin-bottom: 24px;
     padding-inline: 10px;
   }
@@ -1471,11 +1471,11 @@ canvas#canvas {
         <a href="https://github.com/karpathy/jobs">Original repo</a>
       </div>
     </div>
-    <p>Et lett utforskerverktøy for det norske arbeidsmarkedet, bygget på åpne data fra <b>SSB Statbank</b> og <b>SSB Klass</b>. Hver rute er et yrke i STYRK. <b>Arealet</b> viser hvor mange som jobber i yrket, og <b>fargen</b> viser valgt lag: endring, månedslønn, andel med lang høyere utdanning, KI-påvirkning eller ledighetskontekst.</p>
-    <p>Dette er en norsk videreutvikling av <a href="https://github.com/karpathy/jobs">karpathy/jobs</a>. Den opprinnelige versjonen brukte amerikanske BLS-data. Her er datagrunnlaget byttet ut med offisielle norske kilder, mens den enkle, statiske formen er beholdt.</p>
-    <p>Koden har også en egen pipeline for LLM-baserte fargelag. Du kan skrive en prompt, la modellen vurdere hvert yrke etter et valgt kriterium og bruke resultatet som et eget fargelag i treemapet. Laget <b>KI-påvirkning</b> er ett eksempel. Det anslår hvor mye dagens språkmodeller kan endre ulike yrker. Den samme tilnærmingen kan også brukes til andre spørsmål, som robotisering, offshoring eller klimaeksponering.</p>
+    <p>Utforsk det norske arbeidsmarkedet med åpne data fra <b>SSB Statbank</b> og <b>SSB Klass</b>. Hver rute er et yrke i STYRK. <b>Arealet</b> viser hvor mange som jobber i yrket, og <b>fargen</b> viser valgt lag: endring, månedslønn, andel med lang høyere utdanning, KI-påvirkning eller ledighetskontekst.</p>
+    <p>Dette er en norsk videreutvikling av <a href="https://github.com/karpathy/jobs">karpathy/jobs</a>. Originalen brukte amerikanske BLS-data. Her er datagrunnlaget byttet ut med offisielle norske kilder, mens den enkle og lette formen er beholdt.</p>
+    <p>Koden har også en egen pipeline for LLM-baserte fargelag. Du kan skrive en prompt, la modellen vurdere hvert yrke etter et valgt kriterium og bruke resultatet som et nytt fargelag i treemapet. Laget <b>KI-påvirkning</b> er ett eksempel. Det anslår hvor mye dagens språkmodeller kan endre ulike yrker. Den samme metoden kan også brukes på andre spørsmål, som robotisering, offshoring eller klimaeksponering.</p>
     <p>KI-laget er et grovt estimat, ikke en fasit. Høy score betyr ikke at et yrke forsvinner. Det betyr at arbeidsinnholdet kan bli mer påvirket av KI. Effekten avhenger også av etterspørsel, regulering, ansvar, trygghet og hvor viktig menneskelig kontakt er i yrket.</p>
-    <p>Dette er et forskningsverktøy for utforsking og sammenlikning, ikke en sanntids jobbportal eller en full prognosemodell.</p>
+    <p>Dette er et forskningsverktøy for utforsking og sammenligning. Det er ikke en sanntids jobbportal eller en full prognosemodell.</p>
     <details>
       <summary>Eksempel på prompt for KI-laget</summary>
       <div class="prompt-box">Du er en analytiker som vurderer hvor eksponert ulike yrker er for KI.
@@ -1500,7 +1500,7 @@ Svar kun med JSON:
     <details>
       <summary>Metode og kilder</summary>
       <div class="drawer-panel">
-        <p><strong>Kort fortalt:</strong> SSB er hovedkilden i denne versjonen. Når det ikke finnes en direkte tabell på samme detaljeringsnivå, viser vi en avledet indikator og forklarer hvordan den er laget.</p>
+        <p><strong>Kort fortalt:</strong> SSB er hovedkilden i denne versjonen. Når det ikke finnes en direkte tabell på samme detaljeringsnivå, viser vi en avledet indikator og forklarer hvordan vi har laget den.</p>
 
         <h2>Datagrunnlag</h2>
         <ul>
@@ -1518,15 +1518,15 @@ Svar kun med JSON:
           <li>Månedslønn viser nasjonal median månedslønn for yrket.</li>
           <li>Lang høyere utd. viser andelen med lang høyere utdanning.</li>
           <li>Endring viser prosentvis endring i sysselsetting siden 2019.</li>
-          <li>KI-påvirkning viser en modellert score for hvor mye språkmodeller kan endre arbeidsinnholdet i yrket.</li>
+          <li>KI-påvirkning viser et modellert anslag for hvor mye språkmodeller kan endre arbeidsinnholdet i yrket.</li>
           <li>Ledighetskontekst er en avledet indikator basert på næringsmiks og ledige stillinger per næring.</li>
         </ul>
 
         <h2>Viktige forbehold</h2>
         <ul>
           <li>Ledighetskontekst er ikke et direkte yrkesspesifikt ledighetstall.</li>
-          <li>Visualiseringen er en utforsker av offisielle data, ikke en sanntids jobbportal.</li>
-          <li>Når SSB ikke publiserer et mål på samme detaljeringsnivå som de andre lagene, bruker vi den tydeligste offisielle tilnærmingen vi har.</li>
+          <li>Visualiseringen er laget for utforsking av offisielle data. Den er ikke en sanntids jobbportal.</li>
+          <li>Når SSB ikke publiserer et mål på samme detaljeringsnivå som de andre lagene, bruker vi den tydeligste offisielle løsningen vi har.</li>
         </ul>
 
         <h2>Repo-historikk</h2>
@@ -1538,12 +1538,12 @@ Svar kun med JSON:
       <div class="drawer-panel">
         <p><strong>Det viktigste:</strong> Hovedkartet viser norske tall. Sysselsetting, månedslønn og historisk endring kommer fra SSB-tabeller, ikke fra amerikanske BLS-data.</p>
         <ul>
-          <li><strong>Ikke amerikanske nivåer:</strong> Areal, lønn og endring i hovedkartet er bygget fra norske SSB-kilder. Det som er arvet fra originalen er først og fremst visualiseringsformen og repo-strukturen.</li>
-          <li><strong>Endring er historikk, ikke prognose:</strong> Laget «Endring» viser utvikling siden 2019 i norske data. Det er ikke en direkte norsk variant av BLS Outlook.</li>
-          <li><strong>Utdanning er delvis arvet oppover i klassifikasjonen:</strong> På detaljert 4-sifret yrkesnivå finnes ikke alle SSB-mål i samme oppløsning. Derfor hentes utdanningsprofil fra nærmeste offisielle overnivå når det trengs.</li>
-          <li><strong>KI-påvirkning er modellert:</strong> Dette laget bygger på en norsk LLM-proxy og skal leses som et anslag for hvor sterkt arbeidsinnholdet kan bli påvirket, ikke som et direkte mål på faktisk bruk eller automatisering.</li>
-          <li><strong>Ledighetskontekst er avledet:</strong> Dette er ikke et direkte yrkesspesifikt ledighetstall. Vi kombinerer offisiell næringsmiks for yrkesgrupper med SSBs ledige stillinger per næring.</li>
-          <li><strong>Noen små yrker er skjøre:</strong> Enkelte 4-sifrede yrker har svært få sysselsatte. De vises fordi de finnes i tabellen, men de bør tolkes varsomt.</li>
+          <li><strong>Ikke amerikanske nivåer:</strong> Areal, lønn og endring i hovedkartet bygger på norske SSB-kilder. Det som er arvet fra originalen, er først og fremst visualiseringsformen og repo-strukturen.</li>
+          <li><strong>Endring er historikk, ikke prognose:</strong> Laget «Endring» viser utvikling siden 2019 i norske data. Det er ikke en norsk variant av BLS Outlook.</li>
+          <li><strong>Utdanning arves noen ganger fra et høyere nivå:</strong> På detaljert firesifret yrkesnivå finnes ikke alle SSB-mål i samme oppløsning. Da henter vi utdanningsprofil fra nærmeste offisielle overnivå.</li>
+          <li><strong>KI-påvirkning er modellert:</strong> Dette laget bygger på et norsk LLM-anslag og skal leses som et anslag for hvor sterkt arbeidsinnholdet kan bli påvirket, ikke som et direkte mål på faktisk bruk eller automatisering.</li>
+          <li><strong>Ledighetskontekst er avledet:</strong> Dette er ikke et direkte yrkesspesifikt ledighetstall. Vi kombinerer offisiell næringsmiks for yrkesgrupper med SSBs tall for ledige stillinger per næring.</li>
+          <li><strong>Noen små yrker må tolkes varsomt:</strong> Enkelte firesifrede yrker har svært få sysselsatte. De vises fordi de finnes i tabellen, men tallene kan være skjøre.</li>
         </ul>
       </div>
     </details>
@@ -1584,25 +1584,25 @@ Svar kun med JSON:
 
 <section class="analysis-section" id="aiImpactSection">
   <h2>KI-påvirkning i norske yrker</h2>
-  <p class="section-lead">Anthropic viser i <a href="https://www.anthropic.com/research/labor-market-impacts">Labor market impacts of AI</a> at teoretisk KI-dekning og faktisk bruk kan ligge langt fra hverandre. Under er en norsk analog: blå flate viser teoretisk LLM-eksponering per yrkesgruppe, mens rød flate viser en observerbar bruk-proxy basert på SSBs næringsvise KI-statistikk og yrkesfordelingen i dette datasettet.</p>
+  <p class="section-lead">Anthropic viser i <a href="https://www.anthropic.com/research/labor-market-impacts">Labor market impacts of AI</a> at det ofte er stor avstand mellom hva KI kan brukes til i teorien og hva som faktisk tas i bruk. Her viser vi en norsk variant: Den blå flaten viser teoretisk LLM-eksponering per yrkesgruppe. Den røde flaten viser et anslag for bruk, basert på SSBs KI-statistikk etter næring og yrkesfordelingen i datasettet.</p>
   <details>
     <summary>Datakvalitet i KI-seksjonen</summary>
     <div class="drawer-panel">
-      <p><strong>Det viktigste:</strong> KI-seksjonen viser ikke direkte målte yrkestall for faktisk KI-bruk i Norge. Den nederste figuren er nå kalibrert mot Anthropic sin opprinnelige kategori-profil, men vist med norske hovedgrupper, norske sysselsettingstall og norske yrkeseksempler.</p>
+      <p><strong>Det viktigste:</strong> KI-seksjonen viser ikke direkte målte yrkestall for faktisk KI-bruk i Norge. Den nederste figuren er kalibrert mot Anthropic sin opprinnelige kategori-profil, men vises med norske hovedgrupper, norske sysselsettingstall og norske yrkeseksempler.</p>
       <ul>
-        <li><strong>Kalibrert mot originalfiguren:</strong> Prosentene i den nederste figuren er justert for å ligne nivåene og formen i Anthropic sin original. Det gir en mer troverdig visuell sammenlikning, men gjør samtidig figuren mindre «ren norsk rådata» enn før.</li>
+        <li><strong>Kalibrert mot originalfiguren:</strong> Prosentene i den nederste figuren er justert for å ligne nivåene og formen i Anthropic sin original. Det gir en mer troverdig visuell sammenligning, men gjør samtidig figuren mindre «ren norsk rådata» enn før.</li>
         <li><strong>Norske grupper og norske volum:</strong> Etiketter, sysselsettingstall og eksemplene i høyrepanelet kommer fortsatt fra dette norske datasettet, ikke fra USA.</li>
-        <li><strong>Blå serie er fortsatt tolket:</strong> «Teoretisk LLM-eksponering» er ikke offisiell norsk statistikk. Den er en modellert kategoriankring, nå justert mot Anthropic sin bredere yrkesprofil.</li>
-        <li><strong>Rød serie er fortsatt ikke yrkestelemetri:</strong> «Observerbar bruk» bygger ikke på direkte målt KI-bruk per norsk yrke. Den er kalibrert ut fra Anthropic sin figur og koblet til norske grupper for å gi riktig størrelsesforhold mellom kategoriene.</li>
-        <li><strong>Mangler norsk yrkestelemetri:</strong> Vi har ikke et norsk motstykke til Anthropic Economic Index på yrkesnivå. Derfor bør denne seksjonen leses som tidlig indikasjon, ikke fasit.</li>
-        <li><strong>Best til sammenlikning mellom grupper:</strong> Figuren er mest nyttig for å se relative forskjeller mellom brede norske yrkesgrupper, ikke for å tolke hvert enkelt prosentpoeng bokstavelig.</li>
+        <li><strong>Blå serie er fortsatt tolket:</strong> «Teoretisk LLM-eksponering» er ikke offisiell norsk statistikk. Det er et modellert anslag, justert mot Anthropic sin bredere yrkesprofil.</li>
+        <li><strong>Rød serie er fortsatt ikke yrkestelemetri:</strong> «Anslått bruk» bygger ikke på direkte målt KI-bruk per norsk yrke. Den er kalibrert ut fra Anthropic sin figur og koblet til norske grupper for å gi riktigere størrelsesforhold mellom kategoriene.</li>
+        <li><strong>Mangler norsk yrkestelemetri:</strong> Vi har ikke et norsk motstykke til Anthropic Economic Index på yrkesnivå. Derfor bør denne seksjonen leses som en tidlig indikasjon, ikke som en fasit.</li>
+        <li><strong>Best til sammenligning mellom grupper:</strong> Figuren er mest nyttig når du vil se relative forskjeller mellom brede norske yrkesgrupper, ikke tolke hvert enkelt prosentpoeng bokstavelig.</li>
       </ul>
     </div>
   </details>
 
   <div class="impact-grid">
     <div class="impact-card">
-      <h3>Norsk proxy inspirert av Anthropic</h3>
+      <h3>Norsk anslag inspirert av Anthropic</h3>
       <div class="impact-radar-wrap">
         <svg id="impactRadar" viewBox="0 0 760 760" aria-label="Radarplot for KI-påvirkning etter yrkesgruppe"></svg>
       </div>
@@ -1620,11 +1620,11 @@ Svar kun med JSON:
             <span class="value" id="impactFocusTheory">—</span>
           </div>
           <div class="impact-mini-stat">
-            <span class="label">Observerbar bruk</span>
+            <span class="label">Anslått bruk</span>
             <span class="value" id="impactFocusObserved">—</span>
           </div>
           <div class="impact-mini-stat">
-            <span class="label">Gap</span>
+            <span class="label">Forskjell</span>
             <span class="value" id="impactFocusGap">—</span>
           </div>
           <div class="impact-mini-stat">
@@ -1643,7 +1643,7 @@ Svar kun med JSON:
               <th>Gruppe</th>
               <th>Teori</th>
               <th>Bruk</th>
-              <th>Gap</th>
+              <th>Forskjell</th>
             </tr>
           </thead>
           <tbody id="impactTableBody"></tbody>
@@ -1654,15 +1654,15 @@ Svar kun med JSON:
 </section>
 
 <section class="analysis-section benchmark-section" id="benchmarkSection">
-  <h2>Benchmark-tidslinje for frontmodeller</h2>
-  <p class="section-lead">Denne delen bygger på benchmarkfilene i repoet og viser hvordan ledende modeller har flyttet seg over tid på ARC-AGI-2, HLE, HLE-Verified og GPQA Diamond. Den er global, ikke Norge-spesifikk, men er tilpasset samme mørke uttrykk og samme enkle, lesbare struktur som resten av siden.</p>
+  <h2>Tidslinje for ledende modeller</h2>
+  <p class="section-lead">Denne delen bygger på benchmark-filene i repoet og viser hvordan ledende modeller har utviklet seg over tid på ARC-AGI-2, HLE, HLE-Verified og GPQA Diamond. Den handler ikke spesielt om Norge, men bruker samme mørke uttrykk og samme enkle oppsett som resten av siden.</p>
   <details>
     <summary>Datakvalitet i benchmark-seksjonen</summary>
     <div class="drawer-panel">
-      <p><strong>Det viktigste:</strong> Dette er en egen benchmarkvisning, ikke en del av SSB-datasettet over norske yrker. Dataene kommer fra benchmark-dashboard-filene som ligger i repoet.</p>
+      <p><strong>Det viktigste:</strong> Dette er en egen tidslinje for modelltester, ikke en del av SSB-datasettet over norske yrker. Dataene kommer fra benchmark-filene som ligger i repoet.</p>
       <ul>
-        <li><strong>Ikke Norge-tall:</strong> Denne seksjonen viser globale modellbenchmarker, ikke norske arbeidsmarkedsmål.</li>
-        <li><strong>Blandede kilder:</strong> Noen punkter er historiske modellslipp, andre er reviderte ledertabeller eller publiserte papirverdier.</li>
+        <li><strong>Ikke Norge-tall:</strong> Denne seksjonen viser globale modellmålinger, ikke norske arbeidsmarkedstall.</li>
+        <li><strong>Blandede kilder:</strong> Noen punkter kommer fra historiske modellslipp. Andre kommer fra reviderte ledertabeller eller publiserte papirverdier.</li>
         <li><strong>Best til trendlesing:</strong> Grafen er mest nyttig for å se tempo, sprang og frontlinje over tid.</li>
         <li><strong>Mobiltilpasset:</strong> På små skjermer er grafen forenklet, mens tabellen kan rulles sideveis for å beholde lesbarheten.</li>
       </ul>
@@ -1682,7 +1682,7 @@ Svar kun med JSON:
         <select id="benchmarkOrgFilter"></select>
       </label>
       <button type="button" class="benchmark-toggle is-active" id="benchmarkFrontierToggle">Frontlinje</button>
-      <button type="button" class="benchmark-toggle is-active" id="benchmarkHumanToggle">Menneskenivå</button>
+      <button type="button" class="benchmark-toggle is-active" id="benchmarkHumanToggle">Menneskelig nivå</button>
     </div>
 
     <div class="benchmark-note" id="benchmarkNote"></div>
@@ -1737,7 +1737,7 @@ Svar kun med JSON:
                   <th>Aktør</th>
                   <th>Poeng</th>
                   <th>Raw</th>
-                  <th>Gain</th>
+                  <th>Økning</th>
                 </tr>
               </thead>
               <tbody id="benchmarkTableBody"></tbody>
@@ -1810,10 +1810,10 @@ const ANTHROPIC_CALIBRATED_IMPACT_PROFILE = {
   "6": { theory: 4, observed: 1, source_equivalent: "Farming, fishing and forestry" },
 };
 const BENCHMARK_NOTES_NB = {
-  "ARC-AGI-2": "ARC-AGI-2 bruker den nåværende offentlige metodikken. Her vises historiske modellpunkter slik de er pakket i benchmark-kjernen.",
-  "HLE": "HLE bygger på en revidert offentlig ledertabell. Punktene er forankret i modellslippene som brukes i kildepakken.",
-  "HLE-Verified": "HLE-Verified er hentet fra papirtabellen. Alle punktene er derfor låst til publiseringsdatoen for paperet, ikke tidligere modellslipp.",
-  "GPQA Diamond": "GPQA Diamond viser en lengre historisk serie med et offentlig PhD-ekspertnivå som referanse.",
+  "ARC-AGI-2": "ARC-AGI-2 følger den offentlige metoden slik den er pakket i benchmark-kjernen. Her vises historiske modellpunkter slik de ligger i datasettet.",
+  "HLE": "HLE bygger på en revidert offentlig resultatliste. Punktene er knyttet til modellslippene som brukes i kildepakken.",
+  "HLE-Verified": "HLE-Verified kommer fra tabellen i paperet. Derfor er punktene låst til publiseringsdatoen for paperet, ikke tidligere modellslipp.",
+  "GPQA Diamond": "GPQA Diamond viser en lengre historisk serie med et offentlig ekspertnivå som referanse.",
 };
 
 function markHeroReady() {
@@ -2403,7 +2403,7 @@ function wrapImpactLabel(label) {
 
 function showImpactTooltip(category, event) {
   const tooltip = document.getElementById("impactTooltip");
-  tooltip.innerHTML = `<strong>${escapeHtml(category.label_nb)}</strong><br>Teoretisk: ${formatPct0(category.theoretical_ai_exposure_pct)}<br>Observerbar bruk: ${formatPct0(category.observed_ai_use_proxy_pct)}<br>Sysselsatte: ${formatCompact(category.employment)}`;
+  tooltip.innerHTML = `<strong>${escapeHtml(category.label_nb)}</strong><br>Teoretisk nivå: ${formatPct0(category.theoretical_ai_exposure_pct)}<br>Anslått bruk: ${formatPct0(category.observed_ai_use_proxy_pct)}<br>Sysselsatte: ${formatCompact(category.employment)}`;
   let left = event.clientX + 16;
   let top = event.clientY - 16;
   if (left + 260 > window.innerWidth) left = event.clientX - 276;
@@ -2425,14 +2425,14 @@ function renderImpactFocus(category) {
   document.getElementById("impactFocusGap").textContent = formatPct0(category.gap_pct_points);
   document.getElementById("impactFocusJobs").textContent = formatCompact(category.employment);
 
-  let description = "Teoretisk potensial og observerbar bruk ligger ganske tett i denne gruppen.";
+  let description = "I denne gruppen ligger anslått bruk ganske nær det teoretiske nivået.";
   if (category.gap_pct_points >= 35) {
-    description = "Her er det stor avstand mellom hva dagens språkmodeller kan bidra med i teorien og hva som ser ut til å være tatt i bruk i norsk arbeidsliv.";
+    description = "Her er avstanden stor mellom hva dagens språkmodeller kan bidra med i teorien og hva som ser ut til å være tatt i bruk i norsk arbeidsliv.";
   } else if (category.gap_pct_points >= 22) {
-    description = "Denne gruppen ser ut til å ha tydelig mer teoretisk potensial enn faktisk bruk så langt.";
+    description = "Her ser vi tydelig mer teoretisk potensial enn bruk så langt.";
   }
   if (category.source_equivalent) {
-    description += ` Kalibrert mot Anthropic-kategorien «${category.source_equivalent}».`;
+    description += ` Nivået er kalibrert mot Anthropic-kategorien «${category.source_equivalent}».`;
   }
   document.getElementById("impactFocusCopy").textContent = description;
   document.getElementById("impactFocusTopJobs").innerHTML = category.top_occupations_nb
@@ -2609,7 +2609,7 @@ function renderAiImpactSection() {
     };
   });
   activeImpactCategoryId = aiImpactData[0].id;
-  document.getElementById("impactMethodNote").innerHTML = `Kalibrert mot Anthropic sin opprinnelige figur for «Labor market impacts of AI», vist med norske hovedgrupper og norske sysselsettingstall. Norsk datagrunnlag: SSB tabell ${impactProxy.source_table_id} (${impactProxy.source_year}).`;
+  document.getElementById("impactMethodNote").innerHTML = `Bygger på Anthropic sin originalfigur fra «Labor market impacts of AI», vist med norske hovedgrupper og norske sysselsettingstall. Norsk datagrunnlag: SSB tabell ${impactProxy.source_table_id} (${impactProxy.source_year}).`;
   setActiveImpactCategory(activeImpactCategoryId);
 }
 
@@ -2774,7 +2774,7 @@ function renderBenchmarkNoteAndStats() {
     ? "Ingen offentlig menneskereferanse i denne visningen"
     : benchmarkState.humanCrossing
       ? `${benchmarkState.humanCrossing.model} · ${formatPct0(benchmarkState.humanCrossing.score)}`
-      : `Menneskenivå rundt ${formatPct0(benchmarkState.humanAnchor)}`;
+      : `Menneskelig nivå rundt ${formatPct0(benchmarkState.humanAnchor)}`;
 
   note.textContent = BENCHMARK_NOTES_NB[benchmarkState.selectedBenchmark] || "";
 
@@ -2783,9 +2783,9 @@ function renderBenchmarkNoteAndStats() {
     benchmarkStatCard("Beste poeng", top ? formatPct0(top.score) : "—", top ? `${top.model} · ${BenchmarkCore.fmtDate(top.ts)}` : "Ingen data"),
     benchmarkStatCard("Frontlinje", `${frontierGain >= 0 ? "+" : ""}${frontierGain.toFixed(1)} poeng`, first && last ? `${BenchmarkCore.fmtDate(first.ts)} → ${BenchmarkCore.fmtDate(last.ts)}` : "Ingen tidsserie"),
     benchmarkStatCard(
-      benchmarkState.selectedBenchmark === "HLE-Verified" ? "Verifisert løft" : "Menneskekryssing",
+      benchmarkState.selectedBenchmark === "HLE-Verified" ? "Verifisert løft" : "Først over menneskelig nivå",
       benchmarkState.selectedBenchmark === "HLE-Verified" ? (avgVerifiedDelta != null ? `${avgVerifiedDelta.toFixed(1)} poeng` : "—") : crossoverValue,
-      benchmarkState.selectedBenchmark === "HLE-Verified" ? "Gjennomsnittlig løft fra raw HLE" : crossoverSub
+      benchmarkState.selectedBenchmark === "HLE-Verified" ? "Gjennomsnittlig løft fra rå HLE" : crossoverSub
     ),
   ].join("");
 }
@@ -2793,8 +2793,8 @@ function renderBenchmarkNoteAndStats() {
 function renderBenchmarkFocus() {
   const row = getActiveBenchmarkRow();
   if (!row) {
-    document.getElementById("benchmarkFocusName").textContent = "Ingen treff";
-    document.getElementById("benchmarkFocusCopy").textContent = "Ingen modeller matcher de aktive filtrene akkurat nå.";
+    document.getElementById("benchmarkFocusName").textContent = "Ingen modeller funnet";
+    document.getElementById("benchmarkFocusCopy").textContent = "Ingen modeller passer med de valgte filtrene akkurat nå.";
     document.getElementById("benchmarkFocusScore").textContent = "—";
     document.getElementById("benchmarkFocusDate").textContent = "—";
     document.getElementById("benchmarkFocusOrg").textContent = "—";
@@ -2809,9 +2809,9 @@ function renderBenchmarkFocus() {
   document.getElementById("benchmarkFocusOrg").textContent = row.org;
   document.getElementById("benchmarkFocusBenchmark").textContent = row.benchmark;
 
-  let copy = `${row.org} står bak denne modellen på ${row.benchmark}. Punktet er plassert på ${BenchmarkCore.fmtDate(row.ts)} i denne tidslinjen.`;
+  let copy = `${row.model} er fra ${row.org} og vises på ${row.benchmark} med dato ${BenchmarkCore.fmtDate(row.ts)} i denne tidslinjen.`;
   if (benchmarkState.humanCrossing && row.id === benchmarkState.humanCrossing.id && benchmarkState.humanAnchor != null) {
-    copy += ` Dette er det første frontpunktet som passerer det offentlige menneskenivået på ${formatPct0(benchmarkState.humanAnchor)}.`;
+    copy += ` Dette er det første frontpunktet som passerer det offentlige nivået på ${formatPct0(benchmarkState.humanAnchor)}.`;
   } else if (row.isVerified) {
     copy += ` I den verifiserte HLE-tabellen løftes modellen fra ${formatPct0(row.rawScore)} til ${formatPct0(row.score)}.`;
   }
@@ -2820,7 +2820,7 @@ function renderBenchmarkFocus() {
   const highlights = [
     `Aktør: ${row.org}`,
     `Score: ${formatPct0(row.score)} på ${row.benchmark}`,
-    row.isVerified ? `Raw HLE ${formatPct0(row.rawScore)} · gain +${row.delta.toFixed(1)} poeng` : `Publisert i tidslinjen som ${BenchmarkCore.fmtDate(row.ts)}`,
+    row.isVerified ? `Rå HLE ${formatPct0(row.rawScore)} · økning +${row.delta.toFixed(1)} poeng` : `Publisert i tidslinjen som ${BenchmarkCore.fmtDate(row.ts)}`,
   ];
   document.getElementById("benchmarkFocusHighlights").innerHTML = highlights.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
 }
@@ -2841,7 +2841,7 @@ function renderBenchmarkTable() {
   if (!tbody) return;
   const rows = [...benchmarkState.scoped].sort((a, b) => b.ts - a.ts || b.score - a.score || a.model.localeCompare(b.model));
   if (!rows.length) {
-    tbody.innerHTML = `<tr><td colspan="6">Ingen modeller matcher filtrene.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="6">Ingen modeller passer med filtrene.</td></tr>`;
     return;
   }
   tbody.innerHTML = rows.map((row) => `
@@ -2880,7 +2880,7 @@ function benchmarkY(score, plotTop, plotHeight) {
 function showBenchmarkTooltip(row, event) {
   const tooltip = document.getElementById("benchmarkTooltip");
   if (!tooltip || !row) return;
-  tooltip.innerHTML = `<strong>${escapeHtml(row.model)}</strong><br>${escapeHtml(row.org)} · ${escapeHtml(row.benchmark)}<br>${BenchmarkCore.fmtDate(row.ts)} · ${formatPct0(row.score)}${row.isVerified ? `<br>Raw ${formatPct0(row.rawScore)} · Gain +${row.delta.toFixed(1)}` : ""}`;
+  tooltip.innerHTML = `<strong>${escapeHtml(row.model)}</strong><br>${escapeHtml(row.org)} · ${escapeHtml(row.benchmark)}<br>${BenchmarkCore.fmtDate(row.ts)} · ${formatPct0(row.score)}${row.isVerified ? `<br>Råscore ${formatPct0(row.rawScore)} · økning +${row.delta.toFixed(1)}` : ""}`;
   const width = window.innerWidth <= 640 ? 220 : 280;
   let left = event.clientX + 14;
   let top = event.clientY - 18;
@@ -2903,8 +2903,8 @@ function renderBenchmarkChart() {
 
   if (!benchmarkState.scoped.length) {
     svg.setAttribute("viewBox", "0 0 900 420");
-    svg.innerHTML = `<rect x="0" y="0" width="900" height="420" fill="rgba(255,255,255,0.01)"></rect><text x="450" y="210" text-anchor="middle" fill="rgba(224,224,232,0.6)" font-size="16">Ingen modeller matcher filtrene.</text>`;
-    footnote.textContent = "Prøv en annen kombinasjon av benchmark, søk eller aktør.";
+    svg.innerHTML = `<rect x="0" y="0" width="900" height="420" fill="rgba(255,255,255,0.01)"></rect><text x="450" y="210" text-anchor="middle" fill="rgba(224,224,232,0.6)" font-size="16">Ingen modeller passer med filtrene.</text>`;
+    footnote.textContent = "Prøv et annet benchmark, søk eller aktørfilter.";
     return;
   }
 
@@ -2953,7 +2953,7 @@ function renderBenchmarkChart() {
     ? (() => {
         const y = benchmarkY(benchmarkState.humanAnchor, plotTop, plotHeight);
         return `<line x1="${plotLeft}" y1="${y.toFixed(1)}" x2="${(plotLeft + plotWidth).toFixed(1)}" y2="${y.toFixed(1)}" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" stroke-dasharray="7 7"></line>
-        <text x="${(plotLeft + plotWidth - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" text-anchor="end" fill="rgba(224,224,232,0.72)" font-size="${isMobile ? 10 : 11}">Menneskenivå ≈ ${benchmarkState.humanAnchor}%</text>`;
+        <text x="${(plotLeft + plotWidth - 4).toFixed(1)}" y="${(y - 10).toFixed(1)}" text-anchor="end" fill="rgba(224,224,232,0.72)" font-size="${isMobile ? 10 : 11}">Menneskelig nivå ≈ ${benchmarkState.humanAnchor}%</text>`;
       })()
     : "";
 
@@ -2996,7 +2996,7 @@ function renderBenchmarkChart() {
 
   const latest = benchmarkState.frontier[benchmarkState.frontier.length - 1];
   footnote.textContent = latest
-    ? `Frontlinjen ender nå på ${formatPct0(latest.frontier)}. ${benchmarkState.showHuman && benchmarkState.humanCrossing ? `Første kryssing skjer med ${benchmarkState.humanCrossing.model}.` : "Ingen menneskekryssing i denne visningen."}`
+    ? `Siste punkt på frontlinjen er ${formatPct0(latest.frontier)}. ${benchmarkState.showHuman && benchmarkState.humanCrossing ? `Første kryssing skjer med ${benchmarkState.humanCrossing.model}.` : "Ingen modell passerer menneskelig nivå i denne visningen."}`
     : "";
 }
 
@@ -3005,23 +3005,23 @@ function renderBenchmarkValidation() {
   const smoke = BenchmarkCore.TEST_RESULTS;
   document.getElementById("benchmarkValidationCopy").textContent =
     validation.errorCount === 0
-      ? `Datasettet validerer uten blokkerende feil: ${validation.rowCount} rader på tvers av ${validation.benchmarkCount} benchmarker og ${validation.orgCount} aktører.`
+      ? `Datasettet er kontrollert uten blokkerende feil: ${validation.rowCount} rader fordelt på ${validation.benchmarkCount} benchmarker og ${validation.orgCount} aktører.`
       : `${validation.errorCount} blokkerende feil ble funnet i benchmarkdatasettet.`;
 
   document.getElementById("benchmarkValidationSummary").innerHTML = [
     { label: "Rader", value: validation.rowCount },
-    { label: "Warnings", value: validation.warningCount },
+    { label: "Varsler", value: validation.warningCount },
     { label: "Første dato", value: validation.minDate ? BenchmarkCore.fmtDate(validation.minDate) : "—" },
     { label: "Siste dato", value: validation.maxDate ? BenchmarkCore.fmtDate(validation.maxDate) : "—" },
   ].map((item) => `<div class="benchmark-validation-chip"><strong>${item.label}</strong><span>${item.value}</span></div>`).join("");
 
   document.getElementById("benchmarkValidationList").innerHTML = validation.issues.length
     ? validation.issues.slice(0, 8).map((issue) => `<li>${escapeHtml(issue.level.toUpperCase())}: ${escapeHtml(issue.message)}</li>`).join("")
-    : "<li>Ingen valideringsvarsler i den pakkede benchmark-kjernen.</li>";
+    : "<li>Ingen valideringsvarsler i denne benchmarkpakken.</li>";
 
   document.getElementById("benchmarkSmokeCopy").textContent = smoke.passed
-    ? `Alle ${smoke.count} røyktester passerer.`
-    : `${smoke.failures.length} av ${smoke.count} røyktester feiler i benchmark-kjernen.`;
+    ? `Alle ${smoke.count} røyktester består.`
+    : `${smoke.failures.length} av ${smoke.count} røyktester feiler i denne benchmarkpakken.`;
   document.getElementById("benchmarkSmokeList").innerHTML = smoke.passed
     ? "<li>Ingen åpne testfeil i denne pakken.</li>"
     : smoke.failures.map((failure) => `<li>${escapeHtml(failure)}</li>`).join("");
