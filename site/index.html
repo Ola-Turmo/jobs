@@ -32,6 +32,9 @@
 <meta name="twitter:image:alt" content="Norsk arbeidsmarkedsoversikt med treemap for yrker og KI-påvirkning">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -139,6 +142,10 @@
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
+html {
+  overflow-x: clip;
+}
+
 :root {
   --bg: #0a0a0f;
   --bg2: #12121a;
@@ -149,7 +156,12 @@
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  line-height: 1.55;
+  overflow-x: clip;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #wrapper {
@@ -158,40 +170,49 @@ body {
   margin: 0 auto;
   padding-top: 32px;
   padding-bottom: 180px;
+  overflow-x: clip;
 }
 
 #header {
   padding: 20px 28px 16px;
   flex-shrink: 0;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .intro {
-  margin-bottom: 18px;
+  max-width: 860px;
+  min-width: 0;
+  margin-bottom: 32px;
 }
 
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
-  gap: 42px;
-  align-items: stretch;
+  gap: 56px;
+  align-items: center;
+  min-height: calc(100dvh - 28px);
   margin-bottom: 56px;
 }
 
 .hero-copy {
-  min-height: 300px;
+  min-height: 0;
 }
 
 .hero-media {
   position: relative;
   min-height: 100%;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
+  min-width: 0;
 }
 
 .hero-video-shell {
   position: relative;
-  width: min(100%, 540px);
-  min-height: 315px;
+  width: min(100%, 436px);
+  min-height: 252px;
+  margin-top: -14px;
   border-radius: 22px;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,0.08);
@@ -240,17 +261,19 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 14px 18px;
+  gap: 18px 24px;
   flex-wrap: wrap;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .intro h1 {
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.02;
   margin: 0;
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .intro-links {
@@ -262,7 +285,8 @@ body {
 
 .intro-links a {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   color: var(--fg2);
   text-decoration: none;
 }
@@ -270,19 +294,25 @@ body {
 .intro-links a:hover { text-decoration: underline; }
 
 .intro p {
-  font-size: 15px;
-  line-height: 1.6;
+  max-width: 72ch;
+  font-size: 16px;
+  line-height: 1.8;
   color: var(--fg2);
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 
 .intro a { color: var(--fg2); }
 .intro strong, .intro b { color: var(--fg); font-weight: 600; }
 
-.intro details { margin: 10px 0; }
+.intro details {
+  max-width: 76ch;
+  margin: 14px 0;
+}
 
 .intro summary {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   color: var(--fg2);
   cursor: pointer;
   user-select: none;
@@ -307,17 +337,19 @@ body {
 }
 
 .drawer-panel {
-  margin-top: 10px;
-  padding: 14px 16px;
+  margin-top: 12px;
+  padding: 18px 20px 16px;
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 8px;
+  border-radius: 14px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .drawer-panel p,
 .drawer-panel li {
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.74;
   color: var(--fg2);
 }
 
@@ -355,12 +387,14 @@ body {
   gap: 20px 28px;
   align-items: flex-start;
   margin-bottom: 12px;
+  min-width: 0;
 }
 
 .stat-section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  min-width: 0;
 }
 
 .stat-section h3 {
@@ -376,6 +410,7 @@ body {
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1;
+  overflow-wrap: anywhere;
 }
 
 .stat-label {
@@ -407,12 +442,14 @@ body {
   gap: 14px;
   flex-wrap: wrap;
   margin-bottom: 14px;
+  min-width: 0;
 }
 
 .color-toggle {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
+  min-width: 0;
 }
 
 .color-toggle button {
@@ -460,6 +497,7 @@ body {
 canvas#canvas {
   display: block;
   cursor: default;
+  max-width: 100%;
 }
 
 #tooltip {
@@ -488,13 +526,17 @@ canvas#canvas {
 
 .analysis-section {
   padding: 34px 28px 0;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .analysis-section h2 {
-  font-size: 25px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 10px;
+  font-size: clamp(1.75rem, 2.3vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.04;
+  margin-bottom: 14px;
+  overflow-wrap: anywhere;
 }
 
 .analysis-section details {
@@ -502,7 +544,9 @@ canvas#canvas {
 }
 
 .analysis-section summary {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   color: var(--fg2);
   cursor: pointer;
   user-select: none;
@@ -513,9 +557,9 @@ canvas#canvas {
 }
 
 .section-lead {
-  max-width: 78ch;
-  font-size: 15px;
-  line-height: 1.65;
+  max-width: 72ch;
+  font-size: 16px;
+  line-height: 1.8;
   color: var(--fg2);
 }
 
@@ -529,22 +573,25 @@ canvas#canvas {
   grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.9fr);
   gap: 18px;
   margin-top: 20px;
+  min-width: 0;
 }
 
 .impact-card {
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 14px;
-  padding: 18px 18px 16px;
+  border-radius: 16px;
+  padding: 22px 22px 20px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .impact-card h3 {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: var(--fg2);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .impact-legend {
@@ -570,6 +617,8 @@ canvas#canvas {
 
 .impact-radar-wrap {
   overflow: hidden;
+  min-width: 0;
+  border-radius: 14px;
 }
 
 #impactRadar {
@@ -578,10 +627,18 @@ canvas#canvas {
   display: block;
 }
 
+.impact-static-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
 .impact-side {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  min-width: 0;
 }
 
 .impact-focus h3,
@@ -590,15 +647,17 @@ canvas#canvas {
 }
 
 .impact-focus-name {
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
+  font-size: clamp(1.7rem, 2.6vw, 2.3rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
 }
 
 .impact-focus-copy {
   margin-top: 8px;
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.72;
   color: var(--fg2);
 }
 
@@ -633,8 +692,8 @@ canvas#canvas {
   margin-top: 14px;
   padding-left: 18px;
   color: var(--fg2);
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.72;
 }
 
 .impact-table {
@@ -675,8 +734,8 @@ canvas#canvas {
 
 .impact-note {
   margin-top: 14px;
-  font-size: 12px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.72;
   color: var(--fg2);
 }
 
@@ -705,6 +764,7 @@ canvas#canvas {
   .hero {
     grid-template-columns: 1fr;
     gap: 22px;
+    min-height: calc(100dvh - 36px);
     margin-bottom: 34px;
   }
   .hero-copy {
@@ -712,8 +772,10 @@ canvas#canvas {
     display: none;
   }
   .hero-video-shell {
-    width: 100%;
-    min-height: 340px;
+    width: min(100%, 436px);
+    min-height: 252px;
+    margin: 0 auto;
+    margin-top: -10px;
   }
   .stats-row { gap: 16px; }
   .analysis-section { padding: 28px 18px 0; }
@@ -724,21 +786,27 @@ canvas#canvas {
 @media (max-width: 640px) {
   #header { padding: 16px 14px 10px; }
   .hero {
+    min-height: calc(100dvh - 28px);
     margin-bottom: 24px;
   }
   .hero-video-shell {
-    min-height: 236px;
+    width: min(100%, 360px);
+    min-height: 210px;
+    margin-top: -8px;
     border-radius: 18px;
   }
-  .intro { margin-bottom: 14px; }
+  .intro {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
   .intro-head {
     align-items: flex-start;
     gap: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
   }
   .intro h1 {
-    font-size: 19px;
-    line-height: 1.12;
+    font-size: 24px;
+    line-height: 1.04;
     width: 100%;
     overflow-wrap: anywhere;
   }
@@ -750,19 +818,20 @@ canvas#canvas {
     font-size: 12px;
   }
   .intro p {
-    font-size: 13px;
-    line-height: 1.48;
-    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.68;
+    margin-bottom: 12px;
   }
   .intro summary {
     font-size: 13px;
   }
   .drawer-panel {
-    padding: 12px 12px 10px;
+    padding: 14px 14px 12px;
   }
   .drawer-panel p,
   .drawer-panel li {
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 1.68;
   }
   .controls-row {
     gap: 10px;
@@ -814,14 +883,14 @@ canvas#canvas {
     padding: 22px 14px 0;
   }
   .analysis-section h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .section-lead {
-    font-size: 13px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.68;
   }
   .impact-card {
-    padding: 12px 12px 10px;
+    padding: 14px 14px 12px;
   }
   #impactRadar {
     width: 100%;
@@ -833,7 +902,8 @@ canvas#canvas {
   .impact-focus-copy,
   .impact-focus ul,
   .impact-note {
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 1.68;
   }
   .impact-mini-stats {
     gap: 8px;
@@ -1030,11 +1100,15 @@ Svar kun med JSON:
     <div class="impact-card">
       <h3>Norsk proxy inspirert av Anthropic</h3>
       <div class="impact-radar-wrap">
-        <svg id="impactRadar" viewBox="0 0 760 760" aria-label="Radarplot for KI-påvirkning etter yrkesgruppe"></svg>
-      </div>
-      <div class="impact-legend">
-        <span class="impact-legend-item"><span class="impact-legend-swatch" style="background:#7aa2ff"></span>Teoretisk LLM-eksponering</span>
-        <span class="impact-legend-item"><span class="impact-legend-swatch" style="background:#ff8c69"></span>Observerbar bruk-proxy</span>
+        <img
+          src="ai-impact-chart.webp"
+          width="1600"
+          height="955"
+          alt="Illustrert radaroversikt over teoretisk LLM-eksponering og observerbar bruk i norske yrkesgrupper"
+          class="impact-static-image"
+          loading="lazy"
+          decoding="async"
+        >
       </div>
       <p class="impact-note" id="impactMethodNote"></p>
     </div>
@@ -1760,6 +1834,7 @@ function renderImpactTable() {
 
 function renderImpactRadar() {
   const svg = document.getElementById("impactRadar");
+  if (!svg) return;
   if (!aiImpactData.length) {
     svg.innerHTML = "";
     return;
