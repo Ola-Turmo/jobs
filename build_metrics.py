@@ -50,16 +50,87 @@ AI_ADOPTION_GROUP_MAP = {
     "90-99": ["68-75+77-82+95.1", "68-74+77-82+95.1", "Total-K"],
 }
 MAJOR_EXPOSURE_BASE = {
-    "1": 74.0,
-    "2": 72.0,
-    "3_01-03": 63.0,
-    "4": 78.0,
-    "5": 43.0,
-    "6": 18.0,
-    "7": 24.0,
-    "8": 27.0,
-    "9": 14.0,
+    "1": 6.1,
+    "2": 6.2,
+    "3_01-03": 5.1,
+    "4": 7.0,
+    "5": 3.8,
+    "6": 1.7,
+    "7": 2.2,
+    "8": 1.8,
+    "9": 1.2,
 }
+VERY_DIGITAL_HINTS = (
+    "ikt",
+    "data",
+    "program",
+    "utvik",
+    "system",
+    "database",
+    "nettverk",
+    "applikasjon",
+    "regnskap",
+    "saksbehand",
+    "kontor",
+    "analyt",
+    "jur",
+    "oversett",
+    "tolk",
+    "journal",
+)
+CARE_HINTS = (
+    "sykeple",
+    "verneple",
+    "jordmor",
+    "helsefag",
+    "pleie",
+    "omsorg",
+    "barnehage",
+)
+TEACHING_HINTS = (
+    "lærer",
+    "undervis",
+    "pedagog",
+    "førskole",
+)
+HUMAN_INTENSIVE_HINTS = (
+    "psykolog",
+    "terapeut",
+    "geistlig",
+    "prest",
+    "sosiale fagfelt",
+)
+PERFORMANCE_HINTS = (
+    "skuespill",
+    "danser",
+    "koreograf",
+    "musiker",
+    "sanger",
+)
+COMMUNICATION_HINTS = (
+    "journalist",
+    "regissør",
+)
+TRADE_HINTS = (
+    "tømr",
+    "snekk",
+    "elektrik",
+    "rørlegg",
+    "murer",
+    "maler",
+    "blikk",
+    "plate",
+    "sveis",
+    "anlegg",
+    "mekanik",
+    "sjåfør",
+    "fører",
+    "kokk",
+    "servit",
+    "renhold",
+    "fisk",
+    "bonde",
+)
 DIGITAL_HINTS = (
     "ikt",
     "data",
@@ -392,26 +463,62 @@ def theoretical_ai_exposure_pct(
     education_share_long_higher: float | None,
 ) -> float:
     text = " ".join(filter(None, [occupation_name_nb, subgroup_name_nb])).lower()
-    score = MAJOR_EXPOSURE_BASE.get(major_group_id, 40.0)
-    score += 18 * ((education_share_short_higher or 0.0) - 0.18)
-    score += 26 * ((education_share_long_higher or 0.0) - 0.12)
+    score = MAJOR_EXPOSURE_BASE.get(major_group_id, 4.0)
+    score += 1.4 * ((education_share_short_higher or 0.0) - 0.20)
+    score += 2.2 * ((education_share_long_higher or 0.0) - 0.12)
 
     if monthly_earnings is not None:
-        score += clamp((monthly_earnings - 52000) / 4000, -4.0, 6.0)
+        score += clamp((monthly_earnings - 52000) / 12000, -0.8, 1.1)
+
+    if any(hint in text for hint in VERY_DIGITAL_HINTS):
+        score += 1.8
 
     if any(hint in text for hint in DIGITAL_HINTS):
-        score += 7.0
+        score += 0.7
     if any(hint in text for hint in PHYSICAL_HINTS):
-        score -= 11.0
-    elif any(hint in text for hint in INTERPERSONAL_HINTS):
-        score -= 3.5
+        score -= 2.8
+    if any(hint in text for hint in INTERPERSONAL_HINTS):
+        score -= 1.2
+    if any(hint in text for hint in CARE_HINTS):
+        score -= 1.4
+    if any(hint in text for hint in TEACHING_HINTS):
+        score -= 0.8
+    if any(hint in text for hint in HUMAN_INTENSIVE_HINTS):
+        score -= 1.6
+    if any(hint in text for hint in PERFORMANCE_HINTS):
+        score -= 2.4
+    if any(hint in text for hint in COMMUNICATION_HINTS):
+        score -= 0.9
 
     if "leder" in text or "direktør" in text:
-        score += 3.0
+        score += 0.4
     if "butikk" in text or "servit" in text:
-        score -= 4.0
+        score -= 0.8
 
-    return round(clamp(score, 8.0, 92.0), 1)
+    if any(hint in text for hint in TRADE_HINTS):
+        score = min(score, 3.0)
+    if any(hint in text for hint in CARE_HINTS):
+        score = min(score, 5.5)
+    if any(hint in text for hint in TEACHING_HINTS):
+        score = min(score, 6.9)
+    if any(hint in text for hint in HUMAN_INTENSIVE_HINTS):
+        score = min(score, 6.2)
+    if any(hint in text for hint in PERFORMANCE_HINTS):
+        score = min(score, 5.8)
+    if any(hint in text for hint in COMMUNICATION_HINTS):
+        score = min(score, 7.6)
+    if major_group_id in {"6", "7", "8", "9"}:
+        score = min(score, 4.0)
+    if major_group_id == "5":
+        score = min(score, 5.2)
+    if major_group_id == "4" and not any(hint in text for hint in VERY_DIGITAL_HINTS):
+        score = min(score, 8.6)
+    if "leder" in text and not any(hint in text for hint in VERY_DIGITAL_HINTS):
+        score = min(score, 7.4)
+    if any(hint in text for hint in VERY_DIGITAL_HINTS) and not any(hint in text for hint in TRADE_HINTS):
+        score = max(score, 7.0)
+
+    return round(clamp(score * 10.0, 8.0, 95.0), 1)
 
 
 def build_detailed_occupation_metrics() -> tuple[dict[str, dict], str]:

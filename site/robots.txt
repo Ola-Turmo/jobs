@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://master.norway-job-market-visualizer.pages.dev/sitemap.xml

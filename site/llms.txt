@@ -1,0 +1,37 @@
+# Norsk arbeidsmarkedsoversikt
+
+Norwegian labor-market exploration page based on official data from Statistics Norway (SSB), inspired by the structure of the original `karpathy/jobs` site.
+
+## What this page is
+
+- A static research-style explorer for Norwegian occupations.
+- Main treemap: occupation size by employment, color by historical change, monthly pay, education, or vacancy context.
+- AI section: a Norway-specific proxy inspired by Anthropic's labor market impacts framing.
+
+## Main sources
+
+- SSB Statbank table 11658: employment and monthly pay by occupation
+- SSB Statbank table 12849: education by occupation
+- SSB Statbank table 09789: occupation-industry mix
+- SSB Statbank table 14306: vacancies by county and industry
+- SSB Statbank table 13265: AI use in enterprises by industry
+- SSB Klass: STYRK classification
+
+## Data-quality summary
+
+- The main treemap does not use raw US BLS values.
+- Historical change is not a forecast and should not be read as a Norwegian equivalent of BLS Outlook.
+- Education and some contextual indicators may be inherited from higher official aggregation levels when 4-digit occupation data is not published directly.
+- Vacancy context is a derived indicator, not a direct occupation-specific unemployment or vacancy rate.
+- The AI section does not reuse US percentages. It uses a Norway-specific proxy inspired by Anthropic's method, and should be interpreted as directional rather than definitive.
+
+## Best use
+
+- Compare occupations relative to each other.
+- Explore broad patterns in employment, pay, education, and AI exposure proxies.
+- Use the source notes and data-quality drawers before citing a number as a precise benchmark.
+
+## Canonical URLs
+
+- https://master.norway-job-market-visualizer.pages.dev/
+- https://master.norway-job-market-visualizer.pages.dev/about.html

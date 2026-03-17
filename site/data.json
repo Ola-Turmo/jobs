@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-17T08:43:40Z",
+    "generated_at": "2026-03-17T11:11:47Z",
     "source_periods": {
       "employment_period": "2025K4",
       "employment_year": 2025,
@@ -74,8 +74,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 29.8,
-        "observed_ai_use_proxy_pct": 7.6,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -139,8 +139,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 27.1,
-        "observed_ai_use_proxy_pct": 6.9,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -204,8 +204,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 29.1,
-        "observed_ai_use_proxy_pct": 7.4,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -269,8 +269,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 27.8,
-        "observed_ai_use_proxy_pct": 7.1,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -334,8 +334,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.5,
-        "observed_ai_use_proxy_pct": 26.6,
+        "theoretical_ai_exposure_pct": 91.3,
+        "observed_ai_use_proxy_pct": 27.4,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -399,8 +399,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 90.2,
-        "observed_ai_use_proxy_pct": 27.1,
+        "theoretical_ai_exposure_pct": 64.8,
+        "observed_ai_use_proxy_pct": 19.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -529,8 +529,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 75.5,
-        "observed_ai_use_proxy_pct": 22.7,
+        "theoretical_ai_exposure_pct": 22.2,
+        "observed_ai_use_proxy_pct": 6.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -594,8 +594,8 @@
         "education_share_unknown": 0.0223,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 85.2,
-        "observed_ai_use_proxy_pct": 22.6,
+        "theoretical_ai_exposure_pct": 93.0,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -724,8 +724,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 74.3,
-        "observed_ai_use_proxy_pct": 21.2,
+        "theoretical_ai_exposure_pct": 59.2,
+        "observed_ai_use_proxy_pct": 16.9,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -789,8 +789,8 @@
         "education_share_unknown": 0.0164,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 91.3,
-        "observed_ai_use_proxy_pct": 24.8,
+        "theoretical_ai_exposure_pct": 74.0,
+        "observed_ai_use_proxy_pct": 20.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -854,8 +854,8 @@
         "education_share_unknown": 0.0391,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 82.8,
-        "observed_ai_use_proxy_pct": 22.0,
+        "theoretical_ai_exposure_pct": 72.4,
+        "observed_ai_use_proxy_pct": 19.2,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -919,8 +919,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.2,
-        "observed_ai_use_proxy_pct": 27.4,
+        "theoretical_ai_exposure_pct": 68.1,
+        "observed_ai_use_proxy_pct": 20.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -984,8 +984,8 @@
         "education_share_unknown": 0.026,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 73.4,
-        "observed_ai_use_proxy_pct": 19.9,
+        "theoretical_ai_exposure_pct": 54.0,
+        "observed_ai_use_proxy_pct": 14.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -1049,7 +1049,7 @@
         "education_share_unknown": 0.0241,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 8.1,
+        "theoretical_ai_exposure_pct": 8.0,
         "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
@@ -1114,8 +1114,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 81.4,
-        "observed_ai_use_proxy_pct": 24.5,
+        "theoretical_ai_exposure_pct": 18.5,
+        "observed_ai_use_proxy_pct": 5.6,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -1179,8 +1179,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -1244,8 +1244,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 77.1,
-        "observed_ai_use_proxy_pct": 23.2,
+        "theoretical_ai_exposure_pct": 27.4,
+        "observed_ai_use_proxy_pct": 8.2,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -1309,8 +1309,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 21.4,
-        "observed_ai_use_proxy_pct": 5.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -1374,8 +1374,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.6,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -1439,8 +1439,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 69.8,
-        "observed_ai_use_proxy_pct": 19.9,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -1504,8 +1504,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.0,
-        "observed_ai_use_proxy_pct": 27.3,
+        "theoretical_ai_exposure_pct": 67.4,
+        "observed_ai_use_proxy_pct": 20.2,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -1569,8 +1569,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.9,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -1634,8 +1634,8 @@
         "education_share_unknown": 0.0146,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 74.0,
+        "observed_ai_use_proxy_pct": 20.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -1699,8 +1699,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 75.4,
-        "observed_ai_use_proxy_pct": 22.7,
+        "theoretical_ai_exposure_pct": 21.8,
+        "observed_ai_use_proxy_pct": 6.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -1764,8 +1764,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 77.9,
-        "observed_ai_use_proxy_pct": 23.4,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 9.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -1829,8 +1829,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 26.4,
-        "observed_ai_use_proxy_pct": 6.7,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -1894,8 +1894,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 39.1,
-        "observed_ai_use_proxy_pct": 10.0,
+        "theoretical_ai_exposure_pct": 32.0,
+        "observed_ai_use_proxy_pct": 8.2,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -1959,8 +1959,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 27.3,
-        "observed_ai_use_proxy_pct": 7.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -2219,8 +2219,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -2284,8 +2284,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 10.9,
-        "observed_ai_use_proxy_pct": 2.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -2349,7 +2349,7 @@
         "education_share_unknown": 0.1347,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 8.1,
+        "theoretical_ai_exposure_pct": 8.0,
         "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
@@ -2414,8 +2414,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 66.2,
-        "observed_ai_use_proxy_pct": 18.9,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 8.6,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -2479,8 +2479,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.4,
-        "observed_ai_use_proxy_pct": 27.5,
+        "theoretical_ai_exposure_pct": 83.4,
+        "observed_ai_use_proxy_pct": 25.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -2544,8 +2544,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 8.5,
-        "observed_ai_use_proxy_pct": 2.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -2609,8 +2609,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 32.4,
-        "observed_ai_use_proxy_pct": 8.3,
+        "theoretical_ai_exposure_pct": 15.1,
+        "observed_ai_use_proxy_pct": 3.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -2674,8 +2674,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.9,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -2739,8 +2739,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.3,
-        "observed_ai_use_proxy_pct": 19.2,
+        "theoretical_ai_exposure_pct": 38.3,
+        "observed_ai_use_proxy_pct": 10.9,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -2804,8 +2804,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 26.6,
-        "observed_ai_use_proxy_pct": 6.8,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -2869,8 +2869,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 69.3,
-        "observed_ai_use_proxy_pct": 19.8,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -2934,8 +2934,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.6,
-        "observed_ai_use_proxy_pct": 27.5,
+        "theoretical_ai_exposure_pct": 94.4,
+        "observed_ai_use_proxy_pct": 28.4,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -2999,8 +2999,8 @@
         "education_share_unknown": 0.0391,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 84.6,
-        "observed_ai_use_proxy_pct": 22.4,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 25.2,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -3064,8 +3064,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 21.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -3194,8 +3194,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 77.6,
-        "observed_ai_use_proxy_pct": 21.1,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 8.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -3259,8 +3259,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.5,
-        "observed_ai_use_proxy_pct": 26.9,
+        "theoretical_ai_exposure_pct": 76.4,
+        "observed_ai_use_proxy_pct": 23.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -3324,8 +3324,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 78.0,
-        "observed_ai_use_proxy_pct": 22.3,
+        "theoretical_ai_exposure_pct": 89.8,
+        "observed_ai_use_proxy_pct": 25.6,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -3389,8 +3389,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 90.5,
-        "observed_ai_use_proxy_pct": 27.2,
+        "theoretical_ai_exposure_pct": 76.4,
+        "observed_ai_use_proxy_pct": 23.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -3454,8 +3454,8 @@
         "education_share_unknown": 0.0146,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 74.0,
+        "observed_ai_use_proxy_pct": 20.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -3519,8 +3519,8 @@
         "education_share_unknown": 0.0008,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 58.9,
-        "observed_ai_use_proxy_pct": 16.8,
+        "theoretical_ai_exposure_pct": 51.1,
+        "observed_ai_use_proxy_pct": 14.6,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -3584,8 +3584,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 70.1,
-        "observed_ai_use_proxy_pct": 20.0,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -3649,8 +3649,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 90.9,
-        "observed_ai_use_proxy_pct": 27.3,
+        "theoretical_ai_exposure_pct": 94.4,
+        "observed_ai_use_proxy_pct": 28.4,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -3714,8 +3714,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.7,
-        "observed_ai_use_proxy_pct": 20.5,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -3779,8 +3779,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 73.6,
-        "observed_ai_use_proxy_pct": 21.0,
+        "theoretical_ai_exposure_pct": 56.8,
+        "observed_ai_use_proxy_pct": 16.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -3844,8 +3844,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 17.8,
-        "observed_ai_use_proxy_pct": 4.1,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -3909,8 +3909,8 @@
         "education_share_unknown": 0.0134,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 38.8,
-        "observed_ai_use_proxy_pct": 9.9,
+        "theoretical_ai_exposure_pct": 28.2,
+        "observed_ai_use_proxy_pct": 7.2,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -3974,8 +3974,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 61.1,
-        "observed_ai_use_proxy_pct": 17.4,
+        "theoretical_ai_exposure_pct": 27.9,
+        "observed_ai_use_proxy_pct": 8.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -4039,8 +4039,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 86.1,
-        "observed_ai_use_proxy_pct": 23.4,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -4104,8 +4104,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 84.9,
-        "observed_ai_use_proxy_pct": 23.0,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -4169,8 +4169,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 65.9,
-        "observed_ai_use_proxy_pct": 18.8,
+        "theoretical_ai_exposure_pct": 49.7,
+        "observed_ai_use_proxy_pct": 14.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -4234,8 +4234,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 72.4,
-        "observed_ai_use_proxy_pct": 20.7,
+        "theoretical_ai_exposure_pct": 52.9,
+        "observed_ai_use_proxy_pct": 15.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -4299,8 +4299,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 74.4,
-        "observed_ai_use_proxy_pct": 21.2,
+        "theoretical_ai_exposure_pct": 59.5,
+        "observed_ai_use_proxy_pct": 17.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -4364,8 +4364,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 68.0,
+        "observed_ai_use_proxy_pct": 18.5,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -4429,8 +4429,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 65.2,
-        "observed_ai_use_proxy_pct": 18.6,
+        "theoretical_ai_exposure_pct": 47.3,
+        "observed_ai_use_proxy_pct": 13.5,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -4494,8 +4494,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -4559,8 +4559,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -4624,8 +4624,8 @@
         "education_share_unknown": 0.0391,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 84.6,
-        "observed_ai_use_proxy_pct": 22.4,
+        "theoretical_ai_exposure_pct": 78.4,
+        "observed_ai_use_proxy_pct": 20.8,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -4689,8 +4689,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.4,
-        "observed_ai_use_proxy_pct": 27.5,
+        "theoretical_ai_exposure_pct": 83.4,
+        "observed_ai_use_proxy_pct": 25.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -4819,8 +4819,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 77.5,
-        "observed_ai_use_proxy_pct": 20.6,
+        "theoretical_ai_exposure_pct": 56.0,
+        "observed_ai_use_proxy_pct": 14.9,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -4884,8 +4884,8 @@
         "education_share_unknown": 0.0134,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 42.8,
-        "observed_ai_use_proxy_pct": 10.9,
+        "theoretical_ai_exposure_pct": 41.4,
+        "observed_ai_use_proxy_pct": 10.6,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -4949,8 +4949,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 36.5,
-        "observed_ai_use_proxy_pct": 9.3,
+        "theoretical_ai_exposure_pct": 27.3,
+        "observed_ai_use_proxy_pct": 7.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -5014,8 +5014,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 12.9,
-        "observed_ai_use_proxy_pct": 3.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -5079,8 +5079,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.1,
-        "observed_ai_use_proxy_pct": 26.5,
+        "theoretical_ai_exposure_pct": 72.1,
+        "observed_ai_use_proxy_pct": 21.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -5144,8 +5144,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.2,
-        "observed_ai_use_proxy_pct": 27.4,
+        "theoretical_ai_exposure_pct": 76.4,
+        "observed_ai_use_proxy_pct": 23.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -5209,8 +5209,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 66.1,
-        "observed_ai_use_proxy_pct": 18.9,
+        "theoretical_ai_exposure_pct": 49.1,
+        "observed_ai_use_proxy_pct": 14.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -5274,8 +5274,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 21.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -5339,8 +5339,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 74.6,
-        "observed_ai_use_proxy_pct": 21.3,
+        "theoretical_ai_exposure_pct": 60.1,
+        "observed_ai_use_proxy_pct": 17.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -5469,8 +5469,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 79.6,
-        "observed_ai_use_proxy_pct": 21.1,
+        "theoretical_ai_exposure_pct": 60.2,
+        "observed_ai_use_proxy_pct": 16.0,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -5534,8 +5534,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 36.9,
-        "observed_ai_use_proxy_pct": 9.4,
+        "theoretical_ai_exposure_pct": 27.3,
+        "observed_ai_use_proxy_pct": 7.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -5599,8 +5599,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 86.1,
-        "observed_ai_use_proxy_pct": 23.4,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -5664,8 +5664,8 @@
         "education_share_unknown": 0.0146,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 74.0,
+        "observed_ai_use_proxy_pct": 20.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -5794,8 +5794,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 57.9,
-        "observed_ai_use_proxy_pct": 16.5,
+        "theoretical_ai_exposure_pct": 35.4,
+        "observed_ai_use_proxy_pct": 10.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -5859,8 +5859,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 10.8,
-        "observed_ai_use_proxy_pct": 2.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -5989,8 +5989,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.7,
-        "observed_ai_use_proxy_pct": 20.5,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -6119,8 +6119,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -6184,8 +6184,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 76.0,
+        "observed_ai_use_proxy_pct": 22.8,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -6249,8 +6249,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -6314,8 +6314,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 86.1,
-        "observed_ai_use_proxy_pct": 23.4,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -6379,8 +6379,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 74.5,
-        "observed_ai_use_proxy_pct": 21.3,
+        "theoretical_ai_exposure_pct": 59.9,
+        "observed_ai_use_proxy_pct": 17.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -6509,8 +6509,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.5,
-        "observed_ai_use_proxy_pct": 20.4,
+        "theoretical_ai_exposure_pct": 50.0,
+        "observed_ai_use_proxy_pct": 14.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -6574,8 +6574,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 78.4,
-        "observed_ai_use_proxy_pct": 22.4,
+        "theoretical_ai_exposure_pct": 82.6,
+        "observed_ai_use_proxy_pct": 23.6,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -6704,8 +6704,8 @@
         "education_share_unknown": 0.0391,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 84.5,
-        "observed_ai_use_proxy_pct": 22.4,
+        "theoretical_ai_exposure_pct": 78.1,
+        "observed_ai_use_proxy_pct": 20.7,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -6899,8 +6899,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 76.2,
-        "observed_ai_use_proxy_pct": 21.8,
+        "theoretical_ai_exposure_pct": 60.6,
+        "observed_ai_use_proxy_pct": 17.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -6964,8 +6964,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 68.7,
-        "observed_ai_use_proxy_pct": 19.6,
+        "theoretical_ai_exposure_pct": 57.6,
+        "observed_ai_use_proxy_pct": 16.4,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -7029,8 +7029,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 69.0,
-        "observed_ai_use_proxy_pct": 19.7,
+        "theoretical_ai_exposure_pct": 58.7,
+        "observed_ai_use_proxy_pct": 16.8,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -7094,8 +7094,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 12.7,
-        "observed_ai_use_proxy_pct": 2.9,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -7159,8 +7159,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 86.0,
-        "observed_ai_use_proxy_pct": 25.8,
+        "theoretical_ai_exposure_pct": 58.3,
+        "observed_ai_use_proxy_pct": 17.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -7224,8 +7224,8 @@
         "education_share_unknown": 0.0241,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 9.3,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -7354,8 +7354,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.8,
-        "observed_ai_use_proxy_pct": 26.7,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -7419,8 +7419,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -7549,8 +7549,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 94.0,
+        "observed_ai_use_proxy_pct": 25.5,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -7614,8 +7614,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 70.7,
-        "observed_ai_use_proxy_pct": 20.2,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -7679,8 +7679,8 @@
         "education_share_unknown": 0.0967,
         "vacancy_context_share_pct": 2.33,
         "vacancy_context_volume": 7614.7,
-        "theoretical_ai_exposure_pct": 8.4,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.1,
         "industry_ai_use_proxy_pct": 15.5,
         "dominant_industries": [
           {
@@ -7744,8 +7744,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.8,
-        "observed_ai_use_proxy_pct": 20.5,
+        "theoretical_ai_exposure_pct": 65.4,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -7809,8 +7809,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 86.1,
-        "observed_ai_use_proxy_pct": 23.4,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -7939,8 +7939,8 @@
         "education_share_unknown": 0.0967,
         "vacancy_context_share_pct": 2.33,
         "vacancy_context_volume": 7614.7,
-        "theoretical_ai_exposure_pct": 9.2,
-        "observed_ai_use_proxy_pct": 2.4,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.1,
         "industry_ai_use_proxy_pct": 15.5,
         "dominant_industries": [
           {
@@ -8004,8 +8004,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 79.5,
-        "observed_ai_use_proxy_pct": 21.1,
+        "theoretical_ai_exposure_pct": 59.7,
+        "observed_ai_use_proxy_pct": 15.8,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -8069,8 +8069,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 31.0,
-        "observed_ai_use_proxy_pct": 7.9,
+        "theoretical_ai_exposure_pct": 10.8,
+        "observed_ai_use_proxy_pct": 2.8,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -8199,8 +8199,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.7,
-        "observed_ai_use_proxy_pct": 26.9,
+        "theoretical_ai_exposure_pct": 63.1,
+        "observed_ai_use_proxy_pct": 19.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -8264,8 +8264,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 77.4,
-        "observed_ai_use_proxy_pct": 22.1,
+        "theoretical_ai_exposure_pct": 60.6,
+        "observed_ai_use_proxy_pct": 17.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -8329,8 +8329,8 @@
         "education_share_unknown": 0.0008,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 82.3,
-        "observed_ai_use_proxy_pct": 23.5,
+        "theoretical_ai_exposure_pct": 72.5,
+        "observed_ai_use_proxy_pct": 20.7,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -8459,8 +8459,8 @@
         "education_share_unknown": 0.0009,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 70.0,
-        "observed_ai_use_proxy_pct": 20.0,
+        "theoretical_ai_exposure_pct": 62.4,
+        "observed_ai_use_proxy_pct": 17.8,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -8524,8 +8524,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 86.1,
-        "observed_ai_use_proxy_pct": 23.4,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -8589,8 +8589,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 76.3,
-        "observed_ai_use_proxy_pct": 21.8,
+        "theoretical_ai_exposure_pct": 83.9,
+        "observed_ai_use_proxy_pct": 23.9,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -8654,8 +8654,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 78.1,
-        "observed_ai_use_proxy_pct": 23.5,
+        "theoretical_ai_exposure_pct": 54.1,
+        "observed_ai_use_proxy_pct": 16.3,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -8719,8 +8719,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 81.1,
-        "observed_ai_use_proxy_pct": 24.4,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 9.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -8784,8 +8784,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 79.3,
-        "observed_ai_use_proxy_pct": 21.0,
+        "theoretical_ai_exposure_pct": 59.2,
+        "observed_ai_use_proxy_pct": 15.7,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -8849,8 +8849,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 72.4,
-        "observed_ai_use_proxy_pct": 20.7,
+        "theoretical_ai_exposure_pct": 52.9,
+        "observed_ai_use_proxy_pct": 15.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -8914,8 +8914,8 @@
         "education_share_unknown": 0.0146,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 87.9,
-        "observed_ai_use_proxy_pct": 23.9,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 8.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -8979,8 +8979,8 @@
         "education_share_unknown": 0.0514,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 22.3,
-        "observed_ai_use_proxy_pct": 5.2,
+        "theoretical_ai_exposure_pct": 12.3,
+        "observed_ai_use_proxy_pct": 2.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -9044,8 +9044,8 @@
         "education_share_unknown": 0.0134,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 38.8,
-        "observed_ai_use_proxy_pct": 9.9,
+        "theoretical_ai_exposure_pct": 28.1,
+        "observed_ai_use_proxy_pct": 7.2,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -9174,8 +9174,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 75.4,
+        "observed_ai_use_proxy_pct": 22.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -9239,8 +9239,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -9304,8 +9304,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -9369,8 +9369,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.0,
-        "observed_ai_use_proxy_pct": 20.3,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 20.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -9499,8 +9499,8 @@
         "education_share_unknown": 0.0241,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 9.2,
-        "observed_ai_use_proxy_pct": 2.1,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -9564,8 +9564,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.2,
-        "observed_ai_use_proxy_pct": 19.2,
+        "theoretical_ai_exposure_pct": 51.6,
+        "observed_ai_use_proxy_pct": 14.7,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -9694,8 +9694,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 76.7,
-        "observed_ai_use_proxy_pct": 20.8,
+        "theoretical_ai_exposure_pct": 27.0,
+        "observed_ai_use_proxy_pct": 7.3,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -9759,8 +9759,8 @@
         "education_share_unknown": 0.0241,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 13.7,
-        "observed_ai_use_proxy_pct": 3.2,
+        "theoretical_ai_exposure_pct": 11.2,
+        "observed_ai_use_proxy_pct": 2.6,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -9824,8 +9824,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 35.1,
-        "observed_ai_use_proxy_pct": 9.0,
+        "theoretical_ai_exposure_pct": 19.0,
+        "observed_ai_use_proxy_pct": 4.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -9889,8 +9889,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 60.7,
-        "observed_ai_use_proxy_pct": 17.3,
+        "theoretical_ai_exposure_pct": 35.9,
+        "observed_ai_use_proxy_pct": 10.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -9954,8 +9954,8 @@
         "education_share_unknown": 0.026,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 72.3,
-        "observed_ai_use_proxy_pct": 19.6,
+        "theoretical_ai_exposure_pct": 50.5,
+        "observed_ai_use_proxy_pct": 13.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -10019,8 +10019,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.8,
-        "observed_ai_use_proxy_pct": 27.0,
+        "theoretical_ai_exposure_pct": 63.5,
+        "observed_ai_use_proxy_pct": 19.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -10084,8 +10084,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 34.6,
-        "observed_ai_use_proxy_pct": 8.8,
+        "theoretical_ai_exposure_pct": 17.2,
+        "observed_ai_use_proxy_pct": 4.4,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -10149,8 +10149,8 @@
         "education_share_unknown": 0.0134,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 41.1,
-        "observed_ai_use_proxy_pct": 10.5,
+        "theoretical_ai_exposure_pct": 35.8,
+        "observed_ai_use_proxy_pct": 9.1,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -10279,8 +10279,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.0,
-        "observed_ai_use_proxy_pct": 19.1,
+        "theoretical_ai_exposure_pct": 53.2,
+        "observed_ai_use_proxy_pct": 15.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -10344,8 +10344,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.6,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -10409,8 +10409,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.2,
-        "observed_ai_use_proxy_pct": 27.4,
+        "theoretical_ai_exposure_pct": 83.4,
+        "observed_ai_use_proxy_pct": 25.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -10474,8 +10474,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 37.0,
-        "observed_ai_use_proxy_pct": 9.5,
+        "theoretical_ai_exposure_pct": 27.3,
+        "observed_ai_use_proxy_pct": 7.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -10539,8 +10539,8 @@
         "education_share_unknown": 0.0207,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 83.1,
-        "observed_ai_use_proxy_pct": 22.0,
+        "theoretical_ai_exposure_pct": 88.8,
+        "observed_ai_use_proxy_pct": 23.5,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -10604,8 +10604,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.5,
-        "observed_ai_use_proxy_pct": 26.9,
+        "theoretical_ai_exposure_pct": 83.4,
+        "observed_ai_use_proxy_pct": 25.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -10669,8 +10669,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 55.1,
-        "observed_ai_use_proxy_pct": 15.7,
+        "theoretical_ai_exposure_pct": 22.3,
+        "observed_ai_use_proxy_pct": 6.4,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -10734,8 +10734,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 85.6,
-        "observed_ai_use_proxy_pct": 25.7,
+        "theoretical_ai_exposure_pct": 56.9,
+        "observed_ai_use_proxy_pct": 17.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -10799,8 +10799,8 @@
         "education_share_unknown": 0.026,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 75.4,
-        "observed_ai_use_proxy_pct": 20.5,
+        "theoretical_ai_exposure_pct": 60.8,
+        "observed_ai_use_proxy_pct": 16.5,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -10864,8 +10864,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 69.1,
-        "observed_ai_use_proxy_pct": 19.7,
+        "theoretical_ai_exposure_pct": 59.1,
+        "observed_ai_use_proxy_pct": 16.9,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -10929,8 +10929,8 @@
         "education_share_unknown": 0.0146,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 25.8,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -10994,8 +10994,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 21.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -11059,8 +11059,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.6,
-        "observed_ai_use_proxy_pct": 26.9,
+        "theoretical_ai_exposure_pct": 63.0,
+        "observed_ai_use_proxy_pct": 18.9,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -11124,8 +11124,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.3,
-        "observed_ai_use_proxy_pct": 27.4,
+        "theoretical_ai_exposure_pct": 76.4,
+        "observed_ai_use_proxy_pct": 23.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -11189,8 +11189,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 64.5,
-        "observed_ai_use_proxy_pct": 18.4,
+        "theoretical_ai_exposure_pct": 45.9,
+        "observed_ai_use_proxy_pct": 13.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -11254,8 +11254,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 10.3,
-        "observed_ai_use_proxy_pct": 2.4,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -11319,8 +11319,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.2,
-        "observed_ai_use_proxy_pct": 2.1,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -11384,8 +11384,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -11449,8 +11449,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 68.9,
-        "observed_ai_use_proxy_pct": 19.7,
+        "theoretical_ai_exposure_pct": 63.4,
+        "observed_ai_use_proxy_pct": 18.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -11514,8 +11514,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 37.5,
-        "observed_ai_use_proxy_pct": 9.6,
+        "theoretical_ai_exposure_pct": 27.3,
+        "observed_ai_use_proxy_pct": 7.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -11579,8 +11579,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 37.1,
-        "observed_ai_use_proxy_pct": 9.5,
+        "theoretical_ai_exposure_pct": 19.3,
+        "observed_ai_use_proxy_pct": 4.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -11774,8 +11774,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -11839,8 +11839,8 @@
         "education_share_unknown": 0.0164,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 84.3,
-        "observed_ai_use_proxy_pct": 22.9,
+        "theoretical_ai_exposure_pct": 67.6,
+        "observed_ai_use_proxy_pct": 18.3,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -11904,8 +11904,8 @@
         "education_share_unknown": 0.0164,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 84.1,
-        "observed_ai_use_proxy_pct": 22.8,
+        "theoretical_ai_exposure_pct": 67.6,
+        "observed_ai_use_proxy_pct": 18.3,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -11969,8 +11969,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.3,
-        "observed_ai_use_proxy_pct": 20.4,
+        "theoretical_ai_exposure_pct": 49.3,
+        "observed_ai_use_proxy_pct": 14.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -12034,8 +12034,8 @@
         "education_share_unknown": 0.0514,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 22.0,
-        "observed_ai_use_proxy_pct": 5.1,
+        "theoretical_ai_exposure_pct": 11.3,
+        "observed_ai_use_proxy_pct": 2.6,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -12229,8 +12229,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 31.0,
-        "observed_ai_use_proxy_pct": 7.9,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -12294,8 +12294,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 21.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -12424,8 +12424,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.4,
-        "observed_ai_use_proxy_pct": 20.4,
+        "theoretical_ai_exposure_pct": 49.3,
+        "observed_ai_use_proxy_pct": 14.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -12489,8 +12489,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 68.0,
-        "observed_ai_use_proxy_pct": 19.4,
+        "theoretical_ai_exposure_pct": 55.3,
+        "observed_ai_use_proxy_pct": 15.8,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -12554,8 +12554,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 10.4,
-        "observed_ai_use_proxy_pct": 2.4,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -12619,8 +12619,8 @@
         "education_share_unknown": 0.0146,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 74.0,
+        "observed_ai_use_proxy_pct": 20.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -12684,8 +12684,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 20.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -12749,8 +12749,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 73.2,
-        "observed_ai_use_proxy_pct": 20.9,
+        "theoretical_ai_exposure_pct": 55.4,
+        "observed_ai_use_proxy_pct": 15.8,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -12814,8 +12814,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.7,
-        "observed_ai_use_proxy_pct": 20.5,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -12879,8 +12879,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 10.6,
-        "observed_ai_use_proxy_pct": 2.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -12944,8 +12944,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.5,
-        "observed_ai_use_proxy_pct": 19.3,
+        "theoretical_ai_exposure_pct": 55.1,
+        "observed_ai_use_proxy_pct": 15.7,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -13009,8 +13009,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 68.3,
-        "observed_ai_use_proxy_pct": 19.5,
+        "theoretical_ai_exposure_pct": 61.4,
+        "observed_ai_use_proxy_pct": 17.5,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -13074,8 +13074,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 16.1,
-        "observed_ai_use_proxy_pct": 3.7,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -13139,8 +13139,8 @@
         "education_share_unknown": 0.0391,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 85.0,
-        "observed_ai_use_proxy_pct": 22.5,
+        "theoretical_ai_exposure_pct": 79.6,
+        "observed_ai_use_proxy_pct": 21.1,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -13204,8 +13204,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 78.2,
-        "observed_ai_use_proxy_pct": 21.2,
+        "theoretical_ai_exposure_pct": 27.0,
+        "observed_ai_use_proxy_pct": 7.3,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -13269,8 +13269,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 48.7,
-        "observed_ai_use_proxy_pct": 12.4,
+        "theoretical_ai_exposure_pct": 39.7,
+        "observed_ai_use_proxy_pct": 10.1,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -13334,8 +13334,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 23.5,
-        "observed_ai_use_proxy_pct": 5.5,
+        "theoretical_ai_exposure_pct": 29.3,
+        "observed_ai_use_proxy_pct": 6.8,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -13464,8 +13464,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 11.6,
-        "observed_ai_use_proxy_pct": 2.7,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -13529,8 +13529,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.0,
-        "observed_ai_use_proxy_pct": 26.4,
+        "theoretical_ai_exposure_pct": 81.2,
+        "observed_ai_use_proxy_pct": 24.4,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -13594,8 +13594,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.8,
-        "observed_ai_use_proxy_pct": 26.7,
+        "theoretical_ai_exposure_pct": 83.4,
+        "observed_ai_use_proxy_pct": 25.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -13659,8 +13659,8 @@
         "education_share_unknown": 0.0576,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 8.5,
-        "observed_ai_use_proxy_pct": 2.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -13724,8 +13724,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 87.0,
-        "observed_ai_use_proxy_pct": 26.1,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -13789,8 +13789,8 @@
         "education_share_unknown": 0.0146,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 25.0,
+        "theoretical_ai_exposure_pct": 74.0,
+        "observed_ai_use_proxy_pct": 20.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -13854,8 +13854,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -13919,8 +13919,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 60.4,
-        "observed_ai_use_proxy_pct": 17.2,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 8.6,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -14049,8 +14049,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 86.6,
-        "observed_ai_use_proxy_pct": 26.0,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -14114,8 +14114,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.6,
-        "observed_ai_use_proxy_pct": 19.3,
+        "theoretical_ai_exposure_pct": 54.1,
+        "observed_ai_use_proxy_pct": 15.4,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -14244,8 +14244,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -14309,8 +14309,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 76.3,
-        "observed_ai_use_proxy_pct": 20.7,
+        "theoretical_ai_exposure_pct": 27.0,
+        "observed_ai_use_proxy_pct": 7.3,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -14374,8 +14374,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 76.5,
-        "observed_ai_use_proxy_pct": 21.8,
+        "theoretical_ai_exposure_pct": 84.7,
+        "observed_ai_use_proxy_pct": 24.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -14439,8 +14439,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 60.0,
-        "observed_ai_use_proxy_pct": 17.1,
+        "theoretical_ai_exposure_pct": 35.9,
+        "observed_ai_use_proxy_pct": 10.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -14504,8 +14504,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 73.2,
-        "observed_ai_use_proxy_pct": 20.9,
+        "theoretical_ai_exposure_pct": 57.5,
+        "observed_ai_use_proxy_pct": 16.4,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -14569,8 +14569,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 17.4,
-        "observed_ai_use_proxy_pct": 4.0,
+        "theoretical_ai_exposure_pct": 10.3,
+        "observed_ai_use_proxy_pct": 2.4,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -14634,8 +14634,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.8,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -14764,8 +14764,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 68.7,
-        "observed_ai_use_proxy_pct": 19.6,
+        "theoretical_ai_exposure_pct": 57.6,
+        "observed_ai_use_proxy_pct": 16.4,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -14829,8 +14829,8 @@
         "education_share_unknown": 0.1347,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 8.9,
-        "observed_ai_use_proxy_pct": 2.1,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -14894,8 +14894,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 65.5,
-        "observed_ai_use_proxy_pct": 18.7,
+        "theoretical_ai_exposure_pct": 52.1,
+        "observed_ai_use_proxy_pct": 14.9,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -14959,8 +14959,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 76.0,
-        "observed_ai_use_proxy_pct": 22.8,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 9.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -15089,8 +15089,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 64.8,
-        "observed_ai_use_proxy_pct": 18.5,
+        "theoretical_ai_exposure_pct": 24.6,
+        "observed_ai_use_proxy_pct": 7.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -15154,8 +15154,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 42.9,
-        "observed_ai_use_proxy_pct": 11.0,
+        "theoretical_ai_exposure_pct": 44.7,
+        "observed_ai_use_proxy_pct": 11.4,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -15219,8 +15219,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 76.0,
+        "observed_ai_use_proxy_pct": 22.8,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -15284,8 +15284,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 12.6,
-        "observed_ai_use_proxy_pct": 2.9,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -15349,8 +15349,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 79.8,
-        "observed_ai_use_proxy_pct": 21.2,
+        "theoretical_ai_exposure_pct": 60.9,
+        "observed_ai_use_proxy_pct": 16.2,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -15479,8 +15479,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -15544,8 +15544,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 68.0,
-        "observed_ai_use_proxy_pct": 19.4,
+        "theoretical_ai_exposure_pct": 56.6,
+        "observed_ai_use_proxy_pct": 16.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -15609,8 +15609,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 73.7,
-        "observed_ai_use_proxy_pct": 21.0,
+        "theoretical_ai_exposure_pct": 75.4,
+        "observed_ai_use_proxy_pct": 21.5,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -15674,8 +15674,8 @@
         "education_share_unknown": 0.0967,
         "vacancy_context_share_pct": 2.33,
         "vacancy_context_volume": 7614.7,
-        "theoretical_ai_exposure_pct": 8.6,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.1,
         "industry_ai_use_proxy_pct": 15.5,
         "dominant_industries": [
           {
@@ -15804,8 +15804,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 36.3,
-        "observed_ai_use_proxy_pct": 9.3,
+        "theoretical_ai_exposure_pct": 27.3,
+        "observed_ai_use_proxy_pct": 7.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -15869,8 +15869,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -15934,8 +15934,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -15999,8 +15999,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -16064,8 +16064,8 @@
         "education_share_unknown": 0.026,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 73.5,
-        "observed_ai_use_proxy_pct": 19.9,
+        "theoretical_ai_exposure_pct": 54.3,
+        "observed_ai_use_proxy_pct": 14.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -16129,8 +16129,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 54.3,
-        "observed_ai_use_proxy_pct": 15.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -16194,8 +16194,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 40.2,
-        "observed_ai_use_proxy_pct": 10.3,
+        "theoretical_ai_exposure_pct": 35.4,
+        "observed_ai_use_proxy_pct": 9.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -16259,8 +16259,8 @@
         "education_share_unknown": 0.0576,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 10.7,
-        "observed_ai_use_proxy_pct": 2.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -16324,8 +16324,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 56.6,
-        "observed_ai_use_proxy_pct": 16.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -16389,8 +16389,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.9,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -16454,8 +16454,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.3,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 94.1,
+        "observed_ai_use_proxy_pct": 28.3,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -16519,8 +16519,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 89.1,
+        "observed_ai_use_proxy_pct": 26.8,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -16584,8 +16584,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.6,
-        "observed_ai_use_proxy_pct": 20.4,
+        "theoretical_ai_exposure_pct": 50.2,
+        "observed_ai_use_proxy_pct": 14.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -16714,8 +16714,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 87.0,
-        "observed_ai_use_proxy_pct": 26.1,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -16779,8 +16779,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 78.9,
-        "observed_ai_use_proxy_pct": 20.9,
+        "theoretical_ai_exposure_pct": 57.7,
+        "observed_ai_use_proxy_pct": 15.3,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -16844,8 +16844,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 87.2,
-        "observed_ai_use_proxy_pct": 26.2,
+        "theoretical_ai_exposure_pct": 78.5,
+        "observed_ai_use_proxy_pct": 23.6,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -16909,8 +16909,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.6,
-        "observed_ai_use_proxy_pct": 26.9,
+        "theoretical_ai_exposure_pct": 62.8,
+        "observed_ai_use_proxy_pct": 18.9,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -17039,8 +17039,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 8.4,
-        "observed_ai_use_proxy_pct": 2.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -17104,8 +17104,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 69.0,
-        "observed_ai_use_proxy_pct": 19.7,
+        "theoretical_ai_exposure_pct": 58.5,
+        "observed_ai_use_proxy_pct": 16.7,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -17169,8 +17169,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 11.0,
-        "observed_ai_use_proxy_pct": 2.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -17234,8 +17234,8 @@
         "education_share_unknown": 0.0164,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 91.3,
-        "observed_ai_use_proxy_pct": 24.8,
+        "theoretical_ai_exposure_pct": 74.0,
+        "observed_ai_use_proxy_pct": 20.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -17299,8 +17299,8 @@
         "education_share_unknown": 0.0207,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 84.8,
-        "observed_ai_use_proxy_pct": 22.5,
+        "theoretical_ai_exposure_pct": 94.4,
+        "observed_ai_use_proxy_pct": 25.0,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -17364,8 +17364,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.5,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -17494,8 +17494,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -17559,8 +17559,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.7,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -17624,8 +17624,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.0,
-        "observed_ai_use_proxy_pct": 26.4,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -17689,8 +17689,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 21.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -17754,8 +17754,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 86.7,
+        "observed_ai_use_proxy_pct": 26.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -17819,8 +17819,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 17.1,
-        "observed_ai_use_proxy_pct": 4.0,
+        "theoretical_ai_exposure_pct": 10.3,
+        "observed_ai_use_proxy_pct": 2.4,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -17884,8 +17884,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 86.1,
-        "observed_ai_use_proxy_pct": 25.9,
+        "theoretical_ai_exposure_pct": 80.9,
+        "observed_ai_use_proxy_pct": 24.3,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -18014,8 +18014,8 @@
         "education_share_unknown": 0.0207,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 86.5,
-        "observed_ai_use_proxy_pct": 22.9,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 25.2,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -18079,8 +18079,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -18144,8 +18144,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 87.9,
-        "observed_ai_use_proxy_pct": 26.4,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -18209,8 +18209,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 8.6,
-        "observed_ai_use_proxy_pct": 2.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -18274,8 +18274,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 79.6,
-        "observed_ai_use_proxy_pct": 21.1,
+        "theoretical_ai_exposure_pct": 78.1,
+        "observed_ai_use_proxy_pct": 20.7,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -18339,8 +18339,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 79.6,
-        "observed_ai_use_proxy_pct": 22.7,
+        "theoretical_ai_exposure_pct": 90.7,
+        "observed_ai_use_proxy_pct": 25.9,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -18404,8 +18404,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.4,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -18469,8 +18469,8 @@
         "education_share_unknown": 0.026,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 72.8,
-        "observed_ai_use_proxy_pct": 19.8,
+        "theoretical_ai_exposure_pct": 52.2,
+        "observed_ai_use_proxy_pct": 14.2,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -18534,8 +18534,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 72.1,
-        "observed_ai_use_proxy_pct": 20.6,
+        "theoretical_ai_exposure_pct": 51.8,
+        "observed_ai_use_proxy_pct": 14.8,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -18599,8 +18599,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 76.8,
-        "observed_ai_use_proxy_pct": 20.4,
+        "theoretical_ai_exposure_pct": 56.0,
+        "observed_ai_use_proxy_pct": 14.9,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -18664,8 +18664,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 71.8,
-        "observed_ai_use_proxy_pct": 19.0,
+        "theoretical_ai_exposure_pct": 31.2,
+        "observed_ai_use_proxy_pct": 8.3,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -18729,8 +18729,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.1,
-        "observed_ai_use_proxy_pct": 27.4,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -18794,8 +18794,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 86.0,
-        "observed_ai_use_proxy_pct": 25.8,
+        "theoretical_ai_exposure_pct": 74.5,
+        "observed_ai_use_proxy_pct": 22.4,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -18859,8 +18859,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 77.4,
-        "observed_ai_use_proxy_pct": 22.1,
+        "theoretical_ai_exposure_pct": 60.6,
+        "observed_ai_use_proxy_pct": 17.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -18924,8 +18924,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.6,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -18989,8 +18989,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 37.6,
-        "observed_ai_use_proxy_pct": 9.6,
+        "theoretical_ai_exposure_pct": 27.3,
+        "observed_ai_use_proxy_pct": 7.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -19054,8 +19054,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 33.1,
-        "observed_ai_use_proxy_pct": 8.5,
+        "theoretical_ai_exposure_pct": 15.1,
+        "observed_ai_use_proxy_pct": 3.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -19184,8 +19184,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 56.7,
-        "observed_ai_use_proxy_pct": 16.2,
+        "theoretical_ai_exposure_pct": 31.4,
+        "observed_ai_use_proxy_pct": 9.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -19249,8 +19249,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 76.5,
-        "observed_ai_use_proxy_pct": 20.8,
+        "theoretical_ai_exposure_pct": 41.0,
+        "observed_ai_use_proxy_pct": 11.1,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -19314,8 +19314,8 @@
         "education_share_unknown": 0.0145,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 91.3,
-        "observed_ai_use_proxy_pct": 27.4,
+        "theoretical_ai_exposure_pct": 94.4,
+        "observed_ai_use_proxy_pct": 28.4,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -19379,8 +19379,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -19444,8 +19444,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 12.8,
-        "observed_ai_use_proxy_pct": 3.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -19509,8 +19509,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.7,
-        "observed_ai_use_proxy_pct": 20.5,
+        "theoretical_ai_exposure_pct": 63.9,
+        "observed_ai_use_proxy_pct": 18.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -19574,8 +19574,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 21.3,
-        "observed_ai_use_proxy_pct": 5.0,
+        "theoretical_ai_exposure_pct": 23.2,
+        "observed_ai_use_proxy_pct": 5.4,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -19639,8 +19639,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 85.6,
-        "observed_ai_use_proxy_pct": 25.7,
+        "theoretical_ai_exposure_pct": 79.2,
+        "observed_ai_use_proxy_pct": 23.8,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -19704,8 +19704,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.2,
-        "observed_ai_use_proxy_pct": 19.2,
+        "theoretical_ai_exposure_pct": 57.9,
+        "observed_ai_use_proxy_pct": 16.5,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -19769,8 +19769,8 @@
         "education_share_unknown": 0.0223,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 87.5,
-        "observed_ai_use_proxy_pct": 23.2,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 25.2,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -19834,8 +19834,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 77.0,
-        "observed_ai_use_proxy_pct": 20.4,
+        "theoretical_ai_exposure_pct": 56.0,
+        "observed_ai_use_proxy_pct": 14.9,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -19899,8 +19899,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.2,
-        "observed_ai_use_proxy_pct": 26.5,
+        "theoretical_ai_exposure_pct": 58.1,
+        "observed_ai_use_proxy_pct": 17.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -19964,8 +19964,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.7,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -20029,8 +20029,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.1,
-        "observed_ai_use_proxy_pct": 4.4,
+        "theoretical_ai_exposure_pct": 16.0,
+        "observed_ai_use_proxy_pct": 3.7,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -20159,8 +20159,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 33.9,
-        "observed_ai_use_proxy_pct": 8.7,
+        "theoretical_ai_exposure_pct": 15.1,
+        "observed_ai_use_proxy_pct": 3.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -20289,8 +20289,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 10.8,
-        "observed_ai_use_proxy_pct": 2.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -20354,8 +20354,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 89.1,
-        "observed_ai_use_proxy_pct": 26.8,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -20419,8 +20419,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -20549,8 +20549,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.9,
-        "observed_ai_use_proxy_pct": 26.7,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -20679,8 +20679,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 71.2,
-        "observed_ai_use_proxy_pct": 20.3,
+        "theoretical_ai_exposure_pct": 55.9,
+        "observed_ai_use_proxy_pct": 16.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -20744,8 +20744,8 @@
         "education_share_unknown": 0.0462,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 80.2,
-        "observed_ai_use_proxy_pct": 21.3,
+        "theoretical_ai_exposure_pct": 62.1,
+        "observed_ai_use_proxy_pct": 16.5,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -20809,8 +20809,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 18.3,
-        "observed_ai_use_proxy_pct": 4.3,
+        "theoretical_ai_exposure_pct": 13.4,
+        "observed_ai_use_proxy_pct": 3.1,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -20874,8 +20874,8 @@
         "education_share_unknown": 0.0207,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 83.3,
-        "observed_ai_use_proxy_pct": 22.1,
+        "theoretical_ai_exposure_pct": 89.4,
+        "observed_ai_use_proxy_pct": 23.7,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -20939,8 +20939,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 87.2,
-        "observed_ai_use_proxy_pct": 26.2,
+        "theoretical_ai_exposure_pct": 54.8,
+        "observed_ai_use_proxy_pct": 16.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -21069,8 +21069,8 @@
         "education_share_unknown": 0.0147,
         "vacancy_context_share_pct": 2.25,
         "vacancy_context_volume": 6982.4,
-        "theoretical_ai_exposure_pct": 86.1,
-        "observed_ai_use_proxy_pct": 23.4,
+        "theoretical_ai_exposure_pct": 69.0,
+        "observed_ai_use_proxy_pct": 18.7,
         "industry_ai_use_proxy_pct": 17.2,
         "dominant_industries": [
           {
@@ -21134,8 +21134,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.9,
-        "observed_ai_use_proxy_pct": 26.7,
+        "theoretical_ai_exposure_pct": 83.4,
+        "observed_ai_use_proxy_pct": 25.1,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -21199,8 +21199,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 9.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -21264,8 +21264,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 38.5,
-        "observed_ai_use_proxy_pct": 9.8,
+        "theoretical_ai_exposure_pct": 30.3,
+        "observed_ai_use_proxy_pct": 7.7,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -21329,8 +21329,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -21394,8 +21394,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 8.7,
-        "observed_ai_use_proxy_pct": 2.0,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -21459,8 +21459,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 21.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -21524,8 +21524,8 @@
         "education_share_unknown": 0.0391,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 84.3,
-        "observed_ai_use_proxy_pct": 22.4,
+        "theoretical_ai_exposure_pct": 77.3,
+        "observed_ai_use_proxy_pct": 20.5,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -21654,8 +21654,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -21719,8 +21719,8 @@
         "education_share_unknown": 0.0681,
         "vacancy_context_share_pct": 2.33,
         "vacancy_context_volume": 7614.7,
-        "theoretical_ai_exposure_pct": 8.4,
-        "observed_ai_use_proxy_pct": 2.2,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 2.1,
         "industry_ai_use_proxy_pct": 15.5,
         "dominant_industries": [
           {
@@ -21784,8 +21784,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -21849,8 +21849,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 34.8,
-        "observed_ai_use_proxy_pct": 8.9,
+        "theoretical_ai_exposure_pct": 17.9,
+        "observed_ai_use_proxy_pct": 4.6,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -21979,8 +21979,8 @@
         "education_share_unknown": 0.0348,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 86.8,
-        "observed_ai_use_proxy_pct": 26.1,
+        "theoretical_ai_exposure_pct": 82.1,
+        "observed_ai_use_proxy_pct": 24.7,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -22044,8 +22044,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 58.3,
-        "observed_ai_use_proxy_pct": 16.6,
+        "theoretical_ai_exposure_pct": 35.9,
+        "observed_ai_use_proxy_pct": 10.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -22109,8 +22109,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 18.3,
-        "observed_ai_use_proxy_pct": 4.3,
+        "theoretical_ai_exposure_pct": 13.2,
+        "observed_ai_use_proxy_pct": 3.1,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -22174,8 +22174,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 9.8,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -22304,8 +22304,8 @@
         "education_share_unknown": 0.0113,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 28.5,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -22369,8 +22369,8 @@
         "education_share_unknown": 0.0934,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 40.2,
-        "observed_ai_use_proxy_pct": 10.3,
+        "theoretical_ai_exposure_pct": 35.4,
+        "observed_ai_use_proxy_pct": 9.0,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -22434,8 +22434,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.6,
-        "observed_ai_use_proxy_pct": 19.3,
+        "theoretical_ai_exposure_pct": 55.4,
+        "observed_ai_use_proxy_pct": 15.8,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -22564,8 +22564,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 77.6,
-        "observed_ai_use_proxy_pct": 22.2,
+        "theoretical_ai_exposure_pct": 88.4,
+        "observed_ai_use_proxy_pct": 25.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -22629,8 +22629,8 @@
         "education_share_unknown": 0.0091,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 68.5,
-        "observed_ai_use_proxy_pct": 19.6,
+        "theoretical_ai_exposure_pct": 56.9,
+        "observed_ai_use_proxy_pct": 16.2,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -22694,8 +22694,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 14.1,
-        "observed_ai_use_proxy_pct": 3.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -22889,8 +22889,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 56.2,
-        "observed_ai_use_proxy_pct": 16.0,
+        "theoretical_ai_exposure_pct": 29.6,
+        "observed_ai_use_proxy_pct": 8.4,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -22954,8 +22954,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 75.1,
-        "observed_ai_use_proxy_pct": 21.4,
+        "theoretical_ai_exposure_pct": 60.6,
+        "observed_ai_use_proxy_pct": 17.3,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -23084,8 +23084,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 70.0,
-        "observed_ai_use_proxy_pct": 20.0,
+        "theoretical_ai_exposure_pct": 55.9,
+        "observed_ai_use_proxy_pct": 16.0,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -23149,8 +23149,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 31.8,
-        "observed_ai_use_proxy_pct": 8.1,
+        "theoretical_ai_exposure_pct": 13.4,
+        "observed_ai_use_proxy_pct": 3.4,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -23214,8 +23214,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 11.0,
-        "observed_ai_use_proxy_pct": 2.5,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -23279,8 +23279,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 32.4,
-        "observed_ai_use_proxy_pct": 8.3,
+        "theoretical_ai_exposure_pct": 15.1,
+        "observed_ai_use_proxy_pct": 3.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -23344,8 +23344,8 @@
         "education_share_unknown": 0.0075,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 92.0,
-        "observed_ai_use_proxy_pct": 27.6,
+        "theoretical_ai_exposure_pct": 90.4,
+        "observed_ai_use_proxy_pct": 27.2,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -23539,7 +23539,7 @@
         "education_share_unknown": 0.0967,
         "vacancy_context_share_pct": 2.33,
         "vacancy_context_volume": 7614.7,
-        "theoretical_ai_exposure_pct": 8.3,
+        "theoretical_ai_exposure_pct": 8.0,
         "observed_ai_use_proxy_pct": 2.1,
         "industry_ai_use_proxy_pct": 15.5,
         "dominant_industries": [
@@ -23604,8 +23604,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.8,
-        "observed_ai_use_proxy_pct": 4.6,
+        "theoretical_ai_exposure_pct": 18.3,
+        "observed_ai_use_proxy_pct": 4.3,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -23669,8 +23669,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.8,
-        "observed_ai_use_proxy_pct": 4.6,
+        "theoretical_ai_exposure_pct": 18.3,
+        "observed_ai_use_proxy_pct": 4.3,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -23734,8 +23734,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 36.3,
-        "observed_ai_use_proxy_pct": 9.3,
+        "theoretical_ai_exposure_pct": 23.1,
+        "observed_ai_use_proxy_pct": 5.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -23799,8 +23799,8 @@
         "education_share_unknown": 0.0568,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 11.1,
-        "observed_ai_use_proxy_pct": 2.6,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -23929,8 +23929,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 54.7,
-        "observed_ai_use_proxy_pct": 15.6,
+        "theoretical_ai_exposure_pct": 24.9,
+        "observed_ai_use_proxy_pct": 7.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -24059,8 +24059,8 @@
         "education_share_unknown": 0.0514,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 22.9,
-        "observed_ai_use_proxy_pct": 5.3,
+        "theoretical_ai_exposure_pct": 14.4,
+        "observed_ai_use_proxy_pct": 3.3,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -24124,8 +24124,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 9.8,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -24189,8 +24189,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 11.8,
-        "observed_ai_use_proxy_pct": 2.7,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -24254,8 +24254,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 9.8,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -24319,8 +24319,8 @@
         "education_share_unknown": 0.0967,
         "vacancy_context_share_pct": 2.33,
         "vacancy_context_volume": 7614.7,
-        "theoretical_ai_exposure_pct": 10.6,
-        "observed_ai_use_proxy_pct": 2.7,
+        "theoretical_ai_exposure_pct": 9.0,
+        "observed_ai_use_proxy_pct": 2.3,
         "industry_ai_use_proxy_pct": 15.5,
         "dominant_industries": [
           {
@@ -24384,8 +24384,8 @@
         "education_share_unknown": 0.0155,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.5,
-        "observed_ai_use_proxy_pct": 26.6,
+        "theoretical_ai_exposure_pct": 70.0,
+        "observed_ai_use_proxy_pct": 21.0,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -24449,8 +24449,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.8,
-        "observed_ai_use_proxy_pct": 4.6,
+        "theoretical_ai_exposure_pct": 18.3,
+        "observed_ai_use_proxy_pct": 4.3,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -24514,8 +24514,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 11.8,
-        "observed_ai_use_proxy_pct": 2.7,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -24579,8 +24579,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.8,
-        "observed_ai_use_proxy_pct": 4.6,
+        "theoretical_ai_exposure_pct": 18.3,
+        "observed_ai_use_proxy_pct": 4.3,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -24644,8 +24644,8 @@
         "education_share_unknown": 0.0756,
         "vacancy_context_share_pct": 1.79,
         "vacancy_context_volume": 3694.2,
-        "theoretical_ai_exposure_pct": 11.8,
-        "observed_ai_use_proxy_pct": 2.7,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.7,
         "dominant_industries": [
           {
@@ -24709,8 +24709,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.8,
-        "observed_ai_use_proxy_pct": 4.6,
+        "theoretical_ai_exposure_pct": 18.3,
+        "observed_ai_use_proxy_pct": 4.3,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -24839,8 +24839,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 9.8,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -24904,8 +24904,8 @@
         "education_share_unknown": 0.036,
         "vacancy_context_share_pct": 2.52,
         "vacancy_context_volume": 12313.9,
-        "theoretical_ai_exposure_pct": 36.3,
-        "observed_ai_use_proxy_pct": 9.3,
+        "theoretical_ai_exposure_pct": 23.1,
+        "observed_ai_use_proxy_pct": 5.9,
         "industry_ai_use_proxy_pct": 15.4,
         "dominant_industries": [
           {
@@ -25034,8 +25034,8 @@
         "education_share_unknown": 0.0223,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 85.9,
-        "observed_ai_use_proxy_pct": 22.8,
+        "theoretical_ai_exposure_pct": 95.0,
+        "observed_ai_use_proxy_pct": 25.2,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -25164,8 +25164,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 9.8,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -25229,8 +25229,8 @@
         "education_share_unknown": 0.0307,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 54.7,
-        "observed_ai_use_proxy_pct": 15.6,
+        "theoretical_ai_exposure_pct": 24.9,
+        "observed_ai_use_proxy_pct": 7.1,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -25294,8 +25294,8 @@
         "education_share_unknown": 0.0384,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 9.8,
-        "observed_ai_use_proxy_pct": 2.3,
+        "theoretical_ai_exposure_pct": 8.0,
+        "observed_ai_use_proxy_pct": 1.9,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -25359,8 +25359,8 @@
         "education_share_unknown": 0.0447,
         "vacancy_context_share_pct": 2.42,
         "vacancy_context_volume": 10102.7,
-        "theoretical_ai_exposure_pct": 88.5,
-        "observed_ai_use_proxy_pct": 26.6,
+        "theoretical_ai_exposure_pct": 94.4,
+        "observed_ai_use_proxy_pct": 28.4,
         "industry_ai_use_proxy_pct": 20.5,
         "dominant_industries": [
           {
@@ -25489,8 +25489,8 @@
         "education_share_unknown": 0.0156,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 63.9,
-        "observed_ai_use_proxy_pct": 18.2,
+        "theoretical_ai_exposure_pct": 30.0,
+        "observed_ai_use_proxy_pct": 8.6,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -25619,8 +25619,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.8,
-        "observed_ai_use_proxy_pct": 4.6,
+        "theoretical_ai_exposure_pct": 18.3,
+        "observed_ai_use_proxy_pct": 4.3,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -25684,8 +25684,8 @@
         "education_share_unknown": 0.0448,
         "vacancy_context_share_pct": 2.34,
         "vacancy_context_volume": 7433.5,
-        "theoretical_ai_exposure_pct": 67.2,
-        "observed_ai_use_proxy_pct": 19.2,
+        "theoretical_ai_exposure_pct": 53.9,
+        "observed_ai_use_proxy_pct": 15.4,
         "industry_ai_use_proxy_pct": 18.8,
         "dominant_industries": [
           {
@@ -25749,8 +25749,8 @@
         "education_share_unknown": 0.0207,
         "vacancy_context_share_pct": 2.24,
         "vacancy_context_volume": 6727.0,
-        "theoretical_ai_exposure_pct": 84.9,
-        "observed_ai_use_proxy_pct": 22.5,
+        "theoretical_ai_exposure_pct": 94.5,
+        "observed_ai_use_proxy_pct": 25.1,
         "industry_ai_use_proxy_pct": 16.5,
         "dominant_industries": [
           {
@@ -25879,8 +25879,8 @@
         "education_share_unknown": 0.0994,
         "vacancy_context_share_pct": 2.08,
         "vacancy_context_volume": 5493.5,
-        "theoretical_ai_exposure_pct": 19.8,
-        "observed_ai_use_proxy_pct": 4.6,
+        "theoretical_ai_exposure_pct": 18.3,
+        "observed_ai_use_proxy_pct": 4.3,
         "industry_ai_use_proxy_pct": 12.8,
         "dominant_industries": [
           {
@@ -25984,35 +25984,68 @@
   "ai_impact_proxy": {
     "categories": [
       {
+        "id": "4",
+        "label_nb": "Kontoryrker",
+        "employment": 184833,
+        "employment_share": 0.0584,
+        "theoretical_ai_exposure_pct": 80.0,
+        "observed_ai_use_proxy_pct": 21.2,
+        "industry_ai_use_proxy_pct": 16.5,
+        "gap_pct_points": 58.8,
+        "top_occupations_nb": [
+          {
+            "occupation_id": "4110",
+            "name_nb": "Kontormedarbeidere",
+            "employment": 61970.0,
+            "theoretical_ai_exposure_pct": 93.0,
+            "observed_ai_use_proxy_pct": 24.7
+          },
+          {
+            "occupation_id": "4321",
+            "name_nb": "Lagermedarbeidere og material-forvaltere",
+            "employment": 40057.0,
+            "theoretical_ai_exposure_pct": 72.4,
+            "observed_ai_use_proxy_pct": 19.2
+          },
+          {
+            "occupation_id": "4311",
+            "name_nb": "Regnskapsmedarbeidere",
+            "employment": 17748.0,
+            "theoretical_ai_exposure_pct": 95.0,
+            "observed_ai_use_proxy_pct": 25.2
+          }
+        ]
+      },
+      {
         "id": "2",
         "label_nb": "Akademiske yrker",
         "employment": 818711,
         "employment_share": 0.2589,
-        "theoretical_ai_exposure_pct": 87.1,
-        "observed_ai_use_proxy_pct": 26.2,
+        "theoretical_ai_exposure_pct": 66.0,
+        "observed_ai_use_proxy_pct": 19.8,
         "industry_ai_use_proxy_pct": 20.5,
-        "gap_pct_points": 60.9,
+        "gap_pct_points": 46.2,
         "top_occupations_nb": [
           {
             "occupation_id": "2422",
             "name_nb": "Høyere saksbehandlere i offentlig og privat virksomhet",
             "employment": 93496.0,
-            "theoretical_ai_exposure_pct": 88.5,
-            "observed_ai_use_proxy_pct": 26.6
+            "theoretical_ai_exposure_pct": 91.3,
+            "observed_ai_use_proxy_pct": 27.4
           },
           {
             "occupation_id": "2341",
             "name_nb": "Grunnskolelærere",
             "employment": 87725.0,
-            "theoretical_ai_exposure_pct": 90.2,
-            "observed_ai_use_proxy_pct": 27.1
+            "theoretical_ai_exposure_pct": 64.8,
+            "observed_ai_use_proxy_pct": 19.5
           },
           {
             "occupation_id": "2223",
             "name_nb": "Sykepleiere",
             "employment": 70299.0,
-            "theoretical_ai_exposure_pct": 75.5,
-            "observed_ai_use_proxy_pct": 22.7
+            "theoretical_ai_exposure_pct": 22.2,
+            "observed_ai_use_proxy_pct": 6.7
           }
         ]
       },
@@ -26021,64 +26054,31 @@
         "label_nb": "Ledere",
         "employment": 255177,
         "employment_share": 0.0807,
-        "theoretical_ai_exposure_pct": 85.6,
-        "observed_ai_use_proxy_pct": 23.2,
+        "theoretical_ai_exposure_pct": 64.4,
+        "observed_ai_use_proxy_pct": 17.5,
         "industry_ai_use_proxy_pct": 17.2,
-        "gap_pct_points": 62.4,
+        "gap_pct_points": 46.9,
         "top_occupations_nb": [
           {
             "occupation_id": "1120",
             "name_nb": "Administrerende direktører",
             "employment": 40151.0,
-            "theoretical_ai_exposure_pct": 91.3,
-            "observed_ai_use_proxy_pct": 24.8
+            "theoretical_ai_exposure_pct": 74.0,
+            "observed_ai_use_proxy_pct": 20.1
           },
           {
             "occupation_id": "1420",
             "name_nb": "Varehandelssjefer",
             "employment": 35518.0,
-            "theoretical_ai_exposure_pct": 73.4,
-            "observed_ai_use_proxy_pct": 19.9
+            "theoretical_ai_exposure_pct": 54.0,
+            "observed_ai_use_proxy_pct": 14.7
           },
           {
             "occupation_id": "1219",
             "name_nb": "Andre administrative ledere",
             "employment": 27823.0,
-            "theoretical_ai_exposure_pct": 92.0,
-            "observed_ai_use_proxy_pct": 25.0
-          }
-        ]
-      },
-      {
-        "id": "4",
-        "label_nb": "Kontoryrker",
-        "employment": 184833,
-        "employment_share": 0.0584,
-        "theoretical_ai_exposure_pct": 83.2,
-        "observed_ai_use_proxy_pct": 22.1,
-        "industry_ai_use_proxy_pct": 16.5,
-        "gap_pct_points": 61.1,
-        "top_occupations_nb": [
-          {
-            "occupation_id": "4110",
-            "name_nb": "Kontormedarbeidere",
-            "employment": 61970.0,
-            "theoretical_ai_exposure_pct": 85.2,
-            "observed_ai_use_proxy_pct": 22.6
-          },
-          {
-            "occupation_id": "4321",
-            "name_nb": "Lagermedarbeidere og material-forvaltere",
-            "employment": 40057.0,
-            "theoretical_ai_exposure_pct": 82.8,
-            "observed_ai_use_proxy_pct": 22.0
-          },
-          {
-            "occupation_id": "4311",
-            "name_nb": "Regnskapsmedarbeidere",
-            "employment": 17748.0,
-            "theoretical_ai_exposure_pct": 84.6,
-            "observed_ai_use_proxy_pct": 22.4
+            "theoretical_ai_exposure_pct": 74.0,
+            "observed_ai_use_proxy_pct": 20.1
           }
         ]
       },
@@ -26087,31 +26087,31 @@
         "label_nb": "Høyskole- og militære yrker",
         "employment": 466537,
         "employment_share": 0.1475,
-        "theoretical_ai_exposure_pct": 69.9,
-        "observed_ai_use_proxy_pct": 20.0,
+        "theoretical_ai_exposure_pct": 56.0,
+        "observed_ai_use_proxy_pct": 16.0,
         "industry_ai_use_proxy_pct": 18.8,
-        "gap_pct_points": 49.9,
+        "gap_pct_points": 40.0,
         "top_occupations_nb": [
           {
             "occupation_id": "3322",
             "name_nb": "Selgere (engros)",
             "employment": 45541.0,
-            "theoretical_ai_exposure_pct": 74.3,
-            "observed_ai_use_proxy_pct": 21.2
+            "theoretical_ai_exposure_pct": 59.2,
+            "observed_ai_use_proxy_pct": 16.9
           },
           {
             "occupation_id": "3119",
             "name_nb": "Andre ingeniører",
             "employment": 30066.0,
-            "theoretical_ai_exposure_pct": 69.8,
-            "observed_ai_use_proxy_pct": 19.9
+            "theoretical_ai_exposure_pct": 63.9,
+            "observed_ai_use_proxy_pct": 18.2
           },
           {
             "occupation_id": "3313",
             "name_nb": "Regnskapsførere",
             "employment": 21313.0,
-            "theoretical_ai_exposure_pct": 66.2,
-            "observed_ai_use_proxy_pct": 18.9
+            "theoretical_ai_exposure_pct": 30.0,
+            "observed_ai_use_proxy_pct": 8.6
           }
         ]
       },
@@ -26120,64 +26120,31 @@
         "label_nb": "Salgs- og serviceyrker",
         "employment": 768280,
         "employment_share": 0.2429,
-        "theoretical_ai_exposure_pct": 29.7,
-        "observed_ai_use_proxy_pct": 7.6,
+        "theoretical_ai_exposure_pct": 11.2,
+        "observed_ai_use_proxy_pct": 2.8,
         "industry_ai_use_proxy_pct": 15.4,
-        "gap_pct_points": 22.1,
+        "gap_pct_points": 8.4,
         "top_occupations_nb": [
           {
             "occupation_id": "5223",
             "name_nb": "Butikkmedarbeidere",
             "employment": 194343.0,
-            "theoretical_ai_exposure_pct": 29.8,
-            "observed_ai_use_proxy_pct": 7.6
+            "theoretical_ai_exposure_pct": 8.0,
+            "observed_ai_use_proxy_pct": 2.0
           },
           {
             "occupation_id": "5311",
             "name_nb": "Barnehage- og skolefritidsassistenter mv.",
             "employment": 123152.0,
-            "theoretical_ai_exposure_pct": 27.1,
-            "observed_ai_use_proxy_pct": 6.9
+            "theoretical_ai_exposure_pct": 8.0,
+            "observed_ai_use_proxy_pct": 2.0
           },
           {
             "occupation_id": "5321",
             "name_nb": "Helsefagarbeidere",
             "employment": 119739.0,
-            "theoretical_ai_exposure_pct": 29.1,
-            "observed_ai_use_proxy_pct": 7.4
-          }
-        ]
-      },
-      {
-        "id": "8",
-        "label_nb": "Prosess- og maskinoperatører, transportarbeidere mv.",
-        "employment": 195222,
-        "employment_share": 0.0617,
-        "theoretical_ai_exposure_pct": 11.3,
-        "observed_ai_use_proxy_pct": 2.6,
-        "industry_ai_use_proxy_pct": 12.7,
-        "gap_pct_points": 8.7,
-        "top_occupations_nb": [
-          {
-            "occupation_id": "8160",
-            "name_nb": "Operatører innen næringsmiddelproduksjon",
-            "employment": 30088.0,
-            "theoretical_ai_exposure_pct": 9.6,
-            "observed_ai_use_proxy_pct": 2.2
-          },
-          {
-            "occupation_id": "8332",
-            "name_nb": "Lastebil- og trailersjåfører",
-            "employment": 28536.0,
-            "theoretical_ai_exposure_pct": 9.9,
-            "observed_ai_use_proxy_pct": 2.3
-          },
-          {
-            "occupation_id": "8342",
-            "name_nb": "Anleggsmaskinførere",
-            "employment": 21458.0,
-            "theoretical_ai_exposure_pct": 10.9,
-            "observed_ai_use_proxy_pct": 2.5
+            "theoretical_ai_exposure_pct": 8.0,
+            "observed_ai_use_proxy_pct": 2.0
           }
         ]
       },
@@ -26186,10 +26153,10 @@
         "label_nb": "Håndverkere",
         "employment": 259741,
         "employment_share": 0.0821,
-        "theoretical_ai_exposure_pct": 8.5,
+        "theoretical_ai_exposure_pct": 8.3,
         "observed_ai_use_proxy_pct": 2.0,
         "industry_ai_use_proxy_pct": 12.8,
-        "gap_pct_points": 6.5,
+        "gap_pct_points": 6.3,
         "top_occupations_nb": [
           {
             "occupation_id": "7115",
@@ -26202,7 +26169,7 @@
             "occupation_id": "7411",
             "name_nb": "Elektrikere",
             "employment": 35425.0,
-            "theoretical_ai_exposure_pct": 8.1,
+            "theoretical_ai_exposure_pct": 8.0,
             "observed_ai_use_proxy_pct": 1.9
           },
           {
@@ -26215,14 +26182,47 @@
         ]
       },
       {
+        "id": "8",
+        "label_nb": "Prosess- og maskinoperatører, transportarbeidere mv.",
+        "employment": 195222,
+        "employment_share": 0.0617,
+        "theoretical_ai_exposure_pct": 8.2,
+        "observed_ai_use_proxy_pct": 1.9,
+        "industry_ai_use_proxy_pct": 12.7,
+        "gap_pct_points": 6.3,
+        "top_occupations_nb": [
+          {
+            "occupation_id": "8160",
+            "name_nb": "Operatører innen næringsmiddelproduksjon",
+            "employment": 30088.0,
+            "theoretical_ai_exposure_pct": 8.0,
+            "observed_ai_use_proxy_pct": 1.9
+          },
+          {
+            "occupation_id": "8332",
+            "name_nb": "Lastebil- og trailersjåfører",
+            "employment": 28536.0,
+            "theoretical_ai_exposure_pct": 8.0,
+            "observed_ai_use_proxy_pct": 1.9
+          },
+          {
+            "occupation_id": "8342",
+            "name_nb": "Anleggsmaskinførere",
+            "employment": 21458.0,
+            "theoretical_ai_exposure_pct": 8.0,
+            "observed_ai_use_proxy_pct": 1.9
+          }
+        ]
+      },
+      {
         "id": "9",
         "label_nb": "Renholdere, hjelpearbeidere mv.",
         "employment": 180934,
         "employment_share": 0.0572,
-        "theoretical_ai_exposure_pct": 8.1,
+        "theoretical_ai_exposure_pct": 8.0,
         "observed_ai_use_proxy_pct": 2.1,
         "industry_ai_use_proxy_pct": 15.5,
-        "gap_pct_points": 6.0,
+        "gap_pct_points": 5.9,
         "top_occupations_nb": [
           {
             "occupation_id": "9112",

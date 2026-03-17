@@ -3,7 +3,137 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Norsk arbeidsmarkedsoversikt</title>
+<title>Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning</title>
+<meta name="description" content="Utforsk det norske arbeidsmarkedet visuelt med SSB-data. Se sysselsetting, lønn, utdanning, endring over tid, ledighetskontekst og en norsk proxy for KI-påvirkning i yrker.">
+<meta name="keywords" content="norsk arbeidsmarked, SSB, yrker, lønn, sysselsetting, utdanning, KI, AI, arbeidsmarked, treemap, jobber i Norge">
+<meta name="author" content="Ola Turmo">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="googlebot" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0a0a0f">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://master.norway-job-market-visualizer.pages.dev/">
+<link rel="alternate" hreflang="nb-NO" href="https://master.norway-job-market-visualizer.pages.dev/">
+<meta property="og:site_name" content="Norsk arbeidsmarkedsoversikt">
+<meta property="og:title" content="Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning">
+<meta property="og:description" content="Et visuelt forskningsverktøy for norske yrker, bygget på SSB Statbank og SSB Klass. Se sysselsetting, lønn, utdanning, utvikling og en norsk KI-proxy.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nb_NO">
+<meta property="og:url" content="https://master.norway-job-market-visualizer.pages.dev/">
+<meta property="og:image" content="https://master.norway-job-market-visualizer.pages.dev/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Norsk arbeidsmarkedsoversikt med treemap for yrker og KI-påvirkning">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://master.norway-job-market-visualizer.pages.dev/">
+<meta name="twitter:title" content="Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning">
+<meta name="twitter:description" content="Utforsk norske yrker med SSB-data: sysselsetting, lønn, utdanning, endring og en norsk proxy for KI-påvirkning.">
+<meta name="twitter:image" content="https://master.norway-job-market-visualizer.pages.dev/og-image.png">
+<meta name="twitter:image:alt" content="Norsk arbeidsmarkedsoversikt med treemap for yrker og KI-påvirkning">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://master.norway-job-market-visualizer.pages.dev/#website",
+      "url": "https://master.norway-job-market-visualizer.pages.dev/",
+      "name": "Norsk arbeidsmarkedsoversikt",
+      "inLanguage": "nb-NO",
+      "description": "Et visuelt forskningsverktøy for norske yrker, bygget på SSB Statbank og SSB Klass."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://master.norway-job-market-visualizer.pages.dev/#webpage",
+      "url": "https://master.norway-job-market-visualizer.pages.dev/",
+      "name": "Norsk arbeidsmarkedsoversikt",
+      "isPartOf": {
+        "@id": "https://master.norway-job-market-visualizer.pages.dev/#website"
+      },
+      "about": [
+        "Norsk arbeidsmarked",
+        "SSB Statbank",
+        "SSB Klass",
+        "Yrkesdata",
+        "KI og arbeidsliv"
+      ],
+      "inLanguage": "nb-NO",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://master.norway-job-market-visualizer.pages.dev/og-image.png"
+      },
+      "description": "Utforsk norske yrker med SSB-data og en tydelig merket KI-proxy inspirert av Anthropic sin forskning om AI og arbeidsmarkedet."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://master.norway-job-market-visualizer.pages.dev/#dataset",
+      "name": "Norsk arbeidsmarkedsoversikt – datasett for yrker",
+      "description": "Kombinert datasett for norske yrker med sysselsetting, månedslønn, utdanning, endring over tid, ledighetskontekst og en norsk KI-proxy.",
+      "inLanguage": "nb-NO",
+      "creator": {
+        "@type": "Person",
+        "name": "Ola Turmo"
+      },
+      "isBasedOn": [
+        "https://github.com/karpathy/jobs",
+        "https://www.ssb.no/",
+        "https://www.anthropic.com/research/labor-market-impacts"
+      ],
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://master.norway-job-market-visualizer.pages.dev/data.json",
+        "encodingFormat": "application/json"
+      },
+      "keywords": [
+        "SSB",
+        "yrker",
+        "sysselsetting",
+        "månedslønn",
+        "arbeidsmarked",
+        "KI"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://master.norway-job-market-visualizer.pages.dev/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bruker hovedkartet amerikanske BLS-tall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei. Hovedkartet bygger på norske tall fra SSB Statbank og SSB Klass. Det som er videreført fra originalrepoet er først og fremst visualiseringsformen og den lette, statiske arkitekturen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Er endring et prognoselag slik som i den amerikanske originalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei. Endring viser historisk utvikling i sysselsetting siden 2019 i norske data. Det er ikke en norsk erstatning for BLS Outlook."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Er KI-seksjonen basert på direkte målt bruk per yrke i Norge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei. KI-seksjonen viser en tydelig merket norsk proxy. Den kombinerer en teoretisk LLM-eksponeringsmodell med SSBs næringsvise statistikk om KI-bruk, men den måler ikke faktisk KI-bruk direkte per yrke."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Finnes det fortsatt amerikanske tall i KI-grafen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei, ikke som rå prosenttall. Grafen er inspirert av Anthropic sin metode og struktur, men tallene i denne versjonen er norske proxier og tydelig merket som det."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -282,6 +412,21 @@ canvas#canvas {
   font-weight: 700;
   letter-spacing: -0.02em;
   margin-bottom: 10px;
+}
+
+.analysis-section details {
+  margin-top: 12px;
+}
+
+.analysis-section summary {
+  font-size: 14px;
+  color: var(--fg2);
+  cursor: pointer;
+  user-select: none;
+}
+
+.analysis-section summary:hover {
+  color: var(--fg);
 }
 
 .section-lead {
@@ -609,12 +754,36 @@ canvas#canvas {
 </head>
 <body>
 
-<div id="wrapper">
+<main id="wrapper">
 <div id="header">
   <div class="intro">
     <h1>Norsk arbeidsmarkedsoversikt <a href="https://github.com/Ola-Turmo/jobs">GitHub</a> <a href="https://github.com/karpathy/jobs">Original repo</a></h1>
-    <p>Et lett utforskerverktøy for det norske arbeidsmarkedet, bygget på åpne data fra <b>SSB Statbank</b> og <b>SSB Klass</b>. Hver rute er et yrke i STYRK. <b>Arealet</b> viser hvor mange som jobber i yrket, og <b>fargen</b> viser valgt lag: endring, månedslønn, andel med lang høyere utdanning eller ledighetskontekst.</p>
+    <p>Et lett utforskerverktøy for det norske arbeidsmarkedet, bygget på åpne data fra <b>SSB Statbank</b> og <b>SSB Klass</b>. Hver rute er et yrke i STYRK. <b>Arealet</b> viser hvor mange som jobber i yrket, og <b>fargen</b> viser valgt lag: endring, månedslønn, andel med lang høyere utdanning, KI-påvirkning eller ledighetskontekst.</p>
     <p>Dette er en norsk videreutvikling av <a href="https://github.com/karpathy/jobs">karpathy/jobs</a>. Den opprinnelige versjonen brukte amerikanske BLS-data. Her er datagrunnlaget byttet ut med offisielle norske kilder, mens den enkle, statiske formen er beholdt.</p>
+    <p>Koden har også en egen pipeline for LLM-baserte fargelag. Du kan skrive en prompt, la modellen vurdere hvert yrke etter et valgt kriterium og bruke resultatet som et eget fargelag i treemapet. Laget <b>KI-påvirkning</b> er ett eksempel. Det anslår hvor mye dagens språkmodeller kan endre ulike yrker. Den samme tilnærmingen kan også brukes til andre spørsmål, som robotisering, offshoring eller klimaeksponering.</p>
+    <p>KI-laget er et grovt estimat, ikke en fasit. Høy score betyr ikke at et yrke forsvinner. Det betyr at arbeidsinnholdet kan bli mer påvirket av KI. Effekten avhenger også av etterspørsel, regulering, ansvar, trygghet og hvor viktig menneskelig kontakt er i yrket.</p>
+    <p>Dette er et forskningsverktøy for utforsking og sammenlikning, ikke en sanntids jobbportal eller en full prognosemodell.</p>
+    <details>
+      <summary>Eksempel på prompt for KI-laget</summary>
+      <div class="prompt-box">Du er en analytiker som vurderer hvor eksponert ulike yrker er for KI.
+
+Du får en yrkesbeskrivelse og skal gi en samlet score fra 0 til 10.
+
+Målet er å svare på dette: Hvor mye vil KI endre dette yrket? Vurder både direkte effekter, der KI overtar oppgaver som mennesker gjør i dag, og indirekte effekter, der hver arbeidstaker blir mer produktiv og behovet for arbeidskraft kan endre seg.
+
+Et viktig signal er om arbeidsresultatet i hovedsak er digitalt. Yrker som kan utføres nesten fullt ut på en datamaskin, får som regel høy eksponering. Yrker som krever fysisk tilstedeværelse, håndlag eller tett menneskelig kontakt, får lavere eksponering.
+
+Bruk denne skalaen:
+0–1: Nesten ingen eksponering
+2–3: Lav eksponering
+4–5: Middels eksponering
+6–7: Høy eksponering
+8–9: Svært høy eksponering
+10: Maksimal eksponering
+
+Svar kun med JSON:
+{"exposure": &lt;0-10&gt;, "rationale": "&lt;2-3 setninger om de viktigste grunnene&gt;"}</div>
+    </details>
     <details>
       <summary>Metode og kilder</summary>
       <div class="drawer-panel">
@@ -636,6 +805,7 @@ canvas#canvas {
           <li>Månedslønn viser nasjonal median månedslønn for yrket.</li>
           <li>Lang høyere utd. viser andelen med lang høyere utdanning.</li>
           <li>Endring viser prosentvis endring i sysselsetting siden 2019.</li>
+          <li>KI-påvirkning viser en modellert score for hvor mye språkmodeller kan endre arbeidsinnholdet i yrket.</li>
           <li>Ledighetskontekst er en avledet indikator basert på næringsmiks og ledige stillinger per næring.</li>
         </ul>
 
@@ -650,6 +820,20 @@ canvas#canvas {
         <p>Prosjektet er en norsk videreutvikling av <a href="https://github.com/karpathy/jobs">karpathy/jobs</a>. Den opprinnelige versjonen visualiserte amerikanske BLS-data. Denne versjonen beholder den lette, statiske arkitekturen, men bruker en Norge-først-pipeline med SSB-data.</p>
       </div>
     </details>
+    <details>
+      <summary>Datakvalitet i hovedkartet</summary>
+      <div class="drawer-panel">
+        <p><strong>Det viktigste:</strong> Hovedkartet viser norske tall. Sysselsetting, månedslønn og historisk endring kommer fra SSB-tabeller, ikke fra amerikanske BLS-data.</p>
+        <ul>
+          <li><strong>Ikke amerikanske nivåer:</strong> Areal, lønn og endring i hovedkartet er bygget fra norske SSB-kilder. Det som er arvet fra originalen er først og fremst visualiseringsformen og repo-strukturen.</li>
+          <li><strong>Endring er historikk, ikke prognose:</strong> Laget «Endring» viser utvikling siden 2019 i norske data. Det er ikke en direkte norsk variant av BLS Outlook.</li>
+          <li><strong>Utdanning er delvis arvet oppover i klassifikasjonen:</strong> På detaljert 4-sifret yrkesnivå finnes ikke alle SSB-mål i samme oppløsning. Derfor hentes utdanningsprofil fra nærmeste offisielle overnivå når det trengs.</li>
+          <li><strong>KI-påvirkning er modellert:</strong> Dette laget bygger på en norsk LLM-proxy og skal leses som et anslag for hvor sterkt arbeidsinnholdet kan bli påvirket, ikke som et direkte mål på faktisk bruk eller automatisering.</li>
+          <li><strong>Ledighetskontekst er avledet:</strong> Dette er ikke et direkte yrkesspesifikt ledighetstall. Vi kombinerer offisiell næringsmiks for yrkesgrupper med SSBs ledige stillinger per næring.</li>
+          <li><strong>Noen små yrker er skjøre:</strong> Enkelte 4-sifrede yrker har svært få sysselsatte. De vises fordi de finnes i tabellen, men de bør tolkes varsomt.</li>
+        </ul>
+      </div>
+    </details>
   </div>
 
   <div class="controls-row">
@@ -659,6 +843,7 @@ canvas#canvas {
         <button data-mode="change" class="active">Endring</button>
         <button data-mode="earnings">Månedslønn</button>
         <button data-mode="education">Lang høyere utd.</button>
+        <button data-mode="ai">KI-påvirkning</button>
         <button data-mode="vacancy">Ledighetskontekst</button>
       </div>
     </div>
@@ -680,13 +865,26 @@ canvas#canvas {
     <div class="stat-section" id="block5"></div>
     <div class="stat-section" id="block6"></div>
   </div>
-</div>
+</main>
 
 <canvas id="canvas"></canvas>
 
 <section class="analysis-section" id="aiImpactSection">
   <h2>KI-påvirkning i norske yrker</h2>
   <p class="section-lead">Anthropic viser i <a href="https://www.anthropic.com/research/labor-market-impacts">Labor market impacts of AI</a> at teoretisk KI-dekning og faktisk bruk kan ligge langt fra hverandre. Under er en norsk analog: blå flate viser teoretisk LLM-eksponering per yrkesgruppe, mens rød flate viser en observerbar bruk-proxy basert på SSBs næringsvise KI-statistikk og yrkesfordelingen i dette datasettet.</p>
+  <details>
+    <summary>Datakvalitet i KI-seksjonen</summary>
+    <div class="drawer-panel">
+      <p><strong>Det viktigste:</strong> KI-seksjonen viser ikke direkte målte yrkestall for faktisk KI-bruk i Norge. Den viser en tydelig merket norsk proxy, inspirert av Anthropic sin metode og struktur.</p>
+      <ul>
+        <li><strong>Ingen amerikanske tall er kopiert inn:</strong> Det er ikke brukt amerikanske prosenttall i grafen. Det som er hentet fra Anthropic er idéen om å sammenligne teoretisk eksponering med observerbar bruk.</li>
+        <li><strong>Blå serie er heuristisk:</strong> «Teoretisk LLM-eksponering» er en modellert proxy basert på yrkesgruppe, utdanningsprofil, lønnsnivå og yrkestitler. Dette er ikke en offisiell norsk statistikk og ikke et direkte mål på faktisk automatisering.</li>
+        <li><strong>Rød serie er en næringsbasert proxy:</strong> «Observerbar bruk» bygger på SSB-tabell 13265 om KI-bruk i virksomheter. Deretter vektes næringsbruk inn i yrkesgrupper via norsk yrke–næringsmiks. Det er nyttig, men ikke det samme som å observere KI-bruk direkte per yrke.</li>
+        <li><strong>Mangler norsk yrkestelemetri:</strong> Vi har ikke et norsk motstykke til Anthropic Economic Index på yrkesnivå. Derfor bør denne seksjonen leses som tidlig indikasjon, ikke fasit.</li>
+        <li><strong>Best til sammenlikning mellom grupper:</strong> Figuren er mest nyttig for å se relative forskjeller mellom brede norske yrkesgrupper, ikke for å tolke hvert enkelt prosentpoeng bokstavelig.</li>
+      </ul>
+    </div>
+  </details>
 
   <div class="impact-grid">
     <div class="impact-card">
@@ -810,6 +1008,9 @@ function colorForMode(mode, value, alpha) {
   if (mode === "education") {
     return greenRedCSS(1 - Math.max(0, Math.min(1, value)), alpha);
   }
+  if (mode === "ai") {
+    return greenRedCSS(1 - Math.max(0, Math.min(1, value / 100)), alpha);
+  }
   return greenRedCSS(Math.max(0, Math.min(1, value / 6)), alpha);
 }
 
@@ -817,6 +1018,7 @@ function tileColorCSS(record, alpha) {
   if (colorMode === "earnings") return colorForMode("earnings", record.monthly_earnings, alpha);
   if (colorMode === "change") return colorForMode("change", record.employment_change_pct, alpha);
   if (colorMode === "education") return colorForMode("education", record.education_share_long_higher, alpha);
+  if (colorMode === "ai") return colorForMode("ai", record.theoretical_ai_exposure_pct, alpha);
   return colorForMode("vacancy", record.vacancy_context_share_pct, alpha);
 }
 
@@ -870,6 +1072,7 @@ function getModeValue(record) {
   if (colorMode === "earnings") return record.monthly_earnings;
   if (colorMode === "change") return record.employment_change_pct;
   if (colorMode === "education") return record.education_share_long_higher;
+  if (colorMode === "ai") return record.theoretical_ai_exposure_pct;
   return record.vacancy_context_share_pct;
 }
 
@@ -877,6 +1080,7 @@ function tileSubInfo(record) {
   if (colorMode === "earnings") return `${formatCurrency(record.monthly_earnings)} · ${formatCompact(record.employment)} syss`;
   if (colorMode === "change") return `${formatPct(record.employment_change_pct)} · ${formatCompact(record.employment)} syss`;
   if (colorMode === "education") return `${formatShare(record.education_share_long_higher)} · ${formatCompact(record.employment)} syss`;
+  if (colorMode === "ai") return `${formatPct0(record.theoretical_ai_exposure_pct)} · ${formatCompact(record.employment)} syss`;
   return `${formatPct(record.vacancy_context_share_pct)} · ${formatCompact(record.employment)} syss`;
 }
 
@@ -884,6 +1088,7 @@ function tileSubInfoCurrent(record) {
   if (colorMode === "earnings") return `${formatCurrencyCompact(record.pay)} · ${formatCompact(record.jobs)} syss`;
   if (colorMode === "change") return `${formatPct(record.change)} · ${formatCompact(record.jobs)} syss`;
   if (colorMode === "education") return `${formatShare(record.education)} · ${formatCompact(record.jobs)} syss`;
+  if (colorMode === "ai") return `${formatPct0(record.ai)} · ${formatCompact(record.jobs)} syss`;
   return `${formatPct(record.vacancy)} · ${formatCompact(record.jobs)} syss`;
 }
 
@@ -952,6 +1157,7 @@ function deriveData() {
       pay: occupation.national.monthly_earnings,
       education: occupation.national.education_share_long_higher,
       change: geoRecord.employment_change_pct,
+      ai: geoRecord.theoretical_ai_exposure_pct,
       vacancy: geoRecord.vacancy_context_share_pct,
       rationale: `Yrkesgruppe: ${occupation.category}. Dataperiode for sysselsetting: ${siteData.metadata.source_periods.employment_period}.`,
       industries: (geoRecord.dominant_industries || []).slice(0, 3),
@@ -1009,7 +1215,7 @@ function draw() {
     const rw = r.rw - g * 2;
     const rh = r.rh - g * 2;
     if (rw <= 0 || rh <= 0) continue;
-    ctx.fillStyle = tileColorCSS(r.raw ? { monthly_earnings: r.pay, employment_change_pct: r.change, education_share_long_higher: r.education, vacancy_context_share_pct: r.vacancy } : r, isHovered ? 0.8 : 0.5);
+    ctx.fillStyle = tileColorCSS(r.raw ? { monthly_earnings: r.pay, employment_change_pct: r.change, education_share_long_higher: r.education, theoretical_ai_exposure_pct: r.ai, vacancy_context_share_pct: r.vacancy } : r, isHovered ? 0.8 : 0.5);
     ctx.fillRect(rx, ry, rw, rh);
     if (isHovered) {
       ctx.strokeStyle = "#fff";
@@ -1057,6 +1263,9 @@ function tooltipHighlight(d) {
   if (colorMode === "education") {
     return `<span style="color:${colorForMode("education", d.education, 1)};font-weight:600;">Lang høyere utdanning: ${formatShare(d.education)}</span>`;
   }
+  if (colorMode === "ai") {
+    return `<span style="color:${colorForMode("ai", d.ai, 1)};font-weight:600;">Teoretisk KI-påvirkning: ${formatPct0(d.ai)}</span>`;
+  }
   return `<span style="color:${colorForMode("vacancy", d.vacancy, 1)};font-weight:600;">Ledighetskontekst: ${formatPct(d.vacancy)}</span>`;
 }
 
@@ -1070,6 +1279,7 @@ function showTooltip(d, mx, my) {
     <span class="label">Månedslønn</span><span class="value">${formatCurrency(d.pay)}</span>
     <span class="label">Endring</span><span class="value">${formatPct(d.change)}</span>
     <span class="label">Lang høyere utd.</span><span class="value">${formatShare(d.education)}</span>
+    <span class="label">KI-påvirkning</span><span class="value">${formatPct0(d.ai)}</span>
     <span class="label">Ledighetskontekst</span><span class="value">${formatPct(d.vacancy)}</span>`;
   tt.querySelector(".tt-rationale").textContent =
     `${d.rationale} ${d.industries.length ? "Vanlige næringer: " + d.industries.map((item) => item.industry_name_nb).join(", ") + "." : ""}`;
@@ -1110,6 +1320,7 @@ function updateStats() {
   if (colorMode === "earnings") updateEarningsStats(totalJobs);
   else if (colorMode === "change") updateChangeStats(totalJobs);
   else if (colorMode === "education") updateEducationStats(totalJobs);
+  else if (colorMode === "ai") updateAiStats(totalJobs);
   else updateVacancyStats(totalJobs);
 }
 
@@ -1190,6 +1401,33 @@ function updateEducationStats(totalJobs) {
   document.getElementById("block4").innerHTML = `<h3>Fordeling</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
   document.getElementById("block5").innerHTML = `<h3>Fem store yrker</h3><div class="hbar-chart">${renderHbars(bars)}</div>`;
   document.getElementById("block6").innerHTML = `<h3>Kilde</h3><div class="stat-big">${siteData.metadata.source_periods.education_year}</div><div class="stat-label">nasjonale andeler</div>`;
+}
+
+function updateAiStats(totalJobs) {
+  const weighted = data.reduce((sum, d) => sum + ((d.ai || 0) * (d.jobs || 0)), 0) / (totalJobs || 1);
+  const highest = [...data].sort((a, b) => (b.ai || 0) - (a.ai || 0))[0];
+  const lowest = [...data].sort((a, b) => (a.ai || 999) - (b.ai || 999))[0];
+  const tiers = [
+    { label: "Lav", min: 0, max: 30 },
+    { label: "Moderat", min: 30, max: 50 },
+    { label: "Høy", min: 50, max: 70 },
+    { label: "Svært høy", min: 70, max: 101 }
+  ].map((tier) => {
+    const jobs = data.reduce((sum, d) => sum + ((d.ai != null && d.ai >= tier.min && d.ai < tier.max) ? d.jobs : 0), 0);
+    return { ...tier, jobs, color: colorForMode("ai", tier.max === 101 ? 85 : (tier.min + tier.max) / 2, 1) };
+  });
+  const bars = data.slice(0, 5).map((d) => ({
+    label: d.title.length > 14 ? d.title.slice(0, 14) + "…" : d.title,
+    val: formatPct0(d.ai),
+    pct: Math.max(0, Math.min(100, d.ai || 0)),
+    color: colorForMode("ai", d.ai, 0.8)
+  }));
+
+  document.getElementById("block2").innerHTML = `<h3>Gjennomsnittlig score</h3><div class="stat-big"><span style="color:${colorForMode("ai", weighted, 1)}">${formatPct0(weighted)}</span></div><div class="stat-label">jobbvektet KI-påvirkning</div>`;
+  document.getElementById("block3").innerHTML = `<h3>Høyest påvirkning</h3><div class="stat-big">${highest.title}</div><div class="stat-label">${formatPct0(highest.ai)}</div>`;
+  document.getElementById("block4").innerHTML = `<h3>Lavest påvirkning</h3><div class="stat-big">${lowest.title}</div><div class="stat-label">${formatPct0(lowest.ai)}</div>`;
+  document.getElementById("block5").innerHTML = `<h3>Fordeling</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
+  document.getElementById("block6").innerHTML = `<h3>Fem store yrker</h3><div class="hbar-chart">${renderHbars(bars)}</div>`;
 }
 
 function updateVacancyStats(totalJobs) {
@@ -1424,6 +1662,9 @@ function drawGradientLegend() {
   } else if (colorMode === "education") {
     document.getElementById("legendLow").textContent = "Lav andel";
     document.getElementById("legendHigh").textContent = "Høy andel";
+  } else if (colorMode === "ai") {
+    document.getElementById("legendLow").textContent = "Lav påvirkning";
+    document.getElementById("legendHigh").textContent = "Høy påvirkning";
   } else {
     document.getElementById("legendLow").textContent = "Lav";
     document.getElementById("legendHigh").textContent = "Høy";
