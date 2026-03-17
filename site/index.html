@@ -166,25 +166,38 @@ body {
   margin-bottom: 18px;
 }
 
+.intro-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px 18px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
 .intro h1 {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: -0.02em;
-  margin-bottom: 12px;
+  margin: 0;
+  min-width: 0;
+}
+
+.intro-links {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
-.intro h1 a {
+.intro-links a {
   font-size: 13px;
   font-weight: 400;
   color: var(--fg2);
   text-decoration: none;
 }
 
-.intro h1 a:hover { text-decoration: underline; }
+.intro-links a:hover { text-decoration: underline; }
 
 .intro p {
   font-size: 15px;
@@ -486,9 +499,7 @@ canvas#canvas {
 }
 
 .impact-radar-wrap {
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
 }
 
 #impactRadar {
@@ -630,17 +641,28 @@ canvas#canvas {
 @media (max-width: 640px) {
   #header { padding: 16px 14px 10px; }
   .intro { margin-bottom: 14px; }
-  .intro h1 {
-    font-size: 22px;
-    gap: 8px 10px;
+  .intro-head {
+    align-items: flex-start;
+    gap: 8px;
     margin-bottom: 10px;
   }
-  .intro h1 a {
+  .intro h1 {
+    font-size: 19px;
+    line-height: 1.12;
+    width: 100%;
+    overflow-wrap: anywhere;
+  }
+  .intro-links {
+    width: 100%;
+    gap: 10px;
+  }
+  .intro-links a {
     font-size: 12px;
   }
   .intro p {
-    font-size: 14px;
-    line-height: 1.55;
+    font-size: 13px;
+    line-height: 1.48;
+    margin-bottom: 10px;
   }
   .intro summary {
     font-size: 13px;
@@ -702,25 +724,21 @@ canvas#canvas {
     padding: 22px 14px 0;
   }
   .analysis-section h2 {
-    font-size: 21px;
+    font-size: 20px;
   }
   .section-lead {
-    font-size: 14px;
-    line-height: 1.55;
+    font-size: 13px;
+    line-height: 1.5;
   }
   .impact-card {
-    padding: 14px 14px 12px;
-  }
-  .impact-radar-wrap {
-    margin: 0 -6px;
-    padding: 0 6px;
+    padding: 12px 12px 10px;
   }
   #impactRadar {
-    width: 540px;
-    max-width: none;
+    width: 100%;
+    max-width: 100%;
   }
   .impact-focus-name {
-    font-size: 22px;
+    font-size: 20px;
   }
   .impact-focus-copy,
   .impact-focus ul,
@@ -744,6 +762,13 @@ canvas#canvas {
   .impact-table td {
     padding: 8px 0;
   }
+  .impact-legend {
+    gap: 10px 12px;
+    font-size: 11px;
+  }
+  .impact-legend-swatch {
+    width: 18px;
+  }
   #tooltip {
     max-width: 250px;
     font-size: 12px;
@@ -757,7 +782,13 @@ canvas#canvas {
 <main id="wrapper">
 <div id="header">
   <div class="intro">
-    <h1>Norsk arbeidsmarkedsoversikt <a href="https://github.com/Ola-Turmo/jobs">GitHub</a> <a href="https://github.com/karpathy/jobs">Original repo</a></h1>
+    <div class="intro-head">
+      <h1>Norsk arbeidsmarkedsoversikt</h1>
+      <div class="intro-links">
+        <a href="https://github.com/Ola-Turmo/jobs">GitHub</a>
+        <a href="https://github.com/karpathy/jobs">Original repo</a>
+      </div>
+    </div>
     <p>Et lett utforskerverktøy for det norske arbeidsmarkedet, bygget på åpne data fra <b>SSB Statbank</b> og <b>SSB Klass</b>. Hver rute er et yrke i STYRK. <b>Arealet</b> viser hvor mange som jobber i yrket, og <b>fargen</b> viser valgt lag: endring, månedslønn, andel med lang høyere utdanning, KI-påvirkning eller ledighetskontekst.</p>
     <p>Dette er en norsk videreutvikling av <a href="https://github.com/karpathy/jobs">karpathy/jobs</a>. Den opprinnelige versjonen brukte amerikanske BLS-data. Her er datagrunnlaget byttet ut med offisielle norske kilder, mens den enkle, statiske formen er beholdt.</p>
     <p>Koden har også en egen pipeline for LLM-baserte fargelag. Du kan skrive en prompt, la modellen vurdere hvert yrke etter et valgt kriterium og bruke resultatet som et eget fargelag i treemapet. Laget <b>KI-påvirkning</b> er ett eksempel. Det anslår hvor mye dagens språkmodeller kan endre ulike yrker. Den samme tilnærmingen kan også brukes til andre spørsmål, som robotisering, offshoring eller klimaeksponering.</p>
@@ -840,10 +871,10 @@ Svar kun med JSON:
     <div class="stat-section">
       <h3>Lag</h3>
       <div class="color-toggle" id="colorToggle">
-        <button data-mode="change" class="active">Endring</button>
+        <button data-mode="change">Endring</button>
         <button data-mode="earnings">Månedslønn</button>
         <button data-mode="education">Lang høyere utd.</button>
-        <button data-mode="ai">KI-påvirkning</button>
+        <button data-mode="ai" class="active">KI-påvirkning</button>
         <button data-mode="vacancy">Ledighetskontekst</button>
       </div>
     </div>
@@ -956,7 +987,7 @@ Svar kun med JSON:
 <script src="data.js"></script>
 <script>
 let siteData = window.__JOB_SITE_DATA__ || null;
-let colorMode = "change";
+let colorMode = "ai";
 let data = [];
 let rects = [];
 let hovered = null;
@@ -1544,14 +1575,21 @@ function renderImpactRadar() {
     return;
   }
 
-  const width = 760;
-  const height = 760;
-  const centerX = 350;
-  const centerY = 360;
-  const maxRadius = 210;
-  const labelRadius = 290;
+  const isMobile = window.innerWidth <= 640;
+  const width = isMobile ? 620 : 760;
+  const height = isMobile ? 620 : 760;
+  const centerX = isMobile ? 310 : 350;
+  const centerY = isMobile ? 300 : 360;
+  const maxRadius = isMobile ? 148 : 210;
+  const labelRadius = isMobile ? 212 : 290;
+  const labelFontSize = isMobile ? 11 : 14;
+  const labelLineHeight = isMobile ? 13 : 16;
+  const employmentFontSize = isMobile ? 10 : 11;
+  const valueFontSize = isMobile ? 10 : 11;
   const axisCount = aiImpactData.length;
   const rings = [20, 40, 60, 80, 100];
+
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
 
   const theoryPoints = [];
   const observedPoints = [];
@@ -1573,18 +1611,18 @@ function renderImpactRadar() {
     axisMarkup.push(`<line x1="${centerX}" y1="${centerY}" x2="${axisEnd.x.toFixed(1)}" y2="${axisEnd.y.toFixed(1)}" stroke="rgba(255,255,255,0.08)" stroke-width="1" />`);
 
     labelMarkup.push(`
-      <text x="${labelPoint.x.toFixed(1)}" y="${labelPoint.y.toFixed(1)}" text-anchor="${labelAnchor}" fill="${item.id === activeImpactCategoryId ? "#ffffff" : "rgba(255,255,255,0.72)"}" font-size="14" font-weight="${item.id === activeImpactCategoryId ? "600" : "500"}">
-        ${labelLines.map((line, lineIndex) => `<tspan x="${labelPoint.x.toFixed(1)}" dy="${lineIndex === 0 ? 0 : 16}">${escapeHtml(line)}</tspan>`).join("")}
+      <text x="${labelPoint.x.toFixed(1)}" y="${labelPoint.y.toFixed(1)}" text-anchor="${labelAnchor}" fill="${item.id === activeImpactCategoryId ? "#ffffff" : "rgba(255,255,255,0.72)"}" font-size="${labelFontSize}" font-weight="${item.id === activeImpactCategoryId ? "600" : "500"}">
+        ${labelLines.map((line, lineIndex) => `<tspan x="${labelPoint.x.toFixed(1)}" dy="${lineIndex === 0 ? 0 : labelLineHeight}">${escapeHtml(line)}</tspan>`).join("")}
       </text>
-      <text x="${labelPoint.x.toFixed(1)}" y="${(labelPoint.y + (labelLines.length * 16) + 6).toFixed(1)}" text-anchor="${labelAnchor}" fill="rgba(255,255,255,0.42)" font-size="11">${formatCompact(item.employment)} syss</text>
+      <text x="${labelPoint.x.toFixed(1)}" y="${(labelPoint.y + (labelLines.length * labelLineHeight) + (isMobile ? 4 : 6)).toFixed(1)}" text-anchor="${labelAnchor}" fill="rgba(255,255,255,0.42)" font-size="${employmentFontSize}">${formatCompact(item.employment)} syss</text>
     `);
 
     pointMarkup.push(`
       <g class="impact-point" data-category-id="${item.id}">
         <circle cx="${theoryPoint.x.toFixed(1)}" cy="${theoryPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 6.2 : 5.2}" fill="${IMPACT_COLORS.theory}" stroke="rgba(10,10,15,0.95)" stroke-width="2"></circle>
         <circle cx="${observedPoint.x.toFixed(1)}" cy="${observedPoint.y.toFixed(1)}" r="${item.id === activeImpactCategoryId ? 5.8 : 4.8}" fill="${IMPACT_COLORS.observed}" stroke="rgba(10,10,15,0.95)" stroke-width="2"></circle>
-        <text x="${(theoryPoint.x + 8).toFixed(1)}" y="${(theoryPoint.y - 10).toFixed(1)}" fill="${IMPACT_COLORS.theory}" font-size="11" font-weight="600">${formatPct0(item.theoretical_ai_exposure_pct)}</text>
-        <text x="${(observedPoint.x + 8).toFixed(1)}" y="${(observedPoint.y + 14).toFixed(1)}" fill="${IMPACT_COLORS.observed}" font-size="11" font-weight="600">${formatPct0(item.observed_ai_use_proxy_pct)}</text>
+        <text x="${(theoryPoint.x + 8).toFixed(1)}" y="${(theoryPoint.y - 10).toFixed(1)}" fill="${IMPACT_COLORS.theory}" font-size="${valueFontSize}" font-weight="600">${formatPct0(item.theoretical_ai_exposure_pct)}</text>
+        <text x="${(observedPoint.x + 8).toFixed(1)}" y="${(observedPoint.y + 14).toFixed(1)}" fill="${IMPACT_COLORS.observed}" font-size="${valueFontSize}" font-weight="600">${formatPct0(item.observed_ai_use_proxy_pct)}</text>
       </g>
     `);
   });
@@ -1598,7 +1636,7 @@ function renderImpactRadar() {
     return `<polygon points="${points}" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"></polygon>`;
   }).join("");
 
-  const ringLabels = rings.map((ring, index) => `<text x="${centerX + 8}" y="${centerY - (maxRadius * (ring / 100)) + 14 + (index === 0 ? 6 : 0)}" fill="rgba(255,255,255,0.34)" font-size="11">${ring}%</text>`).join("");
+  const ringLabels = rings.map((ring, index) => `<text x="${centerX + 8}" y="${centerY - (maxRadius * (ring / 100)) + 14 + (index === 0 ? 6 : 0)}" fill="rgba(255,255,255,0.34)" font-size="${employmentFontSize}">${ring}%</text>`).join("");
 
   svg.innerHTML = `
     <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
