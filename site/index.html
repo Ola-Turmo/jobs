@@ -340,6 +340,12 @@ canvas#canvas {
   border-radius: 999px;
 }
 
+.impact-radar-wrap {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
 #impactRadar {
   width: 100%;
   height: auto;
@@ -409,6 +415,7 @@ canvas#canvas {
   width: 100%;
   border-collapse: collapse;
   font-size: 12px;
+  table-layout: fixed;
 }
 
 .impact-table th,
@@ -421,6 +428,8 @@ canvas#canvas {
 .impact-table th:first-child,
 .impact-table td:first-child {
   text-align: left;
+  padding-right: 10px;
+  word-break: break-word;
 }
 
 .impact-table th {
@@ -471,6 +480,130 @@ canvas#canvas {
   .analysis-section { padding: 28px 18px 0; }
   .impact-grid { grid-template-columns: 1fr; }
   .impact-mini-stats { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 640px) {
+  #header { padding: 16px 14px 10px; }
+  .intro { margin-bottom: 14px; }
+  .intro h1 {
+    font-size: 22px;
+    gap: 8px 10px;
+    margin-bottom: 10px;
+  }
+  .intro h1 a {
+    font-size: 12px;
+  }
+  .intro p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .intro summary {
+    font-size: 13px;
+  }
+  .drawer-panel {
+    padding: 12px 12px 10px;
+  }
+  .drawer-panel p,
+  .drawer-panel li {
+    font-size: 12px;
+  }
+  .controls-row {
+    gap: 10px;
+    align-items: stretch;
+  }
+  .color-toggle {
+    width: 100%;
+  }
+  .color-toggle button {
+    flex: 1 1 calc(50% - 4px);
+    text-align: center;
+    padding: 8px 10px;
+  }
+  .gradient-legend {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .stats-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 14px;
+  }
+  .stat-section {
+    min-width: 0;
+  }
+  .stat-big {
+    font-size: 18px;
+    line-height: 1.08;
+    overflow-wrap: anywhere;
+  }
+  .stat-label {
+    font-size: 10px;
+  }
+  .tier-row,
+  .hbar-row {
+    font-size: 11px;
+  }
+  .tier-name,
+  .hbar-label {
+    white-space: normal;
+  }
+  .hbar-label {
+    width: 84px;
+  }
+  .hbar-val {
+    width: 46px;
+  }
+  .analysis-section {
+    padding: 22px 14px 0;
+  }
+  .analysis-section h2 {
+    font-size: 21px;
+  }
+  .section-lead {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .impact-card {
+    padding: 14px 14px 12px;
+  }
+  .impact-radar-wrap {
+    margin: 0 -6px;
+    padding: 0 6px;
+  }
+  #impactRadar {
+    width: 540px;
+    max-width: none;
+  }
+  .impact-focus-name {
+    font-size: 22px;
+  }
+  .impact-focus-copy,
+  .impact-focus ul,
+  .impact-note {
+    font-size: 12px;
+  }
+  .impact-mini-stats {
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .impact-mini-stat {
+    padding: 9px 10px;
+  }
+  .impact-mini-stat .value {
+    font-size: 17px;
+  }
+  .impact-table {
+    font-size: 11px;
+  }
+  .impact-table th,
+  .impact-table td {
+    padding: 8px 0;
+  }
+  #tooltip {
+    max-width: 250px;
+    font-size: 12px;
+    padding: 10px 12px;
+  }
 }
 </style>
 </head>
@@ -558,7 +691,9 @@ canvas#canvas {
   <div class="impact-grid">
     <div class="impact-card">
       <h3>Norsk proxy inspirert av Anthropic</h3>
-      <svg id="impactRadar" viewBox="0 0 760 760" aria-label="Radarplot for KI-påvirkning etter yrkesgruppe"></svg>
+      <div class="impact-radar-wrap">
+        <svg id="impactRadar" viewBox="0 0 760 760" aria-label="Radarplot for KI-påvirkning etter yrkesgruppe"></svg>
+      </div>
       <div class="impact-legend">
         <span class="impact-legend-item"><span class="impact-legend-swatch" style="background:#7aa2ff"></span>Teoretisk LLM-eksponering</span>
         <span class="impact-legend-item"><span class="impact-legend-swatch" style="background:#ff8c69"></span>Observerbar bruk-proxy</span>
@@ -828,7 +963,7 @@ function deriveData() {
 function layout() {
   const wrapper = document.getElementById("wrapper");
   const w = wrapper.clientWidth;
-  const h = Math.round(w * 3 / 4);
+  const h = window.innerWidth <= 640 ? Math.round(w * 1.12) : Math.round(w * 3 / 4);
   canvas.width = w * dpr;
   canvas.height = h * dpr;
   canvas.style.width = w + "px";
