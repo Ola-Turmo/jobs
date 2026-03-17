@@ -1237,10 +1237,16 @@ canvas#canvas {
   .hero {
     min-height: 100dvh;
     margin-bottom: 24px;
-    padding-inline: 10px;
+    margin-inline: -14px;
+    padding-inline: 0;
+  }
+  .hero-media {
+    width: 100vw;
+    max-width: 100vw;
   }
   .hero-video-shell {
-    width: min(100%, 292px);
+    width: 100%;
+    max-width: none;
     border-radius: 22px;
   }
   .intro {
