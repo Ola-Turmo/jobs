@@ -166,6 +166,230 @@ body {
   margin-bottom: 18px;
 }
 
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+  gap: 22px;
+  align-items: stretch;
+  margin-bottom: 26px;
+}
+
+.hero-copy {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px 22px 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at top left, rgba(132, 60, 30, 0.26), transparent 42%),
+    linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.hero-kicker {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d7b28b;
+}
+
+.hero-title {
+  max-width: 11ch;
+  font-size: 52px;
+  line-height: 0.96;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+.hero-copy p {
+  max-width: 58ch;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--fg2);
+}
+
+.hero-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.hero-metric {
+  padding: 10px 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.025);
+}
+
+.hero-metric-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg2);
+}
+
+.hero-metric-value {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--fg2);
+}
+
+.hero-scroll-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  color: var(--fg);
+}
+
+.hero-scroll-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #ff8c69;
+  box-shadow: 0 0 0 6px rgba(255,140,105,0.12);
+}
+
+.hero-media {
+  position: relative;
+  min-height: 100%;
+}
+
+.hero-video-shell {
+  position: relative;
+  height: 100%;
+  min-height: 420px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,140,105,0.22), transparent 30%),
+    radial-gradient(circle at 82% 18%, rgba(61, 148, 61, 0.18), transparent 28%),
+    linear-gradient(135deg, #15151d 0%, #0f1016 44%, #0b0b10 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    0 24px 60px rgba(0,0,0,0.32);
+}
+
+.hero-video-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(10,10,15,0.12), rgba(10,10,15,0.58)),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 0, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 20px),
+    linear-gradient(180deg, rgba(255,255,255,0.035) 0, rgba(255,255,255,0.01) 1px, transparent 1px, transparent 20px);
+  background-size: auto, 20px 20px, 20px 20px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.45s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: scale(1.015);
+}
+
+.hero-video-shell.is-ready .hero-video {
+  opacity: 0.94;
+}
+
+.hero-video-shell.is-playing .hero-video {
+  transform: scale(1);
+}
+
+.hero-video-overlay {
+  position: absolute;
+  inset: auto 16px 16px 16px;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.hero-video-caption {
+  max-width: 32ch;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(14,15,21,0.72);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+.hero-video-caption strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--fg);
+}
+
+.hero-video-caption span {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--fg2);
+}
+
+.hero-video-state {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: rgba(14,15,21,0.78);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  font-size: 11px;
+  color: var(--fg);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero-video-state::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #ff8c69;
+  box-shadow: 0 0 0 5px rgba(255,140,105,0.12);
+}
+
+.hero-video-shell.is-playing .hero-video-state::before {
+  background: #6bc46b;
+  box-shadow: 0 0 0 5px rgba(107,196,107,0.12);
+}
+
+.hero-video-shell.is-playing .hero-video-state {
+  color: #dfeedd;
+}
+
 .intro-head {
   display: flex;
   align-items: baseline;
@@ -632,6 +856,13 @@ canvas#canvas {
 
 @media (max-width: 900px) {
   #header { padding: 18px 18px 12px; }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .hero-video-shell {
+    min-height: 360px;
+  }
   .stats-row { gap: 16px; }
   .analysis-section { padding: 28px 18px 0; }
   .impact-grid { grid-template-columns: 1fr; }
@@ -640,6 +871,62 @@ canvas#canvas {
 
 @media (max-width: 640px) {
   #header { padding: 16px 14px 10px; }
+  .hero {
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .hero-copy {
+    padding: 16px 16px 14px;
+    gap: 14px;
+    border-radius: 16px;
+  }
+  .hero-kicker {
+    font-size: 10px;
+  }
+  .hero-title {
+    max-width: none;
+    font-size: 34px;
+    line-height: 0.98;
+  }
+  .hero-copy p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .hero-metrics {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .hero-metric {
+    padding: 9px 10px;
+  }
+  .hero-metric-value {
+    font-size: 16px;
+  }
+  .hero-meta {
+    gap: 10px;
+    font-size: 11px;
+  }
+  .hero-video-shell {
+    min-height: 250px;
+    border-radius: 18px;
+  }
+  .hero-video-overlay {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-video-caption {
+    max-width: none;
+    padding: 10px 12px;
+  }
+  .hero-video-caption strong,
+  .hero-video-caption span,
+  .hero-video-state {
+    font-size: 11px;
+  }
   .intro { margin-bottom: 14px; }
   .intro-head {
     align-items: flex-start;
@@ -781,6 +1068,56 @@ canvas#canvas {
 
 <main id="wrapper">
 <div id="header">
+  <section class="hero" aria-label="Introduksjon med animasjon">
+    <div class="hero-copy">
+      <div>
+        <div class="hero-kicker">Bevegelsen før tallene</div>
+        <div class="hero-title">Se hvordan arbeidslivet glir før du går inn i kartet.</div>
+      </div>
+      <p>Arbeidsmarkedet endrer seg sjelden i én rett linje. Noen yrker vokser, andre presses, og mange får et nytt arbeidsinnhold lenge før tallene setter seg. Scroll litt, så starter animasjonen og leder deg inn i oversikten.</p>
+      <div class="hero-metrics">
+        <div class="hero-metric">
+          <span class="hero-metric-label">Lengde</span>
+          <span class="hero-metric-value">8 sek</span>
+        </div>
+        <div class="hero-metric">
+          <span class="hero-metric-label">Start</span>
+          <span class="hero-metric-value">Ved scroll</span>
+        </div>
+        <div class="hero-metric">
+          <span class="hero-metric-label">Lasting</span>
+          <span class="hero-metric-value">0,9 MB</span>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <span class="hero-scroll-pill"><span class="hero-scroll-dot"></span>Start animasjonen ved å scrolle</span>
+        <span>Optimalisert for rask visning på mobil og desktop</span>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="hero-video-shell" id="heroVideoShell">
+        <video
+          id="heroVideo"
+          class="hero-video"
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="hero-poster.webp"
+          aria-label="Animasjon som starter når du begynner å scrolle"
+        >
+          <source src="hero-animation-optimized.mp4" type="video/mp4">
+        </video>
+        <div class="hero-video-overlay">
+          <div class="hero-video-caption">
+            <strong>Før du åpner tallene</strong>
+            <span>En kort stemningssekvens som starter når du begynner å bevege deg nedover siden.</span>
+          </div>
+          <div class="hero-video-state" id="heroVideoState">Venter på scroll</div>
+        </div>
+      </div>
+    </div>
+  </section>
   <div class="intro">
     <div class="intro-head">
       <h1>Norsk arbeidsmarkedsoversikt</h1>
@@ -993,16 +1330,97 @@ let rects = [];
 let hovered = null;
 let aiImpactData = [];
 let activeImpactCategoryId = null;
+let heroVideoPrimed = false;
+let heroVideoStarted = false;
+let heroVideoCanPlayHooked = false;
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 let dpr = window.devicePixelRatio || 1;
 const MARGIN = 12;
 const GAP = 1.5;
+const heroVideo = document.getElementById("heroVideo");
+const heroVideoShell = document.getElementById("heroVideoShell");
+const heroVideoState = document.getElementById("heroVideoState");
 const IMPACT_COLORS = {
   theory: "#7aa2ff",
   observed: "#ff8c69",
 };
+
+function markHeroReady() {
+  if (heroVideoShell) heroVideoShell.classList.add("is-ready");
+}
+
+function primeHeroVideo() {
+  if (!heroVideo || heroVideoPrimed) return;
+  heroVideo.preload = "auto";
+  heroVideo.load();
+  heroVideoPrimed = true;
+}
+
+function setHeroVideoState(text) {
+  if (heroVideoState) heroVideoState.textContent = text;
+}
+
+function startHeroVideo() {
+  if (!heroVideo || heroVideoStarted) return;
+
+  const playWhenReady = () => {
+    const playPromise = heroVideo.play();
+    if (playPromise && typeof playPromise.then === "function") {
+      playPromise
+        .then(() => {
+          heroVideoStarted = true;
+          if (heroVideoShell) heroVideoShell.classList.add("is-playing");
+          setHeroVideoState("Spiller nå");
+        })
+        .catch(() => {
+          setHeroVideoState("Klar til å spille");
+        });
+      return;
+    }
+    heroVideoStarted = true;
+    if (heroVideoShell) heroVideoShell.classList.add("is-playing");
+    setHeroVideoState("Spiller nå");
+  };
+
+  primeHeroVideo();
+  setHeroVideoState("Laster inn");
+  if (heroVideo.readyState >= 3) {
+    playWhenReady();
+  } else if (!heroVideoCanPlayHooked) {
+    heroVideoCanPlayHooked = true;
+    heroVideo.addEventListener("canplay", playWhenReady, { once: true });
+  }
+}
+
+function setupHeroVideo() {
+  if (!heroVideo) return;
+
+  heroVideo.addEventListener("loadeddata", markHeroReady, { once: true });
+  heroVideo.addEventListener("canplay", markHeroReady, { once: true });
+
+  const warmVideo = () => {
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(() => primeHeroVideo(), { timeout: 1200 });
+    } else {
+      window.setTimeout(() => primeHeroVideo(), 300);
+    }
+  };
+
+  const onFirstScroll = () => {
+    if (window.scrollY <= 8) return;
+    startHeroVideo();
+    window.removeEventListener("scroll", onFirstScroll);
+    window.removeEventListener("touchmove", onFirstScroll);
+    window.removeEventListener("wheel", onFirstScroll);
+  };
+
+  warmVideo();
+  window.addEventListener("scroll", onFirstScroll, { passive: true });
+  window.addEventListener("touchmove", onFirstScroll, { passive: true });
+  window.addEventListener("wheel", onFirstScroll, { passive: true });
+}
 
 function boostContrast(t) {
   const c = (t - 0.5) * 2;
@@ -1752,6 +2170,7 @@ function start() {
     document.querySelector(".intro p").textContent = "Fant ikke innebygde data. Kjør byggesteget på nytt for å lage site/data.js.";
     return;
   }
+  setupHeroVideo();
   deriveData();
   updateStats();
   drawGradientLegend();
