@@ -30,6 +30,8 @@
 <meta name="twitter:description" content="Utforsk norske yrker med SSB-data: sysselsetting, lønn, utdanning, endring og en norsk proxy for KI-påvirkning.">
 <meta name="twitter:image" content="https://master.norway-job-market-visualizer.pages.dev/og-image.png">
 <meta name="twitter:image:alt" content="Norsk arbeidsmarkedsoversikt med treemap for yrker og KI-påvirkning">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -154,6 +156,7 @@ body {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 32px;
   padding-bottom: 180px;
 }
 
@@ -169,115 +172,26 @@ body {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
-  gap: 22px;
+  gap: 42px;
   align-items: stretch;
-  margin-bottom: 26px;
+  margin-bottom: 56px;
 }
 
 .hero-copy {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 22px 22px 18px;
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 18px;
-  background:
-    radial-gradient(circle at top left, rgba(132, 60, 30, 0.26), transparent 42%),
-    linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015));
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
-}
-
-.hero-kicker {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #d7b28b;
-}
-
-.hero-title {
-  max-width: 11ch;
-  font-size: 52px;
-  line-height: 0.96;
-  letter-spacing: -0.05em;
-  font-weight: 700;
-  text-wrap: balance;
-}
-
-.hero-copy p {
-  max-width: 58ch;
-  font-size: 15px;
-  line-height: 1.65;
-  color: var(--fg2);
-}
-
-.hero-metrics {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-}
-
-.hero-metric {
-  padding: 10px 12px;
-  border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 12px;
-  background: rgba(255,255,255,0.025);
-}
-
-.hero-metric-label {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 10px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--fg2);
-}
-
-.hero-metric-value {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-}
-
-.hero-meta {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
-  font-size: 12px;
-  color: var(--fg2);
-}
-
-.hero-scroll-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 7px 11px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(255,255,255,0.03);
-  color: var(--fg);
-}
-
-.hero-scroll-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  background: #ff8c69;
-  box-shadow: 0 0 0 6px rgba(255,140,105,0.12);
+  min-height: 300px;
 }
 
 .hero-media {
   position: relative;
   min-height: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero-video-shell {
   position: relative;
-  height: 100%;
-  min-height: 420px;
+  width: min(100%, 540px);
+  min-height: 315px;
   border-radius: 22px;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,0.08);
@@ -320,74 +234,6 @@ body {
 
 .hero-video-shell.is-playing .hero-video {
   transform: scale(1);
-}
-
-.hero-video-overlay {
-  position: absolute;
-  inset: auto 16px 16px 16px;
-  z-index: 2;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-.hero-video-caption {
-  max-width: 32ch;
-  padding: 12px 14px;
-  border-radius: 14px;
-  background: rgba(14,15,21,0.72);
-  border: 1px solid rgba(255,255,255,0.08);
-  backdrop-filter: blur(12px);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
-}
-
-.hero-video-caption strong {
-  display: block;
-  margin-bottom: 4px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--fg);
-}
-
-.hero-video-caption span {
-  font-size: 12px;
-  line-height: 1.5;
-  color: var(--fg2);
-}
-
-.hero-video-state {
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 9px 12px;
-  border-radius: 999px;
-  background: rgba(14,15,21,0.78);
-  border: 1px solid rgba(255,255,255,0.08);
-  backdrop-filter: blur(12px);
-  font-size: 11px;
-  color: var(--fg);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.hero-video-state::before {
-  content: "";
-  width: 7px;
-  height: 7px;
-  border-radius: 999px;
-  background: #ff8c69;
-  box-shadow: 0 0 0 5px rgba(255,140,105,0.12);
-}
-
-.hero-video-shell.is-playing .hero-video-state::before {
-  background: #6bc46b;
-  box-shadow: 0 0 0 5px rgba(107,196,107,0.12);
-}
-
-.hero-video-shell.is-playing .hero-video-state {
-  color: #dfeedd;
 }
 
 .intro-head {
@@ -858,10 +704,16 @@ canvas#canvas {
   #header { padding: 18px 18px 12px; }
   .hero {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 22px;
+    margin-bottom: 34px;
+  }
+  .hero-copy {
+    min-height: 0;
+    display: none;
   }
   .hero-video-shell {
-    min-height: 360px;
+    width: 100%;
+    min-height: 340px;
   }
   .stats-row { gap: 16px; }
   .analysis-section { padding: 28px 18px 0; }
@@ -872,60 +724,11 @@ canvas#canvas {
 @media (max-width: 640px) {
   #header { padding: 16px 14px 10px; }
   .hero {
-    gap: 12px;
-    margin-bottom: 18px;
-  }
-  .hero-copy {
-    padding: 16px 16px 14px;
-    gap: 14px;
-    border-radius: 16px;
-  }
-  .hero-kicker {
-    font-size: 10px;
-  }
-  .hero-title {
-    max-width: none;
-    font-size: 34px;
-    line-height: 0.98;
-  }
-  .hero-copy p {
-    font-size: 13px;
-    line-height: 1.5;
-  }
-  .hero-metrics {
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-  .hero-metric {
-    padding: 9px 10px;
-  }
-  .hero-metric-value {
-    font-size: 16px;
-  }
-  .hero-meta {
-    gap: 10px;
-    font-size: 11px;
+    margin-bottom: 24px;
   }
   .hero-video-shell {
-    min-height: 250px;
+    min-height: 236px;
     border-radius: 18px;
-  }
-  .hero-video-overlay {
-    left: 12px;
-    right: 12px;
-    bottom: 12px;
-    gap: 10px;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .hero-video-caption {
-    max-width: none;
-    padding: 10px 12px;
-  }
-  .hero-video-caption strong,
-  .hero-video-caption span,
-  .hero-video-state {
-    font-size: 11px;
   }
   .intro { margin-bottom: 14px; }
   .intro-head {
@@ -1069,31 +872,7 @@ canvas#canvas {
 <main id="wrapper">
 <div id="header">
   <section class="hero" aria-label="Introduksjon med animasjon">
-    <div class="hero-copy">
-      <div>
-        <div class="hero-kicker">Bevegelsen før tallene</div>
-        <div class="hero-title">Se hvordan arbeidslivet glir før du går inn i kartet.</div>
-      </div>
-      <p>Arbeidsmarkedet endrer seg sjelden i én rett linje. Noen yrker vokser, andre presses, og mange får et nytt arbeidsinnhold lenge før tallene setter seg. Scroll litt, så starter animasjonen og leder deg inn i oversikten.</p>
-      <div class="hero-metrics">
-        <div class="hero-metric">
-          <span class="hero-metric-label">Lengde</span>
-          <span class="hero-metric-value">8 sek</span>
-        </div>
-        <div class="hero-metric">
-          <span class="hero-metric-label">Start</span>
-          <span class="hero-metric-value">Ved scroll</span>
-        </div>
-        <div class="hero-metric">
-          <span class="hero-metric-label">Lasting</span>
-          <span class="hero-metric-value">0,9 MB</span>
-        </div>
-      </div>
-      <div class="hero-meta">
-        <span class="hero-scroll-pill"><span class="hero-scroll-dot"></span>Start animasjonen ved å scrolle</span>
-        <span>Optimalisert for rask visning på mobil og desktop</span>
-      </div>
-    </div>
+    <div class="hero-copy" aria-hidden="true"></div>
     <div class="hero-media">
       <div class="hero-video-shell" id="heroVideoShell">
         <video
@@ -1108,13 +887,6 @@ canvas#canvas {
         >
           <source src="hero-animation-optimized.mp4" type="video/mp4">
         </video>
-        <div class="hero-video-overlay">
-          <div class="hero-video-caption">
-            <strong>Før du åpner tallene</strong>
-            <span>En kort stemningssekvens som starter når du begynner å bevege deg nedover siden.</span>
-          </div>
-          <div class="hero-video-state" id="heroVideoState">Venter på scroll</div>
-        </div>
       </div>
     </div>
   </section>
