@@ -151,6 +151,7 @@ html {
   --bg2: #12121a;
   --fg: #e0e0e8;
   --fg2: #a7a7b6;
+  --hero-shell-max: 370px;
 }
 
 body {
@@ -174,6 +175,7 @@ body {
 }
 
 #header {
+  position: relative;
   padding: 0 28px 16px;
   flex-shrink: 0;
   max-width: 100%;
@@ -210,7 +212,7 @@ body {
 
 .hero-video-shell {
   position: relative;
-  width: min(100%, 370px);
+  width: min(100%, var(--hero-shell-max));
   aspect-ratio: 9 / 16;
   border-radius: 28px;
   overflow: hidden;
@@ -269,6 +271,120 @@ body {
 
 .hero-video-shell.is-ended .hero-video {
   opacity: 0.96;
+}
+
+.thinking-banner {
+  position: fixed;
+  left: 50%;
+  top: var(--thinking-banner-top, calc(100dvh - 96px));
+  bottom: auto;
+  z-index: 35;
+  width: min(calc(100vw - 28px), var(--hero-shell-max));
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px 14px 11px;
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background:
+    linear-gradient(135deg, rgba(18,20,28,0.94), rgba(11,12,18,0.9)),
+    radial-gradient(circle at 18% 20%, rgba(255,140,105,0.12), transparent 32%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.14),
+    inset 0 0 0 1px rgba(255,255,255,0.05),
+    0 24px 64px rgba(0,0,0,0.34);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 20px);
+  transition:
+    opacity 0.32s ease,
+    transform 0.42s cubic-bezier(0.16, 1, 0.3, 1),
+    top 0.22s linear,
+    width 0.32s ease,
+    border-radius 0.32s ease;
+}
+
+body.has-thinking-banner .thinking-banner {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+
+.thinking-banner.is-docked {
+  top: 14px;
+  width: min(calc(100vw - 28px), var(--hero-shell-max));
+  border-radius: 18px;
+}
+
+.thinking-banner-copy {
+  min-width: 0;
+  width: 100%;
+  display: grid;
+  gap: 4px;
+}
+
+.thinking-banner-head {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.thinking-banner-arrow {
+  flex: 0 0 auto;
+  position: relative;
+  width: 14px;
+  height: 8px;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+.thinking-banner-arrow::before,
+.thinking-banner-arrow::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  width: 8px;
+  height: 1.5px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(255,140,105,0.9), rgba(122,162,255,0.8));
+}
+
+.thinking-banner-arrow::before {
+  left: 0;
+  transform: rotate(32deg);
+  transform-origin: left center;
+}
+
+.thinking-banner-arrow::after {
+  right: 0;
+  transform: rotate(-32deg);
+  transform-origin: right center;
+}
+
+.thinking-banner-title {
+  margin-top: 0;
+  flex: 1 1 auto;
+  font-size: clamp(0.86rem, 0.92vw, 0.96rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: #f0f1f6;
+}
+
+.thinking-banner-text {
+  margin-top: 0;
+  max-width: 64ch;
+  font-size: 12px;
+  line-height: 1.35;
+  color: rgba(224,224,232,0.74);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .intro-head {
@@ -511,6 +627,48 @@ body {
 }
 
 .gradient-legend canvas { border-radius: 2px; }
+
+.map-drawer {
+  margin-top: 10px;
+}
+
+.map-drawer summary {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--fg2);
+  cursor: pointer;
+  user-select: none;
+}
+
+.map-drawer summary:hover {
+  color: var(--fg);
+}
+
+.map-drawer-panel {
+  margin-top: 12px;
+}
+
+.benchmark-table-drawer {
+  margin-top: 6px;
+}
+
+.benchmark-table-drawer summary {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--fg2);
+  cursor: pointer;
+  user-select: none;
+}
+
+.benchmark-table-drawer summary:hover {
+  color: var(--fg);
+}
+
+.benchmark-table-drawer-panel {
+  margin-top: 12px;
+}
 
 .geo-picker select {
   min-width: 180px;
@@ -1193,16 +1351,16 @@ canvas#canvas {
 }
 
 @media (max-width: 900px) {
+  :root {
+    --hero-shell-max: 332px;
+  }
   #header { padding: 0 18px 12px; }
   .hero {
     min-height: 100dvh;
     margin-bottom: 34px;
     padding-inline: 14px;
   }
-  .hero-video-shell {
-    width: min(100%, 332px);
-    margin: 0 auto;
-  }
+  .hero-video-shell { margin: 0 auto; }
   .stats-row { gap: 18px 22px; }
   .analysis-section {
     margin-top: 40px;
@@ -1230,9 +1388,22 @@ canvas#canvas {
   .benchmark-validation-summary {
     grid-template-columns: 1fr 1fr;
   }
+  .thinking-banner {
+    width: min(calc(100vw - 24px), var(--hero-shell-max));
+    top: var(--thinking-banner-top, calc(100dvh - 92px));
+    padding: 9px 12px 10px;
+    gap: 10px;
+  }
+  .thinking-banner.is-docked {
+    top: 10px;
+    width: min(calc(100vw - 24px), var(--hero-shell-max));
+  }
 }
 
 @media (max-width: 640px) {
+  :root {
+    --hero-shell-max: 100vw;
+  }
   #header { padding: 0 14px 10px; }
   .hero {
     min-height: 100dvh;
@@ -1248,6 +1419,39 @@ canvas#canvas {
     width: 100%;
     max-width: none;
     border-radius: 22px;
+  }
+  .thinking-banner {
+    width: 100vw;
+    top: var(--thinking-banner-top, calc(100dvh - 96px));
+    gap: 8px;
+    padding: 8px 10px 9px;
+    border-radius: 18px;
+    align-items: flex-start;
+  }
+  .thinking-banner.is-docked {
+    top: 8px;
+    width: 100vw;
+    border-radius: 16px;
+  }
+  .thinking-banner-head {
+    gap: 7px;
+  }
+  .thinking-banner-arrow {
+    margin-top: 4px;
+  }
+  .thinking-banner-title {
+    margin-top: 1px;
+    font-size: 13px;
+  }
+  .thinking-banner-text {
+    font-size: 11px;
+    line-height: 1.35;
+    -webkit-line-clamp: 2;
+  }
+  .thinking-banner-kicker {
+    align-self: flex-start;
+    padding: 6px 8px;
+    font-size: 10px;
   }
   .intro {
     margin-bottom: 20px;
@@ -1468,8 +1672,20 @@ canvas#canvas {
         </video>
       </div>
     </div>
+      </div>
+    </details>
   </section>
-  <div class="intro">
+  <div class="thinking-banner" id="thinkingBanner" aria-live="polite">
+    <div class="thinking-banner-copy">
+      <div class="thinking-banner-head">
+        <span class="thinking-banner-arrow" aria-hidden="true"></span>
+        <span class="thinking-banner-arrow" aria-hidden="true"></span>
+        <div class="thinking-banner-title" id="thinkingBannerTitle">Hvordan tror du verden er i ferd med å endres?</div>
+      </div>
+      <p class="thinking-banner-text" id="thinkingBannerText">Nedenfor kan du se tall som i alle fall får en til å tenke.</p>
+    </div>
+  </div>
+  <div class="intro" id="introSection">
     <div class="intro-head">
       <h1>Norsk arbeidsmarkedsoversikt</h1>
       <div class="intro-links">
@@ -1555,35 +1771,42 @@ Svar kun med JSON:
     </details>
   </div>
 
-  <div class="controls-row">
-    <div class="stat-section">
-      <h3>Lag</h3>
-      <div class="color-toggle" id="colorToggle">
-        <button data-mode="change">Endring</button>
-        <button data-mode="earnings">Månedslønn</button>
-        <button data-mode="education">Lang høyere utd.</button>
-        <button data-mode="ai" class="active">KI-påvirkning</button>
-        <button data-mode="vacancy">Ledighetskontekst</button>
+  <section id="mapSection">
+    <details class="map-drawer">
+      <summary>Lag og nøkkeltall</summary>
+      <div class="map-drawer-panel">
+    <div class="controls-row">
+      <div class="stat-section">
+        <h3>Lag</h3>
+        <div class="color-toggle" id="colorToggle">
+          <button data-mode="change">Endring</button>
+          <button data-mode="earnings">Månedslønn</button>
+          <button data-mode="education">Lang høyere utd.</button>
+          <button data-mode="ai" class="active">KI-påvirkning</button>
+          <button data-mode="vacancy">Ledighetskontekst</button>
+        </div>
+      </div>
+      <div class="gradient-legend">
+        <span id="legendLow">Lavt</span>
+        <canvas id="gradientLegend" width="80" height="8"></canvas>
+        <span id="legendHigh">Høyt</span>
       </div>
     </div>
-    <div class="gradient-legend">
-      <span id="legendLow">Lavt</span>
-      <canvas id="gradientLegend" width="80" height="8"></canvas>
-      <span id="legendHigh">Høyt</span>
-    </div>
-  </div>
 
-  <div class="stats-row">
-    <div class="stat-section">
-      <h3>Sysselsatte</h3>
-      <div class="stat-big" id="statTotalJobs">&mdash;</div>
+    <div class="stats-row">
+      <div class="stat-section">
+        <h3>Sysselsatte</h3>
+        <div class="stat-big" id="statTotalJobs">&mdash;</div>
+      </div>
+      <div class="stat-section" id="block2"></div>
+      <div class="stat-section" id="block3"></div>
+      <div class="stat-section" id="block4"></div>
+      <div class="stat-section" id="block5"></div>
+      <div class="stat-section" id="block6"></div>
     </div>
-    <div class="stat-section" id="block2"></div>
-    <div class="stat-section" id="block3"></div>
-    <div class="stat-section" id="block4"></div>
-    <div class="stat-section" id="block5"></div>
-    <div class="stat-section" id="block6"></div>
-  </div>
+      </div>
+    </details>
+  </section>
 </main>
 
 <canvas id="canvas"></canvas>
@@ -1637,7 +1860,8 @@ Svar kun med JSON:
             <span class="label">Sysselsatte</span>
             <span class="value" id="impactFocusJobs">—</span>
           </div>
-        </div>
+          </div>
+        </details>
         <ul id="impactFocusTopJobs"></ul>
       </div>
 
@@ -1732,8 +1956,9 @@ Svar kun med JSON:
           <ul class="benchmark-focus-highlights" id="benchmarkFocusHighlights"></ul>
         </div>
 
-        <div class="benchmark-panel benchmark-table-panel">
-          <h3>Synlige modeller</h3>
+        <details class="benchmark-panel benchmark-table-panel benchmark-table-drawer">
+          <summary>Synlige modeller</summary>
+          <div class="benchmark-table-drawer-panel">
           <div class="benchmark-table-wrap">
             <table class="benchmark-table">
               <thead>
@@ -1791,6 +2016,9 @@ let activeImpactCategoryId = null;
 let heroVideoPrimed = false;
 let heroVideoStarted = false;
 let benchmarkState = null;
+let thinkingBannerVisible = false;
+let activeThinkingSection = "hero";
+let thinkingSections = [];
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
@@ -1799,10 +2027,36 @@ const MARGIN = 12;
 const GAP = 1.5;
 const heroVideo = document.getElementById("heroVideo");
 const heroVideoShell = document.getElementById("heroVideoShell");
+const heroSection = document.querySelector(".hero");
+const thinkingBanner = document.getElementById("thinkingBanner");
+const thinkingBannerTitle = document.getElementById("thinkingBannerTitle");
+const thinkingBannerText = document.getElementById("thinkingBannerText");
 const BenchmarkCore = window.BenchmarkCore || null;
 const IMPACT_COLORS = {
   theory: "#7aa2ff",
   observed: "#ff8c69",
+};
+const THINKING_BANNER_CONTENT = {
+  hero: {
+    title: "Hvordan tror du verden er i ferd med å endres?",
+    text: "Nedenfor kan du se tall som i alle fall får en til å tenke.",
+  },
+  introSection: {
+    title: "Hvordan tror du verden er i ferd med å endres?",
+    text: "Nedenfor kan du se tall som i alle fall får en til å tenke.",
+  },
+  mapSection: {
+    title: "Hvilke yrkesgrupper kommer til å bli påvirket mest?",
+    text: "Tallene viser at det er godt betalte kontoryrker som står foran den største omstillingen.",
+  },
+  aiImpactSection: {
+    title: "Hvor stor del av eksisterende KI har vi tatt i bruk?",
+    text: "Tallene viser at vi bare utnytter en liten del.",
+  },
+  benchmarkSection: {
+    title: "Hvorfor er benchmarkene viktige?",
+    text: "De viser at AI nylig tok et kjempehopp i intelligens forbi mennesker.",
+  },
 };
 const ANTHROPIC_CALIBRATED_IMPACT_PROFILE = {
   "4": { theory: 90, observed: 29, source_equivalent: "Office & admin" },
@@ -1867,6 +2121,11 @@ function setupHeroVideo() {
   heroVideo.addEventListener("canplay", markHeroReady, { once: true });
   heroVideo.addEventListener("ended", () => {
     if (heroVideoShell) heroVideoShell.classList.add("is-ended");
+    window.setTimeout(() => {
+      thinkingBannerVisible = true;
+      document.body.classList.add("has-thinking-banner");
+      syncThinkingBanner();
+    }, 1000);
   }, { once: true });
 
   const warmVideo = () => {
@@ -1892,6 +2151,74 @@ function setupHeroVideo() {
   }, { threshold: 0.65 });
 
   observer.observe(heroVideoShell || heroVideo);
+}
+
+function renderThinkingBanner(sectionId) {
+  if (!thinkingBanner) return;
+  const content = THINKING_BANNER_CONTENT[sectionId] || THINKING_BANNER_CONTENT.hero;
+  thinkingBannerTitle.textContent = content.title;
+  thinkingBannerText.textContent = content.text;
+}
+
+function getActiveThinkingSection() {
+  if (!thinkingBannerVisible || !heroSection) return "hero";
+  const heroRect = heroSection.getBoundingClientRect();
+  if (heroRect.bottom > Math.max(140, window.innerHeight * 0.28)) return "hero";
+
+  const targetLine = Math.min(170, Math.max(92, window.innerHeight * 0.2));
+  let current = "introSection";
+  for (const section of thinkingSections) {
+    const element = document.getElementById(section.id);
+    if (!element) continue;
+    const rect = element.getBoundingClientRect();
+    if (rect.top <= targetLine) current = section.id;
+    if (rect.top > targetLine) break;
+  }
+  return current;
+}
+
+function syncThinkingBanner() {
+  if (!thinkingBanner) return;
+  if (!thinkingBannerVisible) {
+    document.body.classList.remove("has-thinking-banner");
+    thinkingBanner.classList.remove("is-docked");
+    thinkingBanner.style.removeProperty("--thinking-banner-top");
+    return;
+  }
+
+  document.body.classList.add("has-thinking-banner");
+  const nextSection = getActiveThinkingSection();
+  const heroRect = heroSection ? heroSection.getBoundingClientRect() : null;
+  const bannerHeight = thinkingBanner.getBoundingClientRect().height || 0;
+  const dockTop = window.innerWidth <= 640 ? 8 : window.innerWidth <= 900 ? 10 : 14;
+  const trailingOffset = window.innerWidth <= 640 ? 42 : window.innerWidth <= 900 ? 74 : 88;
+  const travelTop = heroRect ? Math.round(heroRect.bottom - bannerHeight - trailingOffset) : dockTop;
+  const isDocked = nextSection !== "hero" || travelTop <= dockTop;
+
+  if (!isDocked) {
+    thinkingBanner.style.setProperty("--thinking-banner-top", `${travelTop}px`);
+  } else {
+    thinkingBanner.style.removeProperty("--thinking-banner-top");
+  }
+  thinkingBanner.classList.toggle("is-docked", isDocked);
+
+  if (nextSection !== activeThinkingSection) {
+    activeThinkingSection = nextSection;
+    renderThinkingBanner(activeThinkingSection);
+  }
+}
+
+function setupThinkingBanner() {
+  thinkingSections = [
+    { id: "introSection" },
+    { id: "mapSection" },
+    { id: "aiImpactSection" },
+    { id: "benchmarkSection" },
+  ];
+  renderThinkingBanner("hero");
+  syncThinkingBanner();
+  window.addEventListener("scroll", syncThinkingBanner, { passive: true });
+  window.addEventListener("resize", syncThinkingBanner);
 }
 
 function boostContrast(t) {
@@ -3149,6 +3476,7 @@ function start() {
     document.querySelector(".intro p").textContent = "Fant ikke innebygde data. Kjør byggesteget på nytt for å lage site/data.js.";
     return;
   }
+  setupThinkingBanner();
   setupHeroVideo();
   deriveData();
   updateStats();
