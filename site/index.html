@@ -4,18 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>turmo.dev - stuff that makes my brain sparkle</title>
-<meta name="description" content="Utforsk det norske arbeidsmarkedet visuelt med SSB-data. Se sysselsetting, lønn, utdanning, endring over tid, ledighetskontekst og et norsk anslag for KI-påvirkning i yrker.">
-<meta name="keywords" content="norsk arbeidsmarked, SSB, yrker, lønn, sysselsetting, utdanning, KI, AI, arbeidsmarked, treemap, jobber i Norge">
+<meta name="description" content="Utforsk det norske arbeidsmarkedet med SSB-data, interaktivt treemap og et tydelig merket KI-anslag. Siden inneholder også en egen global benchmark-del for frontmodeller.">
+<meta name="keywords" content="turmo.dev, norsk arbeidsmarked, SSB, yrker, lønn, sysselsetting, utdanning, KI, AI, arbeidsmarked, treemap, jobber i Norge, benchmark, frontmodeller">
 <meta name="author" content="Ola Turmo">
+<meta name="creator" content="Ola Turmo">
+<meta name="application-name" content="turmo.dev">
+<meta name="apple-mobile-web-app-title" content="turmo.dev">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="googlebot" content="index,follow,max-image-preview:large">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
 <meta name="theme-color" content="#0a0a0f">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="canonical" href="https://master.norway-job-market-visualizer.pages.dev/">
 <link rel="alternate" hreflang="nb-NO" href="https://master.norway-job-market-visualizer.pages.dev/">
-<meta property="og:site_name" content="Norsk arbeidsmarkedsoversikt">
-<meta property="og:title" content="Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning">
-<meta property="og:description" content="Et visuelt forskningsverktøy for norske yrker, bygget på SSB Statbank og SSB Klass. Se sysselsetting, lønn, utdanning, utvikling og et norsk anslag for KI-påvirkning.">
+<link rel="alternate" hreflang="x-default" href="https://master.norway-job-market-visualizer.pages.dev/">
+<meta property="og:site_name" content="turmo.dev">
+<meta property="og:title" content="turmo.dev - stuff that makes my brain sparkle">
+<meta property="og:description" content="Et visuelt prosjekt med to deler: norsk arbeidsmarkedsanalyse basert på SSB-data og en egen global benchmark-del for frontmodeller.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nb_NO">
 <meta property="og:url" content="https://master.norway-job-market-visualizer.pages.dev/">
@@ -23,13 +28,13 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Norsk arbeidsmarkedsoversikt med treemap for yrker og KI-påvirkning">
+<meta property="og:image:alt" content="turmo.dev med norsk arbeidsmarkedsoversikt, treemap for yrker og en egen benchmark-del for frontmodeller">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://master.norway-job-market-visualizer.pages.dev/">
-<meta name="twitter:title" content="Norsk arbeidsmarkedsoversikt | SSB-baserte yrkesdata og KI-påvirkning">
-<meta name="twitter:description" content="Utforsk norske yrker med SSB-data: sysselsetting, lønn, utdanning, endring og et norsk anslag for KI-påvirkning.">
+<meta name="twitter:title" content="turmo.dev - stuff that makes my brain sparkle">
+<meta name="twitter:description" content="Norsk arbeidsmarkedsanalyse med SSB-data, interaktivt treemap og egen global benchmark-del for frontmodeller.">
 <meta name="twitter:image" content="https://master.norway-job-market-visualizer.pages.dev/og-image.png">
-<meta name="twitter:image:alt" content="Norsk arbeidsmarkedsoversikt med treemap for yrker og KI-påvirkning">
+<meta name="twitter:image:alt" content="turmo.dev med norsk arbeidsmarkedsoversikt og global modellbenchmarking">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,15 +48,15 @@
       "@type": "WebSite",
       "@id": "https://master.norway-job-market-visualizer.pages.dev/#website",
       "url": "https://master.norway-job-market-visualizer.pages.dev/",
-      "name": "Norsk arbeidsmarkedsoversikt",
+      "name": "turmo.dev",
       "inLanguage": "nb-NO",
-      "description": "Et visuelt forskningsverktøy for norske yrker, bygget på SSB Statbank og SSB Klass."
+      "description": "Et visuelt prosjekt med norsk arbeidsmarkedsanalyse og egen global modellbenchmarking."
     },
     {
       "@type": "WebPage",
       "@id": "https://master.norway-job-market-visualizer.pages.dev/#webpage",
       "url": "https://master.norway-job-market-visualizer.pages.dev/",
-      "name": "Norsk arbeidsmarkedsoversikt",
+      "name": "turmo.dev - stuff that makes my brain sparkle",
       "isPartOf": {
         "@id": "https://master.norway-job-market-visualizer.pages.dev/#website"
       },
@@ -67,13 +72,13 @@
         "@type": "ImageObject",
         "url": "https://master.norway-job-market-visualizer.pages.dev/og-image.png"
       },
-      "description": "Utforsk norske yrker med SSB-data og et tydelig merket anslag for KI-påvirkning, inspirert av Anthropic sin forskning om AI og arbeidsmarkedet."
+      "description": "Utforsk norske yrker med SSB-data og et tydelig merket KI-anslag. Siden inneholder også en separat global benchmark-del for frontmodeller."
     },
     {
       "@type": "Dataset",
       "@id": "https://master.norway-job-market-visualizer.pages.dev/#dataset",
-      "name": "Norsk arbeidsmarkedsoversikt – datasett for yrker",
-      "description": "Kombinert datasett for norske yrker med sysselsetting, månedslønn, utdanning, endring over tid, ledighetskontekst og et norsk anslag for KI-påvirkning.",
+      "name": "turmo.dev – norsk arbeidsmarkedsdatasett",
+      "description": "Norsk arbeidsmarkedsdatasett med sysselsetting, månedslønn, utdanning, endring over tid, ledighetskontekst og et tydelig merket KI-anslag.",
       "inLanguage": "nb-NO",
       "creator": {
         "@type": "Person",
@@ -144,6 +149,18 @@
 
 html {
   overflow-x: clip;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 :root {
@@ -1647,7 +1664,7 @@ canvas#canvas {
 <body>
 
 <main id="wrapper">
-<div id="header">
+<header id="header">
   <section class="hero" aria-label="Introduksjon med animasjon">
     <div class="hero-media">
       <div class="hero-video-shell" id="heroVideoShell">
@@ -1672,8 +1689,6 @@ canvas#canvas {
         </video>
       </div>
     </div>
-      </div>
-    </details>
   </section>
   <div class="thinking-banner" id="thinkingBanner" aria-live="polite">
     <div class="thinking-banner-copy">
@@ -1693,6 +1708,7 @@ canvas#canvas {
         <a href="https://github.com/karpathy/jobs">Original repo</a>
       </div>
     </div>
+    <p><strong>To deler på samme side:</strong> Først får du en norsk arbeidsmarkedsanalyse med SSB-data. Lenger ned finner du en egen global benchmark-del for frontmodeller. De to delene bruker ulikt datagrunnlag og bør leses hver for seg.</p>
     <p>Utforsk det norske arbeidsmarkedet med åpne data fra <b>SSB Statbank</b> og <b>SSB Klass</b>. Hver rute er et yrke i STYRK. <b>Arealet</b> viser hvor mange som jobber i yrket, og <b>fargen</b> viser valgt lag: endring, månedslønn, andel med lang høyere utdanning, KI-påvirkning eller ledighetskontekst.</p>
     <p>Dette er en norsk videreutvikling av <a href="https://github.com/karpathy/jobs">karpathy/jobs</a>. Originalen brukte amerikanske BLS-data. Her er datagrunnlaget byttet ut med offisielle norske kilder, mens den enkle og lette formen er beholdt.</p>
     <p>Koden har også en egen pipeline for LLM-baserte fargelag. Du kan skrive en prompt, la modellen vurdere hvert yrke etter et valgt kriterium og bruke resultatet som et nytt fargelag i treemapet. Laget <b>KI-påvirkning</b> er ett eksempel. Det anslår hvor mye dagens språkmodeller kan endre ulike yrker. Den samme metoden kan også brukes på andre spørsmål, som robotisering, offshoring eller klimaeksponering.</p>
@@ -1807,9 +1823,12 @@ Svar kun med JSON:
       </div>
     </details>
   </section>
-</main>
+</header>
 
-<canvas id="canvas"></canvas>
+<section aria-labelledby="treemap-heading">
+  <h2 id="treemap-heading" class="sr-only">Hovedkart over norske yrker</h2>
+  <canvas id="canvas"></canvas>
+</section>
 
 <section class="analysis-section" id="aiImpactSection">
   <h2>KI-påvirkning i norske yrker</h2>
@@ -1860,8 +1879,7 @@ Svar kun med JSON:
             <span class="label">Sysselsatte</span>
             <span class="value" id="impactFocusJobs">—</span>
           </div>
-          </div>
-        </details>
+        </div>
         <ul id="impactFocusTopJobs"></ul>
       </div>
 
@@ -1885,7 +1903,7 @@ Svar kun med JSON:
 
 <section class="analysis-section benchmark-section" id="benchmarkSection">
   <h2>Tidslinje for ledende modeller</h2>
-  <p class="section-lead">Denne delen bygger på benchmark-filene i repoet og viser hvordan ledende modeller har utviklet seg over tid på ARC-AGI-2, HLE, HLE-Verified og GPQA Diamond. Den handler ikke spesielt om Norge, men bruker samme mørke uttrykk og samme enkle oppsett som resten av siden.</p>
+  <p class="section-lead">Denne delen er en egen global benchmark-visning. Den bygger på benchmark-filene i repoet og viser hvordan ledende modeller har utviklet seg over tid på ARC-AGI-2, HLE, HLE-Verified og GPQA Diamond. Den er ikke en del av det norske arbeidsmarkedsdatasettet over.</p>
   <details>
     <summary>Datakvalitet i benchmark-seksjonen</summary>
     <div class="drawer-panel">
@@ -1959,22 +1977,23 @@ Svar kun med JSON:
         <details class="benchmark-panel benchmark-table-panel benchmark-table-drawer">
           <summary>Synlige modeller</summary>
           <div class="benchmark-table-drawer-panel">
-          <div class="benchmark-table-wrap">
-            <table class="benchmark-table">
-              <thead>
-                <tr>
-                  <th>Dato</th>
-                  <th>Modell</th>
-                  <th>Aktør</th>
-                  <th>Poeng</th>
-                  <th>Raw</th>
-                  <th>Økning</th>
-                </tr>
-              </thead>
-              <tbody id="benchmarkTableBody"></tbody>
-            </table>
+            <div class="benchmark-table-wrap">
+              <table class="benchmark-table">
+                <thead>
+                  <tr>
+                    <th>Dato</th>
+                    <th>Modell</th>
+                    <th>Aktør</th>
+                    <th>Poeng</th>
+                    <th>Raw</th>
+                    <th>Økning</th>
+                  </tr>
+                </thead>
+                <tbody id="benchmarkTableBody"></tbody>
+              </table>
+            </div>
           </div>
-        </div>
+        </details>
       </div>
     </div>
 
@@ -1990,7 +2009,7 @@ Svar kun med JSON:
     </details>
   </div>
 </section>
-</div>
+</main>
 
 <div id="tooltip">
   <div class="tt-title"></div>

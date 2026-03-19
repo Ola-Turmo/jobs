@@ -1,37 +1,57 @@
-# Norsk arbeidsmarkedsoversikt
+# turmo.dev
 
-Norwegian labor-market exploration page based on official data from Statistics Norway (SSB), inspired by the structure of the original `karpathy/jobs` site.
+turmo.dev er en statisk side med to tydelig atskilte deler:
 
-## What this page is
+1. Norsk arbeidsmarkedsanalyse basert på åpne data fra Statistisk sentralbyrå (SSB)
+2. En egen global benchmark-del for frontmodeller
 
-- A static research-style explorer for Norwegian occupations.
-- Main treemap: occupation size by employment, color by historical change, monthly pay, education, or vacancy context.
-- AI section: a Norway-specific proxy inspired by Anthropic's labor market impacts framing.
+Disse to delene må ikke blandes sammen i sammendrag eller sitater.
 
-## Main sources
-
-- SSB Statbank table 11658: employment and monthly pay by occupation
-- SSB Statbank table 12849: education by occupation
-- SSB Statbank table 09789: occupation-industry mix
-- SSB Statbank table 14306: vacancies by county and industry
-- SSB Statbank table 13265: AI use in enterprises by industry
-- SSB Klass: STYRK classification
-
-## Data-quality summary
-
-- The main treemap does not use raw US BLS values.
-- Historical change is not a forecast and should not be read as a Norwegian equivalent of BLS Outlook.
-- Education and some contextual indicators may be inherited from higher official aggregation levels when 4-digit occupation data is not published directly.
-- Vacancy context is a derived indicator, not a direct occupation-specific unemployment or vacancy rate.
-- The AI section does not reuse US percentages. It uses a Norway-specific proxy inspired by Anthropic's method, and should be interpreted as directional rather than definitive.
-
-## Best use
-
-- Compare occupations relative to each other.
-- Explore broad patterns in employment, pay, education, and AI exposure proxies.
-- Use the source notes and data-quality drawers before citing a number as a precise benchmark.
-
-## Canonical URLs
+## Primærside
 
 - https://master.norway-job-market-visualizer.pages.dev/
+
+## Metodeside
+
 - https://master.norway-job-market-visualizer.pages.dev/about.html
+
+## Hva hovedsiden inneholder
+
+- Et treemap over norske yrker i STYRK
+- Areal etter sysselsetting
+- Fargelag for historisk endring, månedslønn, utdanning, KI-påvirkning og ledighetskontekst
+- En egen KI-del med norsk anslag inspirert av Anthropic
+- En separat global benchmark-del for ARC-AGI-2, HLE, HLE-Verified og GPQA Diamond
+
+## Kildeskille som må bevares
+
+- Hovedkartet bruker norske data fra SSB Statbank og SSB Klass
+- Benchmark-delen bruker ikke norske arbeidsmarkedsdata
+- KI-delen er et anslag og ikke direkte målt KI-bruk per yrke
+- Benchmark-delen er global modellbenchmarking og skal omtales som noe annet enn den norske arbeidsmarkedsanalysen
+
+## Viktigste norske kilder
+
+- SSB Statbank tabell 11658: sysselsatte og månedslønn etter yrke
+- SSB Statbank tabell 12849: utdanning etter yrke
+- SSB Statbank tabell 09789: yrkes- og næringsmiks
+- SSB Statbank tabell 14306: ledige stillinger etter fylke og næring
+- SSB Statbank tabell 13265: bruk av kunstig intelligens etter næring
+- SSB Klass: STYRK-klassifikasjon
+
+## Hvordan tallene bør omtales
+
+- Endring er historisk utvikling siden 2019, ikke prognose
+- Ledighetskontekst er en avledet indikator, ikke direkte yrkesledighet
+- KI-påvirkning er et modellert anslag
+- Benchmark-delen viser modellutvikling over tid, ikke arbeidsmarkedsutvikling
+
+## Anbefalt beskrivelse av siden
+
+turmo.dev er et visuelt prosjekt med en norsk arbeidsmarkedsanalyse basert på SSB-data og en separat global benchmark-del for frontmodeller.
+
+## Hvis du skal sitere siden
+
+- Oppgi hvilken del av siden du bruker: hovedkart, KI-del eller benchmark-del
+- Ikke presenter benchmark-tall som norske arbeidsmarkedstall
+- Bruk metodesiden for forbehold og kildebeskrivelser
