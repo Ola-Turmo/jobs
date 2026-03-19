@@ -9,11 +9,11 @@ Disse to delene må ikke blandes sammen i sammendrag eller sitater.
 
 ## Primærside
 
-- https://master.norway-job-market-visualizer.pages.dev/
+- https://turmo.dev/
 
 ## Metodeside
 
-- https://master.norway-job-market-visualizer.pages.dev/about.html
+- https://turmo.dev/about.html
 
 ## Hva hovedsiden inneholder
 

@@ -15,25 +15,25 @@
 <meta name="format-detection" content="telephone=no,address=no,email=no">
 <meta name="theme-color" content="#0a0a0f">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<link rel="canonical" href="https://master.norway-job-market-visualizer.pages.dev/">
-<link rel="alternate" hreflang="nb-NO" href="https://master.norway-job-market-visualizer.pages.dev/">
-<link rel="alternate" hreflang="x-default" href="https://master.norway-job-market-visualizer.pages.dev/">
+<link rel="canonical" href="https://turmo.dev/">
+<link rel="alternate" hreflang="nb-NO" href="https://turmo.dev/">
+<link rel="alternate" hreflang="x-default" href="https://turmo.dev/">
 <meta property="og:site_name" content="turmo.dev">
 <meta property="og:title" content="turmo.dev - stuff that makes my brain sparkle">
 <meta property="og:description" content="Et visuelt prosjekt med to deler: norsk arbeidsmarkedsanalyse basert på SSB-data og en egen global benchmark-del for frontmodeller.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nb_NO">
-<meta property="og:url" content="https://master.norway-job-market-visualizer.pages.dev/">
-<meta property="og:image" content="https://master.norway-job-market-visualizer.pages.dev/og-image.png">
+<meta property="og:url" content="https://turmo.dev/">
+<meta property="og:image" content="https://turmo.dev/og-image.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="turmo.dev med norsk arbeidsmarkedsoversikt, treemap for yrker og en egen benchmark-del for frontmodeller">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://master.norway-job-market-visualizer.pages.dev/">
+<meta name="twitter:url" content="https://turmo.dev/">
 <meta name="twitter:title" content="turmo.dev - stuff that makes my brain sparkle">
 <meta name="twitter:description" content="Norsk arbeidsmarkedsanalyse med SSB-data, interaktivt treemap og egen global benchmark-del for frontmodeller.">
-<meta name="twitter:image" content="https://master.norway-job-market-visualizer.pages.dev/og-image.png">
+<meta name="twitter:image" content="https://turmo.dev/og-image.png">
 <meta name="twitter:image:alt" content="turmo.dev med norsk arbeidsmarkedsoversikt og global modellbenchmarking">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
@@ -46,19 +46,19 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://master.norway-job-market-visualizer.pages.dev/#website",
-      "url": "https://master.norway-job-market-visualizer.pages.dev/",
+      "@id": "https://turmo.dev/#website",
+      "url": "https://turmo.dev/",
       "name": "turmo.dev",
       "inLanguage": "nb-NO",
       "description": "Et visuelt prosjekt med norsk arbeidsmarkedsanalyse og egen global modellbenchmarking."
     },
     {
       "@type": "WebPage",
-      "@id": "https://master.norway-job-market-visualizer.pages.dev/#webpage",
-      "url": "https://master.norway-job-market-visualizer.pages.dev/",
+      "@id": "https://turmo.dev/#webpage",
+      "url": "https://turmo.dev/",
       "name": "turmo.dev - stuff that makes my brain sparkle",
       "isPartOf": {
-        "@id": "https://master.norway-job-market-visualizer.pages.dev/#website"
+        "@id": "https://turmo.dev/#website"
       },
       "about": [
         "Norsk arbeidsmarked",
@@ -70,13 +70,13 @@
       "inLanguage": "nb-NO",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://master.norway-job-market-visualizer.pages.dev/og-image.png"
+        "url": "https://turmo.dev/og-image.png"
       },
       "description": "Utforsk norske yrker med SSB-data og et tydelig merket KI-anslag. Siden inneholder også en separat global benchmark-del for frontmodeller."
     },
     {
       "@type": "Dataset",
-      "@id": "https://master.norway-job-market-visualizer.pages.dev/#dataset",
+      "@id": "https://turmo.dev/#dataset",
       "name": "turmo.dev – norsk arbeidsmarkedsdatasett",
       "description": "Norsk arbeidsmarkedsdatasett med sysselsetting, månedslønn, utdanning, endring over tid, ledighetskontekst og et tydelig merket KI-anslag.",
       "inLanguage": "nb-NO",
@@ -84,6 +84,7 @@
         "@type": "Person",
         "name": "Ola Turmo"
       },
+      "url": "https://turmo.dev/",
       "isBasedOn": [
         "https://github.com/karpathy/jobs",
         "https://www.ssb.no/",
@@ -91,7 +92,7 @@
       ],
       "distribution": {
         "@type": "DataDownload",
-        "contentUrl": "https://master.norway-job-market-visualizer.pages.dev/data.json",
+        "contentUrl": "https://turmo.dev/data.json",
         "encodingFormat": "application/json"
       },
       "keywords": [
@@ -105,7 +106,7 @@
     },
     {
       "@type": "FAQPage",
-      "@id": "https://master.norway-job-market-visualizer.pages.dev/#faq",
+      "@id": "https://turmo.dev/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -664,6 +665,50 @@ body.has-thinking-banner .thinking-banner {
 
 .map-drawer-panel {
   margin-top: 12px;
+}
+
+.treemap-text-alt {
+  margin-top: 14px;
+}
+
+.treemap-text-alt summary {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--fg2);
+  cursor: pointer;
+  user-select: none;
+}
+
+.treemap-text-alt summary:hover {
+  color: var(--fg);
+}
+
+.treemap-text-alt-panel {
+  margin-top: 12px;
+}
+
+.treemap-text-alt-table-wrap {
+  overflow-x: auto;
+}
+
+.treemap-text-alt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.treemap-text-alt-table th,
+.treemap-text-alt-table td {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  text-align: left;
+  vertical-align: top;
+}
+
+.treemap-text-alt-table th {
+  color: var(--fg2);
+  font-weight: 600;
 }
 
 .benchmark-table-drawer {
@@ -1822,12 +1867,33 @@ Svar kun med JSON:
     </div>
       </div>
     </details>
+    <details class="treemap-text-alt">
+      <summary>Tekstlig tabell for hovedkartet</summary>
+      <div class="treemap-text-alt-panel">
+        <p class="section-lead">Denne tabellen viser de største yrkene i hovedkartet som vanlig tekst. Den gjør tallene lettere å lese, sitere og sammenligne uten å bruke selve treemapet.</p>
+        <div class="treemap-text-alt-table-wrap">
+          <table class="treemap-text-alt-table">
+            <thead>
+              <tr>
+                <th>Yrke</th>
+                <th>Sysselsatte</th>
+                <th>Månedslønn</th>
+                <th>Endring</th>
+                <th>KI-påvirkning</th>
+              </tr>
+            </thead>
+            <tbody id="treemapTextTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </details>
   </section>
 </header>
 
 <section aria-labelledby="treemap-heading">
   <h2 id="treemap-heading" class="sr-only">Hovedkart over norske yrker</h2>
-  <canvas id="canvas"></canvas>
+  <canvas id="canvas" role="img" aria-describedby="treemapCanvasDescription">Treemap over norske yrker med størrelse etter sysselsetting og fargelag for blant annet lønn, endring og KI-påvirkning.</canvas>
+  <p id="treemapCanvasDescription" class="sr-only">Hovedkartet viser norske yrker som rektangler. Arealet viser sysselsetting, og fargen viser valgt indikator.</p>
 </section>
 
 <section class="analysis-section" id="aiImpactSection">
@@ -2593,6 +2659,23 @@ function updateStats() {
   else if (colorMode === "education") updateEducationStats(totalJobs);
   else if (colorMode === "ai") updateAiStats(totalJobs);
   else updateVacancyStats(totalJobs);
+}
+
+function renderTreemapTextTable() {
+  const tbody = document.getElementById("treemapTextTableBody");
+  if (!tbody) return;
+  const rows = [...data]
+    .sort((a, b) => (b.jobs || 0) - (a.jobs || 0))
+    .slice(0, 20);
+  tbody.innerHTML = rows.map((row) => `
+    <tr>
+      <td>${escapeHtml(row.title)}</td>
+      <td>${formatNumber(row.jobs)}</td>
+      <td>${formatCurrency(row.pay)}</td>
+      <td>${formatPct(row.change)}</td>
+      <td>${formatPct0(row.ai)}</td>
+    </tr>
+  `).join("");
 }
 
 function updateEarningsStats(totalJobs) {
@@ -3498,6 +3581,7 @@ function start() {
   setupThinkingBanner();
   setupHeroVideo();
   deriveData();
+  renderTreemapTextTable();
   updateStats();
   drawGradientLegend();
   renderAiImpactSection();
