@@ -1,0 +1,4527 @@
+{
+  "major_groups": [
+    {
+      "id": "1",
+      "styrk_code": "1",
+      "name_nb": "Ledere",
+      "display_name_nb": "Ledere",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "2",
+      "styrk_code": "2",
+      "name_nb": "Akademiske yrker",
+      "display_name_nb": "Akademiske yrker",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "3_01-03",
+      "styrk_code": "3_01-03",
+      "name_nb": "Høyskole- og militære yrker",
+      "display_name_nb": "Høyskole- og militære yrker",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "4",
+      "styrk_code": "4",
+      "name_nb": "Kontoryrker",
+      "display_name_nb": "Kontoryrker",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "5",
+      "styrk_code": "5",
+      "name_nb": "Salgs- og serviceyrker",
+      "display_name_nb": "Salgs- og serviceyrker",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "6",
+      "styrk_code": "6",
+      "name_nb": "Bønder, fiskere mv.",
+      "display_name_nb": "Bønder, fiskere mv.",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "7",
+      "styrk_code": "7",
+      "name_nb": "Håndverkere",
+      "display_name_nb": "Håndverkere",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "8",
+      "styrk_code": "8",
+      "name_nb": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "display_name_nb": "Prosess- og maskinoperatører, transportarbeidere mv.",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    },
+    {
+      "id": "9",
+      "styrk_code": "9",
+      "name_nb": "Renholdere, hjelpearbeidere mv.",
+      "display_name_nb": "Renholdere, hjelpearbeidere mv.",
+      "level": 1,
+      "parent_code": null,
+      "source": "SSB table 11619"
+    }
+  ],
+  "subgroups": [
+    {
+      "id": "01",
+      "styrk_code": "01",
+      "name_nb": "Offiserer fra fenrik og høyere grad",
+      "display_name_nb": "Offiserer fra fenrik og høyere grad",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "02",
+      "styrk_code": "02",
+      "name_nb": "Befal med sersjant grad",
+      "display_name_nb": "Befal med sersjant grad",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "03",
+      "styrk_code": "03",
+      "name_nb": "Menige",
+      "display_name_nb": "Menige",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "11",
+      "styrk_code": "11",
+      "name_nb": "Politikere og toppledere",
+      "display_name_nb": "Politikere og toppledere",
+      "level": 2,
+      "parent_code": "1",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "12",
+      "styrk_code": "12",
+      "name_nb": "Administrative og merkantile ledere",
+      "display_name_nb": "Administrative og merkantile ledere",
+      "level": 2,
+      "parent_code": "1",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "13",
+      "styrk_code": "13",
+      "name_nb": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "display_name_nb": "Ledere av enheter for vareproduksjon og tjenesteyting",
+      "level": 2,
+      "parent_code": "1",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "14",
+      "styrk_code": "14",
+      "name_nb": "Ledere i hotell, restaurant, varehandel mv.",
+      "display_name_nb": "Ledere i hotell, restaurant, varehandel mv.",
+      "level": 2,
+      "parent_code": "1",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "21",
+      "styrk_code": "21",
+      "name_nb": "Realister, sivilingeniører mv.",
+      "display_name_nb": "Realister, sivilingeniører mv.",
+      "level": 2,
+      "parent_code": "2",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "22",
+      "styrk_code": "22",
+      "name_nb": "Medisinske yrker",
+      "display_name_nb": "Medisinske yrker",
+      "level": 2,
+      "parent_code": "2",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "23",
+      "styrk_code": "23",
+      "name_nb": "Undervisningsyrker",
+      "display_name_nb": "Undervisningsyrker",
+      "level": 2,
+      "parent_code": "2",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "24",
+      "styrk_code": "24",
+      "name_nb": "Rådgivere innen økonomi, administrasjon og salg",
+      "display_name_nb": "Rådgivere innen økonomi, administrasjon og salg",
+      "level": 2,
+      "parent_code": "2",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "25",
+      "styrk_code": "25",
+      "name_nb": "IKT-rådgivere",
+      "display_name_nb": "IKT-rådgivere",
+      "level": 2,
+      "parent_code": "2",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "26",
+      "styrk_code": "26",
+      "name_nb": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "display_name_nb": "Juridiske, samfunnsvitenskapelige og humanistiske yrker",
+      "level": 2,
+      "parent_code": "2",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "31",
+      "styrk_code": "31",
+      "name_nb": "Ingeniører mv.",
+      "display_name_nb": "Ingeniører mv.",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "32",
+      "styrk_code": "32",
+      "name_nb": "Helserelaterte yrker",
+      "display_name_nb": "Helserelaterte yrker",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "33",
+      "styrk_code": "33",
+      "name_nb": "Medarbeidere innen økonomi, administrasjon og salg",
+      "display_name_nb": "Medarbeidere innen økonomi, administrasjon og salg",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "34",
+      "styrk_code": "34",
+      "name_nb": "Yrker innen kultur, idrett mv.",
+      "display_name_nb": "Yrker innen kultur, idrett mv.",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "35",
+      "styrk_code": "35",
+      "name_nb": "IKT-teknikere",
+      "display_name_nb": "IKT-teknikere",
+      "level": 2,
+      "parent_code": "3_01-03",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "41",
+      "styrk_code": "41",
+      "name_nb": "Kontormedarbeidere",
+      "display_name_nb": "Kontormedarbeidere",
+      "level": 2,
+      "parent_code": "4",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "42",
+      "styrk_code": "42",
+      "name_nb": "Kundeserviceyrker",
+      "display_name_nb": "Kundeserviceyrker",
+      "level": 2,
+      "parent_code": "4",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "43",
+      "styrk_code": "43",
+      "name_nb": "Økonomi- og logistikkmedarbeidere",
+      "display_name_nb": "Økonomi- og logistikkmedarbeidere",
+      "level": 2,
+      "parent_code": "4",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "44",
+      "styrk_code": "44",
+      "name_nb": "Postbud, arkiv- og personalkontormedarbeidere",
+      "display_name_nb": "Postbud, arkiv- og personalkontormedarbeidere",
+      "level": 2,
+      "parent_code": "4",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "51",
+      "styrk_code": "51",
+      "name_nb": "Yrker innen personlig tjenesteyting",
+      "display_name_nb": "Yrker innen personlig tjenesteyting",
+      "level": 2,
+      "parent_code": "5",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "52",
+      "styrk_code": "52",
+      "name_nb": "Salgsyrker",
+      "display_name_nb": "Salgsyrker",
+      "level": 2,
+      "parent_code": "5",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "53",
+      "styrk_code": "53",
+      "name_nb": "Pleie- og omsorgsarbeidere",
+      "display_name_nb": "Pleie- og omsorgsarbeidere",
+      "level": 2,
+      "parent_code": "5",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "54",
+      "styrk_code": "54",
+      "name_nb": "Sikkerhetsarbeidere",
+      "display_name_nb": "Sikkerhetsarbeidere",
+      "level": 2,
+      "parent_code": "5",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "61",
+      "styrk_code": "61",
+      "name_nb": "Jordbrukere",
+      "display_name_nb": "Jordbrukere",
+      "level": 2,
+      "parent_code": "6",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "62",
+      "styrk_code": "62",
+      "name_nb": "Skogbrukere, fiskere mv.",
+      "display_name_nb": "Skogbrukere, fiskere mv.",
+      "level": 2,
+      "parent_code": "6",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "71",
+      "styrk_code": "71",
+      "name_nb": "Byggearbeidere",
+      "display_name_nb": "Byggearbeidere",
+      "level": 2,
+      "parent_code": "7",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "72",
+      "styrk_code": "72",
+      "name_nb": "Metall- og maskinarbeidere",
+      "display_name_nb": "Metall- og maskinarbeidere",
+      "level": 2,
+      "parent_code": "7",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "73",
+      "styrk_code": "73",
+      "name_nb": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "display_name_nb": "Presisjonsarbeidere, kunsthåndverkere, grafiske arbeidere mv.",
+      "level": 2,
+      "parent_code": "7",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "74",
+      "styrk_code": "74",
+      "name_nb": "Elektrikere, elektronikere mv.",
+      "display_name_nb": "Elektrikere, elektronikere mv.",
+      "level": 2,
+      "parent_code": "7",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "75",
+      "styrk_code": "75",
+      "name_nb": "Andre håndverkspregede yrker",
+      "display_name_nb": "Andre håndverkspregede yrker",
+      "level": 2,
+      "parent_code": "7",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "81",
+      "styrk_code": "81",
+      "name_nb": "Prosess- og maskinoperatører",
+      "display_name_nb": "Prosess- og maskinoperatører",
+      "level": 2,
+      "parent_code": "8",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "82",
+      "styrk_code": "82",
+      "name_nb": "Montører",
+      "display_name_nb": "Montører",
+      "level": 2,
+      "parent_code": "8",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "83",
+      "styrk_code": "83",
+      "name_nb": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "display_name_nb": "Transportarbeidere og operatører av mobile maskiner mv.",
+      "level": 2,
+      "parent_code": "8",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "91",
+      "styrk_code": "91",
+      "name_nb": "Renholdere mv.",
+      "display_name_nb": "Renholdere mv.",
+      "level": 2,
+      "parent_code": "9",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "92",
+      "styrk_code": "92",
+      "name_nb": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "display_name_nb": "Hjelpearbeidere i jordbruk, skogbruk og fiske",
+      "level": 2,
+      "parent_code": "9",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "93",
+      "styrk_code": "93",
+      "name_nb": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "display_name_nb": "Hjelpearbeidere i bergverk, industri, bygg og anlegg og transport",
+      "level": 2,
+      "parent_code": "9",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "94",
+      "styrk_code": "94",
+      "name_nb": "Kjøkkenassistenter",
+      "display_name_nb": "Kjøkkenassistenter",
+      "level": 2,
+      "parent_code": "9",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "95",
+      "styrk_code": "95",
+      "name_nb": "Reklamedistributører mv.",
+      "display_name_nb": "Reklamedistributører mv.",
+      "level": 2,
+      "parent_code": "9",
+      "source": "SSB table 12849"
+    },
+    {
+      "id": "96",
+      "styrk_code": "96",
+      "name_nb": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "display_name_nb": "Renovasjons- og gjenvinningsarbeidere mv.",
+      "level": 2,
+      "parent_code": "9",
+      "source": "SSB table 12849"
+    }
+  ],
+  "detailed_occupations": [
+    {
+      "id": "0110",
+      "styrk_code": "0110",
+      "name_nb": "Offiserer fra fenrik og høyere grad",
+      "display_name_nb": "Offiserer fra fenrik og høyere grad",
+      "level": 4,
+      "parent_code": "01",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "0210",
+      "styrk_code": "0210",
+      "name_nb": "Befal med sersjant grad",
+      "display_name_nb": "Befal med sersjant grad",
+      "level": 4,
+      "parent_code": "02",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "0310",
+      "styrk_code": "0310",
+      "name_nb": "Menige",
+      "display_name_nb": "Menige",
+      "level": 4,
+      "parent_code": "03",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1111",
+      "styrk_code": "1111",
+      "name_nb": "Politikere",
+      "display_name_nb": "Politikere",
+      "level": 4,
+      "parent_code": "11",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1112",
+      "styrk_code": "1112",
+      "name_nb": "Toppledere i offentlig administrasjon",
+      "display_name_nb": "Toppledere i offentlig administrasjon",
+      "level": 4,
+      "parent_code": "11",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1114",
+      "styrk_code": "1114",
+      "name_nb": "Toppledere i interesseorganisasjoner",
+      "display_name_nb": "Toppledere i interesseorganisasjoner",
+      "level": 4,
+      "parent_code": "11",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1120",
+      "styrk_code": "1120",
+      "name_nb": "Administrerende direktører",
+      "display_name_nb": "Administrerende direktører",
+      "level": 4,
+      "parent_code": "11",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1211",
+      "styrk_code": "1211",
+      "name_nb": "Finans- og økonomisjefer",
+      "display_name_nb": "Finans- og økonomisjefer",
+      "level": 4,
+      "parent_code": "12",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1212",
+      "styrk_code": "1212",
+      "name_nb": "Personalsjefer",
+      "display_name_nb": "Personalsjefer",
+      "level": 4,
+      "parent_code": "12",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1213",
+      "styrk_code": "1213",
+      "name_nb": "Strategi- og planleggingssjefer",
+      "display_name_nb": "Strategi- og planleggingssjefer",
+      "level": 4,
+      "parent_code": "12",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1219",
+      "styrk_code": "1219",
+      "name_nb": "Andre administrative ledere",
+      "display_name_nb": "Andre administrative ledere",
+      "level": 4,
+      "parent_code": "12",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1221",
+      "styrk_code": "1221",
+      "name_nb": "Salgs- og markedssjefer",
+      "display_name_nb": "Salgs- og markedssjefer",
+      "level": 4,
+      "parent_code": "12",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1222",
+      "styrk_code": "1222",
+      "name_nb": "PR- og informasjonssjefer",
+      "display_name_nb": "PR- og informasjonssjefer",
+      "level": 4,
+      "parent_code": "12",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1223",
+      "styrk_code": "1223",
+      "name_nb": "Forsknings- og utviklingsledere",
+      "display_name_nb": "Forsknings- og utviklingsledere",
+      "level": 4,
+      "parent_code": "12",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1311",
+      "styrk_code": "1311",
+      "name_nb": "Ledere i skogbruk, gartnerier mv.",
+      "display_name_nb": "Ledere i skogbruk, gartnerier mv.",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1312",
+      "styrk_code": "1312",
+      "name_nb": "Ledere innen akvakultur mv.",
+      "display_name_nb": "Ledere innen akvakultur mv.",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1321",
+      "styrk_code": "1321",
+      "name_nb": "Ledere av industriproduksjon mv.",
+      "display_name_nb": "Ledere av industriproduksjon mv.",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1322",
+      "styrk_code": "1322",
+      "name_nb": "Ledere av olje- og gassutvinning mv.",
+      "display_name_nb": "Ledere av olje- og gassutvinning mv.",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1323",
+      "styrk_code": "1323",
+      "name_nb": "Ledere av bygge- og anleggsvirksomhet",
+      "display_name_nb": "Ledere av bygge- og anleggsvirksomhet",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1324",
+      "styrk_code": "1324",
+      "name_nb": "Ledere av logistikk og transport mv.",
+      "display_name_nb": "Ledere av logistikk og transport mv.",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1330",
+      "styrk_code": "1330",
+      "name_nb": "Ledere av IKT-enheter",
+      "display_name_nb": "Ledere av IKT-enheter",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1341",
+      "styrk_code": "1341",
+      "name_nb": "Ledere av omsorgstjenester for barn",
+      "display_name_nb": "Ledere av omsorgstjenester for barn",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1342",
+      "styrk_code": "1342",
+      "name_nb": "Ledere av helsetjenester",
+      "display_name_nb": "Ledere av helsetjenester",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1343",
+      "styrk_code": "1343",
+      "name_nb": "Ledere av eldreomsorg",
+      "display_name_nb": "Ledere av eldreomsorg",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1344",
+      "styrk_code": "1344",
+      "name_nb": "Ledere av sosialomsorg",
+      "display_name_nb": "Ledere av sosialomsorg",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1345",
+      "styrk_code": "1345",
+      "name_nb": "Ledere av utdanning og undervisning",
+      "display_name_nb": "Ledere av utdanning og undervisning",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1346",
+      "styrk_code": "1346",
+      "name_nb": "Ledere av forsikring og finansvirksomhet",
+      "display_name_nb": "Ledere av forsikring og finansvirksomhet",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1349",
+      "styrk_code": "1349",
+      "name_nb": "Andre ledere av produksjon og tjenesteyting",
+      "display_name_nb": "Andre ledere av produksjon og tjenesteyting",
+      "level": 4,
+      "parent_code": "13",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1411",
+      "styrk_code": "1411",
+      "name_nb": "Hotellsjefer",
+      "display_name_nb": "Hotellsjefer",
+      "level": 4,
+      "parent_code": "14",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1412",
+      "styrk_code": "1412",
+      "name_nb": "Restaurantsjefer",
+      "display_name_nb": "Restaurantsjefer",
+      "level": 4,
+      "parent_code": "14",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1420",
+      "styrk_code": "1420",
+      "name_nb": "Varehandelssjefer",
+      "display_name_nb": "Varehandelssjefer",
+      "level": 4,
+      "parent_code": "14",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1431",
+      "styrk_code": "1431",
+      "name_nb": "Sports-, rekreasjons- og kultursenterledere",
+      "display_name_nb": "Sports-, rekreasjons- og kultursenterledere",
+      "level": 4,
+      "parent_code": "14",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "1439",
+      "styrk_code": "1439",
+      "name_nb": "Andre daglige ledere i tjenesteytende virksomheter",
+      "display_name_nb": "Andre daglige ledere i tjenesteytende virksomheter",
+      "level": 4,
+      "parent_code": "14",
+      "major_code": "1",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2111",
+      "styrk_code": "2111",
+      "name_nb": "Fysikere og astronomer",
+      "display_name_nb": "Fysikere og astronomer",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2112",
+      "styrk_code": "2112",
+      "name_nb": "Meteorologer",
+      "display_name_nb": "Meteorologer",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2113",
+      "styrk_code": "2113",
+      "name_nb": "Kjemikere",
+      "display_name_nb": "Kjemikere",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2114",
+      "styrk_code": "2114",
+      "name_nb": "Geologer og geofysikere",
+      "display_name_nb": "Geologer og geofysikere",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2120",
+      "styrk_code": "2120",
+      "name_nb": "Matematikere, statistikere mv.",
+      "display_name_nb": "Matematikere, statistikere mv.",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2131",
+      "styrk_code": "2131",
+      "name_nb": "Biologer, botanikere, zoologer mv.",
+      "display_name_nb": "Biologer, botanikere, zoologer mv.",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2132",
+      "styrk_code": "2132",
+      "name_nb": "Sivilagronomer mv.",
+      "display_name_nb": "Sivilagronomer mv.",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2133",
+      "styrk_code": "2133",
+      "name_nb": "Miljøvernrådgivere",
+      "display_name_nb": "Miljøvernrådgivere",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2141",
+      "styrk_code": "2141",
+      "name_nb": "Sivilingeniører (industri og produksjon)",
+      "display_name_nb": "Sivilingeniører (industri og produksjon)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2142",
+      "styrk_code": "2142",
+      "name_nb": "Sivilingeniører (bygg og anlegg)",
+      "display_name_nb": "Sivilingeniører (bygg og anlegg)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2143",
+      "styrk_code": "2143",
+      "name_nb": "Sivilingeniører (miljøteknikk)",
+      "display_name_nb": "Sivilingeniører (miljøteknikk)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2144",
+      "styrk_code": "2144",
+      "name_nb": "Sivilingeniører (maskin- og marin-teknikk)",
+      "display_name_nb": "Sivilingeniører (maskin- og marin-teknikk)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2145",
+      "styrk_code": "2145",
+      "name_nb": "Sivilingeniører (kjemi)",
+      "display_name_nb": "Sivilingeniører (kjemi)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2146",
+      "styrk_code": "2146",
+      "name_nb": "Sivilingeniører (geofag, petro-leumsteknologi, metallurgi mv.)",
+      "display_name_nb": "Sivilingeniører (geofag, petro-leumsteknologi, metallurgi mv.)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2149",
+      "styrk_code": "2149",
+      "name_nb": "Andre sivilingeniører (unntatt elektroteknologi)",
+      "display_name_nb": "Andre sivilingeniører (unntatt elektroteknologi)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2151",
+      "styrk_code": "2151",
+      "name_nb": "Sivilingeniører (elkraftteknikk)",
+      "display_name_nb": "Sivilingeniører (elkraftteknikk)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2152",
+      "styrk_code": "2152",
+      "name_nb": "Sivilingeniører (elektronikk)",
+      "display_name_nb": "Sivilingeniører (elektronikk)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2153",
+      "styrk_code": "2153",
+      "name_nb": "Sivilingeniører (telekommunikasjon)",
+      "display_name_nb": "Sivilingeniører (telekommunikasjon)",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2161",
+      "styrk_code": "2161",
+      "name_nb": "Sivilarkitekter",
+      "display_name_nb": "Sivilarkitekter",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2162",
+      "styrk_code": "2162",
+      "name_nb": "Landskapsarkitekter",
+      "display_name_nb": "Landskapsarkitekter",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2163",
+      "styrk_code": "2163",
+      "name_nb": "Produkt- og klesdesignere",
+      "display_name_nb": "Produkt- og klesdesignere",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2164",
+      "styrk_code": "2164",
+      "name_nb": "Arealplanleggere",
+      "display_name_nb": "Arealplanleggere",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2165",
+      "styrk_code": "2165",
+      "name_nb": "Landmålere, kartografer mv.",
+      "display_name_nb": "Landmålere, kartografer mv.",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2166",
+      "styrk_code": "2166",
+      "name_nb": "Grafiske- og multimediadesignere",
+      "display_name_nb": "Grafiske- og multimediadesignere",
+      "level": 4,
+      "parent_code": "21",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2211",
+      "styrk_code": "2211",
+      "name_nb": "Allmennpraktiserende leger",
+      "display_name_nb": "Allmennpraktiserende leger",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2212",
+      "styrk_code": "2212",
+      "name_nb": "Legespesialister",
+      "display_name_nb": "Legespesialister",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2221",
+      "styrk_code": "2221",
+      "name_nb": "Spesialsykepleiere",
+      "display_name_nb": "Spesialsykepleiere",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2222",
+      "styrk_code": "2222",
+      "name_nb": "Jordmødre",
+      "display_name_nb": "Jordmødre",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2223",
+      "styrk_code": "2223",
+      "name_nb": "Sykepleiere",
+      "display_name_nb": "Sykepleiere",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2224",
+      "styrk_code": "2224",
+      "name_nb": "Vernepleiere",
+      "display_name_nb": "Vernepleiere",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2250",
+      "styrk_code": "2250",
+      "name_nb": "Veterinærer",
+      "display_name_nb": "Veterinærer",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2261",
+      "styrk_code": "2261",
+      "name_nb": "Tannleger",
+      "display_name_nb": "Tannleger",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2262",
+      "styrk_code": "2262",
+      "name_nb": "Farmasøyter",
+      "display_name_nb": "Farmasøyter",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2263",
+      "styrk_code": "2263",
+      "name_nb": "Helse- og miljørådgivere",
+      "display_name_nb": "Helse- og miljørådgivere",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2264",
+      "styrk_code": "2264",
+      "name_nb": "Fysioterapeuter",
+      "display_name_nb": "Fysioterapeuter",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2265",
+      "styrk_code": "2265",
+      "name_nb": "Ernæringsfysiologer",
+      "display_name_nb": "Ernæringsfysiologer",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2266",
+      "styrk_code": "2266",
+      "name_nb": "Audiografer og logopeder",
+      "display_name_nb": "Audiografer og logopeder",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2267",
+      "styrk_code": "2267",
+      "name_nb": "Ergoterapeuter",
+      "display_name_nb": "Ergoterapeuter",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2269",
+      "styrk_code": "2269",
+      "name_nb": "Kiropraktorer mv.",
+      "display_name_nb": "Kiropraktorer mv.",
+      "level": 4,
+      "parent_code": "22",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2310",
+      "styrk_code": "2310",
+      "name_nb": "Universitets- og høyskolelektorer/-lærere",
+      "display_name_nb": "Universitets- og høyskolelektorer/-lærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2320",
+      "styrk_code": "2320",
+      "name_nb": "Yrkesfaglærere",
+      "display_name_nb": "Yrkesfaglærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2330",
+      "styrk_code": "2330",
+      "name_nb": "Lektorer mv. (videregående skole)",
+      "display_name_nb": "Lektorer mv. (videregående skole)",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2341",
+      "styrk_code": "2341",
+      "name_nb": "Grunnskolelærere",
+      "display_name_nb": "Grunnskolelærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2342",
+      "styrk_code": "2342",
+      "name_nb": "Førskole-/barnehagelærere",
+      "display_name_nb": "Førskole-/barnehagelærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2351",
+      "styrk_code": "2351",
+      "name_nb": "Spesialister i pedagogikk",
+      "display_name_nb": "Spesialister i pedagogikk",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2352",
+      "styrk_code": "2352",
+      "name_nb": "Spesiallærere / spesialpedagoger",
+      "display_name_nb": "Spesiallærere / spesialpedagoger",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2353",
+      "styrk_code": "2353",
+      "name_nb": "Andre språklærere",
+      "display_name_nb": "Andre språklærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2354",
+      "styrk_code": "2354",
+      "name_nb": "Andre musikklærere",
+      "display_name_nb": "Andre musikklærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2355",
+      "styrk_code": "2355",
+      "name_nb": "Andre lærere i estetiske fag",
+      "display_name_nb": "Andre lærere i estetiske fag",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2356",
+      "styrk_code": "2356",
+      "name_nb": "Andre IKT-lærere",
+      "display_name_nb": "Andre IKT-lærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2359",
+      "styrk_code": "2359",
+      "name_nb": "Andre lærere",
+      "display_name_nb": "Andre lærere",
+      "level": 4,
+      "parent_code": "23",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2411",
+      "styrk_code": "2411",
+      "name_nb": "Revisorer, regnskapsrådgivere",
+      "display_name_nb": "Revisorer, regnskapsrådgivere",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2412",
+      "styrk_code": "2412",
+      "name_nb": "Finans- og investeringsrådgivere",
+      "display_name_nb": "Finans- og investeringsrådgivere",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2413",
+      "styrk_code": "2413",
+      "name_nb": "Finansanalytikere",
+      "display_name_nb": "Finansanalytikere",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2421",
+      "styrk_code": "2421",
+      "name_nb": "Organisasjonsrådgivere mv.",
+      "display_name_nb": "Organisasjonsrådgivere mv.",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2422",
+      "styrk_code": "2422",
+      "name_nb": "Høyere saksbehandlere i offentlig og privat virksomhet",
+      "display_name_nb": "Høyere saksbehandlere i offentlig og privat virksomhet",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2423",
+      "styrk_code": "2423",
+      "name_nb": "Personal- og karriererådgivere",
+      "display_name_nb": "Personal- og karriererådgivere",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2424",
+      "styrk_code": "2424",
+      "name_nb": "Rådgivere innen kompetanseutvikling",
+      "display_name_nb": "Rådgivere innen kompetanseutvikling",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2431",
+      "styrk_code": "2431",
+      "name_nb": "Reklame- og markedsføringsrådgivere",
+      "display_name_nb": "Reklame- og markedsføringsrådgivere",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2432",
+      "styrk_code": "2432",
+      "name_nb": "Informasjonsrådgivere",
+      "display_name_nb": "Informasjonsrådgivere",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2433",
+      "styrk_code": "2433",
+      "name_nb": "Salgskonsulenter innen tekniske og medisinske produkter",
+      "display_name_nb": "Salgskonsulenter innen tekniske og medisinske produkter",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2434",
+      "styrk_code": "2434",
+      "name_nb": "Salgskonsulenter innen IKT-produkter",
+      "display_name_nb": "Salgskonsulenter innen IKT-produkter",
+      "level": 4,
+      "parent_code": "24",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2511",
+      "styrk_code": "2511",
+      "name_nb": "Systemanalytikere/-arkitekter",
+      "display_name_nb": "Systemanalytikere/-arkitekter",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2512",
+      "styrk_code": "2512",
+      "name_nb": "Programvareutviklere",
+      "display_name_nb": "Programvareutviklere",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2513",
+      "styrk_code": "2513",
+      "name_nb": "Nett- og multimediautviklere",
+      "display_name_nb": "Nett- og multimediautviklere",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2514",
+      "styrk_code": "2514",
+      "name_nb": "Applikasjonsprogrammerere",
+      "display_name_nb": "Applikasjonsprogrammerere",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2519",
+      "styrk_code": "2519",
+      "name_nb": "Andre programvare- og applikasjonsutviklere",
+      "display_name_nb": "Andre programvare- og applikasjonsutviklere",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2521",
+      "styrk_code": "2521",
+      "name_nb": "Databasedesignere og -administratorer",
+      "display_name_nb": "Databasedesignere og -administratorer",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2522",
+      "styrk_code": "2522",
+      "name_nb": "Systemadministratorer",
+      "display_name_nb": "Systemadministratorer",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2523",
+      "styrk_code": "2523",
+      "name_nb": "Nettverksansvarlige",
+      "display_name_nb": "Nettverksansvarlige",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2529",
+      "styrk_code": "2529",
+      "name_nb": "Sikkerhetsanalytikere mv.",
+      "display_name_nb": "Sikkerhetsanalytikere mv.",
+      "level": 4,
+      "parent_code": "25",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2611",
+      "styrk_code": "2611",
+      "name_nb": "Jurister og advokater",
+      "display_name_nb": "Jurister og advokater",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2612",
+      "styrk_code": "2612",
+      "name_nb": "Dommere",
+      "display_name_nb": "Dommere",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2619",
+      "styrk_code": "2619",
+      "name_nb": "Andre juridiske yrker",
+      "display_name_nb": "Andre juridiske yrker",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2621",
+      "styrk_code": "2621",
+      "name_nb": "Arkivarer og kuratorer",
+      "display_name_nb": "Arkivarer og kuratorer",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2622",
+      "styrk_code": "2622",
+      "name_nb": "Bibliotekarer og andre informasjonsarbeidere",
+      "display_name_nb": "Bibliotekarer og andre informasjonsarbeidere",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2631",
+      "styrk_code": "2631",
+      "name_nb": "Rådgivere/forskere, samfunnsøkonomi",
+      "display_name_nb": "Rådgivere/forskere, samfunnsøkonomi",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2632",
+      "styrk_code": "2632",
+      "name_nb": "Rådgivere/forskere, samfunnsvitenskap",
+      "display_name_nb": "Rådgivere/forskere, samfunnsvitenskap",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2633",
+      "styrk_code": "2633",
+      "name_nb": "Rådgivere/forskere, humanistiske fag",
+      "display_name_nb": "Rådgivere/forskere, humanistiske fag",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2634",
+      "styrk_code": "2634",
+      "name_nb": "Psykologer",
+      "display_name_nb": "Psykologer",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2635",
+      "styrk_code": "2635",
+      "name_nb": "Rådgivere innen sosiale fagfelt",
+      "display_name_nb": "Rådgivere innen sosiale fagfelt",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2636",
+      "styrk_code": "2636",
+      "name_nb": "Geistlige yrker",
+      "display_name_nb": "Geistlige yrker",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2641",
+      "styrk_code": "2641",
+      "name_nb": "Forfattere mv.",
+      "display_name_nb": "Forfattere mv.",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2642",
+      "styrk_code": "2642",
+      "name_nb": "Journalister",
+      "display_name_nb": "Journalister",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2643",
+      "styrk_code": "2643",
+      "name_nb": "Oversettere, tolker mv.",
+      "display_name_nb": "Oversettere, tolker mv.",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2651",
+      "styrk_code": "2651",
+      "name_nb": "Skulptører, kunstmalere og andre billedkunstnere",
+      "display_name_nb": "Skulptører, kunstmalere og andre billedkunstnere",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2652",
+      "styrk_code": "2652",
+      "name_nb": "Dirigenter, komponister, musikere og sangere",
+      "display_name_nb": "Dirigenter, komponister, musikere og sangere",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2653",
+      "styrk_code": "2653",
+      "name_nb": "Koreografer og dansere",
+      "display_name_nb": "Koreografer og dansere",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2654",
+      "styrk_code": "2654",
+      "name_nb": "Regissører",
+      "display_name_nb": "Regissører",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2655",
+      "styrk_code": "2655",
+      "name_nb": "Skuespillere",
+      "display_name_nb": "Skuespillere",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2656",
+      "styrk_code": "2656",
+      "name_nb": "Programledere i TV og radio",
+      "display_name_nb": "Programledere i TV og radio",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "2659",
+      "styrk_code": "2659",
+      "name_nb": "Andre utøvende kunstneriske yrker",
+      "display_name_nb": "Andre utøvende kunstneriske yrker",
+      "level": 4,
+      "parent_code": "26",
+      "major_code": "2",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3112",
+      "styrk_code": "3112",
+      "name_nb": "Bygningsingeniører",
+      "display_name_nb": "Bygningsingeniører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3113",
+      "styrk_code": "3113",
+      "name_nb": "Elkraftingeniører",
+      "display_name_nb": "Elkraftingeniører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3114",
+      "styrk_code": "3114",
+      "name_nb": "Elektronikkingeniører",
+      "display_name_nb": "Elektronikkingeniører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3115",
+      "styrk_code": "3115",
+      "name_nb": "Maskiningeniører",
+      "display_name_nb": "Maskiningeniører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3116",
+      "styrk_code": "3116",
+      "name_nb": "Kjemiingeniører",
+      "display_name_nb": "Kjemiingeniører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3117",
+      "styrk_code": "3117",
+      "name_nb": "Ingeniører innen petroleum, bergverk og metallurgi",
+      "display_name_nb": "Ingeniører innen petroleum, bergverk og metallurgi",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3118",
+      "styrk_code": "3118",
+      "name_nb": "Tekniske tegnere",
+      "display_name_nb": "Tekniske tegnere",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3119",
+      "styrk_code": "3119",
+      "name_nb": "Andre ingeniører",
+      "display_name_nb": "Andre ingeniører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3121",
+      "styrk_code": "3121",
+      "name_nb": "Arbeidsleder, bergfag",
+      "display_name_nb": "Arbeidsleder, bergfag",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3122",
+      "styrk_code": "3122",
+      "name_nb": "Arbeidsleder, industri",
+      "display_name_nb": "Arbeidsleder, industri",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3123",
+      "styrk_code": "3123",
+      "name_nb": "Arbeidsleder, bygg og anlegg",
+      "display_name_nb": "Arbeidsleder, bygg og anlegg",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3131",
+      "styrk_code": "3131",
+      "name_nb": "Energikontrolloperatører",
+      "display_name_nb": "Energikontrolloperatører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3132",
+      "styrk_code": "3132",
+      "name_nb": "Kontrolloperatører ved forbrennings- kjøle- og vannrenseanlegg mv.",
+      "display_name_nb": "Kontrolloperatører ved forbrennings- kjøle- og vannrenseanlegg mv.",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3133",
+      "styrk_code": "3133",
+      "name_nb": "Kontrolloperatører innen kjemisk prosessindustri",
+      "display_name_nb": "Kontrolloperatører innen kjemisk prosessindustri",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3134",
+      "styrk_code": "3134",
+      "name_nb": "Kontrolloperatører ved olje- og naturgassraffineringsanlegg",
+      "display_name_nb": "Kontrolloperatører ved olje- og naturgassraffineringsanlegg",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3135",
+      "styrk_code": "3135",
+      "name_nb": "Kontrolloperatører innen metallproduksjon",
+      "display_name_nb": "Kontrolloperatører innen metallproduksjon",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3139",
+      "styrk_code": "3139",
+      "name_nb": "Andre prosesskontrolloperatører",
+      "display_name_nb": "Andre prosesskontrolloperatører",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3141",
+      "styrk_code": "3141",
+      "name_nb": "Bioteknikere (ikke-medisinske laboratorier)",
+      "display_name_nb": "Bioteknikere (ikke-medisinske laboratorier)",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3142",
+      "styrk_code": "3142",
+      "name_nb": "Agroteknikere",
+      "display_name_nb": "Agroteknikere",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3143",
+      "styrk_code": "3143",
+      "name_nb": "Skogteknikere",
+      "display_name_nb": "Skogteknikere",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3151",
+      "styrk_code": "3151",
+      "name_nb": "Skipsmaskinister",
+      "display_name_nb": "Skipsmaskinister",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3152",
+      "styrk_code": "3152",
+      "name_nb": "Dekksoffiserer og loser",
+      "display_name_nb": "Dekksoffiserer og loser",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3153",
+      "styrk_code": "3153",
+      "name_nb": "Flygere",
+      "display_name_nb": "Flygere",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3154",
+      "styrk_code": "3154",
+      "name_nb": "Flygeledere",
+      "display_name_nb": "Flygeledere",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3155",
+      "styrk_code": "3155",
+      "name_nb": "Teknikere innen luftfartssikkerhet",
+      "display_name_nb": "Teknikere innen luftfartssikkerhet",
+      "level": 4,
+      "parent_code": "31",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3211",
+      "styrk_code": "3211",
+      "name_nb": "Radiografer mv.",
+      "display_name_nb": "Radiografer mv.",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3212",
+      "styrk_code": "3212",
+      "name_nb": "Bioingeniører",
+      "display_name_nb": "Bioingeniører",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3213",
+      "styrk_code": "3213",
+      "name_nb": "Reseptarer",
+      "display_name_nb": "Reseptarer",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3214",
+      "styrk_code": "3214",
+      "name_nb": "Protese- og tannteknikere",
+      "display_name_nb": "Protese- og tannteknikere",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3230",
+      "styrk_code": "3230",
+      "name_nb": "Yrker innen alternativ medisin",
+      "display_name_nb": "Yrker innen alternativ medisin",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3240",
+      "styrk_code": "3240",
+      "name_nb": "Dyrepleiere",
+      "display_name_nb": "Dyrepleiere",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3251",
+      "styrk_code": "3251",
+      "name_nb": "Tannpleiere",
+      "display_name_nb": "Tannpleiere",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3254",
+      "styrk_code": "3254",
+      "name_nb": "Optikere",
+      "display_name_nb": "Optikere",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3256",
+      "styrk_code": "3256",
+      "name_nb": "Helsesekretærer",
+      "display_name_nb": "Helsesekretærer",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3257",
+      "styrk_code": "3257",
+      "name_nb": "Helse- og miljøkontrollører",
+      "display_name_nb": "Helse- og miljøkontrollører",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3258",
+      "styrk_code": "3258",
+      "name_nb": "Ambulansepersonell",
+      "display_name_nb": "Ambulansepersonell",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3259",
+      "styrk_code": "3259",
+      "name_nb": "Andre helseyrker",
+      "display_name_nb": "Andre helseyrker",
+      "level": 4,
+      "parent_code": "32",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3311",
+      "styrk_code": "3311",
+      "name_nb": "Finansmeglere",
+      "display_name_nb": "Finansmeglere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3312",
+      "styrk_code": "3312",
+      "name_nb": "Kundebehandlere lån og kreditt",
+      "display_name_nb": "Kundebehandlere lån og kreditt",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3313",
+      "styrk_code": "3313",
+      "name_nb": "Regnskapsførere",
+      "display_name_nb": "Regnskapsførere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3315",
+      "styrk_code": "3315",
+      "name_nb": "Takstmenn",
+      "display_name_nb": "Takstmenn",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3321",
+      "styrk_code": "3321",
+      "name_nb": "Forsikringsagenter",
+      "display_name_nb": "Forsikringsagenter",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3322",
+      "styrk_code": "3322",
+      "name_nb": "Selgere (engros)",
+      "display_name_nb": "Selgere (engros)",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3323",
+      "styrk_code": "3323",
+      "name_nb": "Innkjøpere",
+      "display_name_nb": "Innkjøpere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3324",
+      "styrk_code": "3324",
+      "name_nb": "Handels- og skipsmeglere",
+      "display_name_nb": "Handels- og skipsmeglere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3331",
+      "styrk_code": "3331",
+      "name_nb": "Speditører og befraktere",
+      "display_name_nb": "Speditører og befraktere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3332",
+      "styrk_code": "3332",
+      "name_nb": "Konferanse- og arrangementsplanleggere mv.",
+      "display_name_nb": "Konferanse- og arrangementsplanleggere mv.",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3333",
+      "styrk_code": "3333",
+      "name_nb": "Arbeidsformidlere",
+      "display_name_nb": "Arbeidsformidlere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3334",
+      "styrk_code": "3334",
+      "name_nb": "Eiendomsmeglere og - forvaltere",
+      "display_name_nb": "Eiendomsmeglere og - forvaltere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3339",
+      "styrk_code": "3339",
+      "name_nb": "Andre yrker innen forretningstjenester",
+      "display_name_nb": "Andre yrker innen forretningstjenester",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3341",
+      "styrk_code": "3341",
+      "name_nb": "Arbeidsledere for kontorpersonell",
+      "display_name_nb": "Arbeidsledere for kontorpersonell",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3342",
+      "styrk_code": "3342",
+      "name_nb": "Advokatsekretær",
+      "display_name_nb": "Advokatsekretær",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3343",
+      "styrk_code": "3343",
+      "name_nb": "Sjefssekretærer",
+      "display_name_nb": "Sjefssekretærer",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3351",
+      "styrk_code": "3351",
+      "name_nb": "Tollere",
+      "display_name_nb": "Tollere",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3352",
+      "styrk_code": "3352",
+      "name_nb": "Skattefunksjonærer",
+      "display_name_nb": "Skattefunksjonærer",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3353",
+      "styrk_code": "3353",
+      "name_nb": "Saksbehandlere innen sosiale ytelser",
+      "display_name_nb": "Saksbehandlere innen sosiale ytelser",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3354",
+      "styrk_code": "3354",
+      "name_nb": "Saksbehandlere for førerkort, importlisenser mv.",
+      "display_name_nb": "Saksbehandlere for førerkort, importlisenser mv.",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3355",
+      "styrk_code": "3355",
+      "name_nb": "Politibetjenter mv.",
+      "display_name_nb": "Politibetjenter mv.",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3359",
+      "styrk_code": "3359",
+      "name_nb": "Andre yrker innen offentlig forvaltning",
+      "display_name_nb": "Andre yrker innen offentlig forvaltning",
+      "level": 4,
+      "parent_code": "33",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3411",
+      "styrk_code": "3411",
+      "name_nb": "Privatetterforskere mv.",
+      "display_name_nb": "Privatetterforskere mv.",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3412",
+      "styrk_code": "3412",
+      "name_nb": "Miljøarbeidere innen sosiale fagfelt",
+      "display_name_nb": "Miljøarbeidere innen sosiale fagfelt",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3413",
+      "styrk_code": "3413",
+      "name_nb": "Religiøse yrker",
+      "display_name_nb": "Religiøse yrker",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3421",
+      "styrk_code": "3421",
+      "name_nb": "Idrettsutøvere",
+      "display_name_nb": "Idrettsutøvere",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3422",
+      "styrk_code": "3422",
+      "name_nb": "Trenere og idrettsdommere",
+      "display_name_nb": "Trenere og idrettsdommere",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3423",
+      "styrk_code": "3423",
+      "name_nb": "Sports- og aktivitetsinstruktører",
+      "display_name_nb": "Sports- og aktivitetsinstruktører",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3431",
+      "styrk_code": "3431",
+      "name_nb": "Fotografer og filmfotografer",
+      "display_name_nb": "Fotografer og filmfotografer",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3432",
+      "styrk_code": "3432",
+      "name_nb": "Interiørdesignere og dekoratører",
+      "display_name_nb": "Interiørdesignere og dekoratører",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3433",
+      "styrk_code": "3433",
+      "name_nb": "Tekniske konservatorer",
+      "display_name_nb": "Tekniske konservatorer",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3434",
+      "styrk_code": "3434",
+      "name_nb": "Sjefskokker",
+      "display_name_nb": "Sjefskokker",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3439",
+      "styrk_code": "3439",
+      "name_nb": "Andre yrker innen estetiske fag",
+      "display_name_nb": "Andre yrker innen estetiske fag",
+      "level": 4,
+      "parent_code": "34",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3511",
+      "styrk_code": "3511",
+      "name_nb": "Driftsteknikere, IKT",
+      "display_name_nb": "Driftsteknikere, IKT",
+      "level": 4,
+      "parent_code": "35",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3512",
+      "styrk_code": "3512",
+      "name_nb": "Brukerstøtte, IKT",
+      "display_name_nb": "Brukerstøtte, IKT",
+      "level": 4,
+      "parent_code": "35",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3513",
+      "styrk_code": "3513",
+      "name_nb": "Nettverks- og systemteknikere, IKT",
+      "display_name_nb": "Nettverks- og systemteknikere, IKT",
+      "level": 4,
+      "parent_code": "35",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3514",
+      "styrk_code": "3514",
+      "name_nb": "Internett-teknikere",
+      "display_name_nb": "Internett-teknikere",
+      "level": 4,
+      "parent_code": "35",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3521",
+      "styrk_code": "3521",
+      "name_nb": "Teknikere innen radio og tv",
+      "display_name_nb": "Teknikere innen radio og tv",
+      "level": 4,
+      "parent_code": "35",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "3522",
+      "styrk_code": "3522",
+      "name_nb": "Teknikere innen telekom",
+      "display_name_nb": "Teknikere innen telekom",
+      "level": 4,
+      "parent_code": "35",
+      "major_code": "3_01-03",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4110",
+      "styrk_code": "4110",
+      "name_nb": "Kontormedarbeidere",
+      "display_name_nb": "Kontormedarbeidere",
+      "level": 4,
+      "parent_code": "41",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4131",
+      "styrk_code": "4131",
+      "name_nb": "Stenografer mv.",
+      "display_name_nb": "Stenografer mv.",
+      "level": 4,
+      "parent_code": "41",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4132",
+      "styrk_code": "4132",
+      "name_nb": "Dataregistrere",
+      "display_name_nb": "Dataregistrere",
+      "level": 4,
+      "parent_code": "41",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4211",
+      "styrk_code": "4211",
+      "name_nb": "Kundebehandlere, bank og postkontor",
+      "display_name_nb": "Kundebehandlere, bank og postkontor",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4212",
+      "styrk_code": "4212",
+      "name_nb": "Bingoverter, bookmakere mv.",
+      "display_name_nb": "Bingoverter, bookmakere mv.",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4213",
+      "styrk_code": "4213",
+      "name_nb": "Pantelånere mv.",
+      "display_name_nb": "Pantelånere mv.",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4214",
+      "styrk_code": "4214",
+      "name_nb": "Inkassomedarbeidere mv.",
+      "display_name_nb": "Inkassomedarbeidere mv.",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4221",
+      "styrk_code": "4221",
+      "name_nb": "Reisebyråmedarbeidere mv.",
+      "display_name_nb": "Reisebyråmedarbeidere mv.",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4222",
+      "styrk_code": "4222",
+      "name_nb": "Kundesentermedarbeidere",
+      "display_name_nb": "Kundesentermedarbeidere",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4223",
+      "styrk_code": "4223",
+      "name_nb": "Sentralbordoperatører",
+      "display_name_nb": "Sentralbordoperatører",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4224",
+      "styrk_code": "4224",
+      "name_nb": "Hotellresepsjonister",
+      "display_name_nb": "Hotellresepsjonister",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4225",
+      "styrk_code": "4225",
+      "name_nb": "Informasjonsskrankemedarbeidere",
+      "display_name_nb": "Informasjonsskrankemedarbeidere",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4226",
+      "styrk_code": "4226",
+      "name_nb": "Resepsjonister (ekskl. hotell)",
+      "display_name_nb": "Resepsjonister (ekskl. hotell)",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4227",
+      "styrk_code": "4227",
+      "name_nb": "Intervjuere",
+      "display_name_nb": "Intervjuere",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4229",
+      "styrk_code": "4229",
+      "name_nb": "Andre opplysningsmedarbeidere",
+      "display_name_nb": "Andre opplysningsmedarbeidere",
+      "level": 4,
+      "parent_code": "42",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4311",
+      "styrk_code": "4311",
+      "name_nb": "Regnskapsmedarbeidere",
+      "display_name_nb": "Regnskapsmedarbeidere",
+      "level": 4,
+      "parent_code": "43",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4312",
+      "styrk_code": "4312",
+      "name_nb": "Forsikrings- og finansmedarbeidere",
+      "display_name_nb": "Forsikrings- og finansmedarbeidere",
+      "level": 4,
+      "parent_code": "43",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4313",
+      "styrk_code": "4313",
+      "name_nb": "Lønningsmedarbeidere",
+      "display_name_nb": "Lønningsmedarbeidere",
+      "level": 4,
+      "parent_code": "43",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4321",
+      "styrk_code": "4321",
+      "name_nb": "Lagermedarbeidere og material-forvaltere",
+      "display_name_nb": "Lagermedarbeidere og material-forvaltere",
+      "level": 4,
+      "parent_code": "43",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4322",
+      "styrk_code": "4322",
+      "name_nb": "Logistikkmedarbeidere",
+      "display_name_nb": "Logistikkmedarbeidere",
+      "level": 4,
+      "parent_code": "43",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4323",
+      "styrk_code": "4323",
+      "name_nb": "Transportfunksjonærer",
+      "display_name_nb": "Transportfunksjonærer",
+      "level": 4,
+      "parent_code": "43",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4411",
+      "styrk_code": "4411",
+      "name_nb": "Bibliotekassistenter",
+      "display_name_nb": "Bibliotekassistenter",
+      "level": 4,
+      "parent_code": "44",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4412",
+      "styrk_code": "4412",
+      "name_nb": "Postbud og postsorterere",
+      "display_name_nb": "Postbud og postsorterere",
+      "level": 4,
+      "parent_code": "44",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4413",
+      "styrk_code": "4413",
+      "name_nb": "Kodere mv.",
+      "display_name_nb": "Kodere mv.",
+      "level": 4,
+      "parent_code": "44",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4415",
+      "styrk_code": "4415",
+      "name_nb": "Arkivassistenter",
+      "display_name_nb": "Arkivassistenter",
+      "level": 4,
+      "parent_code": "44",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "4416",
+      "styrk_code": "4416",
+      "name_nb": "Personalkontormedarbeidere",
+      "display_name_nb": "Personalkontormedarbeidere",
+      "level": 4,
+      "parent_code": "44",
+      "major_code": "4",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5111",
+      "styrk_code": "5111",
+      "name_nb": "Flyverter, båtverter mv.",
+      "display_name_nb": "Flyverter, båtverter mv.",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5112",
+      "styrk_code": "5112",
+      "name_nb": "Konduktører",
+      "display_name_nb": "Konduktører",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5113",
+      "styrk_code": "5113",
+      "name_nb": "Reiseledere og guider",
+      "display_name_nb": "Reiseledere og guider",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5120",
+      "styrk_code": "5120",
+      "name_nb": "Kokker",
+      "display_name_nb": "Kokker",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5131",
+      "styrk_code": "5131",
+      "name_nb": "Servitører",
+      "display_name_nb": "Servitører",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5132",
+      "styrk_code": "5132",
+      "name_nb": "Bartendere",
+      "display_name_nb": "Bartendere",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5141",
+      "styrk_code": "5141",
+      "name_nb": "Frisører",
+      "display_name_nb": "Frisører",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5142",
+      "styrk_code": "5142",
+      "name_nb": "Kosmetologer mv.",
+      "display_name_nb": "Kosmetologer mv.",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5151",
+      "styrk_code": "5151",
+      "name_nb": "Renholdsledere i bedrifter",
+      "display_name_nb": "Renholdsledere i bedrifter",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5152",
+      "styrk_code": "5152",
+      "name_nb": "Husholdere",
+      "display_name_nb": "Husholdere",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5153",
+      "styrk_code": "5153",
+      "name_nb": "Vaktmestre",
+      "display_name_nb": "Vaktmestre",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5161",
+      "styrk_code": "5161",
+      "name_nb": "Astrologer mv.",
+      "display_name_nb": "Astrologer mv.",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5163",
+      "styrk_code": "5163",
+      "name_nb": "Begravelsesbyrå- og krematoriearbeidere",
+      "display_name_nb": "Begravelsesbyrå- og krematoriearbeidere",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5164",
+      "styrk_code": "5164",
+      "name_nb": "Dyrepassere og - trenere mv.",
+      "display_name_nb": "Dyrepassere og - trenere mv.",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5165",
+      "styrk_code": "5165",
+      "name_nb": "Kjøreskolelærere",
+      "display_name_nb": "Kjøreskolelærere",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5169",
+      "styrk_code": "5169",
+      "name_nb": "Andre personlige tjenesteytere",
+      "display_name_nb": "Andre personlige tjenesteytere",
+      "level": 4,
+      "parent_code": "51",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5211",
+      "styrk_code": "5211",
+      "name_nb": "Torghandlere",
+      "display_name_nb": "Torghandlere",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5212",
+      "styrk_code": "5212",
+      "name_nb": "Gateselgere, mat",
+      "display_name_nb": "Gateselgere, mat",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5221",
+      "styrk_code": "5221",
+      "name_nb": "Innehavere av kiosk/liten butikk",
+      "display_name_nb": "Innehavere av kiosk/liten butikk",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5222",
+      "styrk_code": "5222",
+      "name_nb": "Butikkavdelingssjefer",
+      "display_name_nb": "Butikkavdelingssjefer",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5223",
+      "styrk_code": "5223",
+      "name_nb": "Butikkmedarbeidere",
+      "display_name_nb": "Butikkmedarbeidere",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5230",
+      "styrk_code": "5230",
+      "name_nb": "Billettselgere",
+      "display_name_nb": "Billettselgere",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5241",
+      "styrk_code": "5241",
+      "name_nb": "Mannekenger og modeller",
+      "display_name_nb": "Mannekenger og modeller",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5242",
+      "styrk_code": "5242",
+      "name_nb": "Demonstrasjonsselgere",
+      "display_name_nb": "Demonstrasjonsselgere",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5243",
+      "styrk_code": "5243",
+      "name_nb": "Dørselgere",
+      "display_name_nb": "Dørselgere",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5244",
+      "styrk_code": "5244",
+      "name_nb": "Telefon- og nettselgere",
+      "display_name_nb": "Telefon- og nettselgere",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5245",
+      "styrk_code": "5245",
+      "name_nb": "Servicemedarbeidere (bensinstasjon)",
+      "display_name_nb": "Servicemedarbeidere (bensinstasjon)",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5246",
+      "styrk_code": "5246",
+      "name_nb": "Gatekjøkken- og kafémedarbeidere mv.",
+      "display_name_nb": "Gatekjøkken- og kafémedarbeidere mv.",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5249",
+      "styrk_code": "5249",
+      "name_nb": "Andre salgsmedarbeidere",
+      "display_name_nb": "Andre salgsmedarbeidere",
+      "level": 4,
+      "parent_code": "52",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5311",
+      "styrk_code": "5311",
+      "name_nb": "Barnehage- og skolefritidsassistenter mv.",
+      "display_name_nb": "Barnehage- og skolefritidsassistenter mv.",
+      "level": 4,
+      "parent_code": "53",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5312",
+      "styrk_code": "5312",
+      "name_nb": "Skoleassistenter",
+      "display_name_nb": "Skoleassistenter",
+      "level": 4,
+      "parent_code": "53",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5321",
+      "styrk_code": "5321",
+      "name_nb": "Helsefagarbeidere",
+      "display_name_nb": "Helsefagarbeidere",
+      "level": 4,
+      "parent_code": "53",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5322",
+      "styrk_code": "5322",
+      "name_nb": "Hjemmehjelper",
+      "display_name_nb": "Hjemmehjelper",
+      "level": 4,
+      "parent_code": "53",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5329",
+      "styrk_code": "5329",
+      "name_nb": "Andre pleiemedarbeidere",
+      "display_name_nb": "Andre pleiemedarbeidere",
+      "level": 4,
+      "parent_code": "53",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5411",
+      "styrk_code": "5411",
+      "name_nb": "Brannkonstabler",
+      "display_name_nb": "Brannkonstabler",
+      "level": 4,
+      "parent_code": "54",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5413",
+      "styrk_code": "5413",
+      "name_nb": "Fengselsbetjenter",
+      "display_name_nb": "Fengselsbetjenter",
+      "level": 4,
+      "parent_code": "54",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5414",
+      "styrk_code": "5414",
+      "name_nb": "Vektere",
+      "display_name_nb": "Vektere",
+      "level": 4,
+      "parent_code": "54",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "5419",
+      "styrk_code": "5419",
+      "name_nb": "Andre sikkerhetsarbeidere",
+      "display_name_nb": "Andre sikkerhetsarbeidere",
+      "level": 4,
+      "parent_code": "54",
+      "major_code": "5",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6111",
+      "styrk_code": "6111",
+      "name_nb": "Korn- og grønnsaksprodusenter",
+      "display_name_nb": "Korn- og grønnsaksprodusenter",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6112",
+      "styrk_code": "6112",
+      "name_nb": "Frukt- og bærprodusenter",
+      "display_name_nb": "Frukt- og bærprodusenter",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6113",
+      "styrk_code": "6113",
+      "name_nb": "Gartnere",
+      "display_name_nb": "Gartnere",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6114",
+      "styrk_code": "6114",
+      "name_nb": "Kombinasjonsbrukere, nyttevekster",
+      "display_name_nb": "Kombinasjonsbrukere, nyttevekster",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6121",
+      "styrk_code": "6121",
+      "name_nb": "Melke- og husdyrprodusenter",
+      "display_name_nb": "Melke- og husdyrprodusenter",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6122",
+      "styrk_code": "6122",
+      "name_nb": "Egg- og fjærfeprodusenter",
+      "display_name_nb": "Egg- og fjærfeprodusenter",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6123",
+      "styrk_code": "6123",
+      "name_nb": "Birøktere mv.",
+      "display_name_nb": "Birøktere mv.",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6129",
+      "styrk_code": "6129",
+      "name_nb": "Andre dyreoppdrettere og røktere",
+      "display_name_nb": "Andre dyreoppdrettere og røktere",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6130",
+      "styrk_code": "6130",
+      "name_nb": "Plante- og husdyrprodusenter (kombinasjonsbruk)",
+      "display_name_nb": "Plante- og husdyrprodusenter (kombinasjonsbruk)",
+      "level": 4,
+      "parent_code": "61",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6210",
+      "styrk_code": "6210",
+      "name_nb": "Skogbrukere",
+      "display_name_nb": "Skogbrukere",
+      "level": 4,
+      "parent_code": "62",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6221",
+      "styrk_code": "6221",
+      "name_nb": "Havbruksarbeidere",
+      "display_name_nb": "Havbruksarbeidere",
+      "level": 4,
+      "parent_code": "62",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6222",
+      "styrk_code": "6222",
+      "name_nb": "Fiskere",
+      "display_name_nb": "Fiskere",
+      "level": 4,
+      "parent_code": "62",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "6224",
+      "styrk_code": "6224",
+      "name_nb": "Fangstfolk",
+      "display_name_nb": "Fangstfolk",
+      "level": 4,
+      "parent_code": "62",
+      "major_code": "6",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7112",
+      "styrk_code": "7112",
+      "name_nb": "Murere",
+      "display_name_nb": "Murere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7113",
+      "styrk_code": "7113",
+      "name_nb": "Steinhoggere mv.",
+      "display_name_nb": "Steinhoggere mv.",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7114",
+      "styrk_code": "7114",
+      "name_nb": "Betongarbeidere",
+      "display_name_nb": "Betongarbeidere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7115",
+      "styrk_code": "7115",
+      "name_nb": "Tømrere og snekkere",
+      "display_name_nb": "Tømrere og snekkere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7119",
+      "styrk_code": "7119",
+      "name_nb": "Andre bygningsarbeidere",
+      "display_name_nb": "Andre bygningsarbeidere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7121",
+      "styrk_code": "7121",
+      "name_nb": "Taktekkere",
+      "display_name_nb": "Taktekkere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7122",
+      "styrk_code": "7122",
+      "name_nb": "Gulv- og flisleggere",
+      "display_name_nb": "Gulv- og flisleggere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7123",
+      "styrk_code": "7123",
+      "name_nb": "Gips- og sparklingsarbeidere",
+      "display_name_nb": "Gips- og sparklingsarbeidere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7124",
+      "styrk_code": "7124",
+      "name_nb": "Isolatører mv.",
+      "display_name_nb": "Isolatører mv.",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7125",
+      "styrk_code": "7125",
+      "name_nb": "Glassarbeidere",
+      "display_name_nb": "Glassarbeidere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7126",
+      "styrk_code": "7126",
+      "name_nb": "Rørleggere og VVS-montører",
+      "display_name_nb": "Rørleggere og VVS-montører",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7127",
+      "styrk_code": "7127",
+      "name_nb": "Kuldemontører mv.",
+      "display_name_nb": "Kuldemontører mv.",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7131",
+      "styrk_code": "7131",
+      "name_nb": "Malere og byggtapetserere",
+      "display_name_nb": "Malere og byggtapetserere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7132",
+      "styrk_code": "7132",
+      "name_nb": "Overflatebehandlere og lakkerere",
+      "display_name_nb": "Overflatebehandlere og lakkerere",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7133",
+      "styrk_code": "7133",
+      "name_nb": "Feiere, fasaderenholdere mv.",
+      "display_name_nb": "Feiere, fasaderenholdere mv.",
+      "level": 4,
+      "parent_code": "71",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7211",
+      "styrk_code": "7211",
+      "name_nb": "Støpere",
+      "display_name_nb": "Støpere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7212",
+      "styrk_code": "7212",
+      "name_nb": "Sveisere",
+      "display_name_nb": "Sveisere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7213",
+      "styrk_code": "7213",
+      "name_nb": "Kopper- og blikkenslagere",
+      "display_name_nb": "Kopper- og blikkenslagere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7214",
+      "styrk_code": "7214",
+      "name_nb": "Platearbeidere",
+      "display_name_nb": "Platearbeidere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7215",
+      "styrk_code": "7215",
+      "name_nb": "Riggere og spleisere",
+      "display_name_nb": "Riggere og spleisere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7221",
+      "styrk_code": "7221",
+      "name_nb": "Smeder",
+      "display_name_nb": "Smeder",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7222",
+      "styrk_code": "7222",
+      "name_nb": "Verktøymaker, låsesmeder mv.",
+      "display_name_nb": "Verktøymaker, låsesmeder mv.",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7223",
+      "styrk_code": "7223",
+      "name_nb": "Metalldreiere mv.",
+      "display_name_nb": "Metalldreiere mv.",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7224",
+      "styrk_code": "7224",
+      "name_nb": "Metallslipere",
+      "display_name_nb": "Metallslipere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7231",
+      "styrk_code": "7231",
+      "name_nb": "Bilmekanikere",
+      "display_name_nb": "Bilmekanikere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7232",
+      "styrk_code": "7232",
+      "name_nb": "Mekanikere innen flytekniske fag",
+      "display_name_nb": "Mekanikere innen flytekniske fag",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7233",
+      "styrk_code": "7233",
+      "name_nb": "Anleggsmaskin- og industrimekanikere",
+      "display_name_nb": "Anleggsmaskin- og industrimekanikere",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7234",
+      "styrk_code": "7234",
+      "name_nb": "Sykkelreparatører mv.",
+      "display_name_nb": "Sykkelreparatører mv.",
+      "level": 4,
+      "parent_code": "72",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7311",
+      "styrk_code": "7311",
+      "name_nb": "Presisjonsinstrumentmakere og -reparatører",
+      "display_name_nb": "Presisjonsinstrumentmakere og -reparatører",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7312",
+      "styrk_code": "7312",
+      "name_nb": "Musikkinstrumentmakere og -stemmere",
+      "display_name_nb": "Musikkinstrumentmakere og -stemmere",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7313",
+      "styrk_code": "7313",
+      "name_nb": "Gull- og sølvsmeder, gravører mv.",
+      "display_name_nb": "Gull- og sølvsmeder, gravører mv.",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7314",
+      "styrk_code": "7314",
+      "name_nb": "Keramikere mv.",
+      "display_name_nb": "Keramikere mv.",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7315",
+      "styrk_code": "7315",
+      "name_nb": "Glasshåndverkere",
+      "display_name_nb": "Glasshåndverkere",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7316",
+      "styrk_code": "7316",
+      "name_nb": "Dekormalere mv.",
+      "display_name_nb": "Dekormalere mv.",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7317",
+      "styrk_code": "7317",
+      "name_nb": "Kunsthåndverkere i tre mv.",
+      "display_name_nb": "Kunsthåndverkere i tre mv.",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7318",
+      "styrk_code": "7318",
+      "name_nb": "Vevere, strikkere mv. (innen husflidsproduksjon)",
+      "display_name_nb": "Vevere, strikkere mv. (innen husflidsproduksjon)",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7319",
+      "styrk_code": "7319",
+      "name_nb": "Andre kunsthåndverkere",
+      "display_name_nb": "Andre kunsthåndverkere",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7321",
+      "styrk_code": "7321",
+      "name_nb": "Førtrykkere",
+      "display_name_nb": "Førtrykkere",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7322",
+      "styrk_code": "7322",
+      "name_nb": "Trykkere",
+      "display_name_nb": "Trykkere",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7323",
+      "styrk_code": "7323",
+      "name_nb": "Innbindere mv.",
+      "display_name_nb": "Innbindere mv.",
+      "level": 4,
+      "parent_code": "73",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7411",
+      "styrk_code": "7411",
+      "name_nb": "Elektrikere",
+      "display_name_nb": "Elektrikere",
+      "level": 4,
+      "parent_code": "74",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7412",
+      "styrk_code": "7412",
+      "name_nb": "Automatikere",
+      "display_name_nb": "Automatikere",
+      "level": 4,
+      "parent_code": "74",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7413",
+      "styrk_code": "7413",
+      "name_nb": "Energimontører",
+      "display_name_nb": "Energimontører",
+      "level": 4,
+      "parent_code": "74",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7421",
+      "styrk_code": "7421",
+      "name_nb": "Serviceelektronikere",
+      "display_name_nb": "Serviceelektronikere",
+      "level": 4,
+      "parent_code": "74",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7422",
+      "styrk_code": "7422",
+      "name_nb": "Tele- og IKT-installatører",
+      "display_name_nb": "Tele- og IKT-installatører",
+      "level": 4,
+      "parent_code": "74",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7511",
+      "styrk_code": "7511",
+      "name_nb": "Slaktere, fiskehandlere mv.",
+      "display_name_nb": "Slaktere, fiskehandlere mv.",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7512",
+      "styrk_code": "7512",
+      "name_nb": "Bakere, konditorer mv.",
+      "display_name_nb": "Bakere, konditorer mv.",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7513",
+      "styrk_code": "7513",
+      "name_nb": "Ystere mv. (gårdsproduksjon)",
+      "display_name_nb": "Ystere mv. (gårdsproduksjon)",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7514",
+      "styrk_code": "7514",
+      "name_nb": "Saftere, syltere mv. (gårdsproduksjon)",
+      "display_name_nb": "Saftere, syltere mv. (gårdsproduksjon)",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7515",
+      "styrk_code": "7515",
+      "name_nb": "Prøvesmakere og kvalitetsbedømmere av mat og drikke",
+      "display_name_nb": "Prøvesmakere og kvalitetsbedømmere av mat og drikke",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7522",
+      "styrk_code": "7522",
+      "name_nb": "Møbelsnekkere",
+      "display_name_nb": "Møbelsnekkere",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7531",
+      "styrk_code": "7531",
+      "name_nb": "Skreddere, buntmakere mv.",
+      "display_name_nb": "Skreddere, buntmakere mv.",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7532",
+      "styrk_code": "7532",
+      "name_nb": "Gradører",
+      "display_name_nb": "Gradører",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7534",
+      "styrk_code": "7534",
+      "name_nb": "Møbeltapetserere mv.",
+      "display_name_nb": "Møbeltapetserere mv.",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7535",
+      "styrk_code": "7535",
+      "name_nb": "Skinnberedere og garvere",
+      "display_name_nb": "Skinnberedere og garvere",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7536",
+      "styrk_code": "7536",
+      "name_nb": "Skomakere",
+      "display_name_nb": "Skomakere",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7541",
+      "styrk_code": "7541",
+      "name_nb": "Yrkesdykkere",
+      "display_name_nb": "Yrkesdykkere",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7542",
+      "styrk_code": "7542",
+      "name_nb": "Skytebaser og sprengningsarbeidere",
+      "display_name_nb": "Skytebaser og sprengningsarbeidere",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7543",
+      "styrk_code": "7543",
+      "name_nb": "Produkttestere (ikke matprodukter)",
+      "display_name_nb": "Produkttestere (ikke matprodukter)",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7544",
+      "styrk_code": "7544",
+      "name_nb": "Desinfeksjonsarbeidere og skadedyrbekjempere",
+      "display_name_nb": "Desinfeksjonsarbeidere og skadedyrbekjempere",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "7549",
+      "styrk_code": "7549",
+      "name_nb": "Andre håndverkere",
+      "display_name_nb": "Andre håndverkere",
+      "level": 4,
+      "parent_code": "75",
+      "major_code": "7",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8111",
+      "styrk_code": "8111",
+      "name_nb": "Bergfagarbeidere",
+      "display_name_nb": "Bergfagarbeidere",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8112",
+      "styrk_code": "8112",
+      "name_nb": "Prosessoperatører (oppredning)",
+      "display_name_nb": "Prosessoperatører (oppredning)",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8113",
+      "styrk_code": "8113",
+      "name_nb": "Operatører innen boring mv.",
+      "display_name_nb": "Operatører innen boring mv.",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8114",
+      "styrk_code": "8114",
+      "name_nb": "Operatører innen produksjon av betong mv.",
+      "display_name_nb": "Operatører innen produksjon av betong mv.",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8121",
+      "styrk_code": "8121",
+      "name_nb": "Operatører innen metallurgiske prosessfag",
+      "display_name_nb": "Operatører innen metallurgiske prosessfag",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8122",
+      "styrk_code": "8122",
+      "name_nb": "Operatører innen metallflatebehandling",
+      "display_name_nb": "Operatører innen metallflatebehandling",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8131",
+      "styrk_code": "8131",
+      "name_nb": "Operatører innen kjemisk industri",
+      "display_name_nb": "Operatører innen kjemisk industri",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8132",
+      "styrk_code": "8132",
+      "name_nb": "Operatører innen produksjon av fotofilm og -papir mv.",
+      "display_name_nb": "Operatører innen produksjon av fotofilm og -papir mv.",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8141",
+      "styrk_code": "8141",
+      "name_nb": "Operatører innen produksjon av gummiprodukter",
+      "display_name_nb": "Operatører innen produksjon av gummiprodukter",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8142",
+      "styrk_code": "8142",
+      "name_nb": "Operatører innen plastprodukter",
+      "display_name_nb": "Operatører innen plastprodukter",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8143",
+      "styrk_code": "8143",
+      "name_nb": "Operatører innen papirprodukter",
+      "display_name_nb": "Operatører innen papirprodukter",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8151",
+      "styrk_code": "8151",
+      "name_nb": "Spinne- og nøstemaskinoperatører",
+      "display_name_nb": "Spinne- og nøstemaskinoperatører",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8152",
+      "styrk_code": "8152",
+      "name_nb": "Operatører innen tekstilproduksjon mv.",
+      "display_name_nb": "Operatører innen tekstilproduksjon mv.",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8153",
+      "styrk_code": "8153",
+      "name_nb": "Industrisyere",
+      "display_name_nb": "Industrisyere",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8154",
+      "styrk_code": "8154",
+      "name_nb": "Operatører innen tekstilbearbeiding",
+      "display_name_nb": "Operatører innen tekstilbearbeiding",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8155",
+      "styrk_code": "8155",
+      "name_nb": "Operatører innen pels, skinn- og lærbearbeiding",
+      "display_name_nb": "Operatører innen pels, skinn- og lærbearbeiding",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8156",
+      "styrk_code": "8156",
+      "name_nb": "Operatører innen skinn og lærprodukter",
+      "display_name_nb": "Operatører innen skinn og lærprodukter",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8157",
+      "styrk_code": "8157",
+      "name_nb": "Renseri- og vaskerimaskinoperatører",
+      "display_name_nb": "Renseri- og vaskerimaskinoperatører",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8159",
+      "styrk_code": "8159",
+      "name_nb": "Andre operatører innen produksjon av tekstiler, pels, skinn og lær",
+      "display_name_nb": "Andre operatører innen produksjon av tekstiler, pels, skinn og lær",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8160",
+      "styrk_code": "8160",
+      "name_nb": "Operatører innen næringsmiddelproduksjon",
+      "display_name_nb": "Operatører innen næringsmiddelproduksjon",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8171",
+      "styrk_code": "8171",
+      "name_nb": "Operatører innen treforedling",
+      "display_name_nb": "Operatører innen treforedling",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8172",
+      "styrk_code": "8172",
+      "name_nb": "Operatører innen trelastproduksjon",
+      "display_name_nb": "Operatører innen trelastproduksjon",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8181",
+      "styrk_code": "8181",
+      "name_nb": "Operatører innen glass- og keramisk produksjon",
+      "display_name_nb": "Operatører innen glass- og keramisk produksjon",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8182",
+      "styrk_code": "8182",
+      "name_nb": "Fyrkjele- og turbinoperatører",
+      "display_name_nb": "Fyrkjele- og turbinoperatører",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8183",
+      "styrk_code": "8183",
+      "name_nb": "Pakke-, tappe- og etikettmaskinoperatører",
+      "display_name_nb": "Pakke-, tappe- og etikettmaskinoperatører",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8189",
+      "styrk_code": "8189",
+      "name_nb": "Andre stasjonære maskinoperatører",
+      "display_name_nb": "Andre stasjonære maskinoperatører",
+      "level": 4,
+      "parent_code": "81",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8211",
+      "styrk_code": "8211",
+      "name_nb": "Montører av mekaniske produkter",
+      "display_name_nb": "Montører av mekaniske produkter",
+      "level": 4,
+      "parent_code": "82",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8212",
+      "styrk_code": "8212",
+      "name_nb": "Montører av elektriske og elektroniske produkter",
+      "display_name_nb": "Montører av elektriske og elektroniske produkter",
+      "level": 4,
+      "parent_code": "82",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8219",
+      "styrk_code": "8219",
+      "name_nb": "Andre montører",
+      "display_name_nb": "Andre montører",
+      "level": 4,
+      "parent_code": "82",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8311",
+      "styrk_code": "8311",
+      "name_nb": "Lokomotiv og T-baneførere",
+      "display_name_nb": "Lokomotiv og T-baneførere",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8312",
+      "styrk_code": "8312",
+      "name_nb": "Skiftekonduktører mv",
+      "display_name_nb": "Skiftekonduktører mv",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8322",
+      "styrk_code": "8322",
+      "name_nb": "Bil-, drosje- og varebilførere",
+      "display_name_nb": "Bil-, drosje- og varebilførere",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8331",
+      "styrk_code": "8331",
+      "name_nb": "Bussjåfører og trikkeførere",
+      "display_name_nb": "Bussjåfører og trikkeførere",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8332",
+      "styrk_code": "8332",
+      "name_nb": "Lastebil- og trailersjåfører",
+      "display_name_nb": "Lastebil- og trailersjåfører",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8341",
+      "styrk_code": "8341",
+      "name_nb": "Jordbruks- og skogbruksmaskinførere",
+      "display_name_nb": "Jordbruks- og skogbruksmaskinførere",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8342",
+      "styrk_code": "8342",
+      "name_nb": "Anleggsmaskinførere",
+      "display_name_nb": "Anleggsmaskinførere",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8343",
+      "styrk_code": "8343",
+      "name_nb": "Kran- og heisførere mv.",
+      "display_name_nb": "Kran- og heisførere mv.",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8344",
+      "styrk_code": "8344",
+      "name_nb": "Truckførere",
+      "display_name_nb": "Truckførere",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "8350",
+      "styrk_code": "8350",
+      "name_nb": "Dekks- og maskinmannskap (skip)",
+      "display_name_nb": "Dekks- og maskinmannskap (skip)",
+      "level": 4,
+      "parent_code": "83",
+      "major_code": "8",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9111",
+      "styrk_code": "9111",
+      "name_nb": "Renholdere i private hjem",
+      "display_name_nb": "Renholdere i private hjem",
+      "level": 4,
+      "parent_code": "91",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9112",
+      "styrk_code": "9112",
+      "name_nb": "Renholdere i bedrifter",
+      "display_name_nb": "Renholdere i bedrifter",
+      "level": 4,
+      "parent_code": "91",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9122",
+      "styrk_code": "9122",
+      "name_nb": "Bilvaskere",
+      "display_name_nb": "Bilvaskere",
+      "level": 4,
+      "parent_code": "91",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9123",
+      "styrk_code": "9123",
+      "name_nb": "Vinduspussere",
+      "display_name_nb": "Vinduspussere",
+      "level": 4,
+      "parent_code": "91",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9129",
+      "styrk_code": "9129",
+      "name_nb": "Andre rengjørere",
+      "display_name_nb": "Andre rengjørere",
+      "level": 4,
+      "parent_code": "91",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9211",
+      "styrk_code": "9211",
+      "name_nb": "Hjelpearbeidere i nyttevekstproduksjon",
+      "display_name_nb": "Hjelpearbeidere i nyttevekstproduksjon",
+      "level": 4,
+      "parent_code": "92",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9212",
+      "styrk_code": "9212",
+      "name_nb": "Hjelpearbeidere i husdyrproduksjon",
+      "display_name_nb": "Hjelpearbeidere i husdyrproduksjon",
+      "level": 4,
+      "parent_code": "92",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9213",
+      "styrk_code": "9213",
+      "name_nb": "Hjelpearbeidere i kombinasjonsbruk",
+      "display_name_nb": "Hjelpearbeidere i kombinasjonsbruk",
+      "level": 4,
+      "parent_code": "92",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9214",
+      "styrk_code": "9214",
+      "name_nb": "Hjelpearbeidere i gartneri mv.",
+      "display_name_nb": "Hjelpearbeidere i gartneri mv.",
+      "level": 4,
+      "parent_code": "92",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9215",
+      "styrk_code": "9215",
+      "name_nb": "Hjelpearbeidere i skogbruk",
+      "display_name_nb": "Hjelpearbeidere i skogbruk",
+      "level": 4,
+      "parent_code": "92",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9216",
+      "styrk_code": "9216",
+      "name_nb": "Hjelpearbeidere innen havbruk",
+      "display_name_nb": "Hjelpearbeidere innen havbruk",
+      "level": 4,
+      "parent_code": "92",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9311",
+      "styrk_code": "9311",
+      "name_nb": "Hjelpearbeidere i bergverk",
+      "display_name_nb": "Hjelpearbeidere i bergverk",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9312",
+      "styrk_code": "9312",
+      "name_nb": "Hjelpearbeidere i anlegg",
+      "display_name_nb": "Hjelpearbeidere i anlegg",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9313",
+      "styrk_code": "9313",
+      "name_nb": "Hjelpearbeidere i bygg",
+      "display_name_nb": "Hjelpearbeidere i bygg",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9321",
+      "styrk_code": "9321",
+      "name_nb": "Håndpakkere mv.",
+      "display_name_nb": "Håndpakkere mv.",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9329",
+      "styrk_code": "9329",
+      "name_nb": "Andre hjelpearbeidere i industri",
+      "display_name_nb": "Andre hjelpearbeidere i industri",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9331",
+      "styrk_code": "9331",
+      "name_nb": "Førere av ikke-motorisert kjøretøy",
+      "display_name_nb": "Førere av ikke-motorisert kjøretøy",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9333",
+      "styrk_code": "9333",
+      "name_nb": "Laste- og lossearbeidere",
+      "display_name_nb": "Laste- og lossearbeidere",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9334",
+      "styrk_code": "9334",
+      "name_nb": "Varepåfyllere",
+      "display_name_nb": "Varepåfyllere",
+      "level": 4,
+      "parent_code": "93",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9412",
+      "styrk_code": "9412",
+      "name_nb": "Kjøkkenassistenter",
+      "display_name_nb": "Kjøkkenassistenter",
+      "level": 4,
+      "parent_code": "94",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9510",
+      "styrk_code": "9510",
+      "name_nb": "Reklamedistributører mv.",
+      "display_name_nb": "Reklamedistributører mv.",
+      "level": 4,
+      "parent_code": "95",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9611",
+      "styrk_code": "9611",
+      "name_nb": "Renovasjonsarbeidere",
+      "display_name_nb": "Renovasjonsarbeidere",
+      "level": 4,
+      "parent_code": "96",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9612",
+      "styrk_code": "9612",
+      "name_nb": "Gjenvinningsarbeidere",
+      "display_name_nb": "Gjenvinningsarbeidere",
+      "level": 4,
+      "parent_code": "96",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9613",
+      "styrk_code": "9613",
+      "name_nb": "Gatefeiere mv.",
+      "display_name_nb": "Gatefeiere mv.",
+      "level": 4,
+      "parent_code": "96",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9621",
+      "styrk_code": "9621",
+      "name_nb": "Bud mv.",
+      "display_name_nb": "Bud mv.",
+      "level": 4,
+      "parent_code": "96",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9622",
+      "styrk_code": "9622",
+      "name_nb": "Altmuligmann",
+      "display_name_nb": "Altmuligmann",
+      "level": 4,
+      "parent_code": "96",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9623",
+      "styrk_code": "9623",
+      "name_nb": "Måleravlesere mv.",
+      "display_name_nb": "Måleravlesere mv.",
+      "level": 4,
+      "parent_code": "96",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    },
+    {
+      "id": "9629",
+      "styrk_code": "9629",
+      "name_nb": "Andre hjelpearbeidere",
+      "display_name_nb": "Andre hjelpearbeidere",
+      "level": 4,
+      "parent_code": "96",
+      "major_code": "9",
+      "source": "SSB table 11658"
+    }
+  ]
+}

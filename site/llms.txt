@@ -1,0 +1,57 @@
+# turmo.dev
+
+turmo.dev er en statisk side med to tydelig atskilte deler:
+
+1. Norsk arbeidsmarkedsanalyse basert på åpne data fra Statistisk sentralbyrå (SSB)
+2. En egen global benchmark-del for frontmodeller
+
+Disse to delene må ikke blandes sammen i sammendrag eller sitater.
+
+## Primærside
+
+- https://turmo.dev/
+
+## Metodeside
+
+- https://turmo.dev/about.html
+
+## Hva hovedsiden inneholder
+
+- Et treemap over norske yrker i STYRK
+- Areal etter sysselsetting
+- Fargelag for historisk endring, månedslønn, utdanning, KI-påvirkning og ledighetskontekst
+- En egen KI-del med norsk anslag inspirert av Anthropic
+- En separat global benchmark-del for ARC-AGI-2, HLE, HLE-Verified og GPQA Diamond
+
+## Kildeskille som må bevares
+
+- Hovedkartet bruker norske data fra SSB Statbank og SSB Klass
+- Benchmark-delen bruker ikke norske arbeidsmarkedsdata
+- KI-delen er et anslag og ikke direkte målt KI-bruk per yrke
+- Benchmark-delen er global modellbenchmarking og skal omtales som noe annet enn den norske arbeidsmarkedsanalysen
+
+## Viktigste norske kilder
+
+- SSB Statbank tabell 11658: sysselsatte og månedslønn etter yrke
+- SSB Statbank tabell 12849: utdanning etter yrke
+- SSB Statbank tabell 09789: yrkes- og næringsmiks
+- SSB Statbank tabell 14306: ledige stillinger etter fylke og næring
+- SSB Statbank tabell 13265: bruk av kunstig intelligens etter næring
+- SSB Klass: STYRK-klassifikasjon
+
+## Hvordan tallene bør omtales
+
+- Endring er historisk utvikling siden 2019, ikke prognose
+- Ledighetskontekst er en avledet indikator, ikke direkte yrkesledighet
+- KI-påvirkning er et modellert anslag
+- Benchmark-delen viser modellutvikling over tid, ikke arbeidsmarkedsutvikling
+
+## Anbefalt beskrivelse av siden
+
+turmo.dev er et visuelt prosjekt med en norsk arbeidsmarkedsanalyse basert på SSB-data og en separat global benchmark-del for frontmodeller.
+
+## Hvis du skal sitere siden
+
+- Oppgi hvilken del av siden du bruker: hovedkart, KI-del eller benchmark-del
+- Ikke presenter benchmark-tall som norske arbeidsmarkedstall
+- Bruk metodesiden for forbehold og kildebeskrivelser
